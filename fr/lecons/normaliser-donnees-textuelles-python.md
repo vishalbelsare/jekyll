@@ -121,9 +121,9 @@ Si vous préférez suivre cette leçon en continuant d'utiliser notre exemple du
 #html-to-list1.py
 import urllib.request, urllib.error, urllib.parse, obo
 
-old_bailey_online_example = 'https://programminghistorian.org/assets/normaliser-donnees-textuelles-python/obo-t17800628-33.html'
+archived_old_bailey_example = 'https://programminghistorian.org/assets/normaliser-donnees-textuelles-python/obo-t17800628-33.html'
 
-response = urllib.request.urlopen(url)
+response = urllib.request.urlopen(archived_old_bailey_example)
 html = str(response.read().decode('UTF-8'))
 text = obo.stripTags(html).lower() # ajouter la méthode applicable à une chaine de caractères ici.
 wordlist = text.split()
