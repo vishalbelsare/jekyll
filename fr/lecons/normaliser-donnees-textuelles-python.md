@@ -96,7 +96,7 @@ En effet, la fonction `stripTags()` du module `obo.py` retourne une chaine de ca
 Modifier `html-to-list1.py` pour y appliquer la méthode `lower()` à `obo.stripTags(html)`&nbsp;:
 
 <div class="alert alert-warning">
-Attention&nbsp;: à cause des modifications faites au site du Old Bailey Online depuis la publication de cette leçon, le lien <code>http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33</code> ne fonctionnera plus dans le code ci-dessous. Vous avez deux options pour contourner le problème&nbsp;. Si vous suivez actuellement cette leçon en utilisant un autre site qui fonctionne, vous pouvez simplement remplacer le lien du Old Bailey Online avec votre propre lien correspondant (en d'autres termes, il suffit de modifier la variable `url`)&nbsp;: 
+Attention&nbsp;: à cause des modifications faites au site du Old Bailey Online depuis la publication de cette leçon, le lien <code>http://www.oldbaileyonline.org/browse.jsp?id=t17800628-33&div=t17800628-33</code> ne fonctionnera plus dans le code ci-dessous. Vous avez deux options pour contourner le problème&nbsp;. Si vous suivez actuellement cette leçon en utilisant un autre site qui fonctionne, vous pouvez simplement remplacer le lien du Old Bailey Online avec votre propre lien correspondant (en d'autres termes, il suffit de modifier la variable <code>url</code>)&nbsp;: 
 </div>
 
 ``` python
