@@ -40,7 +40,7 @@ If the method or approach you’re interested in writing a lesson about is alrea
 - [Análisis de redes sociales de personajes teatrales (parte 1)](/es/lecciones/analisis-redes-sociales-teatro-1)  
   
 **From French**:
-- [Análisis de redes sociales de personajes teatrales (parte 1)](/fr/lecons/concevoir-base-donnees-nodegoat)
+- [Des sources aux données, concevoir une base de données en sciences humaines et sociales avec nodegoat](/fr/lecons/concevoir-base-donnees-nodegoat)
 
 
 ## How to Submit a Proposal
