@@ -399,7 +399,7 @@ En [la segunda parte](/es/lecciones/introduccion-a-tei-2) verás en detalle dos 
 
 - Una buena introducción a TEI es el libro *¿Qué es la iniciativa de codificación de textos? Cómo añadir marcado inteligente a los recursos digitales* de Lou Burnard (Marsella: OpenEdition Press, 2012/2022) [disponible gratuitamente en línea](https://books.openedition.org/oep/15662).
 
-- Un buen tutorial para XML está disponible en: [https://www.w3schools.com/xml/](https://www.w3schools.com/xml/) y en: [https://www.tutorialspoint.com/xml/index.htm](https://www.tutorialspoint.com/xml/index.htm).
+- Un buen tutorial para XML está disponible en: [https://www.w3schools.com/xml/](https://www.w3schools.com/xml/).
 
 - El consorcio TEI también ofrece [una buena introducción a XML](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html).
 
