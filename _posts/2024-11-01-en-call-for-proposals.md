@@ -9,8 +9,8 @@ categories: posts
 
 The [English edition of Programming Historian](/en/lessons/) seeks proposals for new original lessons or translations to be considered for publication in 2025.
 
-**Submissions Open**: DD MONTH 2024  
-**Submissions Close**: DD MONTH 2025
+**Submissions Open**: 1 November 2024  
+**Submissions Close**: 15 January 2025
 
 ## What is a _Programming Historian_ lesson?
 
@@ -28,13 +28,20 @@ Our lessons support readers who want to learn new skills, but the act of writing
 
 _Programming Historian_'s English edition is inviting proposals to fill gaps in our lesson directory. Please explore [our journal](/en/lessons/) to discover what’s already available, and consider what you might be able to add.
 
-If the method or approach you’re interested in writing a lesson about is already represented by the [Spanish](/es/lecciones/), [French](/fr/lecons/), or [Portuguese](/pt/licoes/) editions of _Programming Historian_, we welcome proposals to translate those existing, original lessons into English. Please review our [Translation Concordance](/translation-concordance) map to identify options for your translation. In this call, **proposals for translations will be prioritised for publication**.
+We’re keen to extend our offer to learners, and invite proposals which focus on new and exciting methodological approaches, digital techniques and tools not yet represented in [our lesson directory](/en/lessons/). 
 
-We’re also keen to extend our offer to learners, and invite proposals which focus on methodological approaches, digital techniques and tools including, but not limited to:
-- IDEA
-- IDEA
-- IDEA
-- IDEA
+If the method or approach you’re interested in writing a lesson about is already represented by the [Spanish](/es/lecciones/), [French](/fr/lecons/), or [Portuguese](/pt/licoes/) editions of _Programming Historian_, we welcome proposals to translate those existing, original lessons into English. In this call, we would particularly like to encourage proposals for translations of the following lessons:
+
+**From Spanish**:  
+- [Reutilizar colecciones digitales: GLAM Labs](/es/lecciones/reutilizando-colecciones-digitales-glam-labs)  
+- [Introducción a la codificación de textos en TEI (parte 2)](/es/lecciones/introduccion-a-tei-2)  
+- [Introducción a la publicación web de archivos TEI con CETEIcean](/es/lecciones/publicar-archivos-tei-ceteicean)  
+- [Exhibición digital mínima e interactiva con CollectionBuilder](/es/lecciones/exhibicion-con-collection-builder)  
+- [Análisis de redes sociales de personajes teatrales (parte 1)](/es/lecciones/analisis-redes-sociales-teatro-1)  
+  
+**From French**:
+- [Análisis de redes sociales de personajes teatrales (parte 1)](/fr/lecons/concevoir-base-donnees-nodegoat)
+
 
 ## How to Submit a Proposal
 
@@ -43,9 +50,9 @@ Remember, you can either:
 - Propose an original English-language lesson
 - Propose a translation into English of an existing, original [Spanish](/es/lecciones/), [French](/fr/lecons/), or [Portuguese](/pt/licoes/) lesson published in one of the other _Programming Historian_ editions. Please review our [Translation Concordance](/translation-concordance) map to identify options for your translation.
 
-**If you have an idea, please send us a proposal by MONTH DD, 2025.**
+**If you have an idea, please send us a proposal by Januaray 15, 2025.**
 
-We've set up [a Google Form](LNK) which you can submit directly online. There's also [a plain-text version](/assets/forms/Lesson.Query.Form.txt) which you can [send to us by email](mailto:english@programminghistorian.org), if you prefer. The form has twelve questions. Please answer all those which apply.
+We've set up [a Google Form](https://tinyurl.com/en-ph-proposals-2024) which you can submit directly online. There's also [a plain-text version](/assets/forms/Lesson.Query.Form.txt) which you can [send to us by email](mailto:english@programminghistorian.org), if you prefer. The form has twelve questions. Please answer all those which apply.
 
 There is space for you to tell us about the research case study you'd like to centre within your lesson, and for you to explain how you came to use this method or tool as part of your work within the humanities.
 
