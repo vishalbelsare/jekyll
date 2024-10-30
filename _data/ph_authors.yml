@@ -2736,32 +2736,42 @@
   bio:
     en: |
       Max Odsbjerg Pedersen is an Information Specialist at Aarhus University Library at the Royal Danish Library.
+    es: |
+      Max Odsbjerg Pedersen es especialista en información en la Biblioteca de la Universidad de Aarhus en la Biblioteca Real Danesa.
 
 - name: Josephine Møller Jensen
   team: false
   bio:
     en: |
       Josephine Møller Jensen is an MA student in the Department of History and Classical Studies, Aarhus University.
-
+    es: |
+      Josephine Møller Jensen es estudiante de maestría en el Departamento de Historia y Estudios Clásicos de la Universidad de Aarhus.
+      
 - name: Victor Harbo Johnston
   team: false
   bio:
     en: |
       Victor Harbo Johnston is an MA student in the Department of History and Classical Studies, Aarhus University.
-
+    es: |
+      Victor Harbo Johnston es estudiante de maestría en el Departamento de Historia y Estudios Clásicos de la Universidad de Aarhus.
+    
 - name: Alexander Ulrich Thygesen
   team: false
   bio:
     en: |
-      Alexander Ulrich Thygesen is a Ph.D. student in the Department of German and Roman Languages, Aarhus University.
-
+      Alexander Ulrich Thygesen is a Ph.D. student in the Department of German and Romance Languages, Aarhus University.
+    es: |
+      Alexander Ulrich Thygesen es estudiante de doctorado en el Departamento de Lenguas Alemana y Románicas de la Universidad de Aarhus.
+    
 - name: Helle Strandgaard Jensen
   team: false
   orcid: 0000-0002-8623-9586
   bio:
     en: |
       Helle Strandgaard Jensen is Associate Professor of Contemporary Cultural History in the Department of History and Classical Studies, Aarhus University.
-
+    es: |
+      Helle Strandgaard Jensen es profesora asociada de Historia Cultural Contemporánea en el Departamento de Historia y Estudios Clásicos de la Universidad de Aarhus.
+  
 - name: Lorena Gauthereau
   team: false
   orcid: 0000-0002-7185-8982
