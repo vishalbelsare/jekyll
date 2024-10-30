@@ -368,7 +368,7 @@ Nota de tradução: para a versão em português foi usado o texto *Memórias P�
 
 - Uma boa introdução ao TEI é o livro *What Is the Text Encoding Initiative* de Lou Burnard, [disponível gratuitamente online](https://books.openedition.org/oep/426?lang=en).
 
-- Um bom tutorial para XML está disponível em: [https://www.w3schools.com/xml/](https://www.w3schools.com/xml/) e em: [https://www.tutorialspoint.com/xml/index.htm](https://www.tutorialspoint.com/xml/index.htm).
+- Um bom tutorial para XML está disponível em: [https://www.w3schools.com/xml/](https://www.w3schools.com/xml/).
 
 - O consórcio TEI também oferece [uma boa introdução ao XML](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html).
 
