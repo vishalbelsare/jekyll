@@ -48,7 +48,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 - [Universiteit Gent](https://www.ugent.be/), Belgium
 - [University of Exeter](https://www.exeter.ac.uk/), United Kingdom
 - [Université de Montréal](https://www.umontreal.ca/), Canada
-- [Tilburg University Library](https://www.tilburguniversity.edu/), The Netherlands
+- [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), The Netherlands
 
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
