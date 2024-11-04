@@ -49,7 +49,7 @@ Les institutions suivantes font partie de notre programme de [Partenariat instit
 - [Universiteit Gent](https://www.ugent.be/), Belgique
 - [University of Exeter](https://www.exeter.ac.uk/), Royaume-Uni
 - [Université de Montréal](https://www.umontreal.ca/), Canada
-- [Tilburg University Library](https://www.tilburguniversity.edu/), Pays-Bas
+- [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), Pays-Bas
 
 
 Nous accueillons volontiers les demandes de renseignements des contributeurs potentiels au [Partenariat institutionnel](pi).
