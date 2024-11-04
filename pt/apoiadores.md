@@ -51,7 +51,7 @@ Contribuintes para o nosso [Programa de Parceria Institucional](/pt/ppi).
 - [Universiteit Gent](https://www.ugent.be/), Bélgica
 - [University of Exeter](https://www.exeter.ac.uk/), Reino Unido
 - [Université de Montréal](https://www.umontreal.ca/), Canadá
-- [Tilburg University Library](https://www.tilburguniversity.edu/), Países Baixos
+- [Universiteitsbibliotheek Tilburg University](https://www.tilburguniversity.edu/), Países Baixos
 
 Aceitamos consultas de possíveis contribuintes para o [Programa de Parceria Institucional](/pt/ppi).
 
