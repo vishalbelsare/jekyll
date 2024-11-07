@@ -3,7 +3,7 @@ title: "Analyzing Multilingual French and Russian Text using NLTK, spaCy, and St
 slug: analyzing-multilingual-text-nltk-spacy-stanza
 layout: lesson
 collection: lessons
-date: 2024-11-01
+date: 2024-11-08
 authors:
 - Ian Goodale
 reviewers:
