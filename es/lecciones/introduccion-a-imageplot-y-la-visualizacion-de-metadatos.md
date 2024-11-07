@@ -5,6 +5,8 @@ collection: lessons
 layout: lesson
 slug: introduccion-a-imageplot-y-la-visualizacion-de-metadatos
 date: 2020-05-12
+tested_date: 2024-11-07
+lesson-testers: Joshua G. Ortiz Baco
 authors:
   - Joshua G. Ortiz Baco
 editors:
