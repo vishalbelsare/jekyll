@@ -39,13 +39,17 @@ To reach these goals, we'll work through a variety of visualization examples usi
 
 ## The WWII THOR Dataset
 
-The Theater History of Operations Reports (THOR) lists aerial bombing operations during World War I, World War II, the Korean War, and the Vietnam War undertaken by the United States and Allied Powers. The records were compiled from declassified documents by Lt. Col. Jenns Robertson. THOR is made publicly available through a partnership between the US Department of Defense and [data.world](https://data.world/datamil).
+The Theater History of Operations Reports (THOR) lists aerial bombing operations during World War I, World War II, the Korean War, and the Vietnam War undertaken by the United States and Allied Powers. The records were compiled from declassified documents by Lt. Col. Jenns Robertson. THOR is made publicly available through a partnership between the US Department of Defense and [data.world](https://data.world).
 
-Each row in the THOR dataset contains information on a single mission or bombing run. This information can include the mission date, takeoff and target locations, the target type, aircraft involved, and the types and weights of bombs dropped on the target. The [THOR data dictionary](https://data.world/datamil/thor-data-dictionary) provides detailed information on the structure of the dataset.
+Each row in the THOR dataset contains information on a single mission or bombing run. This information can include the mission date, takeoff and target locations, the target type, aircraft involved, and the types and weights of bombs dropped on the target. The [THOR data dictionary](/assets/visualizing-with-bokeh/THOR-draft-data-dictionary-dec-2016.pdf) provides detailed information on the structure of the dataset.
 
-For this tutorial, we'll use a modified version of the WWII THOR dataset. The original, full-version of the dataset consists of 62 columns of information digitized from the paper forms. To make this dataset more manageable for our purposes, this has been reduced to 19 columns that include core mission information and bombing data. These columns are discussed below when we first load the data. The unabridged dataset is available for download [here](https://data.world/datamil/world-war-ii-thor-data).
+For this tutorial, we'll use a modified version of the World War II THOR dataset. The original, full-version of the dataset consists of 62 columns of information digitized from the paper forms. To make this dataset more manageable for our purposes, this has been reduced to 19 columns that include core mission information and bombing data. These columns are discussed below when we first load the data.
 
-The dataset used in this tutorial is contained in [thor_wwii.csv](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/visualizing-with-bokeh/thor_wwii.csv). This file is required to complete most of the examples below.
+<div class="alert alert-info">
+If you'd like to download the unabridged 'World War II THOR Data' dataset, or any of the alternative data.world datasets mentioned below, you'll need to create a free account on the <a href="(https://data.world)">data.world</a> website first. Once you are logged into your personal dashboard, you can type the dataset names in the search bar, and they will be easy to find. 
+</div>
+
+The dataset used in this tutorial is contained in [thor_wwii.csv](/assets/visualizing-with-bokeh/thor_wwii.csv). This file is required to complete most of the examples below.
 
 We'll use Bokeh and Pandas to address some of the following questions:
 
@@ -57,11 +61,11 @@ We'll use Bokeh and Pandas to address some of the following questions:
 
 If this dataset doesn't fit your interests or if you'd like more practice after completing this tutorial, here are a few other interesting datasets that you might wish to use with Bokeh and Pandas:
 
-  - [Scottish Witchcraft Trials](https://data.world/history/scottish-witchcraft/): A multi-table set of data on over 4,000 people accused of witchcraft between 1536 and 1736.
+  - Scottish Witchcraft Trials (`https://data.world/history/scottish-witchcraft`): A multi-table set of data on over 4,000 people accused of witchcraft between 1536 and 1736.
 
-  - [Civil Unrest Events](https://data.world/history/civil-unrest-event-data): A single table cataloging over 60,000 events of civil unrest across the world since the end of World War II.
+  - Civil Unrest Events (`https://data.world/history/civil-unrest-event-data`): A single table cataloging over 60,000 events of civil unrest across the world since the end of World War II.
 
-  - [Trans-Atlantic Slave Trade Database](https://www.slavevoyages.org/voyage/database): Searchable and customizable tabular data on 36,000 slaving voyages that transported over 10 million slaves from the 16th to 19th centuries.
+  - [Trans-Atlantic Slave Trade Database](https://www.slavevoyages.org/voyage/database): Searchable and customizable tabular data on 36,000 slaving voyages that transported over 10 million slaves from the 16th to 19th centuries (this dataset is not a data.world dataset – you can download it directly from the slavevoyages site).
 
 All three datasets contain comparable quantitative, qualitative, and temporal data to those found in the THOR dataset. The Civil Unrest Events and Trans-Atlantic Slave Trade datasets both contain spatial data, though this is lacking from the Scottish Witchcraft Trials data.
 
