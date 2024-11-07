@@ -50,7 +50,7 @@ Para que você se organize, o ideal é que você tenha um diretório (i.e., uma 
 
 ## Instale o Komodo Edit
 
-Existem vários editores de texto que você pode utilizar para escrever, armazenar e executar comandos em Python. O Komodo Edit é o utilizado nesta lição, correspondendo a um editor gratuito e de código aberto. Mas existem [outros editores][] se você preferir. Você pode escolher qual editor mas, para manter a consistência entre as lições, nós iremos utilizar o Komodo Edit. Você pode fazer o download diretamente do [site do Komodo Edit][].
+Existem vários editores de texto que você pode utilizar para escrever, armazenar e executar comandos em Python. O Komodo Edit é o utilizado nesta lição, correspondendo a um editor gratuito e de código aberto. Mas existem [outros editores][] se você preferir. Você pode escolher qual editor mas, para manter a consistência entre as lições, nós iremos utilizar o Komodo Edit. Você pode fazer o download diretamente do [site do Active State][].
 
 ## Inicie o Komodo Edit
 
@@ -153,6 +153,6 @@ Agora que você e o seu computador estão preparados, podemos seguir para tarefa
 
   [site do Python]: https://www.python.org/downloads/windows/
   [outros editores]: https://wiki.python.org/moin/PythonEditors/
-  [site do Komodo Edit]: https://www.activestate.com/products/komodo-ide/downloads/edit/
+  [site do Active State]: https://downloads.activestate.com/Komodo/releases/12.0.1/Komodo-Edit-12.0.1-18441.msi
   [UTF-8]: https://pt.wikipedia.org/wiki/UTF-8
   [Noções básicas de páginas web e HTML]: nocoes-basicas-paginas-web-html
