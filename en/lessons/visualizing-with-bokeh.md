@@ -46,7 +46,7 @@ Each row in the THOR dataset contains information on a single mission or bombing
 For this tutorial, we'll use a modified version of the World War II THOR dataset. The original, full-version of the dataset consists of 62 columns of information digitized from the paper forms. To make this dataset more manageable for our purposes, this has been reduced to 19 columns that include core mission information and bombing data. These columns are discussed below when we first load the data.
 
 <div class="alert alert-info">
-If you'd like to download the unabridged 'World War II THOR Data' dataset, or any of the alternative data.world datasets mentioned below, you'll need to create a free account on the <a href="(https://data.world)">data.world</a> website first. Once you are logged into your personal dashboard, you can type the dataset names in the search bar, and they will be easy to find. 
+If you'd like to download the unabridged 'World War II THOR Data' dataset, or any of the alternative data.world datasets mentioned below, you'll need to create a free account on the <a href="https://data.world">data.world</a> website first. Once you are logged into your personal dashboard, you can type the dataset names in the search bar, and they will be easy to find. 
 </div>
 
 The dataset used in this tutorial is contained in [thor_wwii.csv](/assets/visualizing-with-bokeh/thor_wwii.csv). This file is required to complete most of the examples below.
