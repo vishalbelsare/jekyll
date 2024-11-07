@@ -50,7 +50,7 @@ drive.
 
 Komodo Edit is a free and open source code editor, but you have many
 [other text editing options][] if you want to use another programme. You can
-download a copy from the [Komodo Edit website][].
+download a copy from the [Active State website][].
 
 ## Start Komodo Edit
 
@@ -181,6 +181,6 @@ order, we suggest you next try ‘[Understanding Web Pages and HTML][]‘
 
   [Python website]: http://www.python.org/
   [other text editing options]: http://wiki.python.org/moin/PythonEditors/
-  [Komodo Edit website]: http://www.activestate.com/komodo-edit
+  [Active State website]: https://downloads.activestate.com/Komodo/releases/12.0.1/Komodo-Edit-12.0.1-18441.msi
   [UTF-8]: http://en.wikipedia.org/wiki/UTF-8
   [Understanding Web Pages and HTML]: /lessons/viewing-html-files
