@@ -49,7 +49,7 @@ Para mantener organizados los datos en tu equipo, lo mejor es crear un directori
 
 ## Instalar Komodo Edit
 
-Komodo Edit es un editor de texto libre y de código abierto, pero puedes utilizar varias [opciones de editores de texto] si quieres utilizar otros programas. Puedes descargar una copia desde el [sitio web de Komodo Edit].
+Komodo Edit es un editor de texto libre y de código abierto, pero puedes utilizar varias [opciones de editores de texto] si quieres utilizar otros programas. Puedes descargar una copia desde el [sitio web de Active State].
 
 ## Inicia Komodo Edit
 
@@ -143,6 +143,6 @@ Ahora que tú y tu computadora están en marcha y funcionando, podemos movernos 
 
 [sitio web de Python]: https://www.python.org
 [opciones de editores de texto]: https://wiki.python.org/moin/PythonEditors/
-[sitio web de Komodo Edit]: http://komodoide.com/komodo-edit/
+[sitio web de Active State]: https://downloads.activestate.com/Komodo/releases/12.0.1/Komodo-Edit-12.0.1-18441.msi
 [UTF-8]: https://es.wikipedia.org/wiki/UTF-8
 [Para entender páginas web y HTML]: /es/lecciones/ver-archivos-html
