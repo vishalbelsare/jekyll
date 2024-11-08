@@ -3,7 +3,7 @@ title: "Analyzing Multilingual French and Russian Text using NLTK, spaCy, and St
 slug: analyzing-multilingual-text-nltk-spacy-stanza
 layout: lesson
 collection: lessons
-date: 2024-11-08
+date: 2024-11-13
 authors:
 - Ian Goodale
 reviewers:
@@ -17,7 +17,7 @@ activity: analyzing
 topics: [python, data-manipulation, distant-reading]
 abstract: This lesson covers tokenization, part-of-speech tagging, and lemmatization, as well as automatic language detection, for non-English and multilingual text. You’ll learn how to use the Python packages NLTK, spaCy, and Stanza to analyze a multilingual Russian and French text.
 avatar_alt: Handwritten letter in cursive, with illustrations in place of some words.
-doi: X10.46430/phen0121
+doi: 10.46430/phen0121
 ---
 
 {% include toc.html %}
