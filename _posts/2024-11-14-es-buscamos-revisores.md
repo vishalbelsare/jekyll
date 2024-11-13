@@ -27,12 +27,12 @@ Si eres docente, investigadora, candidatx a doctorado, trabajas en ingeniería d
 
 En este momento, el equipo en español busca revisores y revisoras con interés o experiencia en las siguientes herramientas, metodologías y tecnologías: 
 
-Gestión de fuentes primarias digitalizadas
-Transcripción de archivos de audio
-Construcción de tableros estadísticos interactivos
-Visión artificial aprendizaje para la clasificación de imágenes (traducción del inglés)
-Rascado web
-Tropy, Whisper, Selenium, Tableau, Python, etc.
+- Gestión de fuentes primarias digitalizadas  
+- Transcripción de archivos de audio  
+- Construcción de tableros estadísticos interactivos  
+- Visión artificial aprendizaje para la clasificación de imágenes (traducción del inglés)  
+- Rascado web  
+- Tropy, Whisper, Selenium, Tableau, Python, etc.  
 
 Si tienes otros conocimientos, habilidades o experiencia también puedes apuntarte: Nos comunicaremos contigo en el futuro si necesitamos una revisión que coincida con tu perfil.
 
@@ -40,9 +40,9 @@ Si tienes otros conocimientos, habilidades o experiencia también puedes apuntar
 
 Revisar para _Programming Historian_ es una fantástica oportunidad para: 
 
-Aprender nuevas habilidades técnicas 
-Interactuar con la comunidad de humanidades digitales
-Contribuir a la investigación colaborativa, sostenible y abierta
+- Aprender nuevas habilidades técnicas    
+- Interactuar con la comunidad de humanidades digitales  
+- Contribuir a la investigación colaborativa, sostenible y abierta  
 
 Como proyecto, nos comprometemos a reconocer a cada una de las personas que contribuyen al desarrollo de nuestras lecciones, por lo que incluímos tu nombre en las lecciones que revisas.
 
