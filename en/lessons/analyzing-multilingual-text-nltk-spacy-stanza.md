@@ -16,7 +16,7 @@ difficulty: 2
 activity: analyzing
 topics: [python, data-manipulation, distant-reading]
 abstract: This lesson covers tokenization, part-of-speech tagging, and lemmatization, as well as automatic language detection, for non-English and multilingual text. You’ll learn how to use the Python packages NLTK, spaCy, and Stanza to analyze a multilingual Russian and French text.
-avatar_alt: Handwritten letter in cursive, with illustrations in place of some words.
+avatar_alt: Handwritten letter in the form of a rebus (puzzle in which symbols or pictures represent words or syllables).
 doi: 10.46430/phen0121
 ---
 
