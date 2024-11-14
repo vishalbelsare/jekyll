@@ -20,7 +20,7 @@ Si te interesa colaborar, consulta nuestras [instrucciones para autores y traduc
 ## Revisa una lección
 
 <div class="alert alert-success">
-En <i>Programming Historian en español</i>i> buscamos revisores voluntarios para contribuir al desarrollo de lecciones que se publicarán a lo largo de 2025. Si quieres saber más sobre cómo participar, <a href="/posts/es-buscamos-revisores">lee nuestro blogpost</a>.
+En <i>Programming Historian en español</i> buscamos revisores voluntarios para contribuir al desarrollo de lecciones que se publicarán a lo largo de 2025. Si quieres saber más sobre cómo participar, <a href="/posts/es-buscamos-revisores">lee nuestro blogpost</a>.
 </div>
 
 Estamos orgullosos de utilizar un sistema de revisión por pares en abierto. Creemos que esto brinda una valiosa oportunidad para que autores, traductores y revisores de la comunidad global colaboren, intercambiando conocimientos de manera productiva y así ayudarnos a crear lecciones que sean prácticas, accesibles y sostenibles. 
