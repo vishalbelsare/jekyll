@@ -54,4 +54,14 @@ Si quieres contribuir con tu revisión, por favor toma unos minutos para registr
 
 Estamos buscando revisores **que estén disponibles para participar con una revisión en los próximos 6 meses.** Nos pondremos en contacto contigo si estamos trabajando en una lección que puede beneficiarse de tus conocimientos, habilidades y experiencia. **Te preguntaremos si tienes disponibilidad para preparar una revisión en los siguientes 60 días.** Y en caso de que estés disponible, te daremos instrucciones claras y te ofreceremos apoyo durante el proceso de revisión.
 
-¡Gracias!
+### Preguntas
+
+Si tienes alguna pregunta, por favor escribe a la Editora Jefe de _Programming Historian_ en español, [Jennifer Isasi](mailto:espanol@programminghistorian.org) o a la Directora de Publicaciones, [Anisa Hawes](mailto:admin@programminghistorian.org).
+
+## Información sobre _Programming Historian_
+
+Desde su publicación en 2012, _Programming Historian_ ofrece más de 200 lecciones revisadas por pares, multilingües y fáciles de usar y que ayudan a los humanistas a aprender una amplia gama de herramientas y técnicas digitales y flujos de trabajo que facilitan la investigación. En los últimos años, nuestra publicación interdisciplinaria se amplió para incluir ediciones en [español](/es/lecciones/), [francés](/fr/lecons/) y [portugués](/pt/licoes/). Nuestras revistas son de acceso abierto Diamond y con ese espíritu: los autores conservan los derechos de autor, nunca pagan ninguna tarifa para publicar con nosotros, todo el contenido es revisado por pares y el acceso siempre es gratuito para los lectores.
+
+Somos una iniciativa liderada por voluntarios, apoyada por la Junta Directiva de la organización benéfica ProgHist Ltd, un pequeño equipo de personal editorial y una comunidad global de colaboradores. Estamos financiados por [una red de organizaciones](/es/seguidores) en Europa, Canadá, América del Norte y América Latina que han invertido en nuestro éxito suscribiéndose a nuestro [Programa de instituciones asociadas](/es/ipp).
+
+
