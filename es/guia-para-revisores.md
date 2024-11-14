@@ -11,12 +11,11 @@ original: reviewer-guidelines
 
 Esta guía pretende responder preguntas frecuentes y ayudar a los revisores a comprender mejor su rol durante el proceso editorial.
 
-<div class="alert alert-success">
-En <i>Programming Historian en español</i>i> buscamos revisores voluntarios para contribuir al desarrollo de lecciones que se publicarán a lo largo de 2025. Si quieres saber más sobre cómo participar, <a href="/posts/es-buscamos-revisores">lee nuestro blogpost</a>.
-</div>
-
-
 {% include toc.html %}
+
+<div class="alert alert-success">
+En <i>Programming Historian en español</i> buscamos revisores voluntarios para contribuir al desarrollo de lecciones que se publicarán a lo largo de 2025. Si quieres saber más sobre cómo participar, <a href="/posts/es-buscamos-revisores">lee nuestro blogpost</a>.
+</div>
 
 ## Nuestra filosofía
 Para el equipo de _The Programming Historian en español_ revisar una traducción o una lección nueva constituye una oportunidad para aprender una nueva habilidad (a cualquier nivel) y para contribuir en la comunidad de humanidades digitales al mismo tiempo. Por eso nos esforzarmos en que nuestros revisores reciban crédito y reconocimiento por su trabajo.
