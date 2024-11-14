@@ -223,11 +223,11 @@ Si vous connaissez par exemple l'adresse <https://github.com/torvalds/linux> du
 
 Vous êtes un utilisateur suffisamment expérimenté et possédez le _code de hachage_ (SHA-1) permettant d'identifier un certain fichier, un répertoire, une version ou une révision. Par exemple, en visitant l'adresse <https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=64ac24e738823161693bf791f87adc802cf529ff>, vous avez trouvé le numéro de révision `64ac24e738823161693bf791f87adc802cf529ff`, ou bien vous savez que le code de hachage d'un fichier est `8624bcdae55baeef00cd11d5dfcfa60f68710a02`. Vous pouvez alors explorer la page correspondante en rajoutant l'un des préfixes suivants, selon le type de ressource&nbsp;:
 
-* Pour un fichier&nbsp;: <https://archive.softwareheritage.org/browse/content/>
-* Pour un répertoire&nbsp;: <https://archive.softwareheritage.org/browse/directory/>     
-* Pour une capture&nbsp;: <https://archive.softwareheritage.org/browse/snapshot/>    
-* Pour une version&nbsp;: <https://archive.softwareheritage.org/browse/release/>    
-* Pour une révision&nbsp;: <https://archive.softwareheritage.org/browse/revision/>
+* Pour un fichier&nbsp;: `https://archive.softwareheritage.org/browse/content/`  
+* Pour un répertoire&nbsp;: `https://archive.softwareheritage.org/browse/directory/`       
+* Pour une capture&nbsp;: `https://archive.softwareheritage.org/browse/snapshot/`      
+* Pour une version&nbsp;: `https://archive.softwareheritage.org/browse/release/`  
+* Pour une révision&nbsp;: `https://archive.softwareheritage.org/browse/revision/`  
 
 On trouvera donc la révision `64ac24e738823161693bf791f87adc802cf529ff` à l'adresse <https://archive.softwareheritage.org/browse/revision/64ac24e738823161693bf791f87adc802cf529ff>, et le fichier dont le code est `8624bcdae55baeef00cd11d5dfcfa60f68710a02` à l'adresse 	<https://archive.softwareheritage.org/browse/content/8624bcdae55baeef00cd11d5dfcfa60f68710a02>. Vous pouvez également, pour chacun de ces types de ressources — à l'exception notable des fichiers — obtenir un SoftWare Hash Identifier (SWHID) en ajoutant le préfixe correspondant&nbsp;:
 
