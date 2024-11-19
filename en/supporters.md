@@ -16,7 +16,7 @@ _Programming Historian_ is grateful to our past and current supporters for enabl
 - [University of Southampton](https://www.southampton.ac.uk/), United Kingdom
 
 ## Institutional Partners
-Contributors to our [Institutional Partner Programme](support-us#institutional-partner-programme).
+Contributors to our [Institutional Partner Programme](support-us#institutional-partner-programme):
 
 - [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Belgium
 - [Western University Library](https://www.lib.uwo.ca/), Canada
@@ -52,7 +52,7 @@ Contributors to our [Institutional Partner Programme](support-us#institutional-p
 We welcome enquiries from prospective [Institutional Partner Programme](ipp) contributors.
 
 ### Alumni Partners
-Former contributors to our [Institutional Partner Programme](support-us#institutional-partner-programme).
+Former contributors to our [Institutional Partner Programme](support-us#institutional-partner-programme):
 
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), United States [2021-2022]
 - [Centre for Digital Humanities, University College London](https://www.ucl.ac.uk/digital-humanities/), United Kingdom [2021-2022]
@@ -67,7 +67,7 @@ Former contributors to our [Institutional Partner Programme](support-us#institut
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), United Kingdom [2022-2024]
 
 ## Additional Supporters
-Organizations that have or continue to give support ranging from in kind services, to project-specific funding.
+Organizations that have or continue to give support ranging from in kind services, to project-specific funding:
 
 ### Active
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), United Kingdom [2020-Present]
