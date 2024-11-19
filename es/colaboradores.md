@@ -17,7 +17,7 @@ original: supporters
 - [University of Southampton](https://www.southampton.ac.uk/), Reino Unido
 
 ## Instituciones asociadas
-Contribuidores de nuestro [Programa de Instituciones Asociadas](pia).
+Contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 
 - [KU Leuven Bibliotheken](https://bib.kuleuven.be/), Bélgica
 - [Western University Library](https://www.lib.uwo.ca/), Canadá
@@ -53,7 +53,7 @@ Contribuidores de nuestro [Programa de Instituciones Asociadas](pia).
 Son bienvenidas las consultas de potenciales contribuidores del [Programa de Instituciones Asociadas](pia).
 
 ## Alumni
-Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](pia).
+Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](pia):
 
 - [Roy Rosenzweig Center for History and New Media, George Mason University](https://rrchnm.org/), Estados Unidos [2021-2022]
 - [UCL Centre for Digital Humanities](https://www.ucl.ac.uk/digital-humanities/), Reino Unido [2021-2022]
@@ -68,7 +68,7 @@ Antiguos contribuidores de nuestro [Programa de Instituciones Asociadas](pia).
 - [Sussex Humanities Lab](https://www.sussex.ac.uk/research/centres/sussex-humanities-lab/), Reino Unido [2022-2024]
 
 ## Colaboradores adicionales
-Organizaciones que han o continúan brindando apoyo en forma de contribuciones en especie o de financiamiento específico para proyectos.
+Organizaciones que han o continúan brindando apoyo en forma de contribuciones en especie o de financiamiento específico para proyectos:
 
 ### Activos
 - [University of Sussex Library](https://www.sussex.ac.uk/library/), Reino Unido [2020-Presente]
