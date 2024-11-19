@@ -96,6 +96,7 @@ Estamos muy agradecidos a todos los patrocinadores individuales que contribuyen 
 - Miriam Posner ('Aprendizaje')
 - Laura Gayle Green ('Educación')
 - Tim Hitchcock ('Patrocinio')
+- James Baker ('Patrocinio Oro')
 
 En particular, agradecemos la contribución de los siguientes suscriptores activos de Patreon de nivel 'Educación', 'Patrocinio' y 'Patrocinio Oro':
 
