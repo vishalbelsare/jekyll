@@ -96,12 +96,13 @@ We are grateful to our many dozens of individual sponsors who contribute through
 - Miriam Posner ('Apprentice')
 - Laura Gayle Green ('Educator')
 - Tim Hitchcock ('Patron')
+- James Baker ('Gold Patron')
 
 We also publicly thank all of our active 'Educator', 'Patron' and 'Gold Patron' supporters:
 
 **Gold Patron:**   
 
-- James Baker (Gold Patron)
+- James Baker
 
 **Patron:**
 
