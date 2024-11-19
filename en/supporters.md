@@ -6,7 +6,7 @@ redirect_from: /supporters
 
 # Our Supporters
 
-The Programming Historian is grateful to our past and current supporters for enabling us to bring these resources to the world, free at the point of access to readers everywhere.
+_Programming Historian_ is grateful to our past and current supporters for enabling us to bring these resources to the world, free at the point of access to readers everywhere.
 
 ## Gold Tier Support
 
@@ -97,7 +97,13 @@ We are grateful to our many dozens of individual sponsors who contribute through
 - Laura Gayle Green ('Educator')
 - Tim Hitchcock ('Patron')
 
-We also publicly thank all of our active 'Patron' and 'Educator' supporters:
+We also publicly thank all of our active 'Educator', 'Patron' and 'Gold Patron' supporters:
+
+**Gold Patron:**   
+
+- James Baker (Gold Patron)
+
+**Patron:**
 
 - Tim Hitchcock
 - Shawn Graham
@@ -110,14 +116,16 @@ We also publicly thank all of our active 'Patron' and 'Educator' supporters:
 - Ben Akrigg
 - Robert C.H. Sweeny
 - Simon Mahony
-- James Baker
 - Cory Taylor
-- Laura Gayle Green (Educator)
-- Rebecca Kahn (Educator)
-- Sarah Melton (Educator)
-- Laurissa Stokes (Educator)
-- Monica Berti (Educator)
-- Samuel Salgado Tello (Educator)
+
+**Educator:**
+
+- Laura Gayle Green 
+- Rebecca Kahn
+- Sarah Melton 
+- Laurissa Stokes
+- Monica Berti
+- Samuel Salgado Tello
 
 ## Management of Donations and Sponsorship
 
