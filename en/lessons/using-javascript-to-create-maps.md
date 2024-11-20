@@ -115,7 +115,7 @@ If you have a website with FTP access, the easiest thing to do is copy all the f
 
 ### Local web server
 
-There are a number of ways to run a local web server. One of the easiest ways is to use [NodeJS](https://nodejs.org/). NodeJS is program designed for running data-intensive scripts without overtaxing your computer. If you do not already have NodeJS installed, [download the installer](https://nodejs.org/en/download/) for your operating system and install NodeJS following the prompts.
+There are a number of ways to run a local web server. One of the easiest ways is to use [NodeJS](https://nodejs.org/). NodeJS is program designed for running data-intensive scripts without overtaxing your computer. If you do not already have NodeJS installed, [download the installer](https://nodejs.org/en/download/prebuilt-installer) for your operating system and install NodeJS following the prompts.
 
 After installing Node, you will need to install the project dependencies needed: `jitsu` and `http-server`. `Jitsu` makes deploying a script in Node easier and `http-server` is a simple virtual web server. These two dependencies allow you to run the map on your local computer without an internet connection and make starting and stopping the server very simple.
 
