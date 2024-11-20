@@ -3211,3 +3211,24 @@
   bio:
     en: |
       Ian Goodale is the European Studies Librarian at the University of Texas at Austin.
+
+- name: Sabrina Granger
+  orcid: 0000-0002-9081-3851
+  team: false
+  bio:
+    fr: |
+      Sabrina Granger est open science community manager au sein de Software Heritage, une infrastructure dédiée à la préservation et au partage de code source.
+
+- name: Frédéric Santos
+  orcid: 0000-0003-1445-3871
+  team: false
+  bio:
+    fr: |
+      Frédéric Santos est ingénieur d'études en statistique au laboratoire PACEA (De la Préhistoire à l'Actuel : Culture, Environnement, Anthropologie), situé à Bordeaux.
+
+- name: Baptiste Mélès
+  orcid: 0000-0002-5692-083X
+  team: false
+  bio:
+    fr: |
+      Baptiste Mélès est chercheur au CNRS (AHP-PReST, Université de Lorraine). Spécialiste de philosophie de l'informatique, il a cofondé le séminaire Codes Sources.
