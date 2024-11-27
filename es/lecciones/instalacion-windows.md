@@ -49,7 +49,11 @@ Para mantener organizados los datos en tu equipo, lo mejor es crear un directori
 
 ## Instalar Komodo Edit
 
-Komodo Edit es un editor de texto libre y de código abierto, pero puedes utilizar varias [opciones de editores de texto] si quieres utilizar otros programas. Puedes descargar una copia desde el [sitio web de Active State].
+Komodo Edit es un editor de código abierto y gratuito desarrollado por [ActiveState](https://www.activestate.com/). Para instalar Komodo Edit, puedes descargar el archivo [Komodo-Edit-12.0.1-18441.msi](https://downloads.activestate.com/Komodo/releases/12.0.1/Komodo-Edit-12.0.1-18441.msi) de su lista de [versiones de Komodo Edit](https://downloads.activestate.com/Komodo/releases/12.0.1/). Tienes muchas [otras opciones de edición de texto][] si quieres usar otro programa.
+
+<div class="alert alert-warning">
+ActiveState retiró Komodo Edit en diciembre de 2022. Como se indica en <a href='https://www.activestate.com/blog/activestate-komodo-ide-now-open-source/'>esta publicación de blog</a>, "el retiro de Komodo significa que ActiveState dejará de desarrollar código o crear compilaciones para [...] Komodo Edit. Esto significa que ActiveState ya no proporcionará nuevas características/funcionalidades y ya no hará correcciones en algún error o en problemas de seguridad" (Trad. propia). Aún puede descargar y usar Komodo Edit, pero probablemente sea mejor elegir un programa diferente.
+</div>
 
 ## Inicia Komodo Edit
 
