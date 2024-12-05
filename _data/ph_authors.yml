@@ -3232,3 +3232,10 @@
   bio:
     fr: |
       Baptiste Mélès est chercheur au CNRS (AHP-PReST, Université de Lorraine). Spécialiste de philosophie de l'informatique, il a cofondé le séminaire Codes Sources.
+
+- name: José Eduardo González
+  orcid: 0000-0002-8899-3021
+  team: false
+  bio:
+    es: |
+      José Eduardo Gonzalez es profesor asociado en el Departamento de lenguas modernas en la Universidad de Nebraska.
