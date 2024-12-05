@@ -365,7 +365,7 @@ metadatos <-
   metadatos %>% select(htid, author, title, rights_date_used)
 ```
 
-Para muchos proyectos de minería textual es necesario saber con exactitud cuándo las novelas fueron publicadas. Para esta colección de novelas ecuatorianas hemos creado una tabla con el número de htid de cada novela y su fecha de publicación. El archivo, [`fechas.xls`](/assets/uso-las-colecciones-hathitrust-mineria-textual-R/fechas.xls), lo encuentras en [los documentos que acompañan a esta lección](/assets/uso-las-colecciones-hathitrust-mineria-textual-R). El próximo paso, por lo tanto, será combinar ambas tablas.
+Para muchos proyectos de minería textual es necesario saber con exactitud cuándo las novelas fueron publicadas. Para esta colección de novelas ecuatorianas hemos creado una tabla con el número de htid de cada novela y su fecha de publicación. El archivo, `fechas.xls`, lo encuentras en [los documentos que acompañan a esta lección](/assets/uso-las-colecciones-hathitrust-mineria-textual-R/fechas.xls). El próximo paso, por lo tanto, será combinar ambas tablas.
 
 ```{r}
 fechas <- read_excel("fechas.xls")
