@@ -53,7 +53,7 @@ Si bien puedes practicar el código de este tutorial en una línea de comandos d
 
 Para comenzar esta lección necesitas instalar el paquete de R llamado [hathiTools](https://github.com/xmarquez/hathiTools), el cual te proporcionará una interfaz para poder obtener los atributos extraídos y los metadatos de los libros en HathitTrust. Este paquete no es parte de CRAN, así que instalarlo requiere un paso adicional: tener instalado primero el paquete [remotes](https://cran.r-project.org/web/packages/remotes/index.html) y utilizarlo para instalar `hathiTools`. 
 
-```{r}
+```r
 install.packages("remotes")
 remotes::install_github("xmarquez/hathiTools")
 library(hathiTools)
@@ -61,7 +61,7 @@ library(hathiTools)
 
 Para manipular nuestros datos e importar algunos archivos, necesitas además tener instalados y cargados [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html), [readr](https://cran.r-project.org/web/packages/readr/index.html), [readxl](https://cran.r-project.org/web/packages/readxl/), y [stringr](https://cran.r-project.org/web/packages/stringr/index.html). 
 
-```{r}
+```r
 #instalar paquetes
 install.packages("dplyr")
 install.packages("readr")
@@ -84,7 +84,7 @@ Cada libro o volumen en HathiTrust posee un número de identificación único (o
 
 Si estás buscando un libro escribiendo su título o autor en el cuadro de búsqueda de HathiTrust, tienes que asegurarte de seleccionar la opción de "Full View" (vista completa) para encontrar su número de identificación. El mismo número de identificación te permite utilizar `hathiTools` para acceder a los atributos extraídos. El comando `get_hathi_counts` va a guardar en la variable `maria` un `tibble`, que es un `dataframe` (o marco de datos) y que contiene varios tipos de datos sobre la novela. 
 
-```{r}
+```r
 maria<-get_hathi_counts("uc1.31175010656638")
 
 head(maria)
@@ -105,7 +105,7 @@ Es muy probable que te encuentres con casos en los que el número no funcione y 
 
 Parte de la información que obtenemos de HathiTrust pertenece a los tokens y las páginas en las que aparecen. Dado que recibes los datos en forma de marco de datos, puedes utilizar las técnicas del paquete `dplyr` que has aprendido en [otras lecciones](/es/lecciones/administracion-de-datos-en-r#requisitos), como filtrar (`filter`) y resumir (`summarise`). Puedes así filtrar todos los tokens según la página asociada y contar cuántos tokens existen por página.
 
-```{r}
+```r
 tokens_maria <- maria %>%
   group_by(page) %>%
   summarise(num_tokens = sum(count))
@@ -124,7 +124,7 @@ head(tokens_maria)
 
 Si visualizas los resultados verás que el número de palabras por página es bastante uniforme, a excepción del comienzo y el final del volumen donde hay muchas páginas en blanco o con información que no es parte de la narración principal. 
 
-```{r}
+```r
 plot(tokens_maria$page, 
      tokens_maria$num_tokens, col = "blue", 
      type = "l", lwd = 1, xlab = "páginas", ylab = "tamaño")
@@ -136,7 +136,7 @@ Tu resultado debe ser similar a este:
 
 Podemos filtrar nuestros datos para encontrar las divisiones entre capítulos y añadirlos al gráfico. Para lograrlo, debes saber la palabra exacta que el texto utiliza para dividirse en partes. En este caso, la palabra es _CAPÍTULO_ en letras mayúsculas. 
 
-```{r}
+```r
 capitulos<-maria  %>% filter(token == "CAPÍTULO") 
 
 #gráfico
@@ -154,7 +154,7 @@ Como ves en la Figura 3, es interesante que la novela comienza con una serie de 
 
 Es una buena idea eliminar la sección del volumen que viene antes del primer capítulo, ya que contiene, entre otras cosas, un prólogo que no es parte de la narración. Sabemos que la novela comienza en la página 17; ahora necesitamos encontrar la página donde se acaba la historia y eliminar lo que venga después, ya sean índices o glosarios.
 
-```{r}
+```r
 maria %>%
   filter(token == "FIN") %>%
   select(page)
@@ -166,7 +166,7 @@ maria %>%
 ```
 Ya que sabes dónde comienza y termina el texto narrativo, puedes eliminar las páginas que no se necesitan (incluyendo los tokens que están en ellas). Para verificar el cambio, cuenta cuántos tokens hay en el marco de datos antes y después de la operación.
 
-```{r}
+```r
 #cuenta los tokens que nos han llegado de HathiTrust
 maria %>% summarise(num_tokens = sum(count))
 
@@ -215,7 +215,7 @@ Los valores posibles en la columna **section** incluyen “header” (encabezado
 
 Las opciones para clasificar los tokens que te proporciona este marco de datos son muchas. Digamos que solamente quieres contar los tokens en el cuerpo principal del texto. Para ello, puedes filtrar la tabla indicando la sección que te interesa. 
 
-```{r}
+```r
 maria %>%
   filter(section == "body") %>%
   group_by(page) %>%
@@ -238,7 +238,7 @@ maria %>%
  
 Algunas páginas tienen ahora una cantidad menor de tokens. Si, ademas de esto, quieres eliminar todo lo que no sea una palabra (números, signos) o errores que hayan sido introducidos al texto como resultado del proceso de digitalización, ésta es una de las muchas maneras en que puedes hacerlo. Para ello, puedes filtrar todos los tokens del cuerpo principal (“body”) que sean caracteres de tipo alfabético.
 
-```{r}
+```r
 maria %>%
   filter(section == "body", str_detect(token, "[:alpha:]")) %>%
   group_by(page) %>%
@@ -261,7 +261,7 @@ Notarás que ahora el número de tokens por página se ha reducido todavía más
 
 La columna **POS** que clasifica las palabras según las categorías gramaticales a las que se refiere, será muy útil en casos en que trabajes con textos publicados después de 1929[^1] a los que no tienes acceso completo, y en los que necesites saber el contexto en que una palabra está siendo utilizada. Por ejemplo, digamos que te interesa localizar la frecuencia con la que aparecen en *María* las palabras que aluden a las enfermedades, no sólo de la protagonista sino de otros personajes en la historia. Con frecuencia, el autor utiliza la palabra _mal_ ("había muerto de un _mal_", “síntomas de su _mal_”) para referirse a las enfermedades, pero en otras ocasiones, la misma palabra podría ser un adjetivo o un adverbio. Los siguientes comandos ayudan a solucionar este problema.
 
-```{r}
+```r
 
 #crea un vector con las palabras que quieres encontrar
 palabras_a_buscar <- c("enfermar", "enferma", 
@@ -339,7 +339,7 @@ Vamos a comenzar esta sección de la lección siguiendo [este enlace](https://ba
 
 Antes de hacerlo, deberàs asegurarte estar en la carpeta correcta. Para leer un documento `.tsv` desde R necesitarás llamar la librería `readr` primero y después usar el comando `read_tsv`. Una vez el archivo haya sido importado, podremos ver las diferentes categorías de metadatos que contiene con tan solo leer los nombres de las columnas. 
 
-```{r}
+```r
 metadatos<- read_tsv("100_Novelas_de_Ecuador.tsv")
 
 colnames(metadatos)
@@ -360,14 +360,14 @@ La columnas a utilizar en este ejercicio son **htid**, **author**, **title** y *
 
 Ahora que tenemos los metadatos de la colección, el próximo paso es "limpiarlos" un poco. Primero, selecciona las columnas que te interesan.
 
-```{r}
+```r
 metadatos <- 
   metadatos %>% select(htid, author, title, rights_date_used)
 ```
 
 Para muchos proyectos de minería textual es necesario saber con exactitud cuándo las novelas fueron publicadas. Para esta colección de novelas ecuatorianas hemos creado una tabla con el número de htid de cada novela y su fecha de publicación. El archivo, `fechas.xls`, lo encuentras en [los documentos que acompañan a esta lección](/assets/uso-las-colecciones-hathitrust-mineria-textual-R/fechas.xls). El próximo paso, por lo tanto, será combinar ambas tablas.
 
-```{r}
+```r
 fechas <- read_excel("fechas.xls")
 
 #unimos las tablas
@@ -382,7 +382,7 @@ Como ya sabes, la columna de **htid** en los metadatos es importante porque te p
 
 El primer paso para obtener los datos que necesitamos es designar una carpeta temporal en la que guardarás los archivos que vengan de HathiTrust. En los próximos dos pasos, vas a usar la lista de htids para obtener los archivos con atributos extraídos (“EF files”), vas a guardarlos en tu carpeta y vas a ponerlos en la memoria temporal de tu sistema para que puedas usarlos en tu sesión de R. Para este ejemplo vamos a descargar los cien volúmenes en la colección, pero si sólo quisieras algunos de ellos, puedes indicar los que necesitas usando el número de fila (por ejemplo, si solo quieres los primeros diez, `metadatos$htid[1:10]`). Finalmente, guardaremos todos los resultados en una variable. Ten paciencia, el tiempo que los próximos pasos se tomen en tu computadora dependerá de factores como la capacidad de tu máquina y el tamaño de tu colección. Procedamos a ejecutar los siguientes comandos:
 
-```{r}
+```r
 #selecciona una carpeta temporal donde guardar los archivos
 tmpdir<-"~/documentos/tmp"
 
@@ -399,7 +399,7 @@ novelas <-
 
 Concluido el proceso revisaremos las dimensiones de nuestro marco de datos  y veremos que contiene más de cuatro millones de filas y seis columnas. 
 
-```{r}
+```r
 dim(novelas)
 
 #[1] 4110351       6
@@ -407,7 +407,7 @@ dim(novelas)
 
 Podremos reducir su tamaño si eliminamos todo lo que no sean palabras o que forme parte del cuerpo principal de los libros:
 
-```{r}
+```r
 novelas <- novelas %>% filter(section == "body", !str_detect(token, "[^[:alpha:]]"))
 
 dim(novelas)
@@ -418,7 +418,7 @@ dim(novelas)
 Ahora puedes obtener la frecuencia de los tokens, y el resultado será un marco de datos con tres variables: el número de identificación de cada novela, el token y su frecuencia en ese texto.
 
 
-```{r}
+```r
 novelas <- novelas %>%
   group_by(token, htid) %>%
   summarise(num_tokens = sum(count))
@@ -448,32 +448,32 @@ Antes de proceder a analizar este conjunto de novelas, veamos una manera alterna
 
 Como ese método sólo es capaz de adquirir un volumen a la vez, necesitaremos crear nuestra propia función con un bucle `for` que vaya guardando la información para cada número htid que tenemos. Para este tutorial hemos incluido una función que no sólo logra este cometido, sino que además te notifica si algunos de tus números de htid no funcionan. El código se encuentra en el archivo [`obtener_tokens.r`](/assets/uso-las-colecciones-hathitrust-mineria-textual-R/obtener_tokens.r) y necesitarás ponerlo en la misma carpeta donde tienes tu proyecto de R. Para cargarlo usa el siguiente comando.
 
-```{r}
+```r
 source("obtener_tokens.r")
 ```
 
 Ahora simplemente puedes usar la lista de números htid que tienes en los metadatos de tu colección y guardar el resultado en una variable:
 
-```{r}
+```r
 resultado<-obtener_tokens(metadatos$htid)
 ```
 
 El resultado es una lista que contiene dos elementos. El primero son los atributos extraídos y el segundo son los números htid de los archivos que no fueron encontrados por alguna razón.
 
-```{r}
+```r
 novelas<- resultado[1]
 no_encontrado<-resultado[2]
 ```
 
 El primer elemento del resultado se convertirá en nuestro marco de datos con atributos extraídos. Si alguno de tus archivos fuera descargado, podrás ver su número en la variable `no_encontrado`.
 
-```{r}
+```r
 novelas<-as.data.frame(novelas)
 ```
 
 Notarás que tu marco de datos posee las mismas dimensiones que cuando usas Rsync, y a partir de este punto, podrás seguir los mismos pasos que en el apartado anterior para limpiar los datos y obtener las frecuencias.
 
-```{r}
+```r
 
 novelas<-novelas %>% filter(section == "body", str_detect(token, "[:alpha:]"))
 
@@ -486,21 +486,21 @@ novelas <- novelas %>%
 
 Ahora tienes un conjunto de datos en un formato que es perfecto para cualquier tipo de proyecto de minería textual que te interese. Como se hizo en el caso de la novela *María*, podríamos localizar la frecuencia de una palabra en los textos, sólo que en este caso se podría hacer en textos publicados en diferentes fechas. Digamos, por ejemplo, que me interesa saber la frecuencia relativa de las menciones del nombre de la ciudad de Guayaquil en las novelas ecuatorianas. El primer paso sería determinar la extensión de cada texto en la colección y añadir una nueva columna con esa información:
 
-```{r}
+```r
 para_frecuencias_relativas <- novelas %>%
   group_by(htid) %>%
   mutate(total_volumen = sum(num_tokens))
 ```
 Después, podremos buscar nuestra palabra:
 
-```{r}
+```r
 palabra_encontrada<-para_frecuencias_relativas %>% filter(token == "Guayaquil")
 ```
 
 Y finalmente dividimos la palabra por la cantidad de tokens en la novela y multiplicamos por la media de la longitud de los documentos.
 
 
-```{r}
+```r
 palabra_encontrada <- palabra_encontrada |>
   group_by(htid) %>%
   mutate(relativa = (num_tokens / total_volumen)*70000)
