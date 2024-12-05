@@ -466,13 +466,13 @@ save your work!**
   [QGIS Download page]: http://qgis.org/en/site/forusers/download.html
   [KyngChaos Qgis download page]: http://www.kyngchaos.com/software/qgis
   [Download Archive]: http://www.kyngchaos.com/software/archive
-  [PEI Highways]: /assets/PEI_highway.zip
-  [PEI Places]: /assets/PEI_placenames.zip
+  [PEI Highways]: /assets/qgis-layers/PEI_highway.zip
+  [PEI Places]: /assets/qgis-layers/PEI_placenames.zip
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
   [NRCan's website]: http://www.nrcan.gc.ca/earth-sciences/geography-boundary/mapping/topographic-mapping/10272
   [Double Stereographic projection]: http://www.gov.pe.ca/gis/index.php3?number=77865&lang=E
   [Tutorial: Working with Projections in QGIS]: http://web.archive.org/web/20180807132308/http://qgis.spatialthoughts.com/2012/04/tutorial-working-with-projections-in.html
   [defined]: http://www.gislounge.com/geodatabases-explored-vector-and-raster-data/
   [aerial photos]: http://en.wikipedia.org/wiki/Orthophoto
-  [PEI_CumminsMap1927.tif]: /assets/PEI_CumminsMap1927_compLZW.tif
+  [PEI_CumminsMap1927.tif]: /assets/qgis-layers/PEI_CumminsMap1927_compLZW.tif
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/
