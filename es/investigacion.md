@@ -48,6 +48,8 @@ El equipo del proyecto y los miembros de la comunidad en general están involucr
 
 ### Talleres y eventos
 
+* Amelia Wakeford, Giulia Osti & Anisa Hawes, 'A _Programming Historian_ Knowledge Exchange Workshop', University of Birmingham, (29 November 2024) & [En línea], (4 de diciembre de 2024).
+* Anisa Hawes, [‘Building your digital research skills with _Programming Historian_’](https://www.cdh.cam.ac.uk/events/38929/), Cambridge Digital Humanities, University of Cambridge [En línea], (21 de noviembre de 2024).
 * Daniel van Strien, 'Computer Vision for the Humanities and Social Sciences: An Introduction to Deep Learning for Image Classification', Centre for Data, Culture and Society, University of Edinburgh, Reino Unido (21 de marzo de 2024).
 * Alex Wermer-Colan, ['Learning Digital Methods with the _Programming Historian_'](https://charlesstudy.temple.edu/event/11953011), Temple University [En línea], (22 de febrero de 2024).
 * Carlo Blum, Adam Crymble, Vicky Garnett, Timothée Giraud, Alíz Horváth, Stefan Krebs, Ralph Marschall, Sofia Papastamkou, & Lorella Viola, 'Invisible College of Digital History: Workshop on Multilingual Educational Resources', C²DH [En línea], (8 de noviembre de 2023).
