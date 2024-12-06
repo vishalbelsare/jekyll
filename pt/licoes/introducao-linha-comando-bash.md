@@ -5,7 +5,7 @@ original: intro-to-bash
 layout: lesson
 collections: lessons
 date: 2014-09-20
-translation_date: 2024-11-20
+translation_date: 2024-12-11
 authors:
 - Ian Milligan
 - James Baker
