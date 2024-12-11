@@ -110,6 +110,7 @@ El añadido de una etiqueta te ayudará luego a ver ese lugar a través de dicha
 
 <div class="alert alert-info">
 En el fragmento que utilizamos como ejemplo en este tutorial hay varios lugares que puedes georreferenciar, pero para continuar con el ejercicio que estamos realizando vamos a centrarnos en los siguientes lugares, así que ya debes tenerlos marcados, etiquetados y georreferenciados correctamente para continuar con el siguiente paso:   
+<br>
 <ul>
 <li>Santa Fe (línea 2)</li>  
 <li>Tucumán (línea 3)</li>   
