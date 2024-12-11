@@ -6,7 +6,7 @@ collection: lessons
 date: 2024-12-11
 authors:
 - Gabriel Calarco
-- Gimena del Rio Riande
+- Gimena del Río Riande
 reviewers:
 - Anthony Picón Rodríguez
 - Sebastian Diaz Angel
@@ -16,7 +16,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/570
 difficulty: 1
 activity: presenting
 topics: [get-ready, mapping, data-visualization]
-abstract: "En este tutorial aprenderás sobre tecnologías de anotación, georreferenciación y visualización de datos en un flujo de trabajo con dos softwares gratuitos que se han venido desarrollando al interior de la comunidad global de humanistas digitales: Recogito y Visone. No exploraremos todas las posibilidades de estas herramientas, sino que apenas usaremos las que nos permitirán visualizar un itinerario sobre un mapa."
+abstract: En este tutorial aprenderás sobre tecnologías de anotación, georreferenciación y visualización de datos en un flujo de trabajo con dos softwares gratuitos que se han venido desarrollando al interior de la comunidad global de humanistas digitales: Recogito y Visone. No exploraremos todas las posibilidades de estas herramientas, sino que apenas usaremos las que nos permitirán visualizar un itinerario sobre un mapa.
 avatar_alt: Mapa francés de América del Sur del siglo XVIII.
 doi: 10.46430/phes0067
 ---
