@@ -110,13 +110,14 @@ El añadido de una etiqueta te ayudará luego a ver ese lugar a través de dicha
 
 <div class="alert alert-info">
 En el fragmento que utilizamos como ejemplo en este tutorial hay varios lugares que puedes georreferenciar, pero para continuar con el ejercicio que estamos realizando vamos a centrarnos en los siguientes lugares, así que ya debes tenerlos marcados, etiquetados y georreferenciados correctamente para continuar con el siguiente paso:   
-
-Santa Fe (línea 2)   
-Tucumán  (línea 3)   
-Santiago del Estero  (línea 4)   
-Córdoba  (línea 6)   
-Perú  (línea 10)   
-San Salvador  (línea 11)   
+<ul>
+<li>Santa Fe (línea 2)</li>  
+<li>Tucumán (línea 3)</li>   
+<li>Santiago del Estero (línea 4)</li>   
+<li>Córdoba (línea 6)</li>   
+<li>Perú (línea 10)</li>   
+<li>San Salvador (línea 11)</li>
+</ul>  
 </div>
 
 Puedes encontrar entradas correspondientes a casi todos estos lugares en el gazetteer de Indias, con excepción de "Perú", para el cual puedes usar la entrada de Geonames, que es un gazetter general.
@@ -253,8 +254,8 @@ Hay muchos tutoriales adicionales disponibles para Recogito y Visone. Te recomen
 
 - El sitio oficial de Visone tiene [varios tutoriales en inglés](https://visone.info/wiki/index.php/Tutorials#Basic_tutorials) sobre las diferentes aplicaciones de esta herramienta. 
 
-- El tutorial de Recogito de Gimena del Rio y Valeria Vitale, [Recogito-in-a-Box: From Annotation to Digital Edition](http://dx.doi.org/10.3828/mlo.v0i0.299) (en inglés).
+- El tutorial de Recogito de Gimena del Río y Valeria Vitale, [Recogito-in-a-Box: From Annotation to Digital Edition](http://dx.doi.org/10.3828/mlo.v0i0.299) (en inglés).
 
 ### Nota 
 
-La segunda parte de este tutorial se basa en el tutorial para Visone creado por Leif Isaksen y traducido y adaptado al español y a textos en español por Gabriel Calarco y Gimena del Rio Riande.
+La segunda parte de este tutorial se basa en el tutorial para Visone creado por Leif Isaksen y traducido y adaptado al español y a textos en español por Gabriel Calarco y Gimena del Río Riande.
