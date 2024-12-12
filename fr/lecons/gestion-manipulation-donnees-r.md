@@ -1,7 +1,7 @@
 ---
 title: "Gestion et manipulation des données avec R"
 slug: gestion-manipulation-donnees-r
-original: data-wrangling-and-management-in-R
+original: data-wrangling-and-management-in-r
 layout: lesson
 collection: lessons
 date: 2017-07-31
@@ -87,7 +87,7 @@ library(tidyverse)
 
 ## Un exemple du fonctionnement de dplyr
 
-Utilisons un exemple pour voir comment dplyr peut aider les historien·nes, ainsi que les autres chercheur·euses en sciences humaines et sociales&nbsp;: importez les données de recensement décennal des États-Unis entre 1790 et 2010. Téléchargez les données depuis [le dépot de _Programming Historian_](/assets/data-wrangling-and-management-in-R/introductory_state_example.csv) et placez le fichier téléchargé dans le dossier que vous utiliserez pour traiter les exemples présentés dans ce tutoriel.
+Utilisons un exemple pour voir comment dplyr peut aider les historien·nes, ainsi que les autres chercheur·euses en sciences humaines et sociales&nbsp;: importez les données de recensement décennal des États-Unis entre 1790 et 2010. Téléchargez les données depuis [le dépot de _Programming Historian_](/assets/data-wrangling-and-management-in-r/introductory_state_example.csv) et placez le fichier téléchargé dans le dossier que vous utiliserez pour traiter les exemples présentés dans ce tutoriel.
 
 Comme les données sont stockées dans un fichier CSV, utilisez la commande `read_CSV()` incluse dans le paquet [readr](https://perma.cc/58PX-7LPB) du tidyverse.
 
@@ -115,7 +115,7 @@ ggplot(data=california_and_new_york_state_populations, aes(x=year, y=population,
   geom_point()
 ```
 
-{% include figure.html filename="en-or-data-wrangling-and-management-in-R-01.png" alt="Courbe graphique des évolutions des populations de la Californie et de l'État de New-York. Les deux courbes sont ascendantes à partir de la première valeur (avant 1800 pour l'État de New-York, à partir de 1850 pour la Californie). La population de l'État de New-York reste supérieure à celle de la Californie, jusqu'à ce que les deux courbes se croisent et que le rapport s'inverse autour de 1960&nbsp;; après quoi la population californienne croît de façon très rapide, tandis que la population de New-York a une croissance beaucoup plus faible" caption="Figure 1. Vue graphique de la population de la Californie et de l’État de New York." %}
+{% include figure.html filename="en-or-data-wrangling-and-management-in-r-01.png" alt="Courbe graphique des évolutions des populations de la Californie et de l'État de New-York. Les deux courbes sont ascendantes à partir de la première valeur (avant 1800 pour l'État de New-York, à partir de 1850 pour la Californie). La population de l'État de New-York reste supérieure à celle de la Californie, jusqu'à ce que les deux courbes se croisent et que le rapport s'inverse autour de 1960&nbsp;; après quoi la population californienne croît de façon très rapide, tandis que la population de New-York a une croissance beaucoup plus faible" caption="Figure 1. Vue graphique de la population de la Californie et de l’État de New York." %}
 
 Comme nous pouvons le voir, la population de la Californie a augmenté de façon considérable si nous la comparons à celle de l'État de New York. Cet exemple en particulier peut sembler évident au regard de l’histoire des migrations aux États-Unis, mais le code en lui-même nous fournit une base pour poser de nombreuses questions similaires. Ainsi, avec une modification rapide du code, on peut créer un graphique équivalent pour deux autres États comme le Mississippi et la Virginie.
 
@@ -130,7 +130,7 @@ ggplot(data=mississippi_and_virginia_state_populations, aes(x=year, y=population
   geom_point()
 ```
 
-{% include figure.html filename="en-or-data-wrangling-and-management-in-R-02.png" alt="Courbe graphique des évolutions des populations du Mississippi et de la Virginie. Les courbes de croissance des populations de ces deux États suivent un rythme comparable jusqu'aux années 30 (avec une population globalement un peu plus nombreuse en Virginie que dans le Mississippi). A partir des années 30, la croissance de la population du Mississippi fléchit un peu, tandis que celle de la Virginie augmente à un rythme beaucoup plus rapide." caption="Figure 2. Vue graphique de la population du Mississippi et de la Virginie." %}
+{% include figure.html filename="en-or-data-wrangling-and-management-in-r-02.png" alt="Courbe graphique des évolutions des populations du Mississippi et de la Virginie. Les courbes de croissance des populations de ces deux États suivent un rythme comparable jusqu'aux années 30 (avec une population globalement un peu plus nombreuse en Virginie que dans le Mississippi). A partir des années 30, la croissance de la population du Mississippi fléchit un peu, tandis que celle de la Virginie augmente à un rythme beaucoup plus rapide." caption="Figure 2. Vue graphique de la population du Mississippi et de la Virginie." %}
 
 La possibilité de faire des changements rapides dans le code et de visualiser nos données est un élément fondamental de l'analyse exploratoire de données (AED). Plutôt que d'essayer de «&nbsp;prouver&nbsp;» une hypothèse, l'analyse exploratoire de données nous aide à mieux comprendre nos données et à les interroger. L'AED fournit aux historien·nes et aux spécialistes des sciences humaines et sociales un moyen simple de déterminer quand approfondir un sujet ou quand prendre du recul, et c'est un domaine dans lequel R excelle.
 
