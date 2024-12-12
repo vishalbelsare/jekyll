@@ -1,6 +1,6 @@
 ---
 title: Manipulação e transformação de dados com R
-slug: manipulacao-transformacao-dados-R
+slug: manipulacao-transformacao-dados-r
 layout: lesson
 collection: lessons
 date: 2017-08-01
@@ -24,7 +24,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/397
 activity: transforming
 topics: [data-manipulation, data-management, distant-reading, r, data-visualization]
 abstract: "Esta lição explora como os investigadores podem tornar seus dados organizados, entender os pacotes do R para manipulação de dados e conduzir análises de dados básicas usando esta linguagem."
-original: data-wrangling-and-management-in-R
+original: data-wrangling-and-management-in-r
 avatar_alt: Barra de sabão
 doi: 10.46430/phpt0035
 ---
