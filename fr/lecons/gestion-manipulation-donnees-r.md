@@ -458,7 +458,7 @@ early_colleges%>%summarise(mean(established))
 ## 1               1810.
 ```
 
-### Et si nous compilions ces fonctions&nbsp;?
+## Et si nous compilions ces fonctions&nbsp;?
 
 Maintenant que nous avons exploré les cinq verbes principaux de dplyr, nous pouvons les utiliser pour créer rapidement une visualisation de nos données. Créons un graphique en barres pour représenter le nombre d’universités laïques ou religieuses fondées avant la guerre de 1812&nbsp;:
 
