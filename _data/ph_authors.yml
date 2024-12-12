@@ -2409,7 +2409,7 @@
   team: false
   bio:
       es: |
-        Gimena del Rio Riande es investigadora adjunta del Instituto de Investigaciones Bibliográficas y Crítica Textual (IIBICRIT, CONICET) y directora del laboratorio de Humanidades Digitales de CAICYT (CONICET, Argentina). Es directora de la Diplomatura en Humanidades Digitales (UCES), co-directora del master en Humanidades Digitales (UNED,), directora de la Revista de Humanidades Digitales (RHD) y presidenta de la Asociación Argentina de Humanidades Digitales (AAHD).
+        Gimena del Río Riande es investigadora adjunta del Instituto de Investigaciones Bibliográficas y Crítica Textual (IIBICRIT, CONICET) y directora del laboratorio de Humanidades Digitales de CAICYT (CONICET, Argentina). Es directora de la Diplomatura en Humanidades Digitales (UCES), co-directora del master en Humanidades Digitales (UNED,), directora de la Revista de Humanidades Digitales (RHD) y presidenta de la Asociación Argentina de Humanidades Digitales (AAHD).
 
 - name: Gabriel Calarco
   team: false
@@ -3232,3 +3232,10 @@
   bio:
     fr: |
       Baptiste Mélès est chercheur au CNRS (AHP-PReST, Université de Lorraine). Spécialiste de philosophie de l'informatique, il a cofondé le séminaire Codes Sources.
+
+- name: José Eduardo González
+  orcid: 0000-0002-8899-3021
+  team: false
+  bio:
+    es: |
+      José Eduardo González es profesor asociado en el Departamento de lenguas modernas en la Universidad de Nebraska.

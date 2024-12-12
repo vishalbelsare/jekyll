@@ -48,9 +48,11 @@ drive.
 
 ## Install Komodo Edit
 
-Komodo Edit is a free and open source code editor, but you have many
-[other text editing options][] if you want to use another programme. You can
-download a copy from the [Komodo Edit website][].
+Komodo Edit is a free and open source code editor developed by [ActiveState](https://www.activestate.com/). To install Komodo Edit, you can download the file [Komodo-Edit-12.0.1-18441.msi](https://downloads.activestate.com/Komodo/releases/12.0.1/Komodo-Edit-12.0.1-18441.msi) from their list of [Komodo Edit releases](https://downloads.activestate.com/Komodo/releases/12.0.1/). You have many [other text editing options][] if you want to use another programme.
+
+<div class="alert alert-warning">
+ActiveState retired Komodo Edit in December 2022. As noted in <a href='https://www.activestate.com/blog/activestate-komodo-ide-now-open-source/'>this blog post</a>, 'Komodo’s retirement means ActiveState will cease to develop code or create builds for [...] Komodo Edit. This means ActiveState will no longer provide new features/functionality, and will no longer create fixes for bugs or security issues.' You can still download and use Komodo Edit, but it's probably best to choose a different programme.
+</div>
 
 ## Start Komodo Edit
 
@@ -181,6 +183,5 @@ order, we suggest you next try ‘[Understanding Web Pages and HTML][]‘
 
   [Python website]: http://www.python.org/
   [other text editing options]: http://wiki.python.org/moin/PythonEditors/
-  [Komodo Edit website]: http://www.activestate.com/komodo-edit
   [UTF-8]: http://en.wikipedia.org/wiki/UTF-8
   [Understanding Web Pages and HTML]: /lessons/viewing-html-files
