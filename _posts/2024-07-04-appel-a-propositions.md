@@ -1,5 +1,5 @@
 ---
-title: Appel à contributions (édition française)
+title: Appel à propositions (édition française)
 authors:
 - Marie Flesch
 - Charlotte Chevrie
@@ -23,7 +23,7 @@ Nos leçons aident avant tout les personnes qui souhaitent acquérir de nouvelle
 
 ## Idées de sujets de propositions
 
-L'édition française de _Programming Historian_ lance un appel à contributions pour combler les manques dans notre répertoire de leçons. Veuillez parcourir [notre revue](/fr/leçons) pour découvrir ce qui a déjà été publié, et réfléchir à ce que vous pourriez ajouter.
+L'édition française de _Programming Historian_ lance un appel à propositions pour combler les manques dans notre répertoire de leçons. Veuillez parcourir [notre revue](/fr/leçons) pour découvrir ce qui a déjà été publié, et réfléchir à ce que vous pourriez ajouter.
 
 Si la méthode ou l'approche sur laquelle vous souhaitez écrire une leçon est déjà représentée dans l'édition [anglaise](/en/lessons), [espagnole](/es/lecciones/), ou [portugaise](/pt/licoes/) de _Programming Historian_, vous pouvez proposer une traduction en français. Veuillez consulter notre [carte de concordance des traductions](/translation-concordance) pour savoir quelles leçons restent à traduire.
 
