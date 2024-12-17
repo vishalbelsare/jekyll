@@ -144,10 +144,8 @@ as creating [Linked Data][].
 OpenRefine works on all platforms: Windows, Mac, and Linux. *OpenRefine*
 will open in your browser, but it is important to realise that the
 application is run locally and that your data won't be stored online.
-The data files are available on our [FreeYourMetadata website][], which
-will be used throughout this tutorial. Please download the
-*phm-collection.tsv* file before continuing (also archived on the
-Programming Historian site: as [phm-collection][]).
+The data files are archived on the Programming Historian site: as [phm-collection][]. Please download the
+*phm-collection.tsv* file before continuing.
 
 On the *OpenRefine* start page, create a new project using the
 downloaded data file and click **Next**. By default, the first line will
@@ -157,8 +155,7 @@ separators' checkbox, since the quotes inside the file do not have any
 meaning to *OpenRefine*. Additionally, select the 'Attempt to parse cell
 text into numbers' checkbox to let OpenRefine automatically detect
 numbers. Now click on '**Create project**'. If all goes
-well, you will see 75,814 rows. Alternatively, you can download the
-[initial OpenRefine project][] directly.
+well, you will see 75,814 rows. 
 
 The Powerhouse museum data set consists of detailed metadata on all the
 collection objects, including title, description, several categories the
@@ -416,9 +413,7 @@ the case you have made an error.
   [Controlled vocabulary]: http://en.wikipedia.org/wiki/Controlled_vocabulary
   [Linked Data]: http://en.wikipedia.org/wiki/Linked_data
   [Download OpenRefine]: https://openrefine.org/download
-  [FreeYourMetadata website]: http://data.freeyourmetadata.org/powerhouse-museum/
   [phm-collection]: /assets/phm-collection.tsv
-  [initial OpenRefine project]: http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz
   [Powerhouse Museum Website]: /images/powerhouseScreenshot.png
   [facet]: http://en.wikipedia.org/wiki/Faceted_search
   [Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png
