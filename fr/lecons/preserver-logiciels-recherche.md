@@ -174,9 +174,9 @@ Le tableau suivant résume les informations présentées dans cette section.
 | -------- | -------- | -------- |
 | Objectif     | Attribuer correctement les responsabilités intellectuelles, pour renvoyer vers une version donnée.     | S'assurer de la reproductibilité des résultats obtenus avec le logiciel, pour obtenir des informations sur le processus de développement lui-même.     |
 | Pré-requis | Citer un logiciel nécessite qu'un identifiant pérenne soit attribué à chaque version. L'identifiant doit renvoyer vers des objets et vers leur description générale. | Effectuer des vérifications techniques nécessite qu'un identifiant pérenne renvoie à des composants précis du logiciel, qu'il s'agisse du code source comme d'explications fournies par les développeurs pour documenter leurs actions. L'identifiant doit renvoyer directement vers le contenu de l'objet.| 
-|Type d'identifiant | [DOI](https://doi.org/10.5281/zenodo.6375528), [HAL-ID](https://hal.science/hal-03516539v1) | [SWHID](https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html) |
+|Type d'identifiant | [DOI](https://doi.org/10.5281/zenodo.6375528), [HAL-ID](https://hal.science/hal-03516539v1) | [SWHID](https://archive.softwareheritage.org/swh:1:cnt:353bd74b1b29c30b9b47843ddc8dc0180b37a465;origin=https://github.com/rdicosmo/parmap;visit=swh:1:snp:8ddca416836fbbc2a7704c69db38739bef6b6cae;anchor=swh:1:rev:ecd3744ed558da4ea2bf9eb87b80b8949f417126;path=/dune-project) |
 |Analogie | La carte d'identité | Les empreintes digitales, l'échantillon d'ADN |
-| Obtention de l'identifiant | Information sur la page du logiciel déposé au préalable sur [une plateforme d'archivage](https://zenodo.org/records/6461551), [une archive ouverte](https://hal.science/hal-03516539v1) | Le logiciel est [archivé dans Software Heritage](https://archive.softwareheritage.org/browse/search/) ; [cliquer sur l'onglet Permalink](https://annex.softwareheritage.org/public/tutorials/getswhid_dir.gif)|
+| Obtention de l'identifiant | Information sur la page du logiciel déposé au préalable sur [une plateforme d'archivage](https://zenodo.org/records/6461551), [une archive ouverte](https://hal.science/hal-03516539v1) | Le logiciel est [archivé dans Software Heritage](https://archive.softwareheritage.org/swh:1:dir:bc7ddd62cf3d72ffdc365e1bf2dea6eeaa44e185;origin=https://github.com/rdicosmo/parmap;visit=swh:1:snp:8ddca416836fbbc2a7704c69db38739bef6b6cae;anchor=swh:1:rev:ecd3744ed558da4ea2bf9eb87b80b8949f417126) ; [cliquer sur l'onglet Permalink](https://annex.softwareheritage.org/public/tutorials/getswhid_dir.gif)|
 
 </div>
 
@@ -250,7 +250,7 @@ Vous pouvez alors le taper dans la [barre de recherche de l'archive](https://arc
 
 Mettons à présent ces notions en pratique. Trouvez dans l'archive Software Heritage&nbsp;:
 
-1. Le code du programme LanguageTools.
+1. Le code du programme LanguageTool.
 2. Le code contenant les mots «&nbsp;you are not expected to understand this&nbsp;» («&nbsp;vous n'êtes pas supposés comprendre ceci&nbsp;»).
 3. Le code correspondant au dépôt <https://github.com/CatalaLang/catala>.
 4. Le fichier composé des lignes suivantes&nbsp;: 
