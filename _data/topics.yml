@@ -189,3 +189,15 @@
     es: "Lecciones que enseñan a representar datos mediante gráficos comunes."
     fr: "Leçons qui enseignent la représentation de données à l'aide de graphiques communs."
     pt: "Lições que ensinam a representação de dados através de gráficos comuns."
+
+- type: modeling
+  displayname:
+    en: "modeling"
+    es: "modelización"
+    fr: "modélisation"
+    pt: "modelagem"
+  description:
+    en: "Using formal, computational, or data-driven techniques to simulate, analyse, and predict complex systems."
+    es: "Utilizar técnicas formales, informáticas, o basadas en datos para simular, analizar y predecir sistemas complejos."
+    fr: "Utiliser des techniques formelles, informatiques, ou basées sur des données pour simuler, analiser et prédire des systèmes complexes."
+    pt: "Utilizar técnicas formais, computacionais ou baseadas em dados para simular, analisar e prever sistemas complexos."
