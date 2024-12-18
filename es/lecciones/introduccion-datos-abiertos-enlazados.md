@@ -394,8 +394,6 @@ Sin embargo, a pesar de sus inconsistencias, *DBpedia* es un gran lugar para apr
 
 * Seth van Hooland y Ruben Verborgh, *Linked Data for Libraries, Archives and Museums*, 2015
 
-* Mira también la [página web](http://freeyourmetadata.org/) complementaria del libro
-
 * Matthew Lincoln ['Using SPARQL to access Linked Open Data'](/en/lessons/graph-databases-and-SPARQL)
 
 * [Linked Data guides and tutorials](http://linkeddata.org/guides-and-tutorials)

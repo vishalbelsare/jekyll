@@ -407,7 +407,6 @@ No entanto, apesar das suas inconsistências, a *DBpedia* é um ótimo local par
 * [Blog de Bob DuCharme](http://www.snee.com/bobdc.blog/) (em inglês) também vale a pena ler
 * Richard Gartner, *Metadata: Shaping Knowledge from Antiquity to the Semantic Web*, Springer, 2016
 * Seth van Hooland and Ruben Verborgh, *Linked Data for Libraries, Archives and Museums*, 2015
-* Ver também [*companion website*](http://freeyourmetadata.org/) (em inglês)
 * Matthew Lincoln ['*Using SPARQL to access Linked Open Data*'](/en/lessons/retired/graph-databases-and-SPARQL) (em inglês)
 * [*Linked Data guides and tutorials*](http://linkeddata.org/guides-and-tutorials) (em inglês)
 * Dominic Oldman, Martin Doerr e Stefan Gradmann, '*Zen and the Art of Linked Data: New Strategies for a Semantic Web of Humanist Knowledge*', em *A New Companion to Digital Humanities*, editado por Susan Schreibman et al.
