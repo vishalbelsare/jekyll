@@ -11,7 +11,7 @@ The _Programming Historian_ runs on the far-from-endless energy of volunteers, a
 ## Write a new lesson
 
 <div class="alert alert-success">
-Our English journal is currently seeking proposals for new original lessons or translations to be considered for publication in 2025. Learn more in our <a href="/posts/en-call-for-proposals">call for proposals</a> (open until 31 January 2025 (extended deadline)). Submissions to our <a href="/es/guia-para-autores#paso-1-proponer-una-nueva-lección">Spanish</a>, <a href="/fr/consignes-auteurs#étape-1-proposer-une-nouvelle-leçon">French</a> and <a href="/pt/directrizes-autor#etapa-1-propor-uma-nova-lição">Portuguese</a> journals are open year-round.
+Our English journal is currently seeking proposals for new original lessons or translations to be considered for publication in 2025. Learn more in our <a href="/posts/en-call-for-proposals">call for proposals</a>, open until 31 January 2025 (extended deadline). Submissions to our <a href="/es/guia-para-autores#paso-1-proponer-una-nueva-lección">Spanish</a>, <a href="/posts/appel-a-propositions">French</a> and <a href="/pt/directrizes-autor#etapa-1-propor-uma-nova-lição">Portuguese</a> journals are open year-round.
 </div>
 
 <img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-right" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
