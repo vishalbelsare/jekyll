@@ -47,7 +47,7 @@ Nesta lição, criará shapefiles (que são um formato de armazenamento de dados
 
 ## Começando
 
-Comece por descarregar o [mapa PEI_Holland](/assets/PEI_HollandMap1798_compLZW.tif) para a pasta do projeto.  
+Comece por descarregar o [mapa PEI_Holland](/assets/vector-layers-qgis/PEI_HollandMap1798_compLZW.tif) para a pasta do projeto.  
 
 Abra o ficheiro que você salvou no final da lição [instalar o QGIS 2.0 e adicionar camadas](/en/lessons/qgis-layers) (em inglês). Deve ter as seguintes camadas na aba Camadas:
 
@@ -241,7 +241,7 @@ No Google Earth, havia limitações nos tipos de 'feições', 'atributos' e dado
 
   [Intro to Google Maps and Google Earth]: /lessons/googlemaps-googleearth
   [Installing QGIS 2.0 and Adding Layers]: /lessons/qgis-layers
-  [PEI_Holland map]: /assets/PEI_HollandMap1798_compLZW.tif
+  [PEI_Holland map]: /assets/vector-layers-qgis/PEI_HollandMap1798_compLZW.tif
   [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
   [Wikipedia entry]: http://en.wikipedia.org/wiki/Prince_Royalty,_Prince_Edward_Island
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/
