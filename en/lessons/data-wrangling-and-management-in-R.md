@@ -126,7 +126,7 @@ An Example of dplyr in Action
 Let's go through an example to see how dplyr can aid us as historians by
 inputting U.S. decennial census data from 1790 to 2010. Download the
 data by [clicking
-here](/assets/introductory_state_example.csv)
+here](/assets/data-wrangling-and-management-in-r/introductory_state_example.csv)
 and place it in the folder that you will use to work through the examples
 in this tutorial.
 
