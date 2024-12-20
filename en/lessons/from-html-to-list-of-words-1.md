@@ -258,5 +258,5 @@ that’s ok!
   [zip file from the previous lesson here.]: /lessons/manipulating-strings-in-python#code-syncing
   [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
   [Code Reuse and Modularity]: /lessons/code-reuse-and-modularity
-  [zip]: /assets/python-lessons2.zip
-  [obo-t17800628-33.html]: /assets/obo-t17800628-33.html
+  [zip]: /assets/from-html-to-list-of-words-1/python-lessons2.zip
+  [obo-t17800628-33.html]: /assets/from-html-to-list-of-words-1/obo-t17800628-33.html
