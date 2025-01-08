@@ -28,7 +28,7 @@ activity: presenting
 topics: [mapping]
 abstract: Nessa lição, você fará a instalação do programa QGIS, o downloado de arquivos geoespaciais como shapefiles e GeoTIFFs, e a criação de um mapa a partir de vários vetores e camadas raster.
 avatar_alt: Uma cordilheira vista por cima.
-doi: XX.XXXXX/phen0000
+doi: 10.46430/phpt0052
 ---
 
 {% include toc.html %}
