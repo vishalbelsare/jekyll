@@ -47,7 +47,7 @@ Nesta lição, irá aprender:
 -  O conceito e a prática de 'programação reativa', conforme implementado por aplicações Shiny. Especificamente, aprenderá como usar Shiny para 'entender' informações de *input* e como elas estão conectadas aos resultados a serem exibidos na sua aplicação.
 
 <div class="alert alert-info">
-Saiba que esta lição não ensina nenhuma codificação em R, além da suficiente para criar a aplicação, nem aborda a publicação da aplicação finalizada na Web. É recomendado um conhecimento básico em linguagem de programação R, particularmente com o <a href='/pt/licoes/manipulacao-transformacao-dados-R'>tidyverse</a>.
+Saiba que esta lição não ensina nenhuma codificação em R, além da suficiente para criar a aplicação, nem aborda a publicação da aplicação finalizada na Web. É recomendado um conhecimento básico em linguagem de programação R, particularmente com o <a href='/pt/licoes/manipulacao-transformacao-dados-r'>tidyverse</a>.
 </div>
 
 ### Interfaces Gráficas do Utilizador e Humanidades Digitais
@@ -120,7 +120,7 @@ No entanto, antes de chegar a estes pontos é preciso configurar o ambiente corr
 
 Instale as [últimas versões do R](https://cran.rstudio.com/) (em inglês) e do [RStudio](https://www.rstudio.com/products/rstudio/download/) (em inglês) na sua máquina local para concluir esta lição. O R tem uma IDE (Ambiente de Desenvolvimento Integrado) muito popular (embora separado) chamado RStudio, que é frequentemente usado junto com o R, pois fornece um grande conjunto de recursos para tornar a codificação na linguagem mais conveniente. Usaremos ao longo da lição. 
 
-Lições anteriores do *Programming Historian* abordaram como [trabalhar com R](/pt/licoes/nocoes-basicas-R-dados-tabulares) e [trabalhar com o tydeverse](/pt/licoes/manipulacao-transformacao-dados-R). Seria útil passar por essas lições primeiro, para aprender os fundamentos da instalação do R e usar o tydeverse para organizar os dados.
+Lições anteriores do *Programming Historian* abordaram como [trabalhar com R](/pt/licoes/nocoes-basicas-R-dados-tabulares) e [trabalhar com o tydeverse](/pt/licoes/manipulacao-transformacao-dados-r). Seria útil passar por essas lições primeiro, para aprender os fundamentos da instalação do R e usar o tydeverse para organizar os dados.
 
 ### Criar um novo projeto no RStudio
 
