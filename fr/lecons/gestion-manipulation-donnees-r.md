@@ -5,7 +5,7 @@ original: data-wrangling-and-management-in-r
 layout: lesson
 collection: lessons
 date: 2017-07-31
-translation_date: 2024-12-13
+translation_date: 2025-01-08
 authors:
 - Nabeel Siddiqui
 reviewers:
