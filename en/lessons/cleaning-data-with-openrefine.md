@@ -413,7 +413,7 @@ the case you have made an error.
   [Controlled vocabulary]: http://en.wikipedia.org/wiki/Controlled_vocabulary
   [Linked Data]: http://en.wikipedia.org/wiki/Linked_data
   [Download OpenRefine]: https://openrefine.org/download
-  [phm-collection]: assets/cleaning-data-with-openrefine/phm-collection.tsv
+  [phm-collection]: /assets/cleaning-data-with-openrefine/phm-collection.tsv
   [Powerhouse Museum Website]: /images/powerhouseScreenshot.png
   [facet]: http://en.wikipedia.org/wiki/Faceted_search
   [Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png
