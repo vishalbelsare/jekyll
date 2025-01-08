@@ -74,7 +74,7 @@ If you decide to collect data using crowdsourcing, there are some things to keep
 
 <div class="alert alert-warning">
 Unfortunately, the <i>What's on the menu?</i> website was retired in January 2025 'due to outdated software and hardware, which presented potential cybersecurity risks', so some of the information below is now out of date. The New York Public Library has shared <a href='https://www.nypl.org/research/support/whats-on-the-menu'>a status report</a> explaining the retirement, and indicating links that are still available to users. This includes an archived version of the original site's <a href='https://nypl.org/sites-drupal/default/files/2024-11/What%27s%20on%20the%20Menu%20-%20About.pdf'>About page</a>.
-<br></br>
+<br><br>
 You can still follow along with this lesson despite the retirement, however, because we've hosted the necessary file directly on the <i>Programming Historian</i> repository.
 </div>
 
