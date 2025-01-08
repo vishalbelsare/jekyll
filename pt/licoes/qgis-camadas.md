@@ -17,9 +17,9 @@ editors:
 - Adam Crymble
 translator:
 - Luanna Kaori
-translator-editor:
+translation-editor:
 - Joana Vieira Paulino
-translation-reviewers:
+translation-reviewer:
 - Diogo Paiva
 - Ângela Pité
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/566
