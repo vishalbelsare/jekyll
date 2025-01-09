@@ -16,8 +16,8 @@ editors:
 - Agustín Cosovschi
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/605
 difficulty: 3
-activity:
-topics:
+activity: analyzing
+topics: [modeling]
 abstract: This lesson will introduce you to core concepts, methodologies and discussions surrounding simulation methods for historical inquiry. You will be introduced to the basic elements of programming a simulation model by building an Agent-Based Model of historical letter exchanges with the Python library mesa.
 avatar_alt: Drawing of young woman reading a letter by candlelight. 
 doi: 10.46430/phen0122
