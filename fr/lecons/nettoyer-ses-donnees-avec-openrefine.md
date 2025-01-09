@@ -145,7 +145,7 @@ Vous avez ainsi appris comment avoir un rapide aperçu du nombre de valeurs vide
   [vocabulaire contrôlé]: https://fr.wikipedia.org/wiki/Vocabulaire_contr%C3%B4l%C3%A9
   [données liées]: https://fr.wikipedia.org/wiki/Web_des_donn%C3%A9es
   [Téléchargez OpenRefine]: https://openrefine.org/download
-  [phm-collection]: assets/cleaning-data-with-openrefine/phm-collection.tsv
+  [phm-collection]: /assets/cleaning-data-with-openrefine/phm-collection.tsv
   [Powerhouse Museum Website]: /images/powerhouseScreenshot.png
   [facette]: https://fr.wikipedia.org/wiki/Recherche_%C3%A0_facettes
   [Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png
