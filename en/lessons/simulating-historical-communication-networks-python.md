@@ -967,7 +967,7 @@ Do not hesitate to get in touch with us if you want to be part of this discussio
 
 [^22]: Wachter, Laslett and Hammel 1978, p. xix
 
-[^23]: Comer, Kenneth W. “Who Goes First? An Examination of the Impact of Activation on Outcome Behavior in AgentBased Models.” George Mason University, 2014. [https://hdl.handle.net/1920/9070]([https://hdl.handle.net/1920/9070](https://perma.cc/BQ7J-GNPV)).
+[^23]: Comer, Kenneth W. “Who Goes First? An Examination of the Impact of Activation on Outcome Behavior in AgentBased Models.” George Mason University, 2014. [https://hdl.handle.net/1920/9070](https://hdl.handle.net/1920/9070).
 
 [^24]: Unlike `mesa.model` or `mesa.agent`, `mesa.time` has multiple classes (e.g. `RandomActivation`, `StagedActivation` etc). To ensure context, time is used in the import as evidenced below with `mesa.time.RandomActivation`.  You can see the different time classes at [mesa.time](https://github.com/projectmesa/mesa/blob/main/mesa/time.py).
 
