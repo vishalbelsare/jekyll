@@ -206,11 +206,11 @@
 - type: metadata
   displayname:
     en: "metadata"
-    es: "metadatos"
+    es: "metadata"
     fr: "métadonnées"
     pt: "metadados"
   description:
-    en: "Description"
-    es: "Description"
-    fr: "Description"
-    pt: "Description"
+    en: "Learn how to create, interpret, or manage 'data about data'."
+    es: "Aprender a crear, interpretar o administrar 'datos sobre datos'."
+    fr: "Apprendre à créer, interpréter ou gérer des 'données à propos de données'."
+    pt: "Aprender a criar, interpretar ou gerir 'dados sobre dados'."
