@@ -5,7 +5,7 @@ original: geocoding-qgis
 layout: lesson
 collection: lessons
 date: 2017-01-27
-translation_date: 2025-01-08
+translation_date: 2025-01-15
 authors:
 -  Justin Colson
 reviewers:
