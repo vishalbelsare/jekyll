@@ -5,7 +5,7 @@ original: qgis-layers
 layout: lesson
 collection: lessons
 date: 2013-12-13
-translation_date: 2025-01-08
+translation_date: 2025-01-15
 authors:
 - Jim Clifford
 - Josh MacFadyen
