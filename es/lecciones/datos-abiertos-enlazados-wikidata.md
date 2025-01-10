@@ -15,7 +15,7 @@ editors:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/589
 difficulty: 1
 activity: acquiring
-topics: [lod, data-management, data-manipulation, website, metadata]
+topics: [lod, data-management, data-manipulation, web-archiving, metadata]
 abstract: Esta lección introduce Wikidata y proporciona una guía paso a paso para integrar metadatos de revistas y personas utilizando datos abiertos enlazados. Explora las mejores prácticas para insertar y gestionar los metadatos en Wikidata, con el fin de incrementar la visibilidad y accesibilidad de recursos en entornos digitales.
 avatar_alt: Letra W decorativa enmarcada con un diseño de líneas y patrones circulares.
 doi: 10.46430/phes0068
