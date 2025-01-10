@@ -3,7 +3,7 @@ title: "Utilizar Datos Abiertos Enlazados para describir revistas académicas co
 slug: datos-abiertos-enlazados-wikidata
 layout: lesson
 collection: lessons
-date: 2025-01-09
+date: 2025-01-15
 authors:
 - Cláudia De Souza
 - Dinah M. Wilson Fraites
