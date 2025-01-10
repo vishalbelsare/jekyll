@@ -573,7 +573,7 @@ Since one of the main goals of Agent-Based Modeling is generating data for analy
 
 When the data collector’s `collect` method is called with a model object as its argument, it applies each model-level collection function to the model, and stores the results in a dictionary, linking the value to the current step of the model. If the input model is an agent, the method also links the resulting value to the agent’s `unique_id`.
 
-Let's add a data collector to the model with [`mesa.DataCollector`](https://perma.cc/2KUT-9PWD), and collect two variables at the agent level: the number of letters every agent has sent at every step, and the number of letters it has received.
+Let's add a data collector to the model with [`mesa.DataCollector`](https://github.com/projectmesa/mesa/blob/2.4.x-maintenance/mesa/datacollection.py), and collect two variables at the agent level: the number of letters every agent has sent at every step, and the number of letters it has received.
 
 ```python
 self.datacollector = mesa.DataCollector(
@@ -969,9 +969,9 @@ Do not hesitate to get in touch with us if you want to be part of this discussio
 
 [^23]: Comer, Kenneth W. “Who Goes First? An Examination of the Impact of Activation on Outcome Behavior in AgentBased Models.” George Mason University, 2014. [https://hdl.handle.net/1920/9070](https://hdl.handle.net/1920/9070).
 
-[^24]: Unlike `mesa.model` or `mesa.agent`, `mesa.time` has multiple classes (e.g. `RandomActivation`, `StagedActivation` etc). To ensure context, time is used in the import as evidenced below with `mesa.time.RandomActivation`.  You can see the different time classes at [mesa.time](https://github.com/projectmesa/mesa/blob/main/mesa/time.py).
+[^24]: Unlike `mesa.model` or `mesa.agent`, `mesa.time` has multiple classes (e.g. `RandomActivation`, `StagedActivation` etc). To ensure context, time is used in the import as evidenced below with `mesa.time.RandomActivation`.  You can see the different time classes at [mesa.time](https://perma.cc/9HU7-T4WQ).
 
-[^25]: Other types of space available include `HexGrid`, `NetworkGrid`, and the previously mentioned `ContinuousSpace`. Similar to `mesa.time` context is retained with `mesa.space.[enter class]`. You can see the different classes at [`mesa.space`](https://github.com/projectmesa/mesa/blob/main/mesa/space.py).
+[^25]: Other types of space available include `HexGrid`, `NetworkGrid`, and the previously mentioned `ContinuousSpace`. Similar to `mesa.time` context is retained with `mesa.space.[enter class]`. You can see the different classes at [`mesa.space`](https://perma.cc/RU5S-ACYX).
 
 [^26]: Mehdizadeh, Milad, Trond Nordfjaern, und Christian A. Klöckner. (2022). “A systematic review of the Agent-Based Modelling/simulation paradigm in mobility transition“. Technological Forecasting and Social Change 184:122011, p.8-9. [https://doi.org/10.1016/j.techfore.2022.122011](https://doi.org/10.1016/j.techfore.2022.122011).
 
