@@ -25,7 +25,7 @@ abstract: In this lesson, you will learn how to display a georeferenced map from
 
 # Lesson Goals
 
-Georeferencing is the process of assigning geographic coordinates to a scanned map or raster image. Many historians are now [georeferencing](https://perma.cc/5CLB-HNXN) historical maps to study how places have changed over time. After georeferencing a historic map, you may want to display it online to share your research or tell a story. In this lesson, we will show you how to share a georeferenced map online using StoryMap JS, an interactive web-based mapping platform. [StoryMap JS](https://perma.cc/6PNW-KTM3) is an open-source tool from Knight Lab at Northwestern University, which allows you to integrate historical and contemporary maps into interactive stories. If you haven’t yet created a georeferenced map, the *Programming Historian* lessons on [Georeferencing in QGIS 2.0](/lessons/georeferencing-qgis) and [Introduction to Map Warper](/es/lecciones/introduccion-map-warper) offer detailed tutorials.
+Georeferencing is the process of assigning geographic coordinates to a scanned map or raster image. Many historians are now [georeferencing](https://perma.cc/5CLB-HNXN) historical maps to study how places have changed over time. After georeferencing a historic map, you may want to display it online to share your research or tell a story. In this lesson, we will show you how to share a georeferenced map online using StoryMap JS, an interactive web-based mapping platform. [StoryMap JS](https://perma.cc/6PNW-KTM3) is an open-source tool from Knight Lab at Northwestern University, which allows you to integrate historical and contemporary maps into interactive stories. If you haven’t yet created a georeferenced map, the *Programming Historian* lessons on [Georeferencing in QGIS 2.0](/lessons/georeferencing-qgis) and [Introduction to Map Warper](/en/lessons/introduction-map-warper) offer detailed tutorials.
 
 # Creating your narrative with StoryMap JS
 
@@ -42,9 +42,9 @@ To get started with accessing Story Map JS, you will need a Google account to ac
 
 To complete this tutorial as written, you will need to export a georeferenced map from Map Warper. [Map Warper](https://perma.cc/HQ2W-RCE8) offers several map services for exporting your georeferenced map, including [KML](https://perma.cc/N7VL-AJ5C) (for use in Google Earth, etc.), [Web Map Services (WMS)](https://perma.cc/E89H-8QG2) URL, and [Tiles](https://perma.cc/YG7A-68GB) (Google/OSM scheme).
 
-The one you will need for this tutorial is the Tiles (Google/OSM scheme) URL:
+The Map Warper export URL you will need for this tutorial is the Tiles (Google/OSM scheme) option. This is the URL you will use to add your history basemap to the StoryMap JS for the lesson; this URL is for a map of North and South Carolina that has already been georectified and exported from Map Warper.  To learn more about exporting a georeferenced map from Map Warper, see our translation of Anthony Picón Rodríguez and Miguel Cuadros's lesson [Introduction to Map Warper](/en/lessons/introduction-map-warper). Please note that you won't be able to visit the URL in a web browser, but you will be able to load it into StoryMap JS. The URL will be formatted as:
 
-[https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png](https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png)
+https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png
 
 This URL generates a set of map tiles of your georeferenced map to be displayed online. Map tiles are essentially little square images which are assembled into an interactive map. They work by requesting a set of tiles of the desired latitude (Y), longitude (X), and zoom level (Z) to bring together a tileset to form a larger image of your map. Map tiles are commonly used to serve up imagery or pre-rendered cartographic datasets inside a web mapping environment and are often used as an alternative for using [vector data](https://perma.cc/Z5S3-GZSY), when the amount of data becomes too dense.
 
@@ -92,7 +92,7 @@ In the drop-down menu under Map Type, select "custom" and enter the Tiles URL fr
 
 It will be formatted as:
 
-[https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png](https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png)
+https://mapwarper.net/maps/tile/40217/{z}/{x}/{y}.png
 
 This will load in your georeferenced map as the basemap. The sample map we will be using in this tutorial is a [1860 map of North Carolina and South Carolina](https://perma.cc/L8KA-XRAP) from [The David Rumsey Map Collection](https://perma.cc/8QHA-N237).[^1]
 

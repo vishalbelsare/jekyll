@@ -11,7 +11,7 @@ editors:
 - Ian Milligan
 layout: lesson
 activity: analyzing
-topics: [distant-reading]
+topics: [distant-reading, data-visualization]
 difficulty: 3
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/29
 abstract: |
@@ -60,7 +60,7 @@ Though it is relatively new, the Extracted Features dataset is already seeing us
 
 [Underwood](https://doi.org/10.6084/m9.figshare.1279201) leveraged the features for identifying genres, such as fiction, poetry, and drama (2014). Associated with this work, he has released a dataset of 178k books classified by genre alongside genre-specific word counts ([Underwood 2015](https://doi.org/10.13012/J8JW8BSJ)).
 
-The Underwood subset of the Extracted Features dataset was used by Forster (2015) to [observing gender in literature](http://cforster.com/2015/09/gender-in-hathitrust-dataset/), illustrating the decline of woman authors through the 19th century.
+The Underwood subset of the Extracted Features dataset was used by Forster (2015) to [observe gender in literature](https://web.archive.org/web/20160105003327/http://cforster.com/2015/09/gender-in-hathitrust-dataset/), illustrating the decline of woman authors through the 19th century.
 
 The Extracted Features dataset also underlies higher-level analytic tools. [Mimno](http://mimno.infosci.cornell.edu/wordsim/nearest.html) processed word co-occurrence tables per year, allowing others to view how correlations between topics change over time (2014). The [HT Bookworm](https://analytics.hathitrust.org/bookworm) project has developed an API and visualization tools to support exploration of trends within the HathiTrust collection across various classes, genres, and languages. Finally, we have developed an approach to [within-book topic modelling](https://github.com/organisciak/htrc-book-models) which functions as a mnemonic accompaniment to a previously-read book (Organisciak 2014).
 
@@ -76,7 +76,7 @@ A more detailed look at text analysis with Python is provided in the [Art of Lit
 
 # Download the Lesson Files
 
-To follow along, download [lesson_files.zip](https://github.com/programminghistorian/ph-submissions/raw/gh-pages/assets/extracted-features-lesson_files.zip) and unzip it to any directory you choose.
+To follow along, download [lesson_files.zip](/assets/text-mining-with-extracted-features/extracted-features-lesson_files.zip) and unzip it to any directory you choose.
 
 The lesson files include a sample of files from the HTRC Extracted Features dataset. After you learn to use the feature data in this lesson, you may want to work with the entirety of the dataset. The details on how to do this are described in [Appendix: rsync](#appendix-downloading-custom-files-via-rsync).
 
@@ -130,7 +130,7 @@ If your web browser does not open automatically, Jupyter can be accessed by goin
 
 {% include figure.html filename="notebook-start.png" caption="A freshly started Jupyter notebook instance." %}
 
-Jupyter is now showing a directory structure from your home folder. Navigate to the lesson folder where you unzipped [lesson_files.zip](https://github.com/programminghistorian/ph-submissions/raw/gh-pages/assets/extracted-features-lesson_files.zip).
+Jupyter is now showing a directory structure from your home folder. Navigate to the lesson folder where you unzipped [lesson_files.zip](/assets/text-mining-with-extracted-features/extracted-features-lesson_files.zip).
 
 In the lesson folder, open `Start Here.pynb`: your first notebook!
 
@@ -427,7 +427,7 @@ As before, the data is returned as a Pandas DataFrame. This time, there is much 
 
 {% include figure.html filename="single-row-tokencount.png" caption="Single row of tokenlist." %}
 
-The columns in bold are an index. Unlike the typical one-dimensional index seen before, here there are four dimensions to the index: page, section, token, and pos. This row says that for the 24th page, in the body section (i.e. ignoring any words in the header or footer), the word 'years' occurs 1 time as an plural noun. The part-of-speech tag for a plural noun, `NNS`, follows the [Penn Treebank](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html) definition.
+The columns in bold are an index. Unlike the typical one-dimensional index seen before, here there are four dimensions to the index: page, section, token, and pos. This row says that for the 24th page, in the body section (i.e. ignoring any words in the header or footer), the word 'years' occurs 1 time as an plural noun. The part-of-speech tag for a plural noun, `NNS`, follows the [Penn Treebank](https://web.archive.org/web/20180730200619/https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html) definition.
 
 > The "words" on the first page seems to be OCR errors for the cover of the book. The HTRC Feature Reader refers to "pages" as the $$n^{th}$$ scanned image of the volume, not the actual number printed on the page. This is why "page 1" for this example is the cover.
 
@@ -1154,9 +1154,9 @@ Finally, the repository for the HTRC Feature Reader has [advanced tutorial noteb
 
 # References
 
-Boris Capitanu, Ted Underwood, Peter Organisciak, Timothy Cole, Maria Janina Sarol, J. Stephen Downie (2016). The HathiTrust Research Center Extracted Feature Dataset (1.0) [Dataset]. HathiTrust Research Center, https://doi.org/10.13012/J8X63JT3.
+Boris Capitanu, Ted Underwood, Peter Organisciak, Timothy Cole, Maria Janina Sarol, J. Stephen Downie (2016). The HathiTrust Research Center Extracted Feature Dataset (1.0) [Dataset]. *HathiTrust Research Center*. [https://doi.org/10.13012/J8X63JT3](https://doi.org/10.13012/J8X63JT3)
 
-Chris Forster. "A Walk Through the Metadata: Gender in the HathiTrust Dataset." Blog. http://cforster.com/2015/09/gender-in-hathitrust-dataset/.
+Chris Forster. "A Walk Through the Metadata: Gender in the HathiTrust Dataset." Blog. [http://cforster.com/2015/09/gender-in-hathitrust-dataset/](https://web.archive.org/web/20160105003327/http://cforster.com/2015/09/gender-in-hathitrust-dataset/).
 
 Matthew L. Jockers (Feb 2015). "Revealing Sentiment and Plot Arcs with the Syuzhet Package". *Matthew L. Jockers*. Blog. http://www.matthewjockers.net/2015/02/02/syuzhet/.
 
@@ -1167,9 +1167,9 @@ Stéfan Sinclair & Geoffrey Rockwell (2016). "The Art of Literary Text Analysis.
 William J. Turkel and Adam Crymble (2012). "Counting Word Frequencies with Python". The Programming Historian. /lessons/counting-frequencies.
 
 Ted Underwood (2014): Understanding Genre in a Collection of a Million Volumes, Interim Report. figshare.
-https://doi.org/10.6084/m9.figshare.1281251.v1.
+[https://doi.org/10.6084/m9.figshare.1281251.v1](https://doi.org/10.6084/m9.figshare.1281251.v1)
 
-Ted Underwood, Boris Capitanu, Peter Organisciak, Sayan Bhattacharyya, Loretta Auvil, Colleen Fallaw, J. Stephen Downie (2015). "Word Frequencies in English-Language Literature, 1700-1922" (0.2) [Dataset]. *HathiTrust Research Center*. https://doi.org/10.13012/J8JW8BSJ.
+Ted Underwood, Boris Capitanu, Peter Organisciak, Sayan Bhattacharyya, Loretta Auvil, Colleen Fallaw, J. Stephen Downie (2015). "Word Frequencies in English-Language Literature, 1700-1922" (0.2) [Dataset]. *HathiTrust Research Center*. [https://doi.org/10.13012/J8JW8BSJ](https://doi.org/10.13012/J8JW8BSJ)
 
 Hadley Wickham (2011). "The split-apply-combine strategy for data analysis". *Journal of Statistical Software*, 40(1), 1-29.
 

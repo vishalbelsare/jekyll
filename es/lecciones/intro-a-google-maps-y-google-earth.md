@@ -526,7 +526,7 @@ trabajo!**
   [geo-es4]: /images/intro-a-google-maps-y-google-earth/geo-es4.png
   [geo-es5]: /images/intro-a-google-maps-y-google-earth/geo-es5.png
   [geo-es6]: /images/intro-a-google-maps-y-google-earth/geo-es6.png
-  [Archivo CSV del Suministro global de grasa de Reino Unido]: /assets/Suministro_global_de_grasa_de_Reino_Unido_1894_1896.zip
+  [Archivo CSV del Suministro global de grasa de Reino Unido]: /assets/intro-a-google-maps-y-google-earth/Suministro_global_de_grasa_de_Reino_Unido_1894_1896.zip
   [geo-es7]: /images/intro-a-google-maps-y-google-earth/geo-es7.png
   [geo-es8]: /images/intro-a-google-maps-y-google-earth/geo-es8.png
   [geo-es9]: /images/intro-a-google-maps-y-google-earth/geo-es9.png
@@ -553,7 +553,7 @@ trabajo!**
   [geo-es27]: /images/intro-a-google-maps-y-google-earth/geo-es27.png
   [geo-es28]: /images/intro-a-google-maps-y-google-earth/geo-es28.png
   [Maps Engine Lite]: https://mapsengine.google.com/map/
-  [mapa de la vía marítima]: https://github.com/programminghistorian/jekyll/files/148993/seaway.zip
+  [mapa de la vía marítima]: /assets/googlemaps-googleearth/seaway.zip
   [geo-es29]: /images/intro-a-google-maps-y-google-earth/geo-es29.png
   [geo-es30]: /images/intro-a-google-maps-y-google-earth/geo-es30.png
   [geo-es31]: /images/intro-a-google-maps-y-google-earth/geo-es31.png

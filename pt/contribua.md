@@ -16,7 +16,7 @@ Escrever um tutorial é uma das melhores formas de se ensinar competências espe
 
 Simplesmente não aceitamos ou rejeitamos artigos como periódicos tradicionais. Os nossos editores vão acompanhar o processo para ajudar a elaborar a lição, para que esta seja o mais clara e útil possível. Essa é uma excelente forma de melhorar as suas capacidades de escrita sobre temas técnicos. Por favor, leia mais sobre o nosso [processo de submissão][submissions].
 
-Se desejar propor uma lição (escrita por si ou para outra pessoa escrever), envie um email para {% include managing-editor.html lang=page.lang %}.
+Se desejar propor uma lição (escrita por si ou para outra pessoa escrever), [envie um email ao Editor-Chefe](mailto:portugues@programminghistorian.org).
 
 ## Edite lições
 
@@ -32,8 +32,7 @@ Periodicamente, podemos anunciar a procura de mais editores.
 
 Se você é fluente em mais do que um dos idiomas de publicação (francês, inglês, espanhol, português), está convidado a entrar em contato conosco para traduzir de um idioma para o outro uma das lições do _Programming Historian_ já publicadas. Isto irá ajudar-nos a criar comunidades multilingues de humanidades digitais e a desenvolver o seu idioma, método e competências tecnológicas.
 
-Procuramos traduções rigorosas e legíveis que tenham em conta os contextos de investigação em língua espanhola, francesa e portuguesa, bem como os recursos disponíveis nas respectivas comunidades. Se estiver interessado em colaborar, consulte as nossas instruções para autores e tradutores [em Espanhol](/es/guia-para-autores.html), [em Francês](/fr/consignes-auteurs.html) e [em Inglês](/en/author-guidelines.html).
-
+Procuramos traduções rigorosas e legíveis que tenham em conta os contextos de investigação em língua portuguesa, bem como os recursos disponíveis nesta comunidade. Se estiver interessado em colaborar, consulte as nossas instruções para [autores](/pt/directrizes-autor) e [tradutores](/pt/directrizes-tradutor).
 
 ## Dê a sua opinião ou comunique problemas
 
@@ -49,7 +48,7 @@ Estamos especialmente gratos por dicas sobre lições que apresentam links quebr
 
 Este projeto é a nossa tentativa de demonstrar que a publicação acadêmica pode e deve ser de acesso aberto. Por favor, ajude-nos a divulgar essa mensagem e a proporcionar o maior acesso possível a este recurso, solicitando ao bibliotecário que inclua o projeto no catálogo da sua biblioteca.
 
-O _Programming Historian_ está listado no WorldCat ([English](http://www.worldcat.org/title/programming-historian/oclc/951537099)), ([Spanish](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results)), ([French](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842)) e (Português).
+O _Programming Historian_ está listado no WorldCat (em [português](https://search.worldcat.org/title/1332987197), [inglês](http://www.worldcat.org/title/programming-historian/oclc/951537099), [espanhol](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results), e [francês](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842)).
 
 Os nossos agradecimentos à [Biblioteca da Universidade de Purdue](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink), à Amanda Visconti e à Universidade da Virgínia.
 
@@ -57,7 +56,7 @@ A versão em Inglês do projeto está indexada no [Directory of Open Access Jour
 
 ## Envie uma sugestão
 
-Independente da forma como gostaria de se envolver no projeto, pode sempre enviar um email para {% include managing-editor.html lang=page.lang %} com comentários, perguntas, reclamações ou sugestões. Nós iremos nos esforçar para responder prontamente a todas as mensagens de email.
+Independente da forma como gostaria de se envolver no projeto, pode sempre [enviar um email ao Editor-Chefe](mailto:portugues@programminghistorian.org)  com comentários, perguntas, reclamações ou sugestões. Nós iremos nos esforçar para responder prontamente a todas as mensagens de email.
 
 Obrigado pela sua ajuda em melhorar o _Programming Historian em português_!
 

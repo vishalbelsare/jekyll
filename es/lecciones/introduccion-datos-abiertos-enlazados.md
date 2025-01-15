@@ -394,8 +394,6 @@ Sin embargo, a pesar de sus inconsistencias, *DBpedia* es un gran lugar para apr
 
 * Seth van Hooland y Ruben Verborgh, *Linked Data for Libraries, Archives and Museums*, 2015
 
-* Mira también la [página web](http://freeyourmetadata.org/) complementaria del libro
-
 * Matthew Lincoln ['Using SPARQL to access Linked Open Data'](/en/lessons/graph-databases-and-SPARQL)
 
 * [Linked Data guides and tutorials](http://linkeddata.org/guides-and-tutorials)
@@ -408,7 +406,7 @@ Sin embargo, a pesar de sus inconsistencias, *DBpedia* es un gran lugar para apr
 
 * Biblioteca del Congreso Nacional de Chile, [Linked Open Data: ¿Qué es?](http://datos.bcn.cl/es/informacion/que-es)
 
-* Ana-Isabel Torre-Bastida, Marta González-Rodríguez y Esther Villar-Rodríguez, [Datos abiertos enlazados (LOD) y su implantación en bibliotecas: iniciativas y tecnologías](https://recyt.fecyt.es/index.php/EPI/article/download/epi.2015.mar.04/18804)
+* Ana-Isabel Torre-Bastida, Marta González-Rodríguez y Esther Villar-Rodríguez, [Datos abiertos enlazados (LOD) y su implantación en bibliotecas: iniciativas y tecnologías](https://web.archive.org/web/20180720105638/https://recyt.fecyt.es/index.php/EPI/article/download/epi.2015.mar.04/18804)
 
 
 ## Agradecimientos

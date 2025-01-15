@@ -14,7 +14,7 @@ editors:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/186
 difficulty: 2
 activity: analyzing
-topics: [data-manipulation]
+topics: [data-manipulation, data-visualization]
 abstract: This lesson introduces the basic functions of FFmpeg, a free command-line tool used for manipulating and analyzing audiovisual materials.
 avatar_alt: An antique camera
 doi: 10.46430/phen0077
@@ -192,7 +192,7 @@ Depending on your operating system, you may have one or more media players insta
 
 {% include figure.html filename="QT_fail.png" caption="Proprietary media players such as QuickTime are often limited in the kinds of files they can work with." %}
 
-One option when faced with such a message is to simply use another media player. [VLC](https://www.videolan.org/vlc/index.html), which is built with FFmpeg, is an excellent open-source alternative, but simply "using another software" may not always be a viable solution (and you may not always have another version of a file to work with, either). Many popular video editors such as Adobe Premiere, Final Cut Pro, and DaVinci Resolve all have their own limitations on the kinds of formats they are compatible with. Further, different web-platforms and hosting/streaming sites such as Vimeo have [their own requirements as well.](https://vimeo.com/help/compression) As such, it is important to be able to re-wrap and transcode your files to meet the various specifications for playback, editing, digital publication, and conforming files to standards required by digital preservation or archiving platforms.
+One option when faced with such a message is to simply use another media player. [VLC](https://www.videolan.org/vlc/index.html), which is built with FFmpeg, is an excellent open-source alternative, but simply "using another software" may not always be a viable solution (and you may not always have another version of a file to work with, either). Many popular video editors such as Adobe Premiere, Final Cut Pro, and DaVinci Resolve all have their own limitations on the kinds of formats they are compatible with. Further, different web-platforms and hosting/streaming sites such as Vimeo have [their own requirements as well.](https://help.vimeo.com/hc/en-us/articles/12426043233169-Video-and-audio-compression-guidelines) As such, it is important to be able to re-wrap and transcode your files to meet the various specifications for playback, editing, digital publication, and conforming files to standards required by digital preservation or archiving platforms.
 
 <div class="alert alert-warning">
 For a complete list of codecs and containers supported by your installation of FFmpeg, run <code>ffmpeg -codecs</code> and <code>ffmpeg -formats</code>, respectively, to see the list printed to your <code>stdout</code>.
@@ -370,7 +370,7 @@ Contrasting the limited use of color in our Mars excerpt, the Earth trace covers
 {% include figure.html filename="lovely_oil.png" caption="Oil and American ideals of wealth and prosperity rendered in colorful splendor" %}
 
 ### Scaling Color Analysis with FFprobe
-One of the limits of this methodology is that we are manually generating color reports on only one file at a time. If we wanted to take a [distant viewing](https://distantviewing.org/background) approach more in-line with traditional DH methodologies, we could employ a Bash script to run our `ffprobe` command on all files in a given directory. This is useful if, for example, a researcher was interested in conducting similar analysis on [all the John Sutherland animated films found in the Prelinger Archives collection](https://archive.org/details/prelinger&tab=collection?and%5B%5D=john+sutherland&sin=) or another set of archival video material.
+One of the limits of this methodology is that we are manually generating color reports on only one file at a time. If we wanted to take a [distant viewing](https://distantviewing.org/) approach more in-line with traditional DH methodologies, we could employ a Bash script to run our `ffprobe` command on all files in a given directory. This is useful if, for example, a researcher was interested in conducting similar analysis on [all the John Sutherland animated films found in the Prelinger Archives collection](https://archive.org/details/prelinger&tab=collection?and%5B%5D=john+sutherland&sin=) or another set of archival video material.
 
 Once you have a set of material to work with saved in one place, you can save the following [Bash for loop](https://www.shellscript.sh/loops.html) within the directory and execute it to generate `.csv` files containing the same frame-level median hue data we extracted from our excerpts of *Destination Earth*.
 

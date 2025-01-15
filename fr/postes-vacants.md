@@ -4,4 +4,4 @@ layout: blank
 original: vacancies
 ---
 
-Thank you for your interest in opportunities with _Programming Historian_. We do not have any open positions at the moment.
+Merci pour l’intérêt que vous portez au _Programming Historian_. Il n'y a actuellement aucun poste vacant.

@@ -18,10 +18,10 @@ translation-reviewer:
 - Victor Gayol
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/199
 layout: lesson
-original: data_wrangling_and_management_in_R
+original: data-wrangling-and-management-in-r
 difficulty: 2
 activity: transforming
-topics: [data-manipulation, data-management, distant-reading, r]
+topics: [data-manipulation, data-management, distant-reading, r, data-visualization]
 abstract: "Este tutorial explora la manera en que los académicos pueden administrar datos de forma ordenada, entender paquetes de R para manipular los datos y llevar a cabo un análisis básico de datos."
 avatar_alt: Anuncio de pastilla de jabón
 doi: 10.46430/phes0031
@@ -78,7 +78,7 @@ Copia el siguiente código en R Studio. Para ejecutarlo tienes que marcar las l�
 ```
 
 ## Un ejemplo de dplyr en acción
-Veamos un ejemplo de cómo dyplr nos puede ayudar a los historiadores. Vamos a cargar los datos del censo decenal de 1790 a 2010 de Estados Unidos. Descarga los datos haciendo [click aquí](/assets/ejemplo_introductorio_estados.csv)[^2] y ponlos en la carpeta que vas a utilizar para trabajar en los ejemplos de este tutorial.
+Veamos un ejemplo de cómo dyplr nos puede ayudar a los historiadores. Vamos a cargar los datos del censo decenal de 1790 a 2010 de Estados Unidos. Descarga los datos haciendo [click aquí](/assets/data-wrangling-and-management-in-r/ejemplo_introductorio_estados.csv)[^2] y ponlos en la carpeta que vas a utilizar para trabajar en los ejemplos de este tutorial.
 
 Como los datos están en un archivo CSV, vamos a usar el comando de lectura ```read_csv()``` en el paquete [readr](https://cran.r-project.org/web/packages/readr/vignettes/readr.html) de "tidyverse".
 
@@ -106,7 +106,7 @@ ggplot(data=poblacion_california_nueva_york, aes(x=año, y=poblacion, color=esta
   geom_point()
 ```
 
-{% include figure.html filename="california_nueva_york_poblacion.png" caption="Gráfico de la población de los estados de California y de Nueva York" %}
+{% include figure.html filename="es-tr-administracion-de-datos-en-r-01.png" caption="Gráfico de la población de los estados de California y de Nueva York" %}
 
 
 Como podemos ver, la población de California ha crecido de forma considerable en comparación con la de Nueva York. Aunque este ejemplo pueda parecer obvio si conoces la historia de migración en los Estados Unidos, el código nos ofrece la base sobre la que podemos elaborar multitud de preguntas similares. Por ejemplo, con un cambio rápido en el código podemos crear un gráfico similar con dos estados diferentes como Mississippi y Virginia.
@@ -122,7 +122,7 @@ ggplot(data=poblacion_mississipi_y_virginia, aes(x=año, y=poblacion, color=esta
   geom_point()
 ```
 
-{% include figure.html filename="mississipi_virginia_poblacion.png" caption="Gráfico de la población de los estados de Mississippi y de Virginia" %}
+{% include figure.html filename="es-tr-administracion-de-datos-en-r-02.png" caption="Gráfico de la población de los estados de Mississippi y de Virginia" %}
 
 Hacer cambios rápidos en el código y reanalizar nuestros datos es una parte fundamental del análisis exploratorio de datos (AED, o EDA por sus siglas en inglés). En vez de tratar de "probar" una hipótesis, el análisis exploratorio de datos nos ayuda a entender nuestros datos mejor y a hacernos preguntas sobre ellos. Para los historiadores el AED ofrece una forma de saber cuándo indagar más en un tema y cuando dejarlo a un lado, y esto es en el área en el que R sobresale.
 
@@ -456,7 +456,7 @@ ggplot(universidades_seculares_antes_1812) +
   labs(title="Tipo de universidad antes de 1812", x="¿Es laica la universidad?", y="Recuento")
 ```
 
-{% include figure.html filename="universidades_seculares_antes_1812.png" caption="Número de universidades laicas y religiosas antes de la Guerra de 1812" %}
+{% include figure.html filename="es-tr-administracion-de-datos-en-r-03.png" caption="Número de universidades laicas y religiosas antes de la Guerra de 1812" %}
 
 De nuevo, haciendo un cambio rápido en nuestro código, podemos también mirar el número de universidades laicas y religiosas después del comienzo de la Guerra de 1812:
 
@@ -470,7 +470,7 @@ ggplot(universidades_seculares_despues_1812) +
   labs(x="¿Es laica la universidad?", y="Recuento")
 ```
 
-{% include figure.html filename="universidades_seculares_despues_1812.png" caption="Número de universidades laicas y religiosas después de la Guerra de 1812" %}
+{% include figure.html filename="es-tr-administracion-de-datos-en-r-04.png" caption="Número de universidades laicas y religiosas después de la Guerra de 1812" %}
 
 ## Conclusión
 Este tutorial debería darte una idea de cómo organizar y manipular tus datos en R. Más adelante quizás quieras visualizar tus datos de alguna otra forma. Te recomiendo que empieces por explorar el paquete [ggplot2](https://ggplot2.tidyverse.org/) (ver abajo) porque su conjunto de herramientas funciona muy bien con `dplyr`. Además, puede que quieras examinar alguna otra función de las que viene con `dplyr` para mejorar tus habilidades. En todo caso, esto te proporciona una buena base sobre la que construir para abarcar algunos de los problemas comunes que encontrarás.
@@ -479,7 +479,7 @@ Este tutorial debería darte una idea de cómo organizar y manipular tus datos e
 
 * [R para Análisis Científicos Reproducibles](https://swcarpentry.github.io/r-novice-gapminder-es/) de Software Carpentry (2018) tiene más información sobre cómo utilizar `dplyr` para tus datos.
 
-* Para aprender más sobre el paquete 'ggplot2' puedes consultar la sección "[Visualización de datos](https://es.r4ds.hadley.nz/visualización-de-datos.html)" en el libro _R para Ciencia de Datos_ de Hadley Wickham y Garrett Grolemund.
+* Para aprender más sobre el paquete 'ggplot2' puedes consultar la sección "[Visualización de datos](https://cienciadedatos.github.io/r4ds/03-visualize.html)" en el libro _R para Ciencia de Datos_ de Hadley Wickham y Garrett Grolemund.
 
 * Tanto la *[Guía  para  la  Presentación  de  Gráficos  Estadísticos](https://www.inei.gob.pe/media/MenuRecursivo/metodologias/libro.pdf),* del Instituto  Nacional  de Estadística e Informática (2009) así como la [*Gramática de las gráficas: Pistas para mejorar las representaciones de datos*](http://academica-e.unavarra.es/bitstream/handle/2454/15785/Gramática.pdf?sequence=1) de Joaquín Sevilla Moróder ofrecen explicaciones de cómo presentar tus datos y errores a evitar.
 

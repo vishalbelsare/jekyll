@@ -16,7 +16,13 @@ Le _Programming Historian en français_ est porté par des volontaires. Leur én
 
 Nous sommes loin de simplement accepter ou rejeter des articles, comme le font les revues traditionnelles. Nos rédacteurs et rédactrices collaborent avec vous pour construire un texte aussi clair et utile que possible, ce qui vous permet de parfaire vos compétences et techniques d'écriture. N'hésitez pas à apprendre davantage sur notre procédure de [dépôt] [depot] de propositions.
 
-Si vous souhaitez proposer une leçon, que vous en soyez l'auteur(e) ou pas, merci d'envoyer un courriel à {% include managing-editor.html lang=page.lang %}.
+Si vous souhaitez proposer une leçon, que vous en soyez l'auteur(e) ou pas, merci [d'envoyer un courriel à notre rédacteur/rédactrice en chef](mailto:francais@programminghistorian.org).
+
+## Évaluer une leçon 
+
+Nous sommes fiers de notre politique ouverte d'évaluation par les pairs. Nous pensons que ce système offre une occasion précieuse de collaboration entre les auteurs/res, les traducteur/rices et leurs pairs de la communauté internationale d’humanités numériques. L’évaluation ouverte favorise un échange de connaissances productif et nous aide à élaborer des leçons utiles, accessibles et durables. 
+
+Si vous souhaitez contribuer en tant qu’évaluatrice ou évaluateur, veuillez prendre quelques minutes pour [faire part de votre intérêt via notre formulaire Google](https://forms.gle/B4g3r3qiUx6tn3RB8) que vous pouvez soumettre directement en ligne. Il existe également [une version texte](/assets/forms/fr-ph-evaluation-par-les-pairs-formulaire.txt) que vous pouvez [nous envoyer par mail](mailto:publishing.assistant@programminghistorian.org), si vous préférez. Notre édition française cherche actuellement des volontaires disponibles pour évaluer une leçon dans les 12 prochains mois.
 
 ## Assurer le suivi éditorial d'une leçon
 
@@ -50,7 +56,7 @@ Nous apprécions tout particulièrement les informations reçues sur les liens c
 
 Ce projet est notre démonstration de ce que l'édition scientifique en accès libre peut et doit être. Merci de nous aider à disséminer le message  et à fournir le plus large accès possible à cette ressource en demandant à votre bibliothèque d'enregister le projet dans son catalogue.
 
-Le _Programming Historian_ a sa notice dans WorldCat ([en français](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842)), ([en anglais](http://www.worldcat.org/title/programming-historian/oclc/951537099)) et ([en espagnol](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results)).
+Le _Programming Historian_ a sa notice dans WorldCat [en français](https://uva.worldcat.org/title/programming-historian-en-franais/oclc/1104391842), [en anglais](http://www.worldcat.org/title/programming-historian/oclc/951537099), [en espagnol](https://www.worldcat.org/title/programming-historian-en-espanol/oclc/1061292935&referer=brief_results) et [en portugais](https://search.worldcat.org/title/1332987197).
 
 Toute notre gratitude à la [bibliothèque de l'Université de Purdue](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/dlDisplay.do?vid=PURDUE&search_scope=everything&docId=PURDUE_ALMA51671812890001081&fn=permalink), à Amanda Visconti, et à la [bibliothèque de l'Université de Virginia]).
 
@@ -59,7 +65,7 @@ L'édition anglais est aussi indexé dans le [Directory of Open Access Journals]
 
 ## Faire une suggestion
 
-Pour vous impliquer comme vous le préférez, merci de contacter {% include managing-editor.html lang=page.lang %} pour lui faire part de vos commentaires, vos questions, vos remarques ou suggestions. Nous faisons notre possible pour répondre aux courriels rapidement.
+Pour vous impliquer comme vous le préférez, merci de [contacter notre rédacteur/rédactrice en chef](mailto:francais@programminghistorian.org) pour lui faire part de vos commentaires, vos questions, vos remarques ou suggestions. Nous faisons notre possible pour répondre aux courriels rapidement.
 
 
 Merci de nous aider à améliorer le _Programming Historian en français_!

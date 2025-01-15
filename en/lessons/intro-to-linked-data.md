@@ -399,7 +399,6 @@ However, despite its inconsistencies, *DBpedia* is a great place to learn SPARQL
 * [Bob DuCharme's blog](http://www.snee.com/bobdc.blog/) is also worth reading
 * Richard Gartner, *Metadata: Shaping Knowledge from Antiquity to the Semantic Web*, Springer, 2016
 * Seth van Hooland and Ruben Verborgh, *Linked Data for Libraries, Archives and Museums*, 2015
-* Also see the book's [companion website](http://freeyourmetadata.org/)
 * Matthew Lincoln ['Using SPARQL to access Linked Open Data'](/lessons/graph-databases-and-SPARQL)
 * [Linked Data guides and tutorials](http://linkeddata.org/guides-and-tutorials)
 * Dominic Oldman, Martin Doerr and Stefan Gradmann, 'Zen and the Art of Linked Data: New Strategies for a Semantic Web of Humanist * Knowledge', in *A New Companion to Digital Humanities*, edited by Susan Schreibman et al.

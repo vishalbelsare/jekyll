@@ -22,7 +22,7 @@ original: introduction-to-ffmpeg
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/302
 difficulty: 2
 activity: analyzing
-topics: [data-manipulation]
+topics: [data-manipulation, data-visualization]
 abstract: Esta lección introduce las funciones básicas de FFmpeg, una herramienta libre de línea de comandos utilizada para manipular y analizar materiales audiovisuales.
 avatar_alt: Una cámara antigua
 doi: 10.46430/phes0049
@@ -198,7 +198,7 @@ Dependiendo de tu sistema operativo, puedes tener uno o más reproductores de me
 
 {% include figure.html filename="QT_fail.png" caption="Los reproductores multimedia patentados como Quicktime a menudo están limitados en los tipos de archivos con los que pueden trabajar" %}
 
-Una opción cuando te enfrentas a un mensaje de este tipo es simplemente usar otro reproductor de medios. [VLC](https://www.videolan.org/vlc/index.es.html), que está construido con FFmpeg, es una excelente alternativa de código abierto, pero simplemente "usar otro programa" puede no ser siempre una solución viable (y es posible que no siempre tengas otra versión de archivo con la que trabajar). Muchos editores de vídeo populares, como Adobe Premiere, Final Cut Pro y DaVinci Resolve, tienen sus propias limitaciones en cuanto a los tipos de formatos con los que son compatibles. Además, las diferentes plataformas web y sitios de alojamiento/transmisión, como Vimeo, [también tienen sus propios requisitos.](https://vimeo.com/help/compression) Por lo tanto, es importante poder volver a envolver y transcodificar tus archivos para cumplir con las diversas especificaciones para la reproducción, edición, publicación digital y ajuste de archivos a los estándares requeridos por las plataformas de archivo o preservación digital.
+Una opción cuando te enfrentas a un mensaje de este tipo es simplemente usar otro reproductor de medios. [VLC](https://www.videolan.org/vlc/index.es.html), que está construido con FFmpeg, es una excelente alternativa de código abierto, pero simplemente "usar otro programa" puede no ser siempre una solución viable (y es posible que no siempre tengas otra versión de archivo con la que trabajar). Muchos editores de vídeo populares, como Adobe Premiere, Final Cut Pro y DaVinci Resolve, tienen sus propias limitaciones en cuanto a los tipos de formatos con los que son compatibles. Además, las diferentes plataformas web y sitios de alojamiento/transmisión, como Vimeo, [también tienen sus propios requisitos.](https://help.vimeo.com/hc/es/articles/12426043233169-Video-and-audio-compression-guidelines) Por lo tanto, es importante poder volver a envolver y transcodificar tus archivos para cumplir con las diversas especificaciones para la reproducción, edición, publicación digital y ajuste de archivos a los estándares requeridos por las plataformas de archivo o preservación digital.
 
 <div class="alert alert-warning">
 Para obtener una lista completa de los códecs y contenedores compatibles con tu instalación de FFmpeg, ejecuta <code>ffmpeg -codecs</code> y <code>ffmpeg -formats</code>, respectivamente, para ver la lista impresa de tu <code>stdout</code>.
@@ -382,7 +382,7 @@ Como una pieza de propaganda, *Destination Earth* se basa en estas distinciones 
 {% include figure.html filename="lovely_oil.png" caption="El petróleo y los ideales estadounidenses de riqueza y prosperidad se expresan en esplendor colorido" %}
 
 ### Escalando el análisis de color con FFprobe
-Uno de los límites de esta metodología es que estamos generando manualmente informes de color en un solo archivo a la vez. Si quisiéramos adoptar un enfoque de [visión distante](https://distantviewing.org/background) más en línea con las metodologías tradicionales de Humanidades Digitales, podríamos emplear un script de Bash para ejecutar nuestro comando `ffprobe` en todos los archivos en un determinado directorio. Esto es útil si, por ejemplo, un(a) investigador(a) esta interesado en realizar un análisis similar en [todas las películas animadas de John Sutherland encontradas en la colección de Archivos Prelinger](https://archive.org/details/prelinger&tab=collection?and%5B%5D=john+sutherland&sin=) u otro conjunto de material de vídeo de archivo.
+Uno de los límites de esta metodología es que estamos generando manualmente informes de color en un solo archivo a la vez. Si quisiéramos adoptar un enfoque de [visión distante](https://distantviewing.org/) más en línea con las metodologías tradicionales de Humanidades Digitales, podríamos emplear un script de Bash para ejecutar nuestro comando `ffprobe` en todos los archivos en un determinado directorio. Esto es útil si, por ejemplo, un(a) investigador(a) esta interesado en realizar un análisis similar en [todas las películas animadas de John Sutherland encontradas en la colección de Archivos Prelinger](https://archive.org/details/prelinger&tab=collection?and%5B%5D=john+sutherland&sin=) u otro conjunto de material de vídeo de archivo.
 
 Una vez que tengas un conjunto de material para trabajar guardado en un solo lugar, puedes guardar el siguiente [bucle _for_ de Bash o "for loop"](https://www.shellscript.sh/loops.html) dentro del directorio y ejecutarlo para generar archivos `.csv` que contengan los mismos datos de tono medio a nivel de fotograma que extrajimos de nuestros extractos de *Destination Earth*.
 

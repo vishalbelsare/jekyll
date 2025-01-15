@@ -22,7 +22,7 @@ translation-reviewer:
 difficulty: 2
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/381
 activity: analyzing
-topics: [distant-reading, r]
+topics: [distant-reading, r, data-visualization]
 abstract: "Aprenda a usar o R para analisar padrões de alto nível em textos, aplicar métodos estilométricos ao longo do tempo e entre autores, assim como a usar métodos para resumir informações para descrever um corpus"
 original: basic-text-processing-in-r
 avatar_alt: Crianças com livros junto a uma biblioteca itinerante
@@ -429,8 +429,7 @@ Para tal, vamos combinar a função `readLines` (ler linhas) para carregar o tex
 
 ```{r}
 
-base_url <- "https://github.com/programminghistorian/jekyll/tree/gh-pages/assets/basic-text-processing-in-r
-"
+base_url <- "https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/basic-text-processing-in-r/"
 
 url <- sprintf("%s/sotu_text/236.txt", base_url)
 

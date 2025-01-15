@@ -16,7 +16,7 @@ difficulty: 2
 exclude_from_check:
   - review-ticket
 activity: presenting
-topics: [mapping]
+topics: [mapping, data-visualization]
 abstract: "In this lesson you will learn how to create vector layers based on
 scanned historical maps."
 next: georeferencing-qgis
@@ -420,7 +420,7 @@ work!**
 
   [Intro to Google Maps and Google Earth]: /lessons/googlemaps-googleearth
   [Installing QGIS 2.0 and Adding Layers]: /lessons/qgis-layers
-  [PEI_Holland map]: /assets/PEI_HollandMap1798_compLZW.tif
+  [PEI_Holland map]: /assets/vector-layers-qgis/PEI_HollandMap1798_compLZW.tif
   [Georeferencing in QGIS 2.0]: /lessons/georeferencing-qgis
   [Wikipedia entry]: http://en.wikipedia.org/wiki/Prince_Royalty,_Prince_Edward_Island
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

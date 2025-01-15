@@ -23,7 +23,7 @@ original: basic-text-processing-in-r
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/172
 difficulty: 2
 activity: analyzing
-topics: [distant-reading, r]
+topics: [distant-reading, r, data-visualization]
 abstract: "Aprende a utilizar R para analizar patrones a nivel general en textos, para aplicar métodos de estilometría a lo largo del tiempo y entre autores y para aprender metodologías de resumen con las que describir objetos de un corpus."
 avatar_alt: Imagen de una biblioteca ambulante con niños y niñas a su alrededor.
 doi: 10.46430/phes0039
@@ -266,7 +266,7 @@ Vamos a aplicar las técnicas de la sección previa a un discurso del Estado de 
 Para hacer esto, vamos a combinar la función `readLines` (leer líneas) para cargar el texto en R y la función `paste` (pegar) para combinar todas las líneas en un único objeto. Vamos a crear la URL del archivo de texto usando la función `sprintf` puesto que este formato permitirá su fácil modificación para otras direcciones web[^7][^8].
 
 ```{r}
-base_url <- "https://github.com/programminghistorian/jekyll/tree/gh-pages/assets/basic-text-processing-in-r"
+base_url <- "https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/basic-text-processing-in-r/"
 url <- sprintf("%s/sotu_text/236.txt", base_url)
 texto <- paste(readLines(url), collapse = "\n")
 ```

@@ -30,9 +30,9 @@ En este tutorial se aprenderá cómo organizar un conjunto de textos para la inv
 
 ## Análisis de corpus
 
-El análisis de corpus es un tipo de [análisis de contenido](http://vocabularios.caicyt.gov.ar/portal/index.php?task=fetchTerm&arg=26&v=42) que permite hacer comparaciones a gran escala sobre un conjunto de textos o corpus.
+El análisis de corpus es un tipo de [análisis de contenido](http://vocabularios.caicyt.gov.ar/portalthes/42/term/26) que permite hacer comparaciones a gran escala sobre un conjunto de textos o corpus.
 
-Desde el inicio de la informática, tanto lingüistas computacionales como especialistas de la [recuperación de la información](http://vocabularios.caicyt.gov.ar/portal/?task=fetchTerm&arg=178&v=42) han creado y utilizado software para apreciar patrones que no son evidentes en una lectura tradicional o bien para corroborar hipótesis que intuían al leer ciertos textos pero que requerían de trabajos laboriosos, costosos y mecánicos. Por ejemplo, para obtener los patrones de uso y decaimiento de ciertos términos en una época dada era necesario contratar a personas que revisaran manualmente un texto y anotaran cuántas veces aparecía el término buscado. Muy pronto, al observar las capacidades de "contar" que tenían las computadoras, estos especialistas no tardaron en escribir programas que facilitaran la tarea de crear listas de frecuencias o tablas de concordancia (es decir, tablas con los contextos izquierdos y derechos de un término). El programa que aprenderás a usar en este tutorial, se inscribe en este contexto.
+Desde el inicio de la informática, tanto lingüistas computacionales como especialistas de la [recuperación de la información](http://vocabularios.caicyt.gov.ar/portalthes/42/term/178) han creado y utilizado software para apreciar patrones que no son evidentes en una lectura tradicional o bien para corroborar hipótesis que intuían al leer ciertos textos pero que requerían de trabajos laboriosos, costosos y mecánicos. Por ejemplo, para obtener los patrones de uso y decaimiento de ciertos términos en una época dada era necesario contratar a personas que revisaran manualmente un texto y anotaran cuántas veces aparecía el término buscado. Muy pronto, al observar las capacidades de "contar" que tenían las computadoras, estos especialistas no tardaron en escribir programas que facilitaran la tarea de crear listas de frecuencias o tablas de concordancia (es decir, tablas con los contextos izquierdos y derechos de un término). El programa que aprenderás a usar en este tutorial, se inscribe en este contexto.
 
 ## Qué aprenderás en este tutorial
 
@@ -57,8 +57,9 @@ Al finalizar este tutorial, tendrás la capacidad de:
 Si bien VoyantTools puede trabajar con muchos tipos de formato (HTML, XML, PDF, RTF, y MS Word), en este tutorial utilizaramos el texto plano (.txt). El texto plano tienen tres ventajas fundamentales: no tiene ningún tipo de formato adicional, no requiere un programa especial y tampoco conocimiento extra. Los pasos para crear un corpus en texto plano son:
 
 ### 1. Buscar textos
-Lo primero que debes hacer es buscar la información que te interesa. Para este tutorial, [Riva Quiroga](https://twitter.com/rivaquiroga) y yo preparamos un corpus de los discursos anuales de presidentes de Argentina, Chile, Colombia, México y Perú[^1] entre 2006 y 2010, es decir dos años antes y después de la crisis económica de 2008. Este corpus ha sido liberado con una licencia [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es) y puedes usarlo siempre y cuando cites la fuente usando el siguiente identificador:
-[![DOI](https://zenodo.org/badge/143443132.svg)](https://zenodo.org/record/2547051#.XE9pc1z0mUk)
+Lo primero que debes hacer es buscar la información que te interesa. Para este tutorial, [Riva Quiroga](https://rivaquiroga.cl/) y yo preparamos un corpus de los discursos anuales de presidentes de Argentina, Chile, Colombia, México y Perú[^1] entre 2006 y 2010, es decir dos años antes y después de la crisis económica de 2008. Este corpus ha sido liberado con una licencia Creative Commons CC BY 4.0 y puedes usarlo siempre y cuando cites la fuente como sigue: 
+
+> Silvia Gutiérrez y Riva Quiroga. 'Corpusenespañol/discursos-presidenciales: 1.0 Primera Versión Del Corpus'. Zenodo, 23 de enero de 2019. [https://doi.org/10.5281/zenodo.2547051](https://doi.org/10.5281/zenodo.2547051).
 
 ### 2. Copiar en editor de texto plano
 Una vez localizada la información, el segundo paso es copiar el texto que te interesa desde la primera palabra dicha hasta la última y guardarla en un editor de texto sin formato. Por ejemplo:
