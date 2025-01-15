@@ -100,7 +100,7 @@ We could for example assume that, in a particular historical letter network, fam
 
 Building a simulation model of this letter network will allow us to represent different hypotheses about its dynamics, giving us a more thorough understanding of its workings. But what does it actually mean to build a simulation?
 
-### 1.2. What are Simulations?
+### 1.2 What are Simulations?
 
 To start off, we want to give you a very general definition of the term 'simulation':
 
@@ -122,7 +122,7 @@ One last important caveat left to mention about definitions of simulation method
 
 Now that you have a general theoretical idea of historical simulations, we can dive into determining a good methodological approach for our case study. We want to model the interactions of individuals sending letters to each other. Thus, we need a modeling approach that emphasizes those one-on-one interactions: a so-called Agent-Based Model.
 
-### 1.3: What is Agent-Based Modeling?
+### 1.3 What is Agent-Based Modeling?
 
 Agent-Based Modeling (sometimes ABM for short) is a method which simulates the relations and interactions of individual entities (for example humans, organizations, items, etc.) with each other and with their environment.[^11]
 
@@ -139,7 +139,7 @@ As a simulation method, Agent-Based Modeling offers the opportunity to formally 
 
 To summarize, the goal of this method is to link the emergent patterns and phenomena at the systemic macro-level with the individual micro-level behavior of interacting entities, the name-giving 'agents'. The focus is often on the patterns and underlying dynamics of history, rather than any unique case on its own.
 
-### 1.4: Historical Context of Agent-Based Modeling
+### 1.4 Historical Context of Agent-Based Modeling
 
 The term 'Agent-Based Modeling' was introduced during the 1990s, pioneered among others by political scientist Joshua M. Epstein and economist and social scientist Robert Axtell, who used the method to better understand social dynamics.[^12] Similar individual-based simulation approaches have existed from at least the 1960s, though. Tim Gooding puts the origins of the Agent-Based Modeling approach at 1933, when Enrico Fermi first used the so-called [Monte-Carlo Method](https://perma.cc/BZB2-QY3R) - a statistical simulation approach - with mechanical computing machines to forecast and analyze results of physical experiments.[^13]
 
