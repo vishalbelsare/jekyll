@@ -72,7 +72,7 @@ source env/bin/activate
 pip install 'mesa>=2.4.0,<3.0'
 ```
 
-Note that this installs a specific mesa version, for which this lesson was built. Future versions of mesa might require changes in the code.
+Note that this installs a specific mesa version (2.4), for which this lesson was built. Future versions of mesa might require changes in the code.
 
 ```Python
 try:
