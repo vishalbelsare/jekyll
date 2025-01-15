@@ -19,8 +19,8 @@ translator:
 translation-editor:
 - Joana Vieira Paulino
 translation-reviewer:
-- Ângela Pité
 - Diogo Paiva
+- Luis Ferla
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/565
 difficulty: 2
 activity: transforming
