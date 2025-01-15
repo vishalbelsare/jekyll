@@ -29,7 +29,6 @@ doi: 10.46430/phen0023
 
 
 
-[Blank commit]
 
 ## Lesson goals
 
