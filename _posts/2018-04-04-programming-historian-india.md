@@ -7,7 +7,7 @@ layout: post
 categories: posts 
 ---
 
-<p><figure><a href="images/blog/programming-historian-india/programming-historian-india.png">
+<p><figure><a href="/images/blog/programming-historian-india/programming-historian-india.png">
         <img src="/images/blog/programming-historian-india/programming-historian-india.png" alt=""/></a><figcaption>
     Traffic Report of Programming Historian visitors from India, 2012-2018.</figcaption></figure></p>
     
