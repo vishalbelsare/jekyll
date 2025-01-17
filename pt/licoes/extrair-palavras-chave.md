@@ -5,7 +5,7 @@ original: extracting-keywords
 layout: lesson
 collection: lessons
 date: 2015-12-01
-translation_date: 2025-01-15
+translation_date: 2025-01-22
 authors:
 - Adam Crymble
 editors:
