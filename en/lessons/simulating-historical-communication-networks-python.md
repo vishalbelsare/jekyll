@@ -3,7 +3,7 @@ title: "Simulating Historical Communication Networks in Python"
 slug: simulating-historical-communication-networks-python
 layout: lesson
 collection: lessons
-date: 2025-01-15
+date: 2025-01-22
 authors:
 - Jascha Schmitz
 - Malte Vogl
