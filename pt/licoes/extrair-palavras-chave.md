@@ -484,6 +484,11 @@ Isto irá criar uma variável chamada `filename`, a qual iremos utilizar quando 
 
 O resto do processo envolve construir esse ficheiro de resultados, colocá-lo nos cabeçalhos corretos colando os dados originais e, depois, colando os novos resultados de correspondências gazetteer. Isto envolve algumas alterações no código original, por isso, de modo a tornar mais claro todo este processo, incluí o código final abaixo. Adicionei `NOVO!`, `ANTIGO!` e `ALTERADO!` nos comentários de cada seção, para que possa ver rapidamente quais as partes que mudaram:
 
+<div class="alert alert-warning">
+Alguns usuários podem encontrar um erro de codificação de arquivo ao executar o código para ler este arquivo CSV. Para resolver isso, sugerimos incluir o parâmetro <code>encoding='latin1'</code>, como no exemplo abaixo:  
+<code>with open('The_Dataset_-_Alumni_Oxonienses-Jas1.csv', encoding='latin1') as csvfile:</code>
+</div>
+
 ```python
 
 # NOVO!
