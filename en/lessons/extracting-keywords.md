@@ -425,6 +425,10 @@ with open('The_Dataset_-_Alumni_Oxonienses-Jas1.csv') as csvfile:
         allTexts.append(row)
 ```
 
+<div class="alert alert-warning">
+Some users may encounter a file encoding error when executing the code to read this CSV file. To resolve this, we suggest including the <code>encoding='latin1'</code> parameter, like this: <code>with open('The_Dataset_-_Alumni_Oxonienses-Jas1.csv, encoding='latin1') as csvfile:</code>
+</div>
+
 As this is an advanced option, I won't explain what every line does in detail, but you can take a look at the comments in the code to get an idea. Effectively this uses Python to read the CSV file and stores all of the information in the 'Details' column in the same 'allTexts' variable that we had it in previously, in exactly the same format as before. This code also stores each row of the CSV file into another list called 'fullRow', which will be used for writing a new CSV file containing our program's outputs.
 
 There are a few extra lines of code here, but you didn't need to cut and paste anything into the `texts.txt` file, and there's no risk here of your sorting of your spreadsheet causing any issues about the order of inputs and outputs. This is therefore a more robust option. You can print out either of these variables using the 'print' feature, to make sure they contain what you'd expect of them.
