@@ -331,7 +331,7 @@ small image) to your folder, and add the following somewhere in the body
 of the text: `![image caption](your_image.jpg)`.
 
 At this point, your `main.md` should look something like the following.
-You can [download this sample Markdown file](https://github.com/programminghistorian/jekyll/blob/gh-pages/assets/sustainable-authorship-in-plain-text-using-pandoc-and-markdown/sample.md) from the _Programming Historian_ repository.
+You can [download this sample Markdown file](/assets/sustainable-authorship-in-plain-text-using-pandoc-and-markdown/sample.md) from the _Programming Historian_ repository.
 
     ---
     title: Plain Text Workflow
