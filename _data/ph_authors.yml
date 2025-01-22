@@ -3240,6 +3240,35 @@
     es: |
       José Eduardo González es profesor asociado en el Departamento de lenguas modernas en la Universidad de Nebraska.
 
+- name: Malte Vogl
+  orcid: 0000-0002-2683-6610
+  team: false
+  bio:
+    en: |
+      Malte Vogl is a Senior Research Fellow at the Department Structural Changes of the Technosphere at the Max Planck Institute of Geoanthropology, Jena, Germany.
+
+
+- name: Jascha Schmitz
+  orcid: 0000-0002-6971-6758
+  team: false
+  bio:
+    en: |
+      Jascha Schmitz is doctoral researcher at the Chair for Digital History at Humboldt-University Berlin and project member at the task area 'Data Culture' of the German National Research Data Initiative for Historical Sciences (NFDI4Memory).
+
+
+- name: Aleksandra Kaye
+  orcid: 0000-0001-9754-4191
+  team: false
+  bio:
+    en: |
+      Aleksandra Kaye is a Postdoctoral Researcher at the Department of Structural Changes of the Technosphere at the Max Planck Institute of Geoanthropology, Jena, Germany.
+
+- name: Raphael Schlattmann
+  orcid: 0000-0002-2234-3720
+  team: false
+  bio:
+    en: |
+      Raphael Schlattmann is a doctoral researcher at the Institute of History and Philosophy of Science, Technology, and Literature at Technische Universität Berlin.
 
 - name: Cláudia De Souza
   orcid: 0000-0002-4168-9399
