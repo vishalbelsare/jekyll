@@ -22,7 +22,7 @@ redirect_from:
   - /en/lessons/OCR-and-Machine-Translation
 retired: true
 retirement-reason: |
-  Users cannot successfully follow this lesson without substantially adaptating the instructions. Notably, the translation software Yandex is now deprecated. Overall, the lesson requires significant prior knowledge and applied experience, both to work through the steps as they are explained, and to adapt them to non-Mac operating systems and alternative software. 
+  Yandex, the translation software used in this lesson, has been deprecated. To successfully follow this lesson, many steps require significant adaptations, especially if users are working on a non-Mac operating system. 
 
 ---
 
