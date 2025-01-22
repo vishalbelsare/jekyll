@@ -41,7 +41,7 @@ Although the lesson is not intended for advanced R users, it is expected that yo
 
 * Taylor Arnold and Lauren Tilton, '[Basic Text Processing in R](/en/lessons/basic-text-processing-in-r)', *Programming Historian* 6 (2017), https://doi.org/10.46430/phen0061
 * Taryn Dewar, '[R Basics with Tabular Data](/en/lessons/r-basics-with-tabular-data)', *Programming Historian* 5 (2016), https://doi.org/10.46430/phen0056 
-* Nabeel Siddiqui, '[Data Wrangling and Management in R](/en/lessons/data-wrangling-and-management-in-R)', *Programming Historian* 6 (2017), https://doi.org/10.46430/phen0063 
+* Nabeel Siddiqui, '[Data Wrangling and Management in R](/en/lessons/data-wrangling-and-management-in-r)', *Programming Historian* 6 (2017), https://doi.org/10.46430/phen0063 
 
 You may also be interested in other sentiment analysis lessons:
 
@@ -245,7 +245,7 @@ library(tm)
 
 ## Load and Prepare the Text
 
-Next, download a machine readable copy of the novel: [*Miau*](/assets/sentiment-analysis-syuzhet/galdos_miau.txt) and make sure to save it as a .txt file. When you open the file you will see that the novel is in [plain text](https://perma.cc/Z5WH-V9SW) format, which is essential for this particular analysis using R.
+Next, download a machine readable copy of the novel: [*Miau*](/assets/analisis-de-sentimientos-r/galdos_miau.txt) and make sure to save it as a .txt file. When you open the file you will see that the novel is in [plain text](https://perma.cc/Z5WH-V9SW) format, which is essential for this particular analysis using R.
 
 With the text at hand, you first need to load it into R as one long string so that you can work with it programmatically. Make sure to replace `FILEPATH` with the location of the novel on your own computer (don't just type 'FILEPATH'). This loading process is slightly different on Mac/Linux and Windows machines:  
 
