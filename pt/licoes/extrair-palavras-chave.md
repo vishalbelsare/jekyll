@@ -68,7 +68,7 @@ Esta lição aborda Expressões Regulares. Por isso, alguns leitores podem achar
 
 O primeiro passo deste processo é analisar os dados que usaremos nesta lição. Como já foi mencionado, estes incluem detalhes biográficos de 6,692 alunos que iniciaram os seus estudos na Universidade de Oxford no início do século XVII.
 
-[The\_Dataset\_-\_Alumni_Oxonienses-Jas1.csv](/assets/The_Dataset_-_Alumni_Oxonienses-Jas1.csv) (1.4MB)
+[The\_Dataset\_-\_Alumni_Oxonienses-Jas1.csv](/assets/extracting-keywords/The_Dataset_-_Alumni_Oxonienses-Jas1.csv) (1.4MB)
 
 {% include figure.html filename="extracting-keywords-1.png" alt="Folha de cálculo com as primeiras 40 entradas da base de dados que é utilizada como exemplo para esta lição." caption="Figura 1. Captura de tela dos primeiros quarenta registos do dataset." %}
 
@@ -394,7 +394,7 @@ Antes de voltar a executar o seu código Python, tem de atualizar o seu ficheiro
 
 Desafio-o a fazer algumas mudanças à sua gazetteer antes de continuar, para ganhar prática neste processo.
 
-Uma vez satisfeito com as alterações, pode descarregar a minha [Lista completa de condados ingleses e gauleses, diminutivos e várias outras cidades (London, Bristol, etc) e localidades (Jersey, Ireland, etc)](/assets/extracting-keywords-final-gazetteer.txt). Esta lista contém 157 entradas e deve conferir-lhe todas as entradas que possam ser extraídas dos textos nesta coleção.
+Uma vez satisfeito com as alterações, pode descarregar a minha [Lista completa de condados ingleses e gauleses, diminutivos e várias outras cidades (London, Bristol, etc) e localidades (Jersey, Ireland, etc)](/assets/extracting-keywords/extracting-keywords-final-gazetteer.txt). Esta lista contém 157 entradas e deve conferir-lhe todas as entradas que possam ser extraídas dos textos nesta coleção.
 
 Neste momento pode parar, uma vez que já alcançou os seus objetivos. Esta lição ensinou-o como usar um pequeno programa Python para procurar num grande grupo de textos um conjunto de palavras-chave definidos por si.
 
