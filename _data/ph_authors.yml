@@ -1162,6 +1162,7 @@
     - spanish
     - technical
     - managing
+    - proghist
   status: institutionally-supported
 
 - name: Jon MacKay
@@ -1256,8 +1257,9 @@
   email: sofia.papastamkou@uni.lu
   twitter: s_papastamkou
   github: spapastamkou
-  team: true
+  team: false
   team_start: 2018
+  team_end: 2024
   institution: Luxembourg Centre for Contemporary and Digital History (C²DH)
   sortname: Papastamkou
   orcid: 0000-0002-5148-1348
@@ -1454,7 +1456,7 @@
   team_roles:
     - editorial
     - spanish
-    - proghist-deputy
+    - proghist
   status: volunteer
 
 - name: Joshua G. Ortiz Baco
@@ -3284,3 +3286,25 @@
   bio:
     es: |
       Dinah M. Wilson Fraites es bibliotecaria de catalogación en el sistema de Bibliotecas de la Universidad de Puerto Rico, Recinto de Río Piedras.
+
+- name: Adam Farquhar
+  orcid: 0000-0001-5331-6592
+  github: adamfarquhar
+  email: adam@digital-lifecycle-management.com
+  url: "https://www.digital-lifecycle-management.com"
+  team: true
+  team_start: 2025
+  institution: Digital Lifecycle Management Limited
+  sortname: Farquhar
+  affiliation:
+    en: |
+      Digital Lifecycle Management Limited, United Kingdom
+    es: |
+      Digital Lifecycle Management Limited, Reino Unido
+    fr: |
+      Digital Lifecycle Management Limited, Royaume-Uni
+    pt: |
+      Digital Lifecycle Management Limited, Reino Unido
+  team_roles:
+    - proghist
+  status: volunteer
