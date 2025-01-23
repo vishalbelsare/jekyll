@@ -24,7 +24,7 @@ review-ticket: https://github.com/programminghistorian/ph-submissions/issues/625
 difficulty: 2
 activity: transforming
 topics: [data-manipulation, data-management, distant-reading, r, data-visualization]
-abstract: Ce tutoriel guide les chercheurs et chercheuses dans l'organisation de leurs données pour les rendre &laquo;&nbsp;propres&nbsp;&raquo;, et les aide à prendre en main les packages R qui leur permettront de conduire des analyses de base sur ces données.
+abstract: Cette leçon guide les chercheurs et chercheuses dans l'organisation de leurs données pour les rendre &laquo;&nbsp;propres&nbsp;&raquo;, et les aide à prendre en main les packages R qui leur permettront de conduire des analyses de base sur ces données.
 avatar_alt: Pain de savon
 doi: 10.46430/phfr0035
 ---
@@ -46,7 +46,7 @@ Cette leçon nécessite quelques prérequis sur votre compréhension de R. Si vo
 
 ## Introduction
 
-Les données que vous rencontrerez «&nbsp;dans la nature&nbsp;» sont rarement présentées dans un format qui rend possible une analyse. Vous aurez donc à les traiter avant d'explorer les questions qui vous intéressent. Ce traitement peut prendre plus de temps que l'analyse elle-même&nbsp;! Dans ce tutoriel, nous apprendrons quelques techniques de base pour manipuler, gérer et administrer nos données dans R. Nous nous fonderons notamment sur la philosophie des [«&nbsp;données propres&nbsp;»](https://perma.cc/C58C-4Y9A) (tidy data) telle que l'a présentée Hadley Wickham.
+Les données que vous rencontrerez «&nbsp;dans la nature&nbsp;» sont rarement présentées dans un format qui rend possible une analyse. Vous aurez donc à les traiter avant d'explorer les questions qui vous intéressent. Ce traitement peut prendre plus de temps que l'analyse elle-même&nbsp;! Dans cette leçon, nous apprendrons quelques techniques de base pour manipuler, gérer et administrer nos données dans R. Nous nous fonderons notamment sur la philosophie des [«&nbsp;données propres&nbsp;»](https://perma.cc/C58C-4Y9A) (tidy data) telle que l'a présentée Hadley Wickham.
 
 Selon Wickham, la donnée est «&nbsp;propre&nbsp;» quand elle répond à ces trois critères&nbsp;:
 
@@ -64,7 +64,7 @@ Remplir ces critères nous permet de juger si la donnée est organisée ou pas. 
 
 Un avantage peut-être encore plus important est de garder nos données dans ce format propre, qui nous permet d'utiliser une galerie de paquets dans le [«&nbsp;tidyverse&nbsp;»](http://tidyverse.org/), spécifiquement conçus pour fonctionner avec des données bien structurées. En nous assurant que nos données en entrée et en sortie sont bien structurées, nous n'aurons qu'un nombre limité d'outils à utiliser pour répondre à un grand nombre de questions. De plus, nous pourrons combiner, manipuler et séparer des jeux de données comme bon nous semble.
 
-Dans ce tutoriel, nous nous intéresserons particulièrement au paquet [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html) du tidyverse. Mais cela vaut la peine de mentionner brièvement quelques autres paquets que nous utiliserons&nbsp;:
+Dans cette leçon, nous nous intéresserons particulièrement au paquet [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html) du tidyverse. Mais cela vaut la peine de mentionner brièvement quelques autres paquets que nous utiliserons&nbsp;:
 
 - [magittr](https://perma.cc/J622-RDNF)&nbsp;: donne accès à l'opérateur pipe et rend le code plus facile à lire.   
 
@@ -87,7 +87,7 @@ library(tidyverse)
 
 ## Un exemple du fonctionnement de dplyr
 
-Utilisons un exemple pour voir comment dplyr peut aider les historien·nes, ainsi que les autres chercheur·euses en sciences humaines et sociales&nbsp;: importez les données de recensement décennal des États-Unis entre 1790 et 2010. Téléchargez les données depuis [le dépot de _Programming Historian_](/assets/data-wrangling-and-management-in-r/introductory_state_example.csv) et placez le fichier téléchargé dans le dossier que vous utiliserez pour traiter les exemples présentés dans ce tutoriel.
+Utilisons un exemple pour voir comment dplyr peut aider les historien·nes, ainsi que les autres chercheur·euses en sciences humaines et sociales&nbsp;: importez les données de recensement décennal des États-Unis entre 1790 et 2010. Téléchargez les données depuis [le dépot de _Programming Historian_](/assets/data-wrangling-and-management-in-r/introductory_state_example.csv) et placez le fichier téléchargé dans le dossier que vous utiliserez pour traiter les exemples présentés dans cette leçon.
 
 Comme les données sont stockées dans un fichier CSV, utilisez la commande `read_CSV()` incluse dans le paquet [readr](https://perma.cc/58PX-7LPB) du tidyverse.
 
@@ -213,7 +213,7 @@ install.packages("historydata", repos = "http://cran.us.r-project.org")
 library(historydata)
 ```
 
-Ce paquet contient un échantillon de données historiques sur les États-Unis. Les données de recensement que nous avons utilisées précédemment font partie de cet échantillon. Jusqu'à la fin de ce tutoriel, nous allons surtout travailler avec un jeu de données en particulier&nbsp;: `early_colleges`, qui contient des données sur les universités (&laquo;&nbsp;colleges&nbsp;&raquo; dans le monde anglophone) fondées avant 1848. Commençons par charger les données et les observer&nbsp;:
+Ce paquet contient un échantillon de données historiques sur les États-Unis. Les données de recensement que nous avons utilisées précédemment font partie de cet échantillon. Jusqu'à la fin de cette leçon, nous allons surtout travailler avec un jeu de données en particulier&nbsp;: `early_colleges`, qui contient des données sur les universités (&laquo;&nbsp;colleges&nbsp;&raquo; dans le monde anglophone) fondées avant 1848. Commençons par charger les données et les observer&nbsp;:
 
 ```
 # Vérifiez avant d'exécuter ce code que le paquet historydata a bien été installé et chargé
@@ -239,7 +239,7 @@ early_colleges
 
 Comme vous pouvez le remarquer, ce jeu de données contient le nom actuel de chaque université, son nom à l'origine, la ville et l'État dans lequel il a été fondé, la date de sa fondation et l'organisation qui le parraine. Comme on l'a vu plus haut, avant de commencer à travailler sur ce jeu de données, il est important de penser à la façon dont on va organiser ces données. Voyons si certaines de nos données ne se trouveraient pas dans un format «&nbsp;impropre&nbsp;». Voyez-vous des cellules qui ne répondraient pas aux trois critères que remplissent les données «&nbsp;propres&nbsp;»&nbsp;?
 
-Si vous avez répondu le parrainage de Harvard, vous avez la bonne réponse. En plus de mentionner le premier parrainage de cette université, la cellule comporte l'information de son changement de parrainage en 1805. Habituellement, on veut conserver dans nos données autant d'information que possible, mais pour rester dans la perspective de ce tutoriel, nous allons modifier la colonne pour ne conserver que les parrainages lors de la fondation.
+Si vous avez répondu le parrainage de Harvard, vous avez la bonne réponse. En plus de mentionner le premier parrainage de cette université, la cellule comporte l'information de son changement de parrainage en 1805. Habituellement, on veut conserver dans nos données autant d'information que possible, mais pour rester dans la perspective de cette leçon, nous allons modifier la colonne pour ne conserver que les parrainages lors de la fondation.
 
 ```
 early_colleges[1,6] <- "Congregational"
@@ -496,4 +496,4 @@ ggplot(secular_colleges_after_1812) +
 
 ## Conclusion
 
-Ce tutoriel devrait vous mettre sur la bonne voie pour bien concevoir l'organisation et la manipulation de vos données avec R. Plus tard, vous souhaiterez sans doute progresser en visualisation de vos données. Je vous recommande de regarder le paquet [ggplot2](https://perma.cc/W7JT-UAEX) pour trouver des fonctions qui seront efficaces avec dplyr. De plus, vous pouvez être tenté d'examiner quelques autres fonctions accessibles dans dplyr pour améliorer vos compétences. Dans les deux cas, ce guide vous fournit une base pour approfondir vos connaissances et vous permet de couvrir les problèmes courants que vous pourriez rencontrer dans la gestion de données.
+Cette leçon devrait vous mettre sur la bonne voie pour bien concevoir l'organisation et la manipulation de vos données avec R. Plus tard, vous souhaiterez sans doute progresser en visualisation de vos données. Je vous recommande de regarder le paquet [ggplot2](https://perma.cc/W7JT-UAEX) pour trouver des fonctions qui seront efficaces avec dplyr. De plus, vous pouvez être tenté d'examiner quelques autres fonctions accessibles dans dplyr pour améliorer vos compétences. Dans les deux cas, ce guide vous fournit une base pour approfondir vos connaissances et vous permet de couvrir les problèmes courants que vous pourriez rencontrer dans la gestion de données.
