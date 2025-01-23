@@ -25,11 +25,11 @@
   url: "http://adamcrymble.org"
   team: true
   team_start: 2011
-  institution: University College London, UK
+  institution: University College London, United Kingdom
   sortname: Crymble
   affiliation:
     en: |
-      University College London, UK
+      University College London, United Kingdom
     es: |
       University College London, Reino Unido
     fr: |
@@ -330,7 +330,7 @@
   orcid: 0000-0002-2682-6922
   affiliation:
     en: |
-      University of Southampton, UK
+      University of Southampton, United Kingdom
     es: |
       University of Southampton, Reino Unido
     fr: |
@@ -993,7 +993,7 @@
   sortname: Sichani
   affiliation:
     en: |
-      School of Advanced Study, University of London, UK
+      School of Advanced Study, University of London, United Kingdom
     es: |
       School of Advanced Study, University of London, Reino Unido
     fr: |
@@ -1142,13 +1142,13 @@
   orcid: 0000-0002-4295-895X
   affiliation:
     en: |
-      The Pennsylvania State University, USA.
+      The Pennsylvania State University, United States
     es: |
-      Universidad Estatal de Pensilvania, Estados Unidos.
+      Universidad Estatal de Pensilvania, Estados Unidos
     fr: |
-      Université d'État de Pennsylvanie, États-Unis.
+      Université d'État de Pennsylvanie, États-Unis
     pt: |
-      The Pennsylvania State University, Estados Unidos da América.
+      The Pennsylvania State University, Estados Unidos
   bio:
     en: |
       Jennifer Isasi is an Assistant Research Professor of Digital Scholarship and Director of the Digital Liberal Arts Research Initiative at Penn State, and a PhD on Hispanic Studies.
@@ -1384,13 +1384,13 @@
   sortname: LeBlanc
   affiliation:
     en: |
-      University of Illinois Urbana-Champaign, USA.
+      University of Illinois Urbana-Champaign, United States
     es: |
-      University of Illinois Urbana-Champaign, Estados Unidos.
+      University of Illinois Urbana-Champaign, Estados Unidos
     fr: |
-      University of Illinois Urbana-Champaign, Etats-Unis.
+      University of Illinois Urbana-Champaign, États-Unis
     pt: |
-      University of Illinois Urbana-Champaign, Estados Unidos da América.
+      University of Illinois Urbana-Champaign, Estados Unidos
   bio:
     en: |
       Zoe LeBlanc is a Postdoctoral Associate and Weld Fellow at the Center for Digital Humanities, Princeton University.
@@ -1437,13 +1437,13 @@
   sortname: Quiroga
   affiliation:
     en: |
-      Catholic University of Chile, Chile.
+      Catholic University of Chile, Chile
     es: |
-      Universidad Católica de Chile, Chile.
+      Universidad Católica de Chile, Chile
     fr: |
-      Université Catholique de Chili, Chili.
+      Université Catholique de Chili, Chili
     pt: |
-      Universidad Católica de Chile, Chile.
+      Universidad Católica de Chile, Chile
   bio:
     en: |
       Riva Quiroga is a doctoral researcher in Linguistics at the Catholic University of Chile.
@@ -2176,11 +2176,11 @@
   url: "https://anisahawes.github.io/about/"
   team: true
   team_start: 2021
-  institution: Programming Historian, UK
+  institution: Programming Historian, United Kingdom
   sortname: Hawes
   affiliation:
     en: |
-      Programming Historian, UK
+      Programming Historian, United Kingdom
     es: |
       Programming Historian, Reino Unido
     fr: |
@@ -2977,11 +2977,11 @@
   email: publishing.assistant@programminghistorian.org
   team: true
   team_start: 2023
-  institution: Programming Historian, UK
+  institution: Programming Historian, United Kingdom
   sortname: Chevrie
   affiliation:
     en: |
-      Programming Historian, UK
+      Programming Historian, United Kingdom
     es: |
       Programming Historian, Reino Unido
     fr: |
