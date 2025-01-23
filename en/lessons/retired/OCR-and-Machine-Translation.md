@@ -17,6 +17,13 @@ topics: [data-manipulation]
 abstract: This lesson covers how to convert images of text into text files and translate those text files. The lesson will also cover how to organize and edit images to make the conversion and translation of whole folders of text files easier and more accurate. The lesson concludes with a discussion of the shortcomings of automated translation and how to overcome them.
 avatar_alt: An image of a tree with the Latin phrase Labor Omnia Vincit Improbus
 doi: 10.46430/phen0091
+redirect_from:
+  - /lessons/OCR-and-Machine-Translation
+  - /en/lessons/OCR-and-Machine-Translation
+retired: true
+retirement-reason: |
+  Yandex, the translation software used in this lesson, has been deprecated. To successfully follow this lesson, many steps require significant adaptations, especially if users are working on a non-Mac operating system. 
+
 ---
 
 
