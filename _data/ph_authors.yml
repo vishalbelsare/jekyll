@@ -3286,14 +3286,20 @@
       Dinah M. Wilson Fraites es bibliotecaria de catalogación en el sistema de Bibliotecas de la Universidad de Puerto Rico, Recinto de Río Piedras.
 
 - name: Melvin Hersent
-  institution: CNRS
+  orcid: 0009-0006-0349-5274
   github: mhersent
   email: melvin.hersent@gmail.com
-  url: ""
-  orcid: 0009-0006-0349-5274
+  team: true
+  team_start: 2025
+  institution: CNRS
+  sortname: Hersent
   affiliation:
     fr: |
       MAP (UPR 2002), Marseille, France.
   bio:
     fr: |
       Hersent Melvin est doctorant en sciences du patrimoine au sein du laboratoire du MAP à Marseille.
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
