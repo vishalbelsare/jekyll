@@ -3287,6 +3287,31 @@
     es: |
       Dinah M. Wilson Fraites es bibliotecaria de catalogación en el sistema de Bibliotecas de la Universidad de Puerto Rico, Recinto de Río Piedras.
 
+- name: Melvin Hersent
+  orcid: 0009-0006-0349-5274
+  github: mhersent
+  email: melvin.hersent@gmail.com
+  team: true
+  team_start: 2025
+  institution: Centre national de la recherche scientifique
+  sortname: Hersent
+  affiliation:
+    en: |
+      MAP (UPR 2002), Marseille, France
+    es: |
+      MAP (UPR 2002), Marseille, Francia
+    fr: |
+      MAP (UPR 2002), Marseille, France
+    pt: |
+      MAP (UPR 2002), Marseille, França
+  bio:
+    fr: |
+      Hersent Melvin est doctorant en sciences du patrimoine au sein du laboratoire du MAP à Marseille.
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+
 - name: Adam Farquhar
   orcid: 0000-0001-5331-6592
   github: adamfarquhar
@@ -3310,4 +3335,3 @@
       Adam Farquhar is CEO of Digital Lifecycle Management Limited, UK
   team_roles:
     - proghist
-  status: volunteer
