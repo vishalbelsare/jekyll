@@ -3296,8 +3296,14 @@
   institution: Centre national de la recherche scientifique
   sortname: Hersent
   affiliation:
+    en: |
+      MAP (UPR 2002), Marseille, France
+    es: |
+      MAP (UPR 2002), Marseille, Francia
     fr: |
-      MAP (UPR 2002), Marseille, France.
+      MAP (UPR 2002), Marseille, France
+    pt: |
+      MAP (UPR 2002), Marseille, França
   bio:
     fr: |
       Hersent Melvin est doctorant en sciences du patrimoine au sein du laboratoire du MAP à Marseille.
