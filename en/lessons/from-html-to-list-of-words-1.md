@@ -30,8 +30,9 @@ doi: 10.46430/phen0006
 {% include toc.html %}
 
 
-
-
+<div class="alert alert-warning" role="alert">
+The Old Bailey Online’s website has recently been updated. Unfortunately, due to the various <a href="https://www.oldbaileyonline.org/about/whats-new">changes</a>, many (if not all) elements of the example website used in this lesson will not work as described. The methodologies taught by this lesson remain relevant, however, and may be adapted by readers to a different example site. We are working on adapting the lesson to the new Old Bailey Online website, but we have no clear timeline on when the lesson will be updated. [April 2024]
+</div>
 
 ## Lesson Goals
 
@@ -258,4 +259,4 @@ that’s ok!
   [Manipulating Strings in Python]: /lessons/manipulating-strings-in-python
   [Code Reuse and Modularity]: /lessons/code-reuse-and-modularity
   [zip]: /assets/python-lessons2.zip
-  [obo-t17800628-33.html]: /assets/obo-t17800628-33.html
+  [obo-t17800628-33.html]: /assets/from-html-to-list-of-words-1/obo-t17800628-33.html

@@ -49,7 +49,11 @@ Pour mieux organiser votre travail, il est recommandé de créer un répertoire 
 
 ## Installer Komodo Edit
 
-Komodo Edit est un éditeur de texte au code source ouvert et gratuit que vous pouvez télécharger depuis [son site web "Komodo Edit"][]. Il existe néanmoins [un vaste choix d'éditeurs de texte][], si vous souhaitez utiliser un autre programme.
+Komodo Edit est un éditeur de texte au code source ouvert et gratuit, dévelopé par [ActiveState](https://www.activestate.com/). Pour installer Komodo Edit, vous pouvez télécharger le fichier [Komodo-Edit-12.0.1-18441.msi](https://downloads.activestate.com/Komodo/releases/12.0.1/Komodo-Edit-12.0.1-18441.msi) depuis leur liste de [Komodo Edit releases](https://downloads.activestate.com/Komodo/releases/12.0.1/). Il existe néanmoins [un vaste choix d'éditeurs de texte][], si vous souhaitez utiliser un autre programme.
+
+<div class="alert alert-warning">
+ActiveState a retiré Komodo Edit en décembre 2022. Comme il est écrit dans <a href='https://www.activestate.com/blog/activestate-komodo-ide-now-open-source/'>cet article de blog</a> (en anglais), "Le retrait de Komodo signifie qu'ActiveState cessera de déveloper du code ou de créer des versions pour [...] Komodo Edit. ActiveState ne fournira plus de nouvelles caractéristiques/fonctionnalités, et ne réparera plus les bugs ou les problèmes de sécurité" [notre traduction]. Vous pouvez toujours télécharger et utiliser Komodo Edit, mais il est probablement préférable de choisir un autre programme.
+</div>
 
 ## Démarrer Komodo Edit
 
@@ -143,6 +147,5 @@ Maintenant, votre ordinateur est prêt et vous êtes en mesure d'exécuter des t
 
   [site web de Python]: http://www.python.org/
   [un vaste choix d'éditeurs de texte]: http://wiki.python.org/moin/PythonEditors/
-  [son site web "Komodo Edit"]: http://www.activestate.com/komodo-edit
   [UTF-8]: http://en.wikipedia.org/wiki/UTF-8
   [Comprendre les pages web et le HTML]: /fr/lecons/comprendre-les-pages-web

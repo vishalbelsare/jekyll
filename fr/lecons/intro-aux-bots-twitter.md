@@ -33,6 +33,10 @@ avatar_alt: Appareil à plusieurs mécanismes interconnectés
 
 {% include toc.html %}
 
+<div class="alert alert-warning">
+L'accès à l'API de Twitter a récemment changé. Le niveau gratuit ne permet plus de rechercher et de télécharger les données de Twitter. Malheureusement, cela signifie que certains éléments de cette leçon ne fonctionneront que pour les personnes qui disposent d’un accès payant à l’API. Pour l'instant, il n'existe pas de plan d'accès spécial pour les chercheur·es ou les universitaires. [2023]
+</div>
+
 # Une introduction aux bots Twitter avec Tracery
 
 Cette leçon explique comment créer des bots basiques sur Twitter à l’aide de la [grammaire générative Tracery](http://tracery.io) et du service [Cheap Bots Done Quick](http://cheapbotsdonequick.com/). Tracery est interopérable avec plusieurs langages de programmation et peut être intégrée dans des sites web, des jeux ou des bots. Vous pouvez en faire une copie (fork) sur github [ici](https://github.com/galaxykate/tracery/tree/tracery2).
@@ -138,7 +142,7 @@ Les résultats possibles seront :
 En bricolant, et en décomposant les unités d'expression en symboles plus petits et précis, on peut corriger toute maladresse d'expression - ou alors décider de les laisser pour rendre la voix du bot plus &laquo; authentique &raquo;.
 
 ## Prototypage à l’aide d’un éditeur Tracery
-Un éditeur Tracery est disponible ici : [www.brightspiral.com/tracery/](http://www.brightspiral.com/tracery). Nous l'utiliserons pour rectifier les imperfections du bot _PlanteEnPot_. L'éditeur visualise la façon dont les symboles et les règles de la grammaire interagissent, à savoir la manière dont ils sont imbriqués et le type de résultats que votre grammaire va générer. Si vous ouvrez l'éditeur dans une nouvelle fenêtre, vous devriez voir ça :
+Pour rectifier les imperfections du bot _PlanteEnPot_, nous avons utilisé l'éditeur Tracery de Brightspiral, qui n'existe malheureusement plus. Vous pouvez pourtant essayer un éditeur alternatif, tel que [https://tracery.io/editor/](https://tracery.io/editor/). L'éditeur visualise la façon dont les symboles et les règles de la grammaire interagissent, à savoir la manière dont ils sont imbriqués et le type de résultats que votre grammaire va générer. Si vous ouvrez l'éditeur dans une nouvelle fenêtre, vous devriez voir ça :
 
 {% include figure.html filename="bot-lesson-editor.png" caption="L'éditeur Tracery sur Brightspiral.com" %}
 

@@ -55,6 +55,19 @@ menu-about-research:
   pt:
     title: Pesquisa
     link: /pt/pesquisa
+menu-about-vacancies:
+  en:
+    title: Vacancies
+    link: /en/vacancies
+  es: 
+    title: Vacantes
+    link: /es/vacantes
+  fr:
+    title: Postes vacants
+    link: /fr/postes-vacants
+  pt: 
+    title: Vagas
+    link: /pt/vagas
 menu-about-privacy:
   en:
     title: Privacy Policy
@@ -216,6 +229,19 @@ menu-lessons:
   pt:
     title: Lições
     link: /pt/licoes
+menu-events:
+  en:
+    title: Events
+    link: /en/events
+  es:
+    title: Eventos
+    link: /es/eventos
+  fr:
+    title: Évènements
+    link: /fr/evenements
+  pt:
+    title: Eventos
+    link: /pt/eventos
 menu-blog:
   en:
     title: Blog
@@ -229,20 +255,6 @@ menu-blog:
   pt:
     title: Blogue
     link: /blog
-menu-vacancies:
-  en:
-    title: Vacancies
-    link: /vacancies
-  es: 
-    title: Vacantes
-    link: /vacancies
-  fr:
-    title: Postes vacants
-    link: /vacancies
-  pt: 
-    title: Vagas
-    link: /vacancies  
-    
 menu-support-us:
   en: Support Us
   es: Apóyanos
@@ -368,7 +380,7 @@ footer:
     pt: Subscrição RSS feed
   retirement: 
     en: Lesson retirement policy
-    es: Política de retirada de lecciones
+    es: Política de retiro de lecciones
     fr: Politique de retrait des leçons
     pt: Política de remoção de lições
   trans-concordance: 
@@ -549,22 +561,22 @@ contents:
 lesson-difficulty:
   0:
     en: Very Low
-    es: Muy Bajo
+    es: Muy Baja
     fr: Très facile
     pt: Muito baixo
   1:
     en: Low
-    es: Bajo
+    es: Baja
     fr: Facile
     pt: Baixo
   2:
     en: Medium
-    es: Medio
+    es: Media
     fr: Moyen
     pt: Médio
   3:
     en: High
-    es: Alto
+    es: Alta
     fr: Difficile
     pt: Alto
 lesson:
@@ -585,7 +597,7 @@ donation-alert:
     ## ¡Haz una donación!
     Producir buenos tutoriales de acceso abierto cuesta dinero. Únete al creciente número de personas que [apoya a _Programming Historian_](https://www.patreon.com/theprogramminghistorian) para que podamos continuar compartiendo conocimientos de forma gratuita.
   fr: |
-    ## Vous pouvez faire une donation
+    ## Vous pouvez faire un don !
     Les tutoriels de qualité en accès libre ont un coût de production. Vous pouvez [rejoindre celles et ceux qui soutiennent le _Programming Historian_](https://www.patreon.com/theprogramminghistorian) et contribuer au libre partage des savoirs.
   pt: |
     ## Faça uma doação!
@@ -600,6 +612,32 @@ donation-banner:
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Vous pouvez faire un don au <i>Programming Historian</i></a></h2>
     pt: |
       <h2><a href="https://www.patreon.com/theprogramminghistorian" class="alert-link">Pode fazer uma doação ao <i>Programming Historian</i></a></h2>
+
+
+# Partnership information, for when a lesson is the product of a specific partnership (i.e., PH/Jisc/TNA)
+# Content of 'lesson-partners' for each tutorial should be an array with the names of the partners, as they will appear to readers, i.e:
+# lesson-partners: [Jisc, The National Archives] 
+lesson-partners: 
+  en: This lesson is part of a special series in partnership with
+  es: Esta lección es parte de una serie especial en colaboración con
+  fr: Cette leçon fait partie d'une série spéciale en partenariat avec
+  pt: Esta lição faz parte de uma série especial em parceria com
+# Link to partnership page
+# Content of 'partnership-url' for each tutorial should be the address for the partnership page (sans .md), i.e.:
+# partnership-url: /jisc-tna-partnership
+partnership-url:
+  en:
+    blurb: To browse other lessons in this series
+    clickable-text: click here
+  es:
+    blurb: Para ver otras lecciones publicados como parte de esta colaboración
+    clickable-text: haz clic aquí
+  fr: 
+    blurb: Pour consulter les autres leçons de cette série
+    clickable-text: cliquez ici
+  pt:
+    blurb: Para consultar outras lições desta série
+    clickable-text: clique aqui
 
 # Included in the lesson.html layout when a lesson has been marked as retired, and is not to be displayed on the main directory.
 retired:
@@ -644,16 +682,6 @@ reviewed:
   es: revisado
   fr: évaluation
   pt: revisto
-
-python-warning:
-  en: |
-    This lesson was written using Python v. 2.x. Code may not be compatible with newer versions of Python. "[Python Introduction and Installation](/lessons/introduction-and-installation)" provides instructions for how you can install Python 2.x alongside newer versions.
-  es: |
-    Esta lección ha sido escrita utilizando Python v. 2.x. Es posible que el código no sea compatible con nuevas versiones de Python. "[Introducción a Python e instalación](/es/lecciones/introduccion-e-instalacion)" contiene una panorámica sobre cómo instalar Python 2.x y versiones posteriores.
-  fr: |
-    Cette leçon a été écrite en utilisant Python v. 2.x. Le code peut ne pas être compatible avec les versions les plus récentes de Python. Merci de consulter la leçon "[Python Introduction and Installation](/en/lessons/introduction-and-installation)" (en anglais) qui fournit des instructions pour installer Python 2.x en plus des versions plus récentes.
-  pt: |
-     Esta lição foi escrita usando o Python v. 2.x. O código pode não ser compatível com as versões mais recentes do Python. "[Introdução ao Python e instalação](/pt/licoes/introdução-e-instalacao)" fornece instruções sobre como instalar o Python 2.x, tal como versões mais recentes.
 
 # Project Team Page
 project-team-roles:
@@ -777,10 +805,10 @@ background_color:
   pt: "rgb(136 104 20)"
 
 managing_editor:
-  en: Sarah Melton
-  es: Riva Quiroga
-  fr: Sofia Papastamkou
-  pt: Daniel Alves
+  en: Alex Wermer-Colan
+  es: Jennifer Isasi
+  fr: Marie Flesch
+  pt: Eric Brasil
 
 front-image-alt:
   en: Image from Scientific American of a woman at an Electrical Counting Machine.

@@ -21,7 +21,7 @@ translation-reviewer:
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/468
 difficulty: 2
 activity: analyzing
-topics: [distant-reading, r]
+topics: [distant-reading, r, data-visualization]
 abstract: "Esta lição lhe mostrará como cruzar referências, produzir gráficos e animar um conjunto de dados históricos disponíveis numa tabela."
 original: visualizacion-y-animacion-de-tablas-historicas-con-R
 avatar_alt: "Uma mão carregando uma garrafa"
@@ -55,7 +55,7 @@ Nesta lição, mostraremos uma das muitas maneiras pelas quais ficheiros que re�
 
 # Pré-requisitos
 
-Esta lição exige um entendimento básico de R, que pode ser obtido nas lições [Noções básicas de R com dados tabulares](/pt/licoes/nocoes-basicas-R-dados-tabulares) de Trayn Dewar e [Manipulação e transformação de dados em R](/en/lessons/data_wrangling_and_management_in_R) (em inglês) de Nabeel Siddiqui.
+Esta lição exige um entendimento básico de R, que pode ser obtido nas lições [Noções básicas de R com dados tabulares](/pt/licoes/nocoes-basicas-R-dados-tabulares) de Trayn Dewar e [Manipulação e transformação de dados em R](/en/lessons/data-wrangling-and-management-in-r) (em inglês) de Nabeel Siddiqui.
 
 Além do R, será necessário possuir o ambiente de desenvolvimento [RStudio](https://www.rstudio.com/products/rstudio/download/#download) instalado. Se ainda não o tiver, [este vídeo](https://www.youtube.com/watch?v=A8A-OU_nlsw) fornece um guia sobre como baixá-lo e instalá-lo.
 

@@ -52,9 +52,9 @@ You will see that 'sonification' moves us along the spectrum from mere 'visualiz
 
 ### Example Data
 
-+ [Roman artefact data](/assets/sonification-roman-data.csv)
-+ [Excerpt from the Topic model of John Adams' Diary](/assets/sonification-diary.csv)
-+ [Excerpt from the Topic model of the Jesuit Relations](/assets/sonification-jesuittopics.csv)
++ [Roman artefact data](/assets/sonification/sonification-roman-data.csv)
++ [Excerpt from the Topic model of John Adams' Diary](/assets/sonification/sonification-diary.csv)
++ [Excerpt from the Topic model of the Jesuit Relations](/assets/sonification/sonification-jesuittopics.csv)
 
 # Some Background on Sonification
 
@@ -122,18 +122,18 @@ _There is no 'right' way to represent your data as sound_, at least not yet: but
 But what about time? Historical data often has a punctuation point, a distinct 'time when' something occured. Thus, the amount of time between two data points has to be taken into account. This is where our next tool becomes quite useful, for when our data points have a relationship to one another in temporal space. We begin to move from sonfication (data points) to music (relationships between points).
 
 ### Practice
-The [sample dataset](/assets/sonification-roman-data.csv) provided contains counts of Roman coins in its first column and counts of other Roman materials from the same locations, as contained in the Portable Antiquities Scheme database from the British Museum. A sonification of this data might reveal or highlight aspects of the economic situation along Watling street, a major route through Roman Britain. The data points are organized geographically from North West to South East; thus as the sound plays out, we are hearing movement over space. Each note represents another stop along the way.
+The [sample dataset](/assets/sonification/sonification-roman-data.csv) provided contains counts of Roman coins in its first column and counts of other Roman materials from the same locations, as contained in the Portable Antiquities Scheme database from the British Museum. A sonification of this data might reveal or highlight aspects of the economic situation along Watling street, a major route through Roman Britain. The data points are organized geographically from North West to South East; thus as the sound plays out, we are hearing movement over space. Each note represents another stop along the way.
 
-1. Open the[sonification-roman-data.csv](/assets/sonification-roman-data.csv) in a spreadsheet. Copy the first column into a text editor. Delete the line endings so that the data is all in a single row.
+1. Open the[sonification-roman-data.csv](/assets/sonification/sonification-roman-data.csv) in a spreadsheet. Copy the first column into a text editor. Delete the line endings so that the data is all in a single row.
 2. Add the following column information like so:
 ```
 # Of Voices, Text Area Name, Text Area Data
 1,morphBox,
 ,areaPitch1,
 ```
-...so that your data follows immediately after that last comma (as like [this](/assets/sonification-romancoin-data-music.csv)). Save the file with a useful name like `coinsounds1.csv`.
+...so that your data follows immediately after that last comma (as like [this](/assets/sonification/sonification-romancoin-data-music.csv)). Save the file with a useful name like `coinsounds1.csv`.
 
-3. Go to the [Musicalgorithms](http://musicalgorithms.org/3.0/index.html) site (version 3), and hit the load button. In the pop-up, click the blue 'load' button and select the file saved in step 2. The site will load your materials and display a green check mark if it loaded successfully. If it did not, make sure that your values are separated by spaces, and that they follow immediately the last comma in the code block in step 2. You may also try loading up the [demo file for this tutorial](/assets/sonification-romancoin-data-music.csv) instead.{% include figure.html filename="sonification-musicalgorithms-upload-4.png" caption="Click 'load' on the main screen to get this dialogue box. Then 'load csv'. Select your file; it will appear in the box. Then click the bottom load button." %}
+3. Go to the [Musicalgorithms](http://musicalgorithms.org/3.0/index.html) site (version 3), and hit the load button. In the pop-up, click the blue 'load' button and select the file saved in step 2. The site will load your materials and display a green check mark if it loaded successfully. If it did not, make sure that your values are separated by spaces, and that they follow immediately the last comma in the code block in step 2. You may also try loading up the [demo file for this tutorial](/assets/sonification/sonification-romancoin-data-music.csv) instead.{% include figure.html filename="sonification-musicalgorithms-upload-4.png" caption="Click 'load' on the main screen to get this dialogue box. Then 'load csv'. Select your file; it will appear in the box. Then click the bottom load button." %}
 4. Click on 'Pitch Input'. You'll see the values of your data. For now, **do not select** any further options on this page (thus using the site's default values).
 5. Click on 'Duration Input'. **Do not select any options here for now**. The options here will map various transformations against your data that will alter the duration for each note. Do not worry about these options for now; move on.
 6. Click on 'Pitch Mapping'. This is the most crucial choice, as it will transform (that is, scale) your raw data to a mapping against the keys of the keyboard. Leave the `mapping` set to 'division'.  (The other options are modulo or logarithmic). The option `Range` 1 to 88 uses the full 88 keys of the keyboard; thus your lowest value would accord to the deepest note on the piano and your highest value with the highest note. You might wish instead to constrain your music around middle C, so enter 25 to 60 as your range. The output should change to: `31,34,34,34,25,28,30,60,28,25,26,26,25,25,60,25,25,38,33,26,25,25,25` These are no longer your counts; they are notes on the keyboard.{% include figure.html filename="sonification-musicalgorithms-settings-for-pitch-mapping-5.png" caption="Click into the 'range' box and set it to 25. The values underneath will change automatically. Click into the 'to' box and set it to 60. Click back into the other box; the values will update." %}
@@ -244,7 +244,7 @@ Can you make your computer play this song? (This [chart](https://web.archive.org
 
 ### Getting your own data in
 
-[This file](/assets/sonification-diary.csv) is a selection from the topic model fitted to John Adams' Diaries for[The Macroscope](http://themacroscope.org). Only the strongest signals have been preserved by rounding the values in the columns to two decimal places (remembering that .25 for instance would indicate that that topic is contributing to a quarter of that diary entry's composition). To get this data into your python script, it has to be formatted in a particular away. The tricky bit is getting the date field right.
+[This file](/assets/sonification/sonification-diary.csv) is a selection from the topic model fitted to John Adams' Diaries for[The Macroscope](http://themacroscope.org). Only the strongest signals have been preserved by rounding the values in the columns to two decimal places (remembering that .25 for instance would indicate that that topic is contributing to a quarter of that diary entry's composition). To get this data into your python script, it has to be formatted in a particular away. The tricky bit is getting the date field right.
 
 _For the purposes of this tutorial, we are going to leave the names of variables and so on unchanged from the sample script. The sample script was developed with earthquake data in mind; so where it says 'magnitude' we can think of it as equating to '% topic composition.'_
 
@@ -375,7 +375,7 @@ Why would you want to do this? As has progressively become clear in tutorial, wh
 
 Here, I offer simply a code snippet that will allow you to import your data, where your data is simply a list of values saved as csv. I am indebted to George Washington University librarian Laura Wrubel who posted to [gist.github.com](https://gist.github.com/lwrubel) her experiments in sonifying her library's circulation transactions.
 
-In this [sample file](/assets/sonification-jesuittopics.csv)(a topic model generated from the [Jesuit Relations](http://puffin.creighton.edu/jesuit/relations/)), there are two topics. The first row contains the headers: topic1, topic2.
+In this [sample file](/assets/sonification/sonification-jesuittopics.csv)(a topic model generated from the [Jesuit Relations](http://puffin.creighton.edu/jesuit/relations/)), there are two topics. The first row contains the headers: topic1, topic2.
 
 ### Practice
 
@@ -395,7 +395,7 @@ Now, let's load that data into our music:
 #this bit of code will run only once, unless you comment out the line with
 #'live_loop', and also comment out the final 'end' at the bottom
 # of this code block
-#'commenting out' means removing the # sign.
+#'commenting out' means adding the # sign.
 
 # live_loop :jesuit do
 data.each do |line|
@@ -407,7 +407,9 @@ data.each do |line|
   use_synth :piano
   play topic2*100, attack: rand(0.5), decay: rand(1), amp: rand(0.25)
   sleep (0.5)
-end
+  
+  end
+# end
 ```
 
 The first few lines load the columns of data in; then we say which sound sample we wish to use (piano) and then tell Sonic Pi to play topic 1 according to the following criteria (a random value less than 0.5 for the attack; a decay using a random value less than 1; and an [amplitude](#amplitude) using a random value less than 0.25). See the x 100 in the line? That takes our data value (which is a decimal, remember) and turns it into a whole number. In this piece of code (the way I've written it), that number equates directly with a note. If 88 is the lowest note and 1 is the highest, you can see that this approach is a bit problematic: we haven't actually done any pitch mapping here! In which case, you could use Musicalgorithms to do your pitch mapping, and then feed those values back into Sonic Pi. Alternatively, since this code is more or less Ruby, you could look up how to normalize the data and then do a linear mapping of your values against the range 1 - 88. A good place to start would be to study [this worksheet by Steve Lloyd](https://github.com/stevelloyd/Learn-sonification-with-Sonic-Pi) on sonifying weather data with the Sonic Pi. Finally, the other thing to notice here is that the 'rand' value (random) allows us to add a bit of 'humanity' into the music in terms of the dynamics. Then we do the same thing again for topic2.

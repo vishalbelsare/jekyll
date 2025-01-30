@@ -8,7 +8,7 @@
 - type: managing
   label:
     en: Managing Editor
-    es: Jefe de redacción
+    es: Jefe/a de redacción
     fr: Rédacteur/rédactrice en chef
     pt: Editor-chefe
   definition:
@@ -19,7 +19,7 @@
 - type: editorial
   label:
     en: Editor
-    es: Editor(a)
+    es: Editor/a
     fr: Rédacteur/rédactrice
     pt: Editor(a)
   definition:
@@ -30,27 +30,49 @@
 - type: ombuds
   label:
     en: Ombudsperson
-    es: Mediador
+    es: Mediador/a
     fr: Médiateur/médiatrice
     pt: Mediador(a)
   definition:
     en: A person that authors and reviewers can turn to if they have queries or concerns about any part of the peer review and publication process
-    es: Persona a la que los autores y revisores pueden recurrir si tienen preguntas o inquietudes sobre cualquier parte del proceso de revisión por pares y publicación
+    es: Persona a la que autores y revisores pueden recurrir si tienen preguntas o inquietudes sobre cualquier parte del proceso de revisión por pares y publicación
     fr: Personne que les auteur(e)s et évaluateur(trice)s peuvent consulter pour toute question liée à la procédure de l'évaluation par les pairs ou à la publication
     pt: Pessoa a quem os autores e revisores podem recorrer se tiverem preocupações ou dúvidas sobre o processo de revisão por pares ou de publicação
 
 # --- Proghist Roles ---
 - type: proghist
   label:
-    en: ProgHist Ltd
-    es: ProgHist Ltd
-    fr: ProgHist Ltd
-    pt: ProgHist Ltd
+    en: Trustee
+    es: Consejero/a
+    fr: Administrateur/administratrice
+    pt: Curador/a
   definition:
-    en: This member holds a role in the not-for-profit company ProgHist Ltd, which supports the publications.
-    es: Este miembro funge un cargo en la compañía sin ánimo de lucro ProgHist Ltd, que gestiona las publicaciones.
-    fr: Ce(tte) membre occupe un rôle au sein de la compagnie sans but lucratif ProgHist Ltd, qui soutient les publications.
-    pt: Este membro tem um papel na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
+    en: This member holds a role on the Board of the not-for-profit company ProgHist Ltd, which supports the publications.
+    es: Este miembro funge un cargo en el Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona las publicaciones.
+    fr: Ce membre occupe un rôle au sein du conseil d'administration de l'organisme à but non lucratif ProgHist Ltd, qui soutient les publications.
+    pt: Este membro tem um papel no conselho de curadores na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
+- type: proghist-chair
+  label:
+    en: Chair of Trustees
+    es: Presidenta del Consejo de Administración
+    fr: Présidente du conseil d'administration
+    pt: Presidente do Conselho de Curadores
+  definition:
+    en: This member holds the role of Chair of Trustees on the Board of the not-for-profit company ProgHist Ltd, which supports the publications.
+    es: Este miembro funge el cargo de Presidente/a del Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona nuestras publicaciones.
+    fr: Ce membre occupe le rôle de président/e du conseil d'administration de l'organisme à but non lucratif ProgHist Ltd, qui soutient les publications.
+    pt: Este membro tem um papel de Presidente do Conselho de Curadores na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
+- type: proghist-deputy
+  label:
+    en: Deputy Chair of Trustees
+    es: Presidenta Adjunta del Consejo de Administración
+    fr: Présidente adjointe du conseil d'administration
+    pt: Presidente Adjunta do Conselho de Curadores
+  definition:
+    en: This member holds the role of Deputy Chair of Trustees on the Board of the not-for-profit company ProgHist Ltd, which supports the publications.
+    es: Este miembro funge el cargo de Presidente/a Adjunto/a del Consejo de Administración en la compañía sin fines de lucro ProgHist Ltd, que gestiona nuestras publicaciones.
+    fr: Ce membre occupe le rôle de président/e adjoint/e du conseil d'administration de l'organisme à but non lucratif ProgHist Ltd, qui soutient les publications.
+    pt: Este membro tem um papel de Presidente Adjunto/a do Conselho de Curadores na gestão da organização sem fins lucrativos ProgHist Ltd., que suporta a publicação.
 - type: technical-lead
   label:
     en: Technical Lead
@@ -58,25 +80,25 @@
     fr: Responsable technique
     pt: Coordenador técnico
   definition:
-    en: Coordinates and trains members of the technical team
-    es: Coordina y forma a los integrantes del equipo técnico
-    fr: Coordonne et forme les membres de l'équipe technique
-    pt: Coordena e dá formação aos membros da equipa técnica
+    en: Oversees our publishing technical infrastructure and website
+    es: Supervisa nuestra infraestructura técnica de publicación y el sitio web
+    fr: Superviser l'infrastructure technique de l'édition et le site web
+    pt: Supervisiona a nossa infra-estrutura técnica editorial e o nosso website
 - type: technical
   label:
-    en: Technical Team
-    es: Equipo técnico
-    fr: Équipe technique
-    pt: Equipe técnica
+    en: Infrastructure Support Team
+    es: Equipo de apoyo a la infraestructura
+    fr: Équipe de soutien à l'infrastructure
+    pt: Equipa de Apoio às Infra-estruturas
   definition:
-    en: Responsible for the technical features that bring the content and peer review to our community
-    es: Responsable de las características técnicas respecto al contenido y la revisión por pares a nuestra comunidad
-    fr: Responsable des aspects techniques rendant accessibles à notre communauté le contenu et l'évaluation par les pairs
-    pt: Responsável pelos aspectos técnicos que asseguram o conteúdo e a revisão por pares para a nossa comunidade
+    en: Has provided valuable voluntary support, technical advice, or development of our website over an extended period
+    es: Ha prestado un valioso apoyo voluntario, asesoramiento técnico o desarrollo de nuestro sitio web durante un período prolongado
+    fr: A fourni un soutien bénévole précieux, des conseils techniques ou le développement de notre site web pendant une période prolongée
+    pt: Prestou valioso apoio voluntário, aconselhamento técnico ou desenvolvimento do nosso website durante um período prolongado
 - type: finance-manager
   label:
     en: Finance Manager
-    es: Mánager de finanzas
+    es: Director de finanzas
     fr: Responsable des finances
     pt: Gestor financeiro
   definition:
@@ -84,25 +106,35 @@
     es: Responsable de las finanzas del proyecto y la recaudación de fondos
     fr: Responsable du financement du projet et de la collecte de fonds
     pt: Responsável pelas finanças do projeto e pela captação de recursos
-- type: global-lead
+- type: publishing-manager 
   label:
-    en: Global Lead
-    es: Líder global
-    fr: Responsable global
-    pt: Gestor global
+    en: Publishing Manager
+    es: Directora de publicaciones
+    fr: Responsable de la publication
+    pt: Gestora de publicações
   definition:
-    en: Managing new global initiatives, as well as trying to improve the cultural and linguistic diversity of the team, our lessons, and of participation in Digital Humanities more generally.
-    es: Coordinar nuevas iniciativas globales, así como tratar de mejorar la diversidad cultural y lingüística del equipo, de nuestras lecciones y de la participación en Humanidades Digitales en general.
-    fr: En charge de nouvelles initiatives à vocation globale, de la diversité culturelle et linguistique de l'équipe et des leçons, et de la participation aux humanités numériques en général.
-    pt: Responsável por coordenar novas iniciativas globais, assim como por alargar a diversidade cultural e linguística da equipe, das lições e da participação no movimento das Humanidades Digitais em geral.
-
+    en: Responsible for the development and production of our publications
+    es: Responsable del desarrollo y la producción de nuestras publicaciones
+    fr: Responsable de l'élaboration et de la réalisation de nos publications
+    pt: Responsável pelo desenvolvimento e produção das nossas publicações
+- type: publishing-assistant 
+  label:
+    en: Publishing Assistant
+    es: Asistente de publicación
+    fr: Assistant/e de publication
+    pt: Assistente de publicação
+  definition:
+    en: Supports our publishing workflow
+    es: Apoya nuestro proceso de publicación
+    fr: Soutien à notre processus de publication
+    pt: Apoia o nosso processo de publicação
 # Status
 - type: volunteer
   label:
     en: Volunteer
-    es: Voluntario
+    es: Voluntario/a
     fr: Bénévole
-    pt: Voluntário
+    pt: Voluntário/a
   definition:
     en: This member's time on the project is wholly voluntary.
     es: El tiempo que este miembro dedica al proyecto es voluntario.

@@ -20,7 +20,7 @@ translation-reviewer:
 - José Antonio Motilla
 difficulty: 1
 activity: transforming
-topics: [data-manipulation]
+topics: [data-manipulation, data-visualization]
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/162
 original: transforming-xml-with-xsl
 layout: lesson
@@ -256,7 +256,7 @@ Los ejemplos de código de línea de comandos que mostraremos aquí presupondrá
 
 Para empezar a transformar un documento XML, primero es necesario obtener un archivo *bien formado*.[^2] 
 Muchas bases de datos históricas disponibles en línea están modeladas en XML y, a veces, ofrecen sus datos en abierto. 
-Para realizar este tutorial utilizaremos la base de datos [Scissors and Paste](http://www.scissorsandpaste.net).
+Para realizar este tutorial utilizaremos la base de datos [Scissors and Paste](http://scissors-and-paste.net).
 
 La base de datos *Scissors and Paste* es una colección colaborativa, en continuo crecimiento, que contiene noticias procedentes de periódicos británicos e imperiales de los siglos XVIII y XIX. Los dos objetivos originales del proyecto eran facilitar la comparación de reediciones aparecidas en distintos periódicos y detectar temas similares en distintas publicaciones inglesas. Como muchas bases de datos XML, *Scissors and Paste* contiene datos (el texto), información sobre el formato (como las cursivas o las justificación de los párrafos) y metadatos.[^3]
 Los metadatos recogen la paginación de la noticia, la fecha de impresión, algunos detalles adicionales sobre el periódico, los temas principales y una lista con las personas y lugares mencionados.

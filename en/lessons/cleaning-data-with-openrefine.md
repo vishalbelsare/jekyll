@@ -2,7 +2,8 @@
 title: Cleaning Data with OpenRefine
 layout: lesson
 date: 2013-08-05
-tested_date: 2021-09-10
+tested_date: 2024-03-14
+lesson-testers: Antonin Delpeuch
 authors:
 - Seth van Hooland
 - Ruben Verborgh
@@ -25,7 +26,6 @@ doi: 10.46430/phen0023
 ---
 
 {% include toc.html %}
-
 
 
 
@@ -102,16 +102,16 @@ make your data as coherent as possible.
 
 ## Description of the exercise: Powerhouse Museum
 
-The Powerhouse Museum in Sydney provides a freely available metadata
+The Powerhouse Museum in Sydney provided a metadata
 export of its collection on its [website][]. The museum is one of the
 largest science and technology museums worldwide, providing access to
 almost 90,000 objects, ranging from steam engines to fine glassware and
 from haute couture to computer chips.
 
-The Powerhouse has been very actively disclosing its collection online
-and making most of its data freely available. From the museum website, a
-tab-separated text file under the name *phm-collection.tsv* can be
-downloaded, which you can open as a spreadsheet. The unzipped file
+The Powerhouse actively disclosed its collection online
+and made most of its data freely available. From the museum website, a
+tab-separated text file under the name *phm-collection.tsv* could be
+downloaded, and opened as a spreadsheet. The unzipped file
 (58MB) contains basic metadata (17 fields) for 75,823 objects, released
 under a [Creative Commons Attribution Share Alike (CCASA) license][]. In
 this tutorial we will be using a copy of the data that we have archived
@@ -143,21 +143,18 @@ as creating [Linked Data][].
 OpenRefine works on all platforms: Windows, Mac, and Linux. *OpenRefine*
 will open in your browser, but it is important to realise that the
 application is run locally and that your data won't be stored online.
-The data files are available on our [FreeYourMetadata website][], which
-will be used throughout this tutorial. Please download the
-*phm-collection.tsv* file before continuing (also archived on the
-Programming Historian site: as [phm-collection][]).
+The data files are archived on the Programming Historian site as [phm-collection][]. Please download the
+*phm-collection.tsv* file before continuing.
 
 On the *OpenRefine* start page, create a new project using the
 downloaded data file and click **Next**. By default, the first line will
 be correctly parsed as the name of a column, but you need to unselect
 the 'Quotation marks are used to enclose cells containing column
 separators' checkbox, since the quotes inside the file do not have any
-meaning to *OpenRefine*. Additionally, select the 'Parse cell text into
-numbers, dates, ...' checkbox to let OpenRefine automatically detect
+meaning to *OpenRefine*. Additionally, select the 'Attempt to parse cell
+text into numbers' checkbox to let OpenRefine automatically detect
 numbers. Now click on '**Create project**'. If all goes
-well, you will see 75,814 rows. Alternatively, you can download the
-[initial OpenRefine project][] directly.
+well, you will see 75,814 rows. 
 
 The Powerhouse museum data set consists of detailed metadata on all the
 collection objects, including title, description, several categories the
@@ -166,7 +163,7 @@ object on the museum website. To get an idea of what object the metadata
 corresponds to, simply click the persistent link and the website will
 open.
 
-{% include figure.html filename="powerhouseScreenshot.png" caption="Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website" %}
+{% include figure.html filename="en-or-cleaning-data-with-openrefine-01.png" caption="Figure 1: Screenshot of a Sample Object on the Powerhouse Museum Website" %}
 
 ### Get to know your data
 
@@ -292,7 +289,7 @@ cells**, **Join multi-valued cells**, **OK**. Choose the pipe character (|) as a
 separator. The rows now look like before, with a multi-valued Categories
 field.
 
-### Applying ad-hoc transformations through the use of regular expressions
+### Applying ad-hoc transformations through the use of GREL expressions
 
 You may remember there was an increase in the number of records after
 the splitting process: nine records appeared out of nowhere. In order to
@@ -328,7 +325,7 @@ The word 'value' in the text field represents the current value of each
 cell, which you can see below. We can modify this value by applying
 functions to it (see the [GREL documentation][] for a full list). In
 this case, we want to replace double pipes with a single pipe. This can
-be achieved by entering the following [regular expression][] (be sure
+be achieved by entering the following GREL expression (be sure
 not to forget the quotes):
 
 ```
@@ -379,7 +376,7 @@ Once your data has been cleaned, you can take the next step and explore
 other exciting features of *OpenRefine*. The user community of
 *OpenRefine* has developed two particularly interesting extensions which
 allow you to link your data to data that has already been published on
-the Web. The [RDF Refine extension][] transforms plaintext keywords into
+the Web. The [RDF Transform extension][] transforms plaintext keywords into
 URLs. The [NER extension][] allows you to apply named-entity recognition
 (NER), which identifies keywords in flowing text and gives them a URL.
 
@@ -399,7 +396,7 @@ data set, and *OpenRefine* allows you to trace back all of your steps in
 the case you have made an error.
 
   [*OpenRefine*]: http://openrefine.org "OpenRefine"
-  [Powerhouse museum]: http://www.powerhousemuseum.com
+  [Powerhouse museum]: https://powerhouse.com.au/
     "Powerhouse museum"
   [*Potter’s Wheel ABC*]: http://control.cs.berkeley.edu/abc/
     "Potter's Wheel ABC "
@@ -409,21 +406,17 @@ the case you have made an error.
   [Library of Congress]: http://www.loc.gov/index.html
     "Library of Congress"
   [OCLC]: http://www.oclc.org/home.en.html "OCLC"
-  [website]: http://www.powerhousemuseum.com/collection/database/download.php
+  [website]: https://powerhouse.com.au/
     "website"
   [Creative Commons Attribution Share Alike (CCASA) license]: http://creativecommons.org/licenses/by-nc/2.5/au/
   [Controlled vocabulary]: http://en.wikipedia.org/wiki/Controlled_vocabulary
   [Linked Data]: http://en.wikipedia.org/wiki/Linked_data
-  [Download OpenRefine]: http://openrefine.org/#download_openrefine
-  [FreeYourMetadata website]: http://data.freeyourmetadata.org/powerhouse-museum/
-  [phm-collection]: /assets/phm-collection.tsv
-  [initial OpenRefine project]: http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz
+  [Download OpenRefine]: https://openrefine.org/download
+  [phm-collection]: /assets/cleaning-data-with-openrefine/phm-collection.tsv
   [Powerhouse Museum Website]: /images/powerhouseScreenshot.png
   [facet]: http://en.wikipedia.org/wiki/Faceted_search
   [Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png
-  [GREL documentation]: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions
-  [regular expression]: http://en.wikipedia.org/wiki/Regular_expression
-    "Regular Expressions"
+  [GREL documentation]: https://openrefine.org/docs/manual/grelfunctions
   [CSV]: http://en.wikipedia.org/wiki/Comma-separated_values
-  [RDF Refine extension]: http://web.archive.org/web/20180113121435/http://refine.deri.ie/docs
-  [NER extension]: https://github.com/RubenVerborgh/Refine-NER-Extension
+  [RDF Transform extension]: https://github.com/AtesComp/rdf-transform#rdf-transform
+  [NER extension]: https://github.com/stkenny/Refine-NER-Extension

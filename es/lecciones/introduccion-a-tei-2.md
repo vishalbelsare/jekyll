@@ -723,7 +723,7 @@ El [código completo](https://raw.githubusercontent.com/programminghistorian/jek
 </TEI>
 ```
 
-Aunque VS Code y BaseX nos dicen que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/tools/TBEvalidator.htm):
+Aunque VS Code y BaseX nos dicen que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/exist/tools/TBEvalidator.htm):
 
 
 {% include figure.html filename="introduccion-a-tei-2-02.png" caption="Validación TEI del código de la postal en TBE Validation Service. El color verde indica que la validación fue exitosa. Si hubiese algún error, aparecería un mensaje en color rojo." %}
@@ -739,7 +739,7 @@ Este fragmento es muy interesante para nuestros fines, pues introduce notas y co
 Como veremos, TEI nos permite trabajar con todos ellos.
 
 
-La imagen de la página 59 (disponible libremente en la [Biblioteca Digital Soledad Acosta de Samper](https://soledadacosta.uniandes.edu.co/items/show/408)) es la siguiente:
+La imagen de la página 59 disponible libremente en la Biblioteca Digital Soledad Acosta de Samper es la siguiente:
 
 {% include figure.html filename="introduccion-a-tei-2-03.png" caption="Imagen del manuscrito 'Pequeño manual del estudiante de historia universal' de Soledad Acosta de Samper, tomo 1, p. 59" %}
 
@@ -747,7 +747,7 @@ La imagen de la página 59 (disponible libremente en la [Biblioteca Digital Sole
 ## El <teiHeader\>
 En este caso el `<teiHeader>` de nuestro documento será el siguiente:
 
-```XML
+```
 <teiHeader>
   <fileDesc>
     <titleStmt>
@@ -773,6 +773,7 @@ En este caso el `<teiHeader>` de nuestro documento será el siguiente:
           </imprint>
         </monogr>
         <ref target="https://soledadacosta.uniandes.edu.co/items/show/408"/>
+        
       </biblStruct>
     </sourceDesc>
   </fileDesc>
@@ -817,7 +818,7 @@ Es probable que el número 47 corresponda a una primera paginación del manuscri
 
 
 La segunda forma de paginación es la lógica (o estructural), esto es, el puesto que la página o folio ocupa en la secuencia ordenada del texto completo del manuscrito.
-Si examinamos [el PDF del manuscrito completo](https://soledadacosta.uniandes.edu.co/items/show/408), podemos ver que la paginación lógica parece coincidir en líneas generales con la del segundo número de la paginación visual (59, en nuestro caso).Vale notar que la Biblioteca Nacional de Colombia ha eliminado del PDF las páginas en blanco, seguramente para reducir su tamaño.
+Si examinamos el PDF del manuscrito completo, podemos ver que la paginación lógica parece coincidir en líneas generales con la del segundo número de la paginación visual (59, en nuestro caso).Vale notar que la Biblioteca Nacional de Colombia ha eliminado del PDF las páginas en blanco, seguramente para reducir su tamaño.
 
 
 Ahora bien, hay editores/codificadores —con quienes yo estoy de acuerdo— que consideran innecesario incluir explícitamente la primera forma de paginación, debido a que por lo general esta solo cumple una función estructural y por lo tanto ya se halla explícitamente incluida en la segunda.
@@ -1200,7 +1201,7 @@ El código de toda la citación será entonces el siguiente:
 
 El [código completo](https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/introduccion-a-tei-2/Acosta.xml) del documento TEI del fragmento de Soledad Acosta es este:
 
-```XML
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -1316,7 +1317,7 @@ El [código completo](https://raw.githubusercontent.com/programminghistorian/jek
 </TEI>
 ```
 
-Aunque VS Code nos dice que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/tools/TBEvalidator.htm):
+Aunque VS Code nos dice que nuestro código es sintácticamente válido en XML, podemos verificar que también es semánticamente válido en TEI con ayuda del [TBE Validation Service](https://teibyexample.org/exist/tools/TBEvalidator.htm):
 
 {% include figure.html filename="introduccion-a-tei-2-05.png" caption="Validación TEI del código del manuscrito de Soledad Acosta en TBE Validation Service. El color verde indica que la validación fue exitosa. Si hubiese algún error, aparecería un mensaje en color rojo" %}
 
@@ -1362,7 +1363,7 @@ Ahora bien, existe otra herramienta para realizar transformaciones llamada  [OxG
 Podemos usar OxGarage en línea o también podemos [instalarla localmente](https://github.com/sebastianrahtz/oxgarage) en nuestro computador.
 Para nuestros fines usaremos la versión en línea.
 
-Antes de comenzar, debemos asegurarnos que nuestros documentos TEI sean sintáctica y semánticamente válidos, pues de lo contrario no podrán ser procesados por OxGarage, ni por ningún otro procesador. Para ello podemos usar una herramienta como la del [TBE Validation Service](https://teibyexample.org/tools/TBEvalidator.htm), mencionada arriba.
+Antes de comenzar, debemos asegurarnos que nuestros documentos TEI sean sintáctica y semánticamente válidos, pues de lo contrario no podrán ser procesados por OxGarage, ni por ningún otro procesador. Para ello podemos usar una herramienta como la del [TBE Validation Service](https://teibyexample.org/exist/tools/TBEvalidator.htm), mencionada arriba.
 
 Una vez abierta la página web de OxGarage, haremos clic en la opción "Documents":
 

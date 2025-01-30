@@ -1,21 +1,19 @@
 ---
 title: Guía para autores
 layout: blank
-redirect_from:
- - /new-lesson-workflow
- - /author-guidelines
+original: author-guidelines
 skip_validation: true
 ---
 
 # Guía para autores
 
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/woman-at-writing-desk.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 <h2 class="noclear">Paso 1: <a href="#paso-1-proponer-una-nueva-lección">Proponer una nueva lección </a></h2>
 <h2 class="noclear">Paso 2: <a href="#paso-2-escribir-y-formatear-el-tutorial">Escribir y dar formato a una nueva lección</a></h2>
 <h2 class="noclear">Paso 3: <a href="#paso-3-enviando-una-nueva-lección">Enviar una nueva lección</a></h2>
 
 
-Estas directrices han sido desarrolladas para ayudarte a entender el proceso de creación de un tutorial para *Programming Historian* en Español. Incluyen detalles prácticos sobre el proceso de redacción de un tutorial, así como indicaciones sobre el flujo de trabajo y el proceso de revisión entre pares. Si en algún momento hay algo que no te queda claro, por favor envía un correo electrónico a {% include managing-editor.html lang=page.lang %}.
+Estas directrices han sido desarrolladas para ayudarte a entender el proceso de creación de un tutorial para *Programming Historian* en Español. Incluyen detalles prácticos sobre el proceso de redacción de un tutorial, así como indicaciones sobre el flujo de trabajo y el proceso de revisión entre pares. Si en algún momento hay algo que no te queda claro, por favor [envía un correo electrónico al Jefe de redacción](mailto:espanol@programminghistorian.org).
 
 ## Paso 1: Proponer una nueva lección
 
@@ -23,9 +21,9 @@ Estas directrices han sido desarrolladas para ayudarte a entender el proceso de 
 Aceptamos tutoriales relevantes para las humanidades, dirigidos a cualquier nivel de aptitud técnica y experiencia, que se centren en un problema o proceso, que puedan ser sostenibles a largo plazo y que estén dirigidos a una audiencia global. El alcance y la longitud del tutorial han de corresponderse con la complejidad de la tarea que se enseña. Los tutoriales no deben exceder las 8.000 palabras (incluyendo el código) sin el permiso explícito del editor, el que se otorgará únicamente en circunstancias excepcionales. Esperamos que la mayoría de las lecciones tengan entre 4.000 y 6.000 palabras. Si resulta pertinente, puede que solicitemos dividir en varios tutoriales las lecciones más largas.
 </div>
 
-Si tienes una idea para una nueva lección, completa el [formulario de propuestas](/assets/forms/Formulario.Consulta.Leccion.txt) y envíalo a {% include managing-editor.html lang=page.lang %}.
+Si tienes una idea para una nueva lección, completa el [formulario de propuestas](/assets/forms/Formulario.Consulta.Leccion.txt) y [envíalo al Jefe de redacción](mailto:espanol@programminghistorian.org).
 
-Para tener una idea de lo que publicamos, consulta nuestras [lecciones ya publicadas]({{site.baseurl}}/es/lecciones), lee nuestra [guía para revisores]({{site.baseurl}}/es/guia-para-revisores) o explora [las lecciones actualmente en desarrollo](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/lecciones). Animamos el envío de propuestas de lecciones sobre temas ya cubiertos o en desarrollo, siempre que la lección nueva haga una contribución propia. Revisa nuestro documento de [Concordancia de Lecciones](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) para ver qué métodos ya han sido cubiertos en nuestras lecciones publicadas o por publicar en alguno de los cuatro idiomas de Programming Historian. 
+Para tener una idea de lo que publicamos, consulta nuestras [lecciones ya publicadas]({{site.baseurl}}/es/lecciones), lee nuestra [guía para revisores]({{site.baseurl}}/es/guia-para-revisores) o explora [las lecciones actualmente en desarrollo](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/borradores). Animamos el envío de propuestas de lecciones sobre temas ya cubiertos o en desarrollo, siempre que la lección nueva haga una contribución propia. Revisa nuestro documento de [Concordancia de Lecciones](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) para ver qué métodos ya han sido cubiertos en nuestras lecciones publicadas o por publicar en alguno de los cuatro idiomas de Programming Historian.
 
 A fin de que nuestras lecciones sean sostenibles a largo plazo, se sugiere proponer tutoriales que no dependan de un programa o de una interfaz específica que no haya demostrado ser estable en el tiempo. De lo contrario, los tutoriales necesitarían cambios con cada actualización. En aras de una mayor conservación, es mejor enseñar conceptos que a ‘hacer clic sobre un botón X’. Asimismo, se espera que los tutoriales no se centren en documentar cómo utilizar un determinado programa/aplicación/interfaz, sino que muestren cómo abordar un caso de estudio propio de las humanidades a través de esa(s) herramienta(s).
 
@@ -55,7 +53,7 @@ Esta primera sección se ocupa de cuestiones de estilo generales que te ayudará
 
 Los autores conservan los derechos de autor y otorgan a la revista el derecho de primera publicación, licenciando simultáneamente la obra bajo Creative Commons - Atribución 4.0 Internacional [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es). Los autores tienen permiso para publicar y distribuir su trabajo en línea en repositorios institucionales/disciplinarios o en su cuenta personal.
 
-Pedimos a autores y traductores que completen [un formulario de declaración](/assets/forms/Derechos-de-autor-y-de-publicación.pdf) para reconocer los derechos de autor y conceder el permiso para publicar. Agradecemos enviar el formulario a nuestra [Asistente Editorial](mailto:admin@programminghistorian.org).
+Pedimos a autores y traductores que completen [un formulario de declaración](/assets/forms/Derechos-de-autor-y-de-publicacion.pdf) para reconocer los derechos de autor y conceder el permiso para publicar. Agradecemos enviar el formulario a nuestra [Asistente Editorial](mailto:admin@programminghistorian.org).
 
 ### Escribe para una audiencia global
 *Programming Historian* es leído por personas que viven en todo el mundo. Es por ello que debes tomar medidas para que tu lección sea accesible para el mayor número de personas posible. Las siguientes directrices te ayudarán a enfrentar una audiencia global:
@@ -136,7 +134,7 @@ Con estilo:
  *	**Puntos suspensivos**: van pegados a la palabra que los precede y separados de la que los sigue. Cuando se utilizan para condensar una cita directa, van entre paréntesis o corchetes.
  *	**Signos de exclamación**: se utilizan al comienzo y al final de la exclamación.
  *	**Punto**: se escribe punto después de las abreviaturas, pero no de las siglas o acrónimos.
- *	**Comillas**: se utilizan en primera instancia las comillas altas o inglesas (""). En caso de que se requiera entrecomillar un texto ya entrecomillado, se utilizan las comillas simples (''). 
+ *	**Comillas**: se utilizan en primera instancia las comillas altas o inglesas (""). En caso de que se requiera entrecomillar un texto ya entrecomillado, se utilizan las comillas simples ('').
 
 ### Mayúsculas
 La pauta es usarlas con moderación en la prosa corriente. Reglas específicas:
@@ -185,16 +183,9 @@ La pauta es usarlas con moderación en la prosa corriente. Reglas específicas:
 *	Las notas finales no pueden contener solo una URL.
     *	(Correcto): Grove, John. "Calhoun and Conservative Reform." *American Political Thought* 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
     *	(Incorrecto): https://doi.org/10.1086/680389.
-* Es necesario citar todo el software utilizado. Entrega todo la información posible siguiendo las sugerencias de la sección "Notas y Bibliografía" del Manual Chicago 17a edición.
-    *	autores
-    * nombre del producto
-    * número de la versión
-    * año de publicación
-    * URL o DOI
-
-      Ejemplo: The Pandas Development Team. *pandas-dev/pandas: Pandas*. v. 1.2.3 (2020). https://doi.org/10.5281/zenodo.3509134
-
-      Simpre revisa el sitio web o la documentación oficial del software que utilizaste, ya que en muchos casos sus autores explicitan cómo prefieren que su trabajo sea citado  (por ejemplo, https://pandas.pydata.org/about/citing.html, https://www.tidyverse.org/blog/2019/11/tidyverse-1-3-0/#citing-the-tidyverse).
+* Para citar software según [las recomendaciones de Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/), facilite los elementos disponibles de la siguiente información: autor, título, versión, año de publicación, licencia, URL del repositorio. A continuación encontrará un ejemplo siguiendo el estilo de citación del _Manual Chicago 17ª edición_
+    * **Nota final**: Julien Barnier _et al._. _Scatterd3_, versión 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
+    * **Referencia bibliográfica**: Barnier, Julien, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (versión 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
 
 
 ### Lenguaje inclusivo y no discriminatorio
@@ -253,7 +244,7 @@ Si quieres incluir un aparte o una advertencia, puedes utilizar el siguiente blo
 ```
 
 ### Figuras e imágenes
-Las imágenes pueden ayudar a tu audiencia a entender los pasos de la lección, pero no deben ser usadas como decoración. Si deseas utilizar imágenes en tu lección, etiquétalas secuencialmente siguiendo el patrón: `nombre-leccion1.jpg`, `nombre.leccion2.jpg`, etc. Refiérete a ellas en el texto como "Figura 1", "Figura 2" y así sucesivamente. Todas las figuras deben venir con una leyenda concisa y notas finales cuando sea apropiado. Debes tener el derecho legal para publicar cualquier imagen que incluyas en tu lección.
+Las imágenes pueden ayudar a tu audiencia a entender los pasos de la lección, pero no deben ser usadas como decoración. Si deseas utilizar imágenes en tu lección, etiquétalas secuencialmente siguiendo el patrón: `nombre-leccion1.jpg`, `nombre.leccion2.jpg`, etc. Refiérete a ellas en el texto como "Figura 1", "Figura 2" y así sucesivamente. Todas las figuras deben venir con una leyenda concisa, texto descriptivo 'alt-text' y notas finales cuando sea apropiado. Debes tener el derecho legal para publicar cualquier imagen que incluyas en tu lección.
 
 Utiliza formatos de archivos amigables para la web, como .png o .jpg, y reduce las imágenes grandes a un máximo de 840 px en el lado más largo. Esto es importante para lectores en países con velocidades de Internet más lentas.
 
@@ -263,7 +254,7 @@ Para insertar una imagen en tu texto, utiliza el siguiente formato:
 
 {% raw %}
 ``` markdown
-{% include figure.html filename="NOMBRE-ARCHIVO-IMAGEN" caption="PIE DE FOTO UTILIZANDO \"ESCAPED\" QUOTES" %}
+{% include figure.html filename="NOMBRE-ARCHIVO-IMAGEN" alt="DESCRIPCIÓN VISUAL DE LA IMAGEN" caption="PIE DE FOTO UTILIZANDO \"ESCAPED\" QUOTES" %}
 ```
 {% endraw %}
 
@@ -306,7 +297,7 @@ Sigue las mejores prácticas para escribir tu código:
 
 Una vez que tu archivo ha sido preparado de acuerdo con las especificaciones anteriores, ¡ya puedes enviárnoslo! Te sugerimos, de todos modos, que pidas al menos a dos personas que prueben tu lección y te den su opinión. Es muy importante que pruebes que es posible seguir el tutorial desde distintos sistemas operativos sin problema. Esto permitirá al equipo editorial centrarse en que produzcas una lección lo más sólida posible.
 
-Ahora estás listo para enviar la lección a revisión. Los envíos se realizan enviando los materiales por correo electrónico a tu editor o editora para que puedan subirlos a nuestro repositorio de revisión por pares en [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). Sigue estos pasos:
+Ahora estás listo para enviar la lección a revisión. Los envíos se realizan enviando los materiales por correo electrónico a tu editor o editora para que puedan subirlos a nuestro repositorio de revisión por pares en [Github](https://github.com/programminghistorian/ph-submissions/). Sigue estos pasos:
 
 1. **Obtener acceso**: crea una cuenta gratuita en GitHub [aquí](https://github.com/join). Solo se necesitan 30 segundos. Envía por correo electrónico tu nombre de usuario/a de Github a tu editor/a, quien le dará acceso a nuestro repositorio. Indícale también el nombre del archivo de la lección y si tiene imágenes o archivos de datos que acompañen al tutorial. Tú no realizarás la carga inicial en GitHub, pero necesitarás acceso para publicar revisiones posteriores.
 2. **Prepara los materiales**: si tu lección incluye imágenes, asegúrate que todos los archivos están nombrados según las convenciones explicadas más arriba. Las imágenes debes enviarlas en una sola carpeta comprimida. Si tu lección incluye archivos de datos, estos deben ser enviados en otra carpeta comprimida.
@@ -316,7 +307,7 @@ Ahora estás listo para enviar la lección a revisión. Los envíos se realizan 
 
 ## El proceso de revisión de pares
 
-Tu editor/a comprobará que tus archivos se hayan cargado y formateado correctamente. En esta etapa se te enviará un enlace de vista previa donde se evidenciará cualquier error de formato para que puedas corregirlo. Las modificaciones debes hacerlas en el archivo .md de tu lección, que se encuentra en el [repositorio de propuesta de lecciones](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/lecciones).
+Tu editor/a comprobará que tus archivos se hayan cargado y formateado correctamente. En esta etapa se te enviará un enlace de vista previa donde se evidenciará cualquier error de formato para que puedas corregirlo. Las modificaciones debes hacerlas en el archivo .md de tu lección, que se encuentra en el [repositorio de propuesta de lecciones](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/es/borradores).
 
 La revisión de pares se registrará en un "[ticket](https://github.com/programminghistorian/ph-submissions/issues)" de GitHub, que actúa como una discusión abierta en el tablero de mensajes. Ten en cuenta que nuestra revisión de pares se realiza en público y se mantiene a disposición del público como un registro permanente del proceso editorial. Si tienes alguna preocupación o deseas solicitar una revisión cerrada, ponte en contacto con tu editor/a.
 
@@ -333,7 +324,7 @@ Puede resultarte útil leer nuestra [Guía para editores](/es/guia-editor), dond
 Si en algún momento no tienes seguridad sobre cuál es tu papel en ese momento o de lo que debes hacer a continuación, publica una pregunta en el ticket de revisión de tu lección. Nuestro equipo editorial responderá lo antes posible. Nos esforzamos por responder a todas las preguntas en unos pocos días.
 
 ### ¿Qué ocurre una vez que tu lección ha sido publicada?
-Ocasionalmente recibimos feedback de personas que se han encontrado con algún error al tratar de completar alguna de nuestras lecciones. En estos casos, nuestra Asistente Editorial abrirá un *Issue* en GitHub y hará una evaluación para determinar si el error reportado surgió por alguna acción del usuario/a (por ejemplo, al editar el código o cambiar el set de datos utilizado) o por un problema de la lección. Si ocurriese esto último, nuestra Asistente Editorial volverá a testear las secciones de la lección que corresponda y buscará una posible solución. Como parte de este proceso de mantención de las lección, es posible que te contactemos para solicitar tu ayuda o sugerencias. En caso de que no se encuentre forma de resolver el problema, agregaremos una advertencia a la lección indicando que algunas personas han encontrado un error y, cuando sea posible, incluiremos en ese mensaje algunos enlaces que permitan a lectores y lectoras explorar una solución por su cuenta. 
+Ocasionalmente recibimos feedback de personas que se han encontrado con algún error al tratar de completar alguna de nuestras lecciones. En estos casos, nuestra Asistente Editorial abrirá un *Issue* en GitHub y hará una evaluación para determinar si el error reportado surgió por alguna acción del usuario/a (por ejemplo, al editar el código o cambiar el set de datos utilizado) o por un problema de la lección. Si ocurriese esto último, nuestra Asistente Editorial volverá a testear las secciones de la lección que corresponda y buscará una posible solución. Como parte de este proceso de mantención de las lección, es posible que te contactemos para solicitar tu ayuda o sugerencias. En caso de que no se encuentre forma de resolver el problema, agregaremos una advertencia a la lección indicando que algunas personas han encontrado un error y, cuando sea posible, incluiremos en ese mensaje algunos enlaces que permitan a lectores y lectoras explorar una solución por su cuenta.
 
 ### Haznos responsables
 

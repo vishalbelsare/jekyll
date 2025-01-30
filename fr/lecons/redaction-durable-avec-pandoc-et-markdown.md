@@ -147,7 +147,7 @@ Enregistrons maintenant notre document avant d'aller plus loin. Créez un nouvea
 
 Une fois le fichier enregistré, ajoutons-y une illustration. Copiez n'importe quelle image de petite taille dans votre dossier, et ajoutez ceci au corps du texte: `![Légende de l'image](votre_image.jpg)`.
 
-À ce stade, le fichier 'projet.md' devrait ressembler au texte ci-dessous. Vous pouvez télécharger cet exemple de fichier .md [ici](https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/sample.md).
+À ce stade, le fichier 'projet.md' devrait ressembler au texte ci-dessous. Vous pouvez [télécharger cet exemple de fichier Markdown](https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/sustainable-authorship-in-plain-text-using-pandoc-and-markdown/sample.md) depuis le dépot de _Programming Historian_.
 
 ```
 ---
@@ -240,6 +240,10 @@ Les utilisateurs plus avancés qui ont installé LaTeX voudront peut-être expé
 ```
 $ pandoc projet.md -o projet.pdf
 ```
+
+<div class="alert alert-warning">
+Si cette commande échoue, vous devez peut-être ajouter un composant qui fournit à pandoc le chemin complet vers le &laquo;&nbsp;moteur&nbsp;&raquo; (engine) LaTeX que vous souhaitez utiliser. Son emplacement varie selon que vous travaillez sous Mac, Windows ou Linux. Nous conseillons donc aux lecteurs de vérifier le chemin d'accès vers le moteur LaTeX dans leur propre système, et de suivre <a href='https://pandoc.org/MANUAL.html#creating-a-pdf'>les instructions d'installation en vigueur, mises à jour par pandoc</a> (en anglais).
+</div>
 
 Si votre document est rédigé dans une autre langue que l'anglais, vous devrez probablement utiliser le moteur [XeLaTeX](https://fr.wikipedia.org/wiki/XeTeX) au lieu du moteur LaTeX ordinaire pour la conversion en .pdf :
 

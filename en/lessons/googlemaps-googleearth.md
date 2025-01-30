@@ -505,7 +505,7 @@ your work!**
   [geo4]: /images/googlemaps-googleearth/geo4.png
   [geo5]: /images/googlemaps-googleearth/geo5.png
   [geo6]: /images/googlemaps-googleearth/geo6.png
-  [UK Global Fat Supply CSV file]: https://github.com/programminghistorian/jekyll/files/148984/UK.Global.Fat.Supply.1894-1896.-.Sheet1.csv.zip
+  [UK Global Fat Supply CSV file]: /assets/googlemaps-googleearth/UK.Global.Fat.Supply.1894-1896.-.Sheet1.csv.zip
   [geo7]: /images/googlemaps-googleearth/geo7.png
   [geo8]: /images/googlemaps-googleearth/geo8.png
   [geo9]: /images/googlemaps-googleearth/geo9.png
@@ -532,7 +532,7 @@ your work!**
   [geo27]: /images/googlemaps-googleearth/geo27.png
   [geo28]: /images/googlemaps-googleearth/geo28.png
   [Maps Engine Lite]: https://mapsengine.google.com/map/
-  [Seaway map]: https://github.com/programminghistorian/jekyll/files/148993/seaway.zip
+  [Seaway map]: /assets/googlemaps-googleearth/seaway.zip
   [geo29]: /images/googlemaps-googleearth/geo29.png
   [geo30]: /images/googlemaps-googleearth/geo30.png
   [geo31]: /images/googlemaps-googleearth/geo31.png

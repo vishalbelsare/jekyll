@@ -9,7 +9,7 @@ reviewers:
 - Ryan Deschamps
 difficulty: 3
 activity: analyzing
-topics: [network-analysis, r]
+topics: [network-analysis, r, data-visualization]
 editors:
 - Matthew Lincoln
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/179
@@ -92,7 +92,7 @@ Let's say you already have a static network based on an archive of epistolary ex
 
 In order to keep this tutorial from getting too abstract, I'll follow a concrete example from start to finish. This sample data describes collaborations between French Gothic illuminated manuscript workshops between 1260 and 1320.[^2] The node list for this data is just a big list of workshops. The names of these workshops aren't too important. In a few cases a colophon (a bit of text at the end of a manuscript briefly describing the circumstances of its production) mentions the name of the illuminator. Most of the time, however, they are assigned by modern scholars based on the city or region where a workshop was active, or a famous manuscript that it produced.
 
-All of the R libraries in this tutorial assume that your network is unimodal – that is, that all of the nodes are the same type of thing, and all of the edges are too. As [Scott Weingart has pointed out](http://www.scottbot.net/HIAL/index.html@p=41158.html), historians frequently begin with multimodal or bimodal data. If you want to produce meaningful quantitative measurements of your network using most available tools, you will have to convert (or "project") a bimodal network into unimodal data. The sample data for this tutorial is no exception. It started out as list of workshops and the manuscripts to which they contributed. First, I modeled this data as a bimodal network consisting of workshops and manuscripts. Then I projected that bimodal network into a unimodal network, in which each node represents an illuminator or workshop.[^3] Each edge was produced from a manuscript or group of manuscripts to which two or more workshops contributed. For this reason, sometimes one manuscript can appear as multiple edges, and one edge can represent multiple manuscripts.
+All of the R libraries in this tutorial assume that your network is unimodal – that is, that all of the nodes are the same type of thing, and all of the edges are too. As [Scott Weingart has pointed out](https://web.archive.org/web/20240726075626/https://www.scottbot.net/HIAL.1.html), historians frequently begin with multimodal or bimodal data. If you want to produce meaningful quantitative measurements of your network using most available tools, you will have to convert (or "project") a bimodal network into unimodal data. The sample data for this tutorial is no exception. It started out as list of workshops and the manuscripts to which they contributed. First, I modeled this data as a bimodal network consisting of workshops and manuscripts. Then I projected that bimodal network into a unimodal network, in which each node represents an illuminator or workshop.[^3] Each edge was produced from a manuscript or group of manuscripts to which two or more workshops contributed. For this reason, sometimes one manuscript can appear as multiple edges, and one edge can represent multiple manuscripts.
 
 The difference between a static network and a temporal one is the amount of information contained in the node and edge lists. In order to convert this static network into a temporal one, you need to add *temporal information* to these two lists. Basically, we need to supply a span of time that represents the period in which each edge and each node exists.
 
@@ -183,7 +183,7 @@ thenetwork <- network(
   vertex.attrnames = c("vertex.id", "name", "region"),
   directed = FALSE,
   bipartite = FALSE,
-  multiple = TRUE
+  multiple = FALSE
 )
 plot(thenetwork)
 ```
@@ -211,6 +211,10 @@ dynamicCollabs <- networkDynamic(
 )
 ```
 
+<div class="alert alert-info">
+This may return alerts along the lines of 'Edge activity in base.net was ignored Created net.obs.period to describe network Network observation period info: Number of observation spells: 1 Maximal time range observed: 1257.5 until 1325 Temporal mode: continuous Time unit: unknown Suggested time increment: NA'. You can safely ignore these, as they do not indicate an error.
+</div>
+
 The `networkDynamic()` function takes as its first input the static network that we created above, and appends the temporal data for the vertices and nodes. It's probably a good idea to check the dynamic network to make sure everything looks right using the `network.dynamic.check()` function.
 
 ```r
@@ -237,6 +241,10 @@ That's because the `plot()` function produces a static image of the entire dynam
 # Plot our dynamic network as a filmstrip
 filmstrip(dynamicCollabs, displaylabels = FALSE)
 ```
+
+<div class="alert alert-info">
+Here you may also receive the following type of alert: 'No coordinate information found in network, running compute.animation Error in as.matrix.network.adjacency(net, attrname = weight.attr, expand.bipartite = TRUE) :  Multigraphs not currently supported in as.matrix.network.adjacency.  Exiting.' Again, you can safely ignore these.
+</div>
 
 Now we're getting somewhere! This gives us a view of the network as it develops over time, taking snapshots at a few key moments over the course of its timespan.
 

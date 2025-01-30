@@ -331,8 +331,7 @@ small image) to your folder, and add the following somewhere in the body
 of the text: `![image caption](your_image.jpg)`.
 
 At this point, your `main.md` should look something like the following.
-You can download this sample .md file
-[here](https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/sample.md).
+You can [download this sample Markdown file](https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/sustainable-authorship-in-plain-text-using-pandoc-and-markdown/sample.md) from the _Programming Historian_ repository.
 
     ---
     title: Plain Text Workflow
@@ -499,6 +498,10 @@ using the same command structure:
 ```
 $ pandoc main.md -o main.pdf
 ```
+
+<div class="alert alert-warning">
+If this command fails, you may need to add a component that provides pandoc with the full path to the LaTeX engine you want to use, specifying where it's stored. The location will vary depending whether you are working on mac, Windows or Linux. Readers are advised to check the correct path to the LaTeX engine within their system, and follow <a href='https://pandoc.org/MANUAL.html#creating-a-pdf'>the current installation instructions</a>.
+</div>
 
 If your document is written in languages other than English, you will likely need to use
 the XeLaTeX engine instead of plain LaTeX for .pdf conversion:

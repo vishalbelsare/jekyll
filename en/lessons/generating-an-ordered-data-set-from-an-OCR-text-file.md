@@ -43,7 +43,7 @@ Consider, for example, what happens if your OCR interpreted a lot of strings lik
 
 Very often the texts that historians wish to digitize are, in fact, ordered data sets: ordered collections of primary source documents, or a legal code say, or a cartulary. But the editorial structure imposed upon such resources is usually designed for a particular kind of data retrieval technology i.e., a codex, a book. For a digitized text you need a different kind of structure. If you can get rid of the book related infrastructure and reorganize the text according to the sections and divisions that you're interested in, you will wind up with data that is much easier to do search and replace operations on, and as a bonus, your text will become immediately useful in a variety of other contexts as well.
 
-This is where a scripting language like Python comes very much in handy. For our project we wanted to prepare some of the documents from a 12th century collection of *imbreviatura* from the Italian scribe known as [Giovanni Scriba](http://www.worldcat.org/oclc/17591390) so that they could be marked up by historians for subsequent NLP analysis or potentially for other purposes as well. The pages of the 1935 published edition look like this.
+This is where a scripting language like Python comes very much in handy. For our project we wanted to prepare some of the documents from a [12th century collection of *imbreviatura*](http://www.worldcat.org/oclc/17591390) from the Italian scribe known as Giovanni Scriba (you can [access the PDF here](https://notariorumitinera.eu/Docs/Biblioteca_Digitale/SB/3a47488c28eef2aedfea52ebbde2c634/dd361cb1479ab2309f5ceef1f875c2a5.pdf)) so that they could be marked up by historians for subsequent NLP analysis or potentially for other purposes as well. The pages of the 1935 published edition look like this.
 
 {% include figure.html filename="gs_pg110.png" caption="GS page 110" %}
 
@@ -172,7 +172,7 @@ def lev(seq1, seq2):
     # Initialize matrix of zeros
     rows = len(seq1)+1
     cols = len(seq2)+1
-    distance = np.zeros((rows,cols),dtype = int)
+    distance = [[0]*cols for x in range(rows)]
 
     # Populate matrix of zeros with the indeces of each character of both strings
     for i in range(1, rows):
@@ -221,7 +221,7 @@ def rom2ar(rom):
 
     return result
 ```
-(run <[this little script](/assets/Roman_to_Arabic.txt)> to see in detail how `rome2ar` works. Elegant programming like this can offer insight; like poetry.)
+(run <[this little script](/assets/generating-an-ordered-data-set-from-an-OCR-text-file/Roman_to_Arabic.txt)> to see in detail how `rome2ar` works. Elegant programming like this can offer insight; like poetry.)
 
 ## Some other things we'll need:
 At the top of your Python module, you're going to want to import some python modules that are a part of the standard library. (see Fred Gibbs's tutorial [*Installing Python Modules with pip*](/lessons/installing-python-modules-pip)).
@@ -243,7 +243,7 @@ L.T. O'Hara's [introduction](/lessons/cleaning-ocrd-text-with-regular-expression
 1. `re.compile()` creates a regular expression object that has a number of methods. You should be familiar with `.match()`, and `.search()`, but also `.findall()` and `.finditer()`
 2. Bear in mind the difference between `.match()` and `.search()`: `.match()` will only match at the __beginning__ of a line, whereas `.search()` will match anywhere in the line __but then it stops__, it'll __only__ return the first match it finds.
 3. `.match()` and `.search()` return match objects. To retrieve the matched string you need `mymatch.group(0)`. If your compiled regular expression has grouping parentheses in it (like our 'slug' regex below), you can retrieve those substrings of the matched string using `mymatch.group(1)` etc.
-4. `.findall()` and `.finditer()` will return __all__ occurrences of the matched string; `.findall()` returns them as a list of strings, but .finditer() returns an __iterator of match objects__. (read the docs on the method [.finditer()](hhttps://docs.python.org/3.7/library/re.html#re.finditer).)
+4. `.findall()` and `.finditer()` will return __all__ occurrences of the matched string; `.findall()` returns them as a list of strings, but .finditer() returns an __iterator of match objects__. (read the docs on the method [.finditer()](https://docs.python.org/3.7/library/re.html#re.finditer).)
 
 
 

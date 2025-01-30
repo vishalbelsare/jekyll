@@ -9,25 +9,21 @@ skip_validation: true
 
 # Author Guidelines
 
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/woman-at-writing-desk.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 <h2 class="noclear">Step 1: <a href="#step-1-proposing-a-new-lesson">Proposing a New Lesson</a></h2>
-<h2 class="noclear">Step 2: <a href="#step-2-writing-a-new-lesson">Writing and Formatting a New Lesson</a></h2>
+<h2 class="noclear">Step 2: <a href="#step-2-writing-and-formatting-a-new-lesson">Writing and Formatting a New Lesson</a></h2>
 <h2 class="noclear">Step 3: <a href="#step-3-submitting-a-new-lesson">Submitting a New Lesson</a></h2>  
 
 
-These guidelines have been developed to help you understand the process of creating a tutorial for the English *Programming Historian*. They include practical and philosophical details of the tutorial writing process, as well as an indication of the workflow and the peer review process. If at any time you are unclear, please email the managing editor, {% include managing-editor.html lang=page.lang %}.
+These guidelines have been developed to help you understand the process of creating a tutorial for the English *Programming Historian*. They include practical and philosophical details of the tutorial writing process, as well as an indication of the workflow and the peer review process. If at any time you are unclear, please [email the managing editor](mailto:english@programminghistorian.org).
 
 ## Step 1: Proposing a New Lesson
 
 <div class="alert alert-success">
-We welcome tutorials relevant to the humanities, pitched at any level of technical aptitude and experience, that focus on one problem or process, can be sustainable in the long term, and are addressed to a global audience.
-
-The scope and length of the tutorial should be appropriate to the complexity of the task. Tutorials should not exceed 8,000 words (including code). Shorter lessons are welcome. Longer lessons may need to be split into multiple tutorials.
+Our English journal is currently seeking proposals for new original lessons or translations to be considered for publication in 2025. Learn more in our <a href="/posts/en-call-for-proposals">call for proposals</a>, open until 31 January 2025 (extended deadline). Submissions to our <a href="/es/guia-para-autores#paso-1-proponer-una-nueva-lección">Spanish</a>, <a href="/posts/appel-a-propositions">French</a> and <a href="/pt/directrizes-autor#etapa-1-propor-uma-nova-lição">Portuguese</a> journals are open year-round.
 </div>
 
-If you have an idea for a new lesson, complete a lesson [proposal form](/assets/forms/Lesson.Query.Form.txt) and send it to {% include managing-editor.html lang=page.lang %}.
-
-You can get a sense of what we publish by looking through our [published lessons]({{site.baseurl}}/en/lessons), reading our [reviewer guidelines]({{site.baseurl}}/en/reviewer-guidelines) or browsing [lessons in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons). Please also take a moment to check our [Lesson Concordance document](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) to see which methods we have already covered in our published or forthcoming lessons. 
+You can get a sense of what we publish by looking through our [published lessons]({{site.baseurl}}/en/lessons), reading our [reviewer guidelines]({{site.baseurl}}/en/reviewer-guidelines) or browsing [lessons in development](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/en/drafts). Please also take a moment to check our [Lesson Concordance document](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) to see which methods we have already covered in our published or forthcoming lessons. 
 
 If your proposal is accepted, an editor will create a "Proposal" page on our [submissions website](https://github.com/programminghistorian/ph-submissions/issues) with the lesson's working title and proposed learning outcomes. This serves to mark the work in progress. To ensure timely publication, authors should submit their draft article within 90 days.
 
@@ -192,16 +188,9 @@ The guideline is to use them sparingly in the running prose. Specific rules:
 *	Endnotes should not just contain a URL.
     *	(Correct): Grove, John. "Calhoun and Conservative Reform." *American Political Thought* 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
     *	(Incorrect): https://doi.org/10.1086/680389
-* In order to cite software, which requires citation as a condition of use within a lesson, please provide as much as possible from the information below, following the general "Notes and Bibliography” system found in the Chicago Manual of Style, 17th Edition for endnotes:
-    *	author
-    * product name
-    * version number
-    * year of publication
-    * URL or DOI
-
-  Eg. The Pandas Development Team. *pandas-dev/pandas: Pandas*. v. 1.2.3 (2020). https://doi.org/10.5281/zenodo.3509134
-
-  Please check each software official webpage or documentation for authors guidelines about how to cite their work (eg. https://pandas.pydata.org/about/citing.html, https://www.tidyverse.org/blog/2019/11/tidyverse-1-3-0/#citing-the-tidyverse).
+* To cite software according to [the recommendations of Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/), please provide available elements of the following information: author, title, version, year of release, license, repository URL. Below you will find an example following the _Chicago Manual, 17th edition_ citation style:
+    * **End note**: Julien Barnier _et al._. _Scatterd3_, version 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
+    * **Bibliography entry**: Barnier, Julien, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (version 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
 
 
 ### Challenging Words Explained
@@ -255,7 +244,7 @@ If you want to include an aside or a warning to readers, you can set it apart fr
 ```
 
 ### Figures and Images
-Images can help readers understand your lesson steps, but should not be used for decoration. If you wish to use images in your lesson, label them sequentially LESSON-NAME1.jpg, LESSON-NAME2.jpg, etc. Refer to them in the text as "Figure 1", "Figure 2", and so on. All figures must come with a concise figure caption and endnotes where appropriate. You must have the legal right to post any images.
+Images can help readers understand your lesson steps, but should not be used for decoration. If you wish to use images in your lesson, label them sequentially LESSON-NAME1.jpg, LESSON-NAME2.jpg, etc. Refer to them in the text as "Figure 1", "Figure 2", and so on. All figures must come with a concise figure caption, descriptive alt-text, and endnotes where appropriate. You must have the legal right to post any images.
 
 Use web-friendly file formats such as .png or .jpg and reduce large images to a maximum of 840px on the longest side. This is important for readers in countries with slower internet speeds.
 
@@ -265,7 +254,7 @@ To insert an image in your text, use the following format:
 
 {% raw %}
 ``` markdown
-{% include figure.html filename="IMAGE-FILENAME" caption="YOUR CAPTION USING \"ESCAPED\" QUOTES" %}
+{% include figure.html filename="IMAGE-FILENAME" alt="Visual description of figure image" caption="YOUR CAPTION USING \"ESCAPED\" QUOTES" %}
 ```
 {% endraw %}
 
@@ -310,7 +299,7 @@ Follow best practice in writing your code:
 
 Double-check that your lesson file has been prepared to the above specifications. Once you are satisfied, we strongly recommend that you ask at least two people to try your tutorial and provide feedback. This will help you make improvements that mean our peer reviewers can focus on helping you produce the strongest possible lesson.
 
-You are ready to submit the lesson for peer review. Submissions are made by emailing materials to your editor so they can upload them to our peer review site on [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
+You are ready to submit the lesson for peer review. Submissions are made by emailing materials to your editor so they can upload them to our peer review site on [Github](https://github.com/programminghistorian/ph-submissions/).
 
 1. **Getting Access**: create a [free Github account](https://github.com/join). Email your Github username to your editor who will give you upload access to our submission site. Let the editor know the file name of your lesson and if you have any images or data files accompanying your tutorial. You will not do the initial upload to GitHub, but you will need access to post subsequent revisions.
 2. **Prepare your materials**: if your lesson includes images, make sure all of the files are named according to the naming conventions specified above.These images should be submitted in a single, compressed folder. If your lesson includes data files, they should be submitted in another compressed folder.

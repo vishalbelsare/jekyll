@@ -12,7 +12,7 @@ editors:
 difficulty: 1
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/11
 activity: transforming
-topics: [data-manipulation]
+topics: [data-manipulation, data-visualization]
 abstract: "This tutorial will provide you with the ability to convert or transform historical data from an XML database (whether a single file or several linked documents) into a variety of different presentations—condensed tables, exhaustive lists or paragraphed narratives—and file formats."
 redirect_from: /lessons/transforming-xml-with-xsl
 avatar_alt: A peacock with a woman's head
@@ -239,7 +239,7 @@ The command line code examples we will show here will assume that this is the ca
 
 # Choosing and Preparing XML Data
 
-In order to begin transforming XML, you will need to obtain a well-formed dataset. Many online historical databases are built upon XML and provide their data freely. This tutorial will make use of the [Scissors and Paste Database](http://www.scissorsandpaste.net).
+In order to begin transforming XML, you will need to obtain a well-formed dataset. Many online historical databases are built upon XML and provide their data freely. This tutorial will make use of the [Scissors and Paste Database](http://scissors-and-paste.net).
 
 The *Scissors and Paste Database* is a collaborative and growing collection of articles from British and imperial newspapers in the 18th and 19th centuries. Its original purpose was to allow for careful comparisons of reprints (copies) that appeared in multiple newspapers as well as to detect similarly themed articles across different English-language publications. Like many XML databases, *Scissors and Paste* contains both data (the article's text), formatting information (such as italics and justification), and metadata. This metadata includes documentation about the particular article, such as its pagination and printing date, information about the newspaper in which it was published, and the themes, individuals or locations mentioned in the text.
 

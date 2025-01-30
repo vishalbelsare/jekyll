@@ -69,14 +69,14 @@ Hay muchos programas diferentes para *topic modeling*; esta lección utiliza uno
 
 Examinando las palabras clave podemos ver que el político que dio los discursos se refirió a la economía, los empleos, el Medio Oriente, las próximas elecciones, etc.
 
-Como advierte Scott Weingart, quienes utilizan *topic modeling* sin entenderlo completamente enfrentan muchos [peligros](http://www.scottbot.net/HIAL/?p=16713). Por ejemplo, podría interesarnos el uso de las palabras como un indicador para la ubicación en un espectro político. *Topic modeling* sin duda podría ayudar con eso, pero hay que recordar que el indicador no es en sí lo que queremos comprender - como lo muestra Andrew Gelman en su [estudio de maqueta sobre zombis, utilizando Google Trends](http://arxiv.org/abs/1003.6087/). Ted Underwood y Lisa Rhody (véase Lecturas adicionales) sostienen que para nosotros como historiadores sería mejor considerar estas categorías como discursos; sin embargo, para nuestros objetivos, continuaremos utilizando la palabra: tópico.
+Como advierte Scott Weingart, quienes utilizan *topic modeling* sin entenderlo completamente enfrentan muchos [peligros](https://web.archive.org/web/20240602215348/https://www.scottbot.net/HIAL/index.html@p=16713.html). Por ejemplo, podría interesarnos el uso de las palabras como un indicador para la ubicación en un espectro político. *Topic modeling* sin duda podría ayudar con eso, pero hay que recordar que el indicador no es en sí lo que queremos comprender - como lo muestra Andrew Gelman en su [estudio de maqueta sobre zombis, utilizando Google Trends](http://arxiv.org/abs/1003.6087/). Ted Underwood y Lisa Rhody (véase Lecturas adicionales) sostienen que para nosotros como historiadores sería mejor considerar estas categorías como discursos; sin embargo, para nuestros objetivos, continuaremos utilizando la palabra: tópico.
 
 Nota: En la bibliografía sobre *topic modeling*, a veces encontrarás el término "*LDA*". Muchas veces, LDA y *topic modeling* se usan como sinónimos, pero la técnica LDA es, en realidad, un caso especial de *topic modeling* desarrollado por [David Blei y amigos](https://es.wikipedia.org/wiki/Latent_Dirichlet_Allocation) en 2002. No fue la primera técnica considerada como *topic modeling* pero es la más popular. Las innumerables variaciones de *topic modeling* han resultado en una sopa de letras de técnicas y programas para implementarlas, lo cual puede ser desconcertante o agobiante para los no iniciados en la materia y por esto no nos detendremos en ellos por ahora. Todos los algoritmos trabajan casi del mismo modo y MALLET en particular utiliza LDA.
 
 ### Ejemplos de modelos de tópicos usados por historiadores:
 
 - Rob Nelson, *[Mining the Dispatch](http://dsl.richmond.edu/dispatch/)*
-- Cameron Blevins, "[Topic Modeling Martha Ballard's Diary](http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/)" *Historying*, April 1, 2010.
+- Cameron Blevins, "[Topic Modeling Martha Ballard's Diary](https://perma.cc/39CG-MNLH)" *Historying*, April 1, 2010.
 - David J Newman y Sharon Block, "Probabilistic topic decomposition of an eighteenth century American newspaper," *Journal of the American Society for Information Science and Technology* vol. 57, no. 6 (April 1, 2006): 753-767.[^2]
 
 Instalar MALLET
@@ -169,7 +169,7 @@ java.lang.NoClassDefFoundError:'* puede deberse a que instalaste MALLET en algú
 
 Trabajar con datos
 --------------------
-MALLET exige datos en texto plano. Para ello, cada texto suele guardarse en un archivo `.txt`. El conjunto de esos archivos conformará el corpus. Puedes descargar un corpus de muestra con textos en español [aquí](https://github.com/programminghistorian/ph-submissions/raw/gh-pages/assets/ensayos-jose-marti.zip)[^7]. Descomprime el archivo ZIP en algún lugar de tu computadora y recuerda este lugar. En esta lección lo guardamos en el escritorio del usuario para poder encontrarlo fácilmente.
+MALLET exige datos en texto plano. Para ello, cada texto suele guardarse en un archivo `.txt`. El conjunto de esos archivos conformará el corpus. Puedes descargar un corpus de muestra con textos en español [aquí](/assets/topic-modeling-y-mallet/ensayos-jose-marti.zip)[^7]. Descomprime el archivo ZIP en algún lugar de tu computadora y recuerda este lugar. En esta lección lo guardamos en el escritorio del usuario para poder encontrarlo fácilmente.
 
 Para navegar al directorio del corpus teclea `cd C:\Users\User\Desktop\ensayos-de-jose-marti` en la línea de comandos (o similar dependiendo de dónde guardaste la carpeta descomprimida en tu computadora). Escribe `dir` (`ls` para Mac) para que se te muestre la lista de los contenidos del directorio `ensayos-de-jose-marti` (véase figura 8). Para abrir uno de los archivos de texto, escribe el nombre entero del archivo incluyendo la extensión al final.
 
@@ -313,10 +313,10 @@ Heritage Draft](http://electricarchaeology.ca/2012/06/08/mining-the-open-web-wit
 
 Puedes reutilizar los datos tomándolos de [Figshare.com](https://ndownloader.figshare.com/files/90972) donde están incluidos algunos archivos `.txt`. Cada uno de los ficheros `.txt` contiene una noticia individual.
 
-- Para amplia información adicional y una bibliografía sobre *topic modeling* podrías empezar con el [Guided Tour to Topic Modeling](http://www.scottbot.net/HIAL/?p=19113) de Scott Weingart.
+- Para amplia información adicional y una bibliografía sobre *topic modeling* podrías empezar con el [Guided Tour to Topic Modeling](https://web.archive.org/web/20240520155820/https://www.scottbot.net/HIAL/index.html@p=19113.html) de Scott Weingart.
 - Una discusión importante sobre la interpretación del significado de los tópicos es '[Topic modeling made just simple enough](http://tedunderwood.wordpress.com/2012/04/07/topic-modeling-made-just-simple-enough/)' de Ted Underwood.
 - El artículo de blog '[Some Assembly Required](http://web.archive.org/web/20160704150726/http://www.lisarhody.com:80/some-assembly-required/)' *Lisa @ Work* 22 de agosto de 2012 escrito por Lisa Rhody también es muy revelador.
-- Clay Templeton, '[Topic Modeling in the Humanities: An Overview](http://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/)', Maryland Institute for Technology in the Humanities, n.d.
+- Clay Templeton, '[Topic Modeling in the Humanities: An Overview](https://web.archive.org/web/20130116223500/http://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/)', Maryland Institute for Technology in the Humanities, n.d.
 - David Blei, Andrew Ng, and Michael Jordan, '[Latent dirichlet allocation](http://dl.acm.org/citation.cfm?id=944937)', The Journal of Machine Learning Research 3 (2003).
 - Finalmente, te recomendamos que consultes la [bibliografía de artículos sobre *topic modeling*](http://mimno.infosci.cornell.edu/topics.html) de David Mimno. Están clasificados por temas para facilitar encontrar el artículo más adecuado para una aplicación determinada. También puedes echar un vistazo a su reciente artículo sobre [Historiografía Computacional](http://www.perseus.tufts.edu/publications/02-jocch-mimno.pdf) en la revista *ACM Transactions on Computational Logic* en el que analiza revistas científicas de los Clásicos a lo largo de cien años para aprender algo sobre este campo. Mientras el artículo debe leerse como un buen ejemplo de *topic modeling*, su sección sobre 'métodos' es especialmente relevante porque incluye una discusión sobre cómo preparar los textos para un análisis de ese tipo.[^13]
 

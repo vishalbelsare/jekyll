@@ -6,13 +6,13 @@ original: feedback
 
 # Agradecemos o _Feedback_
 
-<img src="{{site.baseurl}}/images/reader-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/contribute/robed-man-reading.png" class="garnish rounded float-left" alt="{{ site.data.snippets.feedback-image-alt[page.lang] }}"/>
 
 Seguiu as instruções de uma lição meticulosamente e ainda assim encontrou um erro? Obrigado por reservar um tempo para relatar um problema com uma de nossas lições. O seu contributo é crucial para nos ajudar a manter as melhores lições possíveis! 
 
 Definimos erros/bugs como: "Um erro em um programa de computador que produz um resultado inesperado ou que se comporta de forma diferente das instruções numa lição." Observe que não podemos atender a erros causados pelo usuário ao editar o código ou alterar materiais (conjuntos de dados, ficheiros de entrada, etc.) 
 
-Primeiro, pedimos que você verifique no nosso [rastreador de questões](https://github.com/programminghistorian/jekyll/issues?q=is%3Aissue+is%3Aopen+label%3Abug) se alguém já sinalizou o erro e, nesse caso, deixe um comentário nessa questão. Se o problema não foi relatado, siga uma destas opções:
+Primeiro, pedimos que você verifique no nosso [rastreador de questões](https://github.com/orgs/programminghistorian/projects/6) se alguém já sinalizou o erro e, nesse caso, deixe um comentário nessa questão. Se o problema não foi relatado, siga uma destas opções:
 
 <div class="alert alert-info">
 Por favor, não abra um "Pull Request" com a correção.
@@ -21,7 +21,7 @@ Por favor, não abra um "Pull Request" com a correção.
 
 ## Opção 1: Envie um email
 
-Envie um email para o/a nosso/a [Assistente de Publicação](mailto:admin@programminghistorian.org).
+Envie um email para a nossa [Gestora de Publicações](mailto:admin@programminghistorian.org).
 
 Inclua as seguintes informações na sua mensagem:
 

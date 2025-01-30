@@ -153,3 +153,64 @@
     es: "Lecciones sobre métodos de aprendizaje automático."
     fr: "Leçons sur l'apprentissage automatique."
     pt: "Lições focadas em aprendizagem automática"
+    
+- type: web-archiving
+  displayname:
+    en: "web archiving"
+    es: "archivado web"
+    fr: "archivage web"
+    pt: "arquivo da web"
+  description:
+    en: "Lessons teaching or using web archiving"
+    es: "Lecciones para aprender a utilizar el archivado web"
+    fr: "Leçons enseignant ou utilisant l'archivage web"
+    pt: "Lições de ensino ou utilização de arquivo da web"
+    
+- type: creative-coding
+  displayname:
+    en: "creative coding"
+    es: "programación creativa"
+    fr: "code créatif"
+    pt: "código criativo"
+  description:
+    en: "Lessons for creating expressive rather than functional products with programming."
+    es: "Lecciones para crear productos expresivos en vez de funcionales con programación."
+    fr: "Leçons pour créer des produits expressifs plutôt que fonctionnels avec la programmation."
+    pt: "Lições de programação para criar produtos expressivos em vez de funcionais."
+
+- type: data-visualization
+  displayname:
+    en: "data visualization"
+    es: "visualización de datos"
+    fr: "visualisation de données"
+    pt: "visualização de dados"
+  description:
+    en: "Lessons which teach the representation of data through common graphics."
+    es: "Lecciones que enseñan a representar datos mediante gráficos comunes."
+    fr: "Leçons qui enseignent la représentation de données à l'aide de graphiques communs."
+    pt: "Lições que ensinam a representação de dados através de gráficos comuns."
+
+- type: modeling
+  displayname:
+    en: "modeling"
+    es: "modelización"
+    fr: "modélisation"
+    pt: "modelagem"
+  description:
+    en: "Using formal, computational, or data-driven techniques to simulate, analyze, and predict complex systems."
+    es: "Utilizar técnicas formales, informáticas, o basadas en datos para simular, analizar y predecir sistemas complejos."
+    fr: "Utiliser des techniques formelles, informatiques, ou basées sur des données pour simuler, analiser et prédire des systèmes complexes."
+    pt: "Utilizar técnicas formais, computacionais ou baseadas em dados para simular, analisar e prever sistemas complexos."
+
+
+- type: metadata
+  displayname:
+    en: "metadata"
+    es: "metadata"
+    fr: "métadonnées"
+    pt: "metadados"
+  description:
+    en: "Learn how to create, interpret, or manage 'data about data'."
+    es: "Aprender a crear, interpretar o administrar 'datos sobre datos'."
+    fr: "Apprendre à créer, interpréter ou gérer des 'données à propos de données'."
+    pt: "Aprender a criar, interpretar ou gerir 'dados sobre dados'."

@@ -45,7 +45,7 @@ Le rédacteur ou la rédactrice peut adapter le texte du ticket de proposition e
 
 Lorsque les fichiers de la leçon (texte et, le cas échéant, images et données) sont prêts à être soumis, l'auteur(e) contacte le rédacteur ou la rédactrice assigné(e) qui les téléversera dans notre dépôt dédié à l'évaluation par les pairs sur [Github](https://github.com/programminghistorian/ph-submissions), après avoir vérifié la qualité des métadonnées.  
 
-1. **Téléverser la leçon (ou la traduction)**: le fichier de la leçon doit être téléversé dans le [sous-répertoire des leçons](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/fr/lecons); s'il s'agit d'une traduction, le fichier est téléversé dans le [sous-répertoire des traductions](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/fr/traductions). Si vous avez besoin d'aide, merci de consulter la [documentation de Github](https://help.github.com/articles/adding-a-file-to-a-repository/).
+1. **Téléverser la leçon (ou la traduction)**: le fichier de la leçon doit être téléversé dans le [sous-répertoire des leçons](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/fr/en-cours); s'il s'agit d'une traduction, le fichier est téléversé dans le [sous-répertoire des traductions](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/fr/en-cours/traductions). Si vous avez besoin d'aide, merci de consulter la [documentation de Github](https://help.github.com/articles/adding-a-file-to-a-repository/).
 2. **Téléverser des images**: si des images accompagnent la leçon (ou la traduction), assurez-vous que le nommage des fichiers est conforme aux règles spécifiées dans les [consignes aux auteur(e)s](/fr/consignes-auteurs). C'est au rédacteur ou à la rédactrice - vous!- de créer un sous-répertoire spécifique aux images de la leçon dans le [répertoire des images](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/images). Ce sous-répertoire doit être nommé exactement de la même manière que le fichier de la leçon. Téléversez ensuite les fichiers images dans ce sous-répertoire. 
 3. **Téléverser des données**: si la leçon est accompagnée de fichiers de données, ces fichiers doivent être téléversés dans un sous-répertoire créé dans le [répertoire ```assets```](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets) et nommé exactement de la même manière que le fichier de la leçon.
 
@@ -84,7 +84,7 @@ Votre premier commentaire sur le ticket d'évaluation d'un tutoriel doit être c
 ```
 Le Programming Historian en français a reçu la leçon (ou la traduction de la leçon) intitulée '[TITRE DE LA LEÇON]' par [NOM D'UTILISATEUR/UTILISATRICE GITHUB DE L'AUTEUR(E)] ou, s'il s'agit d'une traduction, traduite par [NOM D'UTILISATEUR/UTILISATRICE GITHUB DU TRADUCTEUR OU DE LA TRADUCTRICE]). La leçon (ou la traduction) est actuellement en cours d'évaluation et peut être consultée ici:
 
-http://programminghistorian.github.io/ph-submissions/fr/["lecons"ou "traductions"/[NOM-DE-FICHIER-ICI]
+http://programminghistorian.github.io/ph-submissions/fr/en-cours/["originales"ou "traductions"/[NOM-DE-FICHIER-ICI]
 
 J'exercerai le rôle de rédacteur/rédactrice lors de la procédure de l'évaluation. Cela implique de solliciter deux évaluations par la communauté et de gérer les discussions qui auront lieu sur ce forum. J'ai déjà fait une lecture critique de la leçon puis un retour auquel l'auteur(e) a répondu.
 
@@ -138,7 +138,7 @@ Les auteur(e)s ont la responsabilité de vérifier que la syntaxe de leur leçon
 
 Vous pouvez vérifier rapidement si tout se présente correctement au cours de la soumission en consultant la version du fichier qui s'affiche sur :
 
-`http://programminghistorian.github.io/ph-submissions/fr/lecons/NOM-DE-FICHIER-ICI`, s'il s'agit d'une leçon originale; ou sur `http://programminghistorian.github.io/ph-submissions/fr/traductions/NOM-DE-FICHIER-ICI`, s'il s'agit d'une traduction (attention, pas d'extension .md à la fin).
+`http://programminghistorian.github.io/ph-submissions/fr/en-cours/originales/NOM-DE-FICHIER-ICI`, s'il s'agit d'une leçon originale; ou sur `http://programminghistorian.github.io/ph-submissions/fr/en-cours/traductions/NOM-DE-FICHIER-ICI`, s'il s'agit d'une traduction (attention, pas d'extension .md à la fin).
 
 Si cela ne marche pas, merci d'en informer notre équipe technique qui s'occupera du problème.
 
@@ -278,6 +278,7 @@ Ci-dessous quelques sites pour chercher des images:
  - [Europeana](https://www.europeana.eu)
  - The [Virtual Manuscript Library of Switzerland](https://www.flickr.com/photos/e-codices)
  - The [British Library](https://www.flickr.com/photos/britishlibrary)
+ - The [Internet Archive Book Images](https://archive.org/details/bookimages)
  - The [Library of Congress Maps](http://www.loc.gov/maps/collections)
 
 
@@ -334,7 +335,7 @@ Prenez soin de solliciter un nouveau DOI pour la leçon selon les instructions d
 
 ## 3) Transférer les fichiers
 
-Le rédacteur ou la rédactrice aurait dû vous laisser une liste claire, dans le ticket de la soumission, avec les fichiers à être publiés. Si ce n'est pas le cas, demandez que cela s'arrange avant d'aller plus loin.  The editor should have left you a clear list of files that need to be published on the submission ticket. If they have not done so, ask them to fix it before proceeding.
+Le rédacteur ou la rédactrice aurait dû vous laisser une liste claire, dans le ticket de la soumission, avec les fichiers à être publiés. Si ce n'est pas le cas, demandez que cela s'arrange avant d'aller plus loin.
 
 Il existe différentes manières de faire un "pull request" pour publier les fichiers:
 
@@ -359,38 +360,36 @@ Après le transfert de la leçon dans le répertoire `jekyll`, il faudra aussi a
 
 ## 4) Vérifier les liens et les en-tête en YAML
 
-Une fois que vous aurez soumis vos modifications à la branche `gh-pages` du dépôt du [programminghistorian][ph_repo], le site web sera automatiquement testé par [Travis CI] ([Continuous Integration]).
+Une fois que vous aurez soumis vos modifications à la branche `gh-pages` du dépôt du [programminghistorian][ph_repo], le site web sera automatiquement testé par [GitHub Actions].
 Cette procédure teste trois choses. D'abord, que tout le code en YAML et markdown peut être parsé. Ensuite, que tous les hyperliens du site web pointent vers des pages valides et opérationnelles. Enfin, que les liens internes pointant vers des pages du _Programming Historian_ sont des liens relatifs qui commencent par `/` plutôt que par `https://programminghistorian.org/`
 
 [ph_repo]: https://github.com/programminghistorian/jekyll
 
-[Travis CI]: https://travis-ci.org
-
-[Continuous Integration]: https://www.thoughtworks.com/continuous-integration
+[GitHub Actions]: https://github.com/features/actions
 
 Ces opérations visent principalement à vérifier si des URL qui _par le passé_ ont été valides le restent _toujours_ car, souvent, les pages externes au site changent d'adresse ou ne sont plus alimentées.
 Elles offrent en outre un excellent moyen pour repérer des coquilles qui auraient pu échapper à l'attention des auteur(e)s, rédacteur(trice)s et évaluateur(trice)s.
-L'état de ces tests, couramment appelé _"Build Status"_ sur Travis CI et sur GitHub, peut être vérifié en naviguant sur la [page du dépôt du programminghistorian][ph_repo] et en cliquant sur "Commits" en haut à gauche du menu du code.
+L'état de ces tests, couramment appelé _"Build Status"_ sur GitHub, peut être vérifié en naviguant sur la [page du dépôt du programminghistorian][ph_repo] et en cliquant sur "Commits" en haut à gauche du menu du code.
 
-![GitHub commit menu location](/images/editor-guidelines/gh_commits_location_screen.png)
+![GitHub commit menu location](/images/website/editor-guidelines/gh_commits_location_screen.png)
 
 Ainsi, vous pouvez voir la liste de toutes les modifications effectuées sur le dépôt principal, tout comme une icône qui en montre l'état:
 
-- Coche verte: c'est bon! Tous les liens d'une page ont été vérifiés et sont valides. [**Vous pouvez ignorer la partie de la section qui suit**](#7-remerciements-et-communication)
+- Coche verte: c'est bon! Tous les liens d'une page ont été vérifiés et sont valides. [**Vous pouvez ignorer la partie de la section qui suit**](#5-tenir-au-courant-le-rédacteur-ou-la-rédactrice-en-charge-du-suivi-éditorial-de-la-leçon)
 - Cercle jaune: votre dernière modification est toujours en cours d'enregistrement. Attendez quelques minutes avant de vérifier à nouveau.
 - X rouge: il y a eu une erreur dans l'enregistrement de la modification.
 
 Si votre compilation a échoué, il est nécessaire de consulter l'historique pour en repérer la cause.
 
 1. Cliquer sur l'icône X rouge qui correspond à la modification la plus récente (elle apparaît au plus haut de la page) puis cliquer sur le lien "Details".
-![Travis details location](/images/editor-guidelines/commit_list_screen.png)
-2. Vous serez ainsi dirigés vers la page de l'historique des compilations sur Travis CI. Les compilations sont habituellement longues de plusieurs centaines de lignes, mais il faut descendre pour trouver l'information sur l'erreur. Cliquez donc sur le petit cercle gris qui se trouve en haut à droite de l'affichage de l'historique pour afficher le bas de la page.
-![The top of the Travis CI build screen](/images/editor-guidelines/travis_top_screen.png)
-3. Il existe deux types d'erreurs: d'abord, si un des champs requis en YAML est manquant (par exemple, si une leçon n'a pas de champ `editors`), cela apparaîtra en rouge. Les liens qui ne marchent pas seront aussi affichés en rouge et regroupés selon la page à laquelle ils apparaissent. Si des liens de votre leçon renvoient des erreurs, il vaut mieux vérifier à nouveau qu'il n'y a pas de fautes dans l'adresse. Si c'est le cas, il faut faire les corrections nécessaires puis soumettre les modifications au dépôt et attendre que Travis CI lance de nouveaux tests.
-![Locating error details in Travis CI build results](/images/editor-guidelines/travis_bottom_screen.png)
+![Travis details location](/images/website/editor-guidelines/commit_list_screen.png)
+2. Vous serez ainsi dirigés vers la page de l'historique des compilations sur GitHub Actions. Les compilations sont habituellement longues de plusieurs centaines de lignes, mais il faut descendre pour trouver l'information sur l'erreur. Cliquez donc sur le petit cercle gris qui se trouve en haut à droite de l'affichage de l'historique pour afficher le bas de la page.
+![The top of the Travis CI build screen](/images/website/editor-guidelines/travis_top_screen.png)
+3. Il existe deux types d'erreurs: d'abord, si un des champs requis en YAML est manquant (par exemple, si une leçon n'a pas de champ `editors`), cela apparaîtra en rouge. Les liens qui ne marchent pas seront aussi affichés en rouge et regroupés selon la page à laquelle ils apparaissent. Si des liens de votre leçon renvoient des erreurs, il vaut mieux vérifier à nouveau qu'il n'y a pas de fautes dans l'adresse. Si c'est le cas, il faut faire les corrections nécessaires puis soumettre les modifications au dépôt et attendre que GitHub Actions lance de nouveaux tests.
+![Locating error details in Travis CI build results](/images/website/editor-guidelines/travis_bottom_screen.png)
 
-- Plus rarement, un lien qui échoue sur Travis CI peut parfaitement fonctionner lorsque vous vous y rendez à partir de votre propre navigateur. Si cela arrive, merci de [créer un nouveau ticket] pour que l'un des membres de l'équipe technique puisse travailler sur le problème pour trouver une solution.
-- Dans le cadre de ces opérations habituelles, Travis CI ira occasionnellement vérifier des liens de tout le site y compris ceux d'anciennes leçons. Ainsi, il est possible de voir une erreur qui est causée non pas par votre leçon, mais par une autre page. Si vous avez la possibilité de corriger ces erreurs dans l'immédiat, merci de le faire puis d'attendre qu'une nouvelle compilation se fasse. S'il vous est impossible de vérifier ces autres liens, merci de vérifier que les erreurs ne viennent pas de votre leçon et, par la suite, [créer un nouveau ticket] pour qu'un autre membre de l'équipe technique puisse s'occuper du problème.
+- Plus rarement, un lien qui échoue sur GitHub Actions peut parfaitement fonctionner lorsque vous vous y rendez à partir de votre propre navigateur. Si cela arrive, merci de [créer un nouveau ticket] pour que l'un des membres de l'équipe technique puisse travailler sur le problème pour trouver une solution.
+- Dans le cadre de ces opérations habituelles, GitHub Actions ira occasionnellement vérifier des liens de tout le site y compris ceux d'anciennes leçons. Ainsi, il est possible de voir une erreur qui est causée non pas par votre leçon, mais par une autre page. Si vous avez la possibilité de corriger ces erreurs dans l'immédiat, merci de le faire puis d'attendre qu'une nouvelle compilation se fasse. S'il vous est impossible de vérifier ces autres liens, merci de vérifier que les erreurs ne viennent pas de votre leçon et, par la suite, [créer un nouveau ticket] pour qu'un autre membre de l'équipe technique puisse s'occuper du problème.
 
 [créer un nouveau ticket]: https://github.com/programminghistorian/jekyll/issues/new
 

@@ -6,6 +6,8 @@ authors:
 - Max De Wilde
 date: 2013-08-05
 translation_date: 2017-05-17
+tested_date: 2024-03-14
+lesson-testers: Antonin Delpeuch
 reviewers:
 - Patrick Burns
 - Nora McGregor
@@ -44,7 +46,7 @@ No confíes ciegamente en tus datos. Ese es el mensaje clave de este tutorial qu
 3.  Analizar la distribución de valores a lo largo de un conjunto de datos
 4.  Agrupar diferentes representaciones de la misma realidad
 
-Estos pasos se ilustran con la ayuda de una serie de ejercicios basados en una colección de metadatos del [Museo Powerhouse](http://www.powerhousemuseum.com/), que demuestran cómo los métodos (semi-)automatizados pueden ayudarte a corregir los errores que puedan presentar tus datos.
+Estos pasos se ilustran con la ayuda de una serie de ejercicios basados en una colección de metadatos del [Museo Powerhouse](https://powerhouse.com.au/), que demuestran cómo los métodos (semi-)automatizados pueden ayudarte a corregir los errores que puedan presentar tus datos.
 
 ## ¿Por qué los historiadores deben preocuparse por la calidad de los datos?
 
@@ -62,9 +64,9 @@ Además del perfilado de datos y las operaciones de limpieza, las extensiones de
 
 ## Descripción del ejercicio Powerhouse Museum
 
-El Museo Powerhouse de Sydney ofrece la exportación gratuita de metadatos de su colección en su [sitio web](http://www.powerhousemuseum.com/collection/database/download.php). Este museo es uno de los mayores de ciencia y tecnología de todo el mundo, proporcionando acceso a casi 90.000 objetos, que van desde máquinas de vapor a cristalería fina y desde  alta costura a chips de ordenador.
+El Museo Powerhouse de Sydney ofreció la exportación gratuita de metadatos de su colección en su [sitio web](https://powerhouse.com.au/). Este museo es uno de los mayores de ciencia y tecnología de todo el mundo, proporcionando acceso a casi 90.000 objetos, que van desde máquinas de vapor a cristalería fina y desde  alta costura a chips de ordenador.
 
-Este museo ha estado divulgando activamente su colección en línea y haciendo que la mayoría de sus datos estén disponibles libremente. Desde el sitio web del museo, se puede descargar un archivo de texto separado por tabulaciones llamado *phm-collection.tsv*, que se puede abrir como una hoja de cálculo. El archivo descomprimido (58MB) contiene metadatos básicos (17 campos) para 75.823 objetos, publicados bajo una licencia [Creative Commons de Reconocimiento-Compartir-Igual 2.5](https://creativecommons.org/licenses/by-sa/2.5/es/). En este tutorial usaremos una copia de los datos que hemos archivado para descargarlos (en un momento). Esto asegura que si el Museo Powerhouse actualiza los datos, te seguirá siendo posible el seguir esta Lección.
+El museo dio a conocer activamente su colección en línea y puso la mayoría de sus datos a libre disposición. Anteriormente, se podía descargar del sitio web del museo un archivo de texto separado por tabuladores llamado `phm-collection.tsv` y abrirlo como hoja de cálculo. El archivo descomprimido (58MB) contiene metadatos básicos (17 campos) para 75.823 objetos, publicados bajo una licencia [Creative Commons de Reconocimiento-Compartir-Igual 2.5](https://creativecommons.org/licenses/by-sa/2.5/es/). En este tutorial usaremos una copia de los datos que hemos archivado para descargarlos (en un momento). Esto asegura que si el Museo Powerhouse actualiza los datos, te seguirá siendo posible el seguir esta Lección.
 
 A través del proceso de perfilado de datos y de limpieza, el estudio de caso se centrará específicamente en el campo `Categorías`, que se rellena con términos del Tesauro de nombres de objetos del museo Powerhouse (PONT). PONT reconoce el uso y la ortografía de Australia, y refleja de forma muy directa las fortalezas de la colección. En la colección encontrarás las mejores representaciones de la historia social y las artes decorativas y, en comparación, pocos nombres de objetos relacionados con las bellas artes y la historia natural.
 
@@ -72,15 +74,15 @@ Los términos del campo Categorías constituyen lo que llamamos un vocabulario c
 
 ### Comenzando: instalación de OpenRefine e importación de datos
 
-[Descarga *OpenRefine*](http://openrefine.org/#download_openrefine) y sigue las instrucciones de instalación. [*OpenRefine*] funciona en todas las plataformas: Windows, Mac y Linux. [*OpenRefine*] se abrirá en tu navegador, pero es importante señalar que la aplicación se ejecuta localmente y que tus datos no se almacenarán en línea. Los archivos de datos están disponibles en nuestro [sitio web FreeYourMetadata](http://data.freeyourmetadata.org/powerhouse-museum/), que serán los que se utilizarán a lo largo de este tutorial. Descarga el archivo *phm-collection.tsv* antes de continuar.
+[Descarga *OpenRefine*](https://openrefine.org/download) y sigue las instrucciones de instalación. [*OpenRefine*] funciona en todas las plataformas: Windows, Mac y Linux. [*OpenRefine*] se abrirá en tu navegador, pero es importante señalar que la aplicación se ejecuta localmente y que tus datos no se almacenarán en línea. Los archivos de datos están disponibles [en GitHub](/assets/cleaning-data-with-openrefine/phm-collection.tsv), que serán los que se utilizarán a lo largo de este tutorial. Descarga el archivo `phm-collection.tsv` antes de continuar.
 
 >Nota de la traductora: Open Refine se instala por defecto en inglés. Para usarlo en español sólo necesitas cambiar la configuración del lenguaje. Pulsa **Language settings** y se mostrará en la ventana un desplegable donde podrás escoger el español. Pulsa **Change language** y la página te dirá que necesita refrescarse para aplicar los cambios. Haz clic en **Aceptar** y la página y el resto del programa aparecerán en español.
 
-En la página de inicio de *OpenRefine*, crea un nuevo proyecto utilizando el archivo de datos descargado y haz clic en '**Siguiente**'. De forma predeterminada, la primera línea se analizará correctamente como el nombre de una columna, pero es necesario desmarcar la casilla de verificación 'Las comillas se usan para agrupar celdas que contienen separadores de columna', ya que las comillas dentro del archivo no tienen ningún significado para *OpenRefine*. Ahora haz clic en '**Crear proyecto**'. Si todo va bien, verás 75.814 filas. Como alternativa, puedes descargarte directamente el [proyecto inicial de *OpenRefine*](http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz).
+En la página de inicio de *OpenRefine*, crea un nuevo proyecto utilizando el archivo de datos descargado y haz clic en '**Siguiente**'. De forma predeterminada, la primera línea se analizará correctamente como el nombre de una columna, pero es necesario desmarcar la casilla de verificación 'Las comillas se usan para agrupar celdas que contienen separadores de columna', ya que las comillas dentro del archivo no tienen ningún significado para *OpenRefine*. Ahora haz clic en '**Crear proyecto**'. Si todo va bien, verás 75.814 filas. 
 
 El conjunto de datos del museo Powerhouse está formado por metadatos detallados de todos los objetos de la colección, incluyendo título, descripción, varias categorías a las que pertenece el objeto, información de procedencia y un vínculo persistente al objeto en el sitio web del museo. Para tener una idea de a qué objeto corresponden los metadatos simplemente haz clic en el vínculo persistente y se abrirá el sitio web.[^2]
 
-{% include figure.html caption="Figura 1: Captura de pantalla de un Objeto de Muestra del sitio web del Museo Powerhouse" filename="powerhouseScreenshot.png" %}
+{% include figure.html caption="Figura 1: Captura de pantalla de un Objeto de Muestra del sitio web del Museo Powerhouse" filename="en-or-cleaning-data-with-openrefine-01.png" %}
 
 ### Conoce tus datos
 
@@ -114,7 +116,7 @@ Tras la aplicación de una faceta, *OpenRefine* propone agrupar facetas que han 
 
 El método de agrupación por defecto no es demasiado complejo, por eso no encuentra aún todos los grupos. Experimenta con diferentes métodos para ver qué resultados obtienen. No obstante, ten cuidado: algunos métodos son demasiado agresivos, de forma que podrías terminar agrupando valores que no están relacionados. Ahora que los valores han sido agrupados individualmente, podemos volverlos a unir en una sola celda. Haz clic en el triángulo Categorías y elije **Editar celdas**, **Unir celdas multi-valuadas**, **Aceptar**. Elije el carácter barra vertical (`|`) como separador. Las filas ahora se ven como antes, con un campo de Categorías de valor múltiple.
 
-### Aplicación de transformaciones *ad hoc* mediante el uso de expresiones regulares
+### Aplicación de transformaciones *ad hoc* mediante el uso de expresiones GREL
 
 Como recordarás se produjo un aumento en el número de registros tras el proceso de separación: nueve registros aparecieron de la nada. Para encontrar la causa de esta disparidad, necesitamos retroceder en el tiempo hasta antes de que separáramos las categorías en filas diferentes. Para ello, activa la ficha Deshacer/Rehacer a la derecha de la ficha Facetas/Filtros y obtendrás un historial de todas las acciones que realizaste desde la creación del proyecto. Selecciona el paso justo antes de 'Split multi-valued cells in column Categories'[^5] (Dividir celdas multi-valuadas en la columna categorías) (si has seguido nuestro ejemplo este debería ser 'Remove 84 rows' (Eliminar 84 filas)) y luego vuelve a la ficha Facetas/Filtros.
 
@@ -122,7 +124,7 @@ La cuestión surgió durante la operación de división con el carácter barra v
 
 Ahora ingresa una segunda `|` después de la primera para obtener `||`` (doble barra vertical): podrás ver que 9 registros coinciden con este patrón. Estos son probablemente los 9 registros culpables de nuestra discrepancia: cuando *OpenRefine* los divide la doble barra vertical se interpreta como una ruptura entre dos registros en lugar de un separador doble sin sentido. Y ahora, ¿cómo corregimos estos valores? Ve al menú del campo 'Categorías' y elije '**Editar celdas**' \> '**Transformar...**'. Bienvenido a la interfaz de transformación de texto personalizado, una potente funcionalidad de *OpenRefine* que usa el Lenguaje de Expresión *OpenRefine* (GREL).
 
-La palabra 'valor' en el campo de texto representa el valor actual de cada celda, que puedes ver a continuación. Podemos modificar este valor aplicándole funciones (véase la [documentación de GREL](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions) para una lista completa). En este caso, queremos reemplazar las barras verticales dobles por una sola. Esto puede lograrse introduciendo la siguiente [expresión regular](https://es.wikipedia.org/wiki/Expresi%C3%B3n_regular) (asegúrate de no olvidar las comillas):
+La palabra 'valor' en el campo de texto representa el valor actual de cada celda, que puedes ver a continuación. Podemos modificar este valor aplicándole funciones (véase la [documentación de GREL](https://openrefine.org/docs/manual/grelfunctions) para una lista completa). En este caso, queremos reemplazar las barras verticales dobles por una sola. Esto puede lograrse introduciendo la siguiente expresión GREL (asegúrate de no olvidar las comillas):
 
 ```
 value.replace('||','|')
@@ -145,7 +147,7 @@ Desde que cargaste tus datos por primera vez en *OpenRefine*, todas las operacio
 
 ### Construir sobre tus datos limpios
 
-Una vez que tus datos han sido limpiados, puedes dar el siguiente paso y explorar otras características interesantes de *OpenRefine*. La comunidad de usuarios de *OpenRefine* ha desarrollado dos extensiones particularmente interesantes que te permiten vincular tus datos a datos que ya se han publicado en la Web. La [extensión RDF Refine](http://web.archive.org/web/20180113121435/http://refine.deri.ie/docs) transforma las palabras clave de texto sin formato en URLs. La [extensión NER](https://github.com/RubenVerborgh/Refine-NER-Extension) te permite aplicar el reconocimiento de nombres de entidades (NER), que identifica palabras clave en el texto de los campos textuales y les inserta una URL.
+Una vez que tus datos han sido limpiados, puedes dar el siguiente paso y explorar otras características interesantes de *OpenRefine*. La comunidad de usuarios de *OpenRefine* ha desarrollado dos extensiones particularmente interesantes que te permiten vincular tus datos a datos que ya se han publicado en la Web. La [extensión RDF Transform](https://github.com/AtesComp/rdf-transform#rdf-transform) transforma las palabras clave de texto sin formato en URLs. La [extensión NER](https://github.com/stkenny/Refine-NER-Extension) te permite aplicar el reconocimiento de nombres de entidades (NER), que identifica palabras clave en el texto de los campos textuales y les inserta una URL.
 
 ## Conclusiones
 
@@ -157,34 +159,3 @@ Si sólo recordaras una cosa de esta lección, debería ser lo siguiente: *todos
 [^3]: Es posible que al cargar este proyecto no veas ninguna columna con este color. Esto significa que ningún campo tiene definidos sus valores como numéricos.
 [^4]: Al cargar el proyecto es muy posible que esta columna aparezca con formato de texto. Para poder aplicar una faceta numérica primero hay que convertirla a formato numérico: '**Editar celdas**' \> '**Transformaciones comunes**' \> '**a número**'.
 [^5]: Esta parte de la interfaz del programa no aparece traducida.
-
-
-[*OpenRefine*]: http://openrefine.org "OpenRefine"
-[Powerhouse museum]: http://www.powerhousemuseum.com
-    "Powerhouse museum"
-[*Potter’s Wheel ABC*]: http://control.cs.berkeley.edu/abc/
-    "Potter's Wheel ABC "
-[*Wrangler*]: http://vis.stanford.edu/papers/wrangler/ "Wrangler"
-[data profiling]: http://en.wikipedia.org/wiki/Data_profiling
-[named-entity recognition]: http://en.wikipedia.org/wiki/Named-entity_recognition
-[Library of Congress]: http://www.loc.gov/index.html
-    "Library of Congress"
-[OCLC]: http://www.oclc.org/home.en.html "OCLC"
-[website]: http://www.powerhousemuseum.com/collection/database/download.php
-    "website"
-[Creative Commons Attribution Share Alike (CCASA) license]: http://creativecommons.org/licenses/by-nc/2.5/au/
-[Controlled vocabulary]: http://en.wikipedia.org/wiki/Controlled_vocabulary
-[Linked Data]: http://en.wikipedia.org/wiki/Linked_data
-[Download OpenRefine]: http://openrefine.org/#download_openrefine
-[FreeYourMetadata website]: http://data.freeyourmetadata.org/powerhouse-museum/
-[phm-collection]: /images/phm-collection.tsv
-[initial OpenRefine project]: http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.google-refine.tar.gz
-[Powerhouse Museum Website]: /images/powerhouseScreenshot.png
-[facet]: http://en.wikipedia.org/wiki/Faceted_search
-[Screenshot of OpenRefine Example]: /images/overviewOfSomeClusters.png
-[GREL documentation]: https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions
-[regular expression]: http://en.wikipedia.org/wiki/Regular_expression
-    "Regular Expressions"
-[CSV]: http://en.wikipedia.org/wiki/Comma-separated_values
-[RDF Refine extension]: http://refine.deri.ie/docs
-[NER extension]: https://github.com/RubenVerborgh/Refine-NER-Extension

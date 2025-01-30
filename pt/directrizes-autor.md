@@ -7,13 +7,13 @@ original: author-guidelines
 
 # Directrizes para Autores
 
-<img src="{{site.baseurl}}/images/author-sm.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
+<img src="{{site.baseurl}}/images/website/woman-at-writing-desk.png" class="garnish rounded float-left" alt="{{ site.data.snippets.write-a-lesson-image-alt[page.lang] }}"/>
 <h2 class="noclear">Etapa 1: <a href="#etapa-1-propor-uma-nova-lição">Propor uma nova lição</a></h2>
 <h2 class="noclear">Etapa 2: <a href="#etapa-2-escrever-e-formatar-uma-nova-lição">Escrever e formatar uma nova lição</a></h2>
 <h2 class="noclear">Etapa 3: <a href="#etapa-3-submeter-uma-nova-lição">Submeter uma nova lição</a></h2>
 
 
-Estas directrizes foram desenvolvidas para ajudar a entender o processo de criação de um tutorial para o *Programming Historian em português*. Estão incluídos detalhes práticos e teóricos do processo de escrita do tutorial, bem como a indicação do fluxo de trabalho e do processo de revisão por pares. Se a qualquer momento não estiver seguro, basta enviar um email ao editor {% include managing-editor.html lang=page.lang %}.
+Estas directrizes foram desenvolvidas para ajudar a entender o processo de criação de um tutorial para o *Programming Historian em português*. Estão incluídos detalhes práticos e teóricos do processo de escrita do tutorial, bem como a indicação do fluxo de trabalho e do processo de revisão por pares. Se a qualquer momento não estiver seguro, basta [enviar um email ao Editor-Chefe](mailto:portugues@programminghistorian.org).
 
 ## Etapa 1: Propor uma nova lição
 
@@ -23,9 +23,9 @@ Procuramos lições relevantes para as Humanidades sobre um problema ou processo
 O âmbito e extensão da lição devem ser adequados à  complexidade da tarefa, mas não devem ter mais de 8.000 palavras (incluindo códigos). Lições mais curtas são bem-vindas. Lições mais longas podem precisar de ser divididas.
 </div>
 
-Se tem uma ideia para uma nova lição preencha o [formulário de proposta de lição](/assets/forms/formulario.proposta.licao.txt) e envie para {% include managing-editor.html lang=page.lang %}.
+Se tem uma ideia para uma nova lição preencha o [formulário de proposta de lição](/assets/forms/formulario.proposta.licao.txt) e [enviar ao Editor-Chefe](mailto:portugues@programminghistorian.org).
 
-Para ter uma ideia do que publicamos consulte as [lições publicadas]({{site.baseurl}}/pt/licoes), leia as nossas [orientações para revisores]({{site.baseurl}}/pt/directrizes-revisor) ou navegue pelas [lições em desenvolvimento](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/pt/licoes). Por favor, reserve um momento para verificar o nosso documento de [Concordância de Lições](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) para ver quais os métodos já abordados nas nossas lições publicadas ou futuras.
+Para ter uma ideia do que publicamos consulte as [lições publicadas]({{site.baseurl}}/pt/licoes), leia as nossas [orientações para revisores]({{site.baseurl}}/pt/directrizes-revisor) ou navegue pelas [lições em desenvolvimento](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/pt/esbocos). Por favor, reserve um momento para verificar o nosso documento de [Concordância de Lições](https://docs.google.com/spreadsheets/d/1vrvZTygZLfQRoQildD667Xcgzhf_reQC8Nq4OD-BRIA/edit#gid=0) para ver quais os métodos já abordados nas nossas lições publicadas ou futuras.
 
 Se a sua proposta for aceite, um editor criará uma página "Proposta" no nosso [website de submissões](https://github.com/programminghistorian/ph-submissions/issues) com o título da lição, mesmo que seja apenas um rascunho, e com os objetivos propostos. Isto serve para acompanhar o trabalho em andamento. Para garantir a publicação em tempo útil, os autores devem enviar a sua proposta de lição no prazo de 90 dias.
 
@@ -48,15 +48,15 @@ Esta primeira seção trata de questões gerais sobre o estilo, que ajudarão a 
 *	As lições não devem exceder 8.000 palavras (incluindo código).
 *	O tom deve ser formal, mas acessível.
 *	O leitor deve ser tratado na segunda pessoa.
-*	Utilize um estilo de português genérico, que se adapte tanto ao português europeu quanto ao brasileiro.
+*	Utilize um estilo de português genérico, que se adapte tanto ao português europeu quanto ao brasileiro. Por favor, tenha em consideração a [compatibilização e o glossário](https://github.com/programminghistorian/jekyll/wiki/Achieving-Sustainability-Agreed-terminology-PH-em-portugu%C3%AAs) desenvolvido pela equipe.
 *	A sua contribuição é um "tutorial" ou uma "lição" e não um "artigo".
 
 ### Código aberto, Acesso aberto
 O *Programming Historian em português* está comprometido com os valores de código aberto. Todas as lições devem usar linguagens de programação e softwares livres sempre que possível. O objetivo é minimizar os custos e permitir aumentar a participação o máximo possível.
 
-Os autores mantêm os direitos autorais e concedem à revista o direito de primeira publicação, com o trabalho simultaneamente licenciado sob a Licença Creative Commons - Atribuição 4.0 Internacional [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt).
+Os autores mantêm os direitos autorais e concedem à revista o direito de primeira publicação, com o trabalho simultaneamente licenciado sob a Licença Creative Commons - Atribuição 4.0 Internacional [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt). Os autores têm permissão de publicar e distribuir o seu trabalho online em repositórios institucionais/disciplinares ou na sua página pessoal.
 
-Os autores têm permissão de publicar e distribuir o seu trabalho online em repositórios institucionais/disciplinares ou na sua página pessoal.
+Pedimos aos autores e tradutores para preencher [o formulário de declaração](/assets/forms/Direitos-autorais-e-permissao-para-publicar.pdf), reconhecer os direitos autorais e conceder permissão para publicar. Por favor, envie o formulário [ao/à nosso/a Assistente de Publicação](mailto:admin@programminghistorian.org). 
 
 ### Escrever para um público geral
 Os leitores do *Programming historian* vivem em todo o mundo. Os autores podem e devem tomar medidas para escrever a lição de forma acessível para o maior número de pessoas possível. Siga estas directrizes gerais:
@@ -176,7 +176,9 @@ A orientação é que seja utilizada com moderação no texto em prosa. Regras e
 *	As notas de fim não devem conter apenas um URL.
     *	(Correto): Grove, John. "Calhoun and Conservative Reform." American Political Thought 4, no. 2 (2015): 203–27. https://doi.org/10.1086/680389.
     *	(Incorreto): https://doi.org/10.1086/680389
-
+* Para citar software de acordo com [as recomendações do Software Heritage](https://www.softwareheritage.org/save-and-reference-research-software/), forneça os elementos disponíveis das seguintes informações: autor, título, versão, ano de lançamento, licença, URL do repositório. Abaixo encontra-se um exemplo que segue o estilo de citação do _Chicago Manual, 17ª edição_:
+    * **Nota final**: Julien Barnier _et al._. _Scatterd3_, versão 1.0.1 (2021). GPL. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
+    * **Referência bibliográfica**: Barnier, Julien, Kent Russell, Mike Bostock, Susie Lu, Speros Kokenes, Evan Wang. Scatterd3 (versão 1.0.1). GPL. 2021. [https://cran.r-project.org/web/packages/scatterD3/index.html](https://cran.r-project.org/web/packages/scatterD3/index.html).
 
 ## C. Directrizes de formatação
 Esta seção final aborda questões de formatação para a submissão. Leia esta seção antes e depois de escrever o seu rascunho. Se errar alguns destes elementos, poderá corrigi-los quando publicarmos uma visualização online da lição no início do processo de revisão por pares.
@@ -222,7 +224,7 @@ Se deseja incluir uma nota ou um aviso para os leitores, é possível separá-lo
 ```
 
 ### Figuras e imagens
-As imagens podem ajudar os leitores a entender os passos da lição, mas não devem ser usadas como decoração. Se desejar usar imagens na sua lição, identifique-as sequencialmente como LESSON-NAME1.jpg, LESSON-NAME2.jpg, etc. Refira as imagens no texto como "Figura 1", "Figura 2", e assim por diante. Todas as figuras devem vir com uma legenda concisa e notas finais, quando apropriado. A licença legal para publicar qualquer imagem tem de estar assegurada.
+As imagens podem ajudar os leitores a entender os passos da lição, mas não devem ser usadas como decoração. Se desejar usar imagens na sua lição, identifique-as sequencialmente como LESSON-NAME1.jpg, LESSON-NAME2.jpg, etc. Refira as imagens no texto como "Figura 1", "Figura 2", e assim por diante. Todas as figuras devem vir com uma legenda concisa, texto alternativo descritivo 'alt-text' e notas finais, quando apropriado. A licença legal para publicar qualquer imagem tem de estar assegurada.
 
 Os ficheiros devem ser compatíveis com a web, preferencialmente .png ou .jpg, e devem ter um máximo de 840px no lado mais longo. Isso é especialmente importante para leitores de países com velocidades mais lentas de Internet.
 
@@ -232,7 +234,7 @@ Para inserir uma imagem no seu texto, use o seguinte formato:
 
 {% raw %}
 ``` markdown
-{% include figure.html filename="NOME-DO-FICHEIRO-DE-IMAGEM" caption="A LEGENDA USANDO \"BARRAS\" PARA SALTAR ASPAS INTERNAS" %}
+{% include figure.html filename="NOME-DO-FICHEIRO-DE-IMAGEM" alt="DESCRIÇÃO VISUAL DA IMAGEM" caption="A LEGENDA USANDO \"BARRAS\" PARA SALTAR ASPAS INTERNAS" %}
 ```
 {% endraw %}
 
@@ -277,7 +279,7 @@ Recomendamos estas práticas ao escrever o código:
 
 Verifique se o ficheiro da lição está de acordo com as especificações acima. Quando terminado, é altamente recomendável pedir a pelo menos duas pessoas para ler a lição e experimentar o tutorial, para dar feedback e garantir que é entendido por todos. Desta maneira ajuda os revisores a concentrarem-se em ajudá-lo a produzir uma lição tão consistente quanto possível.
 
-Se a lição está pronta a submeter, segue-se a revisão por pares. As submissões são feitas enviando materiais por e-mail para o editor, para que ele possa carregá-los no nosso site de revisão por pares no [Github](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/lessons).
+Se a lição está pronta a submeter, segue-se a revisão por pares. As submissões são feitas enviando materiais por e-mail para o editor, para que ele possa carregá-los no nosso site de revisão por pares no [Github](https://github.com/programminghistorian/ph-submissions/).
 
 1. **Obter acesso**: crie uma [conta gratuita](https://github.com/join). Envie o nome de usuário Github para o editor, que dará acesso de upload ao nosso site de submissões. Informe o editor do nome do ficheiro da lição e se há imagens ou ficheiros de dados que acompanhem o tutorial. O autor não fará o upload inicial para o GitHub, mas precisará de acesso para postar revisões subsequentes.
 2. **Preparar os materiais**: se a lição incluir imagens, certificar-se de que todos os ficheiros estão nomeados de acordo com as convenções de nomenclatura especificadas acima. Essas imagens devem ser enviadas numa única pasta compactada. Se a lição incluir ficheiros de dados, estes devem ser enviados noutra pasta compactada.

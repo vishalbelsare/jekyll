@@ -5,11 +5,9 @@
   institution: Western University
   bio:
     en: |
-      William J. Turkel is Professor of History at the
-      University of Western Ontario.
+      William J. Turkel is Professor of History at the University of Western Ontario.
     es: |
-      William J. Turkel es profesor de Historia en la Universidad de Western
-      Ontario.
+      William J. Turkel es profesor de Historia en la Universidad de Western Ontario.
     fr: |
       William J. Turkel est professeur d'histoire à l'Université Western Ontario.
     pt: |
@@ -27,11 +25,11 @@
   url: "http://adamcrymble.org"
   team: true
   team_start: 2011
-  institution: University College London, UK
+  institution: University College London, United Kingdom
   sortname: Crymble
   affiliation:
     en: |
-      University College London, UK
+      University College London, United Kingdom
     es: |
       University College London, Reino Unido
     fr: |
@@ -246,6 +244,8 @@
       Taryn Dewar tiene una maestría en Historia Pública (Western University) y es intérprete en el Centro de investigación de arenas de alquitrán en Fort McMurray, Alberta.
     pt: |
       Taryn Dewar é mestre em História Pública pela Western University e interprete no Oil Sands Discovery Centre em Fort McMurray, Alberta.
+    fr: |
+      Taryn Dewar est titulaire d’un master en histoire publique de l’université Western et est interprète à l’Oil Sands Discovery Centre de Fort McMurray, dans l’Alberta (Canada).
 
 - name: Maria Velez-Serna
   bio:
@@ -265,14 +265,15 @@
 
 
 - name: Daniel van Strien
+  orcid: 0000-0003-1684-6556
   team: false
   bio:
     en: |
-      Daniel van Strien is a Library Science student at City University, London.
+      Daniel van Strien is Digital Curator for the Living with Machines project at the British Library, London.
     es: |
-      Daniel van Strien es estudiante de Biblioteconomía en la Universidad de la Ciudad, Londres.
+      Daniel van Strien es curador digital del proyecto Living with Machines en la Biblioteca Británica de Londres. Londres.
     pt: |
-      Daniel van Strien é estudante de Biblioteconomia na City University, Londres.
+      Daniel van Strien é curador digital do projeto Living with Machines na British Library, Londres.
 
 - name: Kim Pham
   team: false
@@ -329,7 +330,7 @@
   orcid: 0000-0002-2682-6922
   affiliation:
     en: |
-      University of Southampton, UK
+      University of Southampton, United Kingdom
     es: |
       University of Southampton, Reino Unido
     fr: |
@@ -338,15 +339,15 @@
       University of Southampton, Reino Unido
   bio:
     en: |
-      James Baker is Director of Digital Humanities at the University of Southampton.
+      James Baker is Professor of Digital Humanities at the University of Southampton.
     es: |
-      James Baker es el Director de Humanidades Digitales en la Universidad de Southampton.
+      James Baker es el profesor de Humanidades Digitales en la Universidad de Southampton.
     fr: |
-      James Baker est directeur des humanités numériques à l'Université de Southampton.
+      James Baker est professeur des humanités numériques à l'Université de Southampton.
     pt: |
-      James Baker é Diretor de Humanidades Digitais da University of Southampton.
+      James Baker é professor de Humanidades Digitais da University of Southampton.
   team_roles:
-    - proghist
+    - proghist-chair
     - finance-manager
   status: institutionally-supported
 
@@ -372,6 +373,8 @@
       Miriam Posner es coordinadora del programa de Humanidades Digitales de la Universidad de California (Los Angeles).
     pt: |
       Miriam Posner é coordenadora do programa de Humanidades Digitais da University of California, Los Angeles.
+    fr: |
+      Miriam Posner est coordinatrice du programme des humanités numériques à University of California, Los Angeles.
 
 - name: Jeremy Boggs
   team: false
@@ -454,6 +457,8 @@
       Scott Weingart is a historian of science and digital humanities specialist at Carnegie Mellon University.
     es: |
       Scott Weingart es historiador de la ciencia y especialista en Humanidades Digitales en Carnegie Mellon University.
+    fr: |
+      Scott Weingart est Historien des Sciences et Spécialiste des Humanités Numériques à Carnegie Mellon University.
     pt: |
       Scott Weingart é historiador da ciência e especialista em Humanidades Digitais na Carnegie Mellon University.
 
@@ -653,8 +658,9 @@
   email: sarah.melton1@gmail.com
   twitter: worldcatlady
   url: "http://sarahvmelton.com"
-  team: true
+  team: false
   team_start: 2019
+  team_end: 2022
   institution: SproutSocial
   sortname: Melton
   affiliation:
@@ -675,12 +681,6 @@
       Sarah Melton est responsable de la stratégie formation produit chez SproutSocial.
     pt: |
       Sarah Melton desenvolve a Estratégia de Produtos Educativos na SproutSocial.
-
-  team_roles:
-    - managing
-    - english
-    - proghist
-  status: volunteer
 
 - name: Sarah Simpkin
   team: false
@@ -864,7 +864,7 @@
     pt: |
       Jessica Parr é professora de Humanidades Digitais no Departamento de História na Northeastern University, Boston, Estados Unidos.
   team_roles:
-    - global-lead
+    - proghist
   status: volunteer
 
 - name: Taylor Arnold
@@ -993,7 +993,7 @@
   sortname: Sichani
   affiliation:
     en: |
-      School of Advanced Study, University of London, UK
+      School of Advanced Study, University of London, United Kingdom
     es: |
       School of Advanced Study, University of London, Reino Unido
     fr: |
@@ -1030,6 +1030,8 @@
       Jessica Otis is a Digital Humanities Specialist in the University Libraries and Assistant Professor of History at Carnegie Mellon University.
     es: |
       Jessica Otis es especialista en Humanidades Digitales de las bibliotecas universitarias y profesora asistente de Historia en la Universidad Carnegie Mellon.
+    fr: |
+      Jessica Otis est Spécialiste des Humanités Numériques pour les Bibliothèques Universitaires et Professeure Adjointe à Carnegie Mellon University.
     pt: |
       Jessica Otis é especialista em Humanidades Digitais das bibliotecas universitárias e professora assistente de História na Carnegie Mellon University.
 
@@ -1040,6 +1042,8 @@
       Christopher N. Warren is Associate Professor of English at Carnegie Mellon University, where he teaches early modern studies and directs the Digital Humanities Faculty Research Group.
     es: |
       Christopher N. Warren es profesor asociado de inglés en la Universidad Carnegie Mellon, donde enseña estudios modernos tempranos y dirige el Grupo de Investigación de Facultad en Humanidades Digitales.
+    fr: |
+      Christopher N. Warren est Professeur Agrégé d'anglais à Carnegie Mellon University, où il enseigne les débuts de l'ère moderne et dirige le groupe de recherche de la faculté des Humanités Numériques (Digital Humanities Faculty Research Group).
     pt: |
       Christopher N. Warren é professor associado de Inglês na Carnegie Mellon University, onde ensina estudos modernos e dirige o Digital Humanities Faculty Research Group.
 
@@ -1078,6 +1082,7 @@
       Peter Stockwell é pró-vice-chanceler para o Engajamento Global (Europa) e professor de Linguística Literária na University of Nottingham.
 
 - name: Beatrice Alex
+
   team: false
   bio:
     en: |
@@ -1128,21 +1133,22 @@
 - name: Jennifer Isasi
   url: "https://jenniferisasi.github.io/"
   twitter: jenniferisve
-  email: jenniferbibat@gmail.com
+  email: espanol@programminghistorian.org
   github: jenniferisasi
   team: true
   team_start: 2018
   institution: Pennsylvania State University
   sortname: Isasi
+  orcid: 0000-0002-4295-895X
   affiliation:
     en: |
-      The Pennsylvania State University, USA.
+      The Pennsylvania State University, United States
     es: |
-      Universidad Estatal de Pensilvania, Estados Unidos.
+      Universidad Estatal de Pensilvania, Estados Unidos
     fr: |
-      Université d'État de Pennsylvanie, États-Unis.
+      Université d'État de Pennsylvanie, États-Unis
     pt: |
-      The Pennsylvania State University, Estados Unidos da América.
+      The Pennsylvania State University, Estados Unidos
   bio:
     en: |
       Jennifer Isasi is an Assistant Research Professor of Digital Scholarship and Director of the Digital Liberal Arts Research Initiative at Penn State, and a PhD on Hispanic Studies.
@@ -1154,8 +1160,9 @@
       Jennifer Isasi é professora assistente e pesquisadora digital, diretora da Digital Liberal Arts Research Initiative na Penn State e doutorada em Estudos Hispânicos.
   team_roles:
     - spanish
-    - editorial
     - technical
+    - managing
+    - proghist
   status: institutionally-supported
 
 - name: Jon MacKay
@@ -1212,14 +1219,6 @@
       François Dominic Laramée é pós-doutorando em História Digital da Medicina pela University of Ottawa, Canadá.
       É mestre em Informática e História dos Estados Unidos da América e trabalhou como desenvolvedor de videojogos, guionista e artista de televisão no Quebec.
 
-- name: Jeff Blackadar
-  team: false
-  bio:
-    en: |
-      Jeff Blackadar is a part-time undergraduate history student at Carleton University. His career is in the field of information technology.
-    pt: |
-      Jeff Blackadar é aluno de História a tempo parcial na Carleton University. A sua carreira é no campo da tecnologia da informação.
-
 - name: Martin Grandjean
   email: martin.grandjean@unil.ch
   twitter: grandjeanmartin
@@ -1255,11 +1254,12 @@
   status: volunteer
 
 - name: Sofia Papastamkou
-  email: spapastamkou@gmail.com
+  email: sofia.papastamkou@uni.lu
   twitter: s_papastamkou
   github: spapastamkou
-  team: true
+  team: false
   team_start: 2018
+  team_end: 2024
   institution: Luxembourg Centre for Contemporary and Digital History (C²DH)
   sortname: Papastamkou
   orcid: 0000-0002-5148-1348
@@ -1272,9 +1272,7 @@
       Luxembourg Centre for Contemporary and Digital History (C²DH), Université du Luxembourg
     pt: |
       Luxembourg Centre for Contemporary and Digital History (C²DH), Universidade do Luxemburgo
-  team_roles:
-    - managing
-    - french
+  team_roles:    
     - proghist
   status: volunteer
   bio:
@@ -1308,8 +1306,9 @@
   email: marie.c.boucher@ggk.uni-giessen.de
   twitter: marie_c_boucher
   github: mariechristineb
-  team: true
+  team: false
   team_start: 2020
+  team_end: 2022
   institution: Justus-Liebig-Universität Gießen
   sortname: Boucher
   orcid: 0000-0002-2475-3184
@@ -1385,13 +1384,13 @@
   sortname: LeBlanc
   affiliation:
     en: |
-      University of Illinois Urbana-Champaign, USA.
+      University of Illinois Urbana-Champaign, United States
     es: |
-      University of Illinois Urbana-Champaign, Estados Unidos.
+      University of Illinois Urbana-Champaign, Estados Unidos
     fr: |
-      University of Illinois Urbana-Champaign, Etats-Unis.
+      University of Illinois Urbana-Champaign, États-Unis
     pt: |
-      University of Illinois Urbana-Champaign, Estados Unidos da América.
+      University of Illinois Urbana-Champaign, Estados Unidos
   bio:
     en: |
       Zoe LeBlanc is a Postdoctoral Associate and Weld Fellow at the Center for Digital Humanities, Princeton University.
@@ -1405,6 +1404,7 @@
     - editorial
     - english
     - technical-lead
+    - proghist
   status: volunteer
 
 - name: Dave Rodriguez
@@ -1429,30 +1429,32 @@
   twitter: rivaquiroga
   email: riva.quiroga@uc.cl
   github: rivaquiroga
+  url: "https://rivaquiroga.cl/"
+  orcid: 0000-0002-1147-4135
   team: true
   team_start: 2019
   institution: Universidad Católica de Chile
   sortname: Quiroga
   affiliation:
     en: |
-      Catholic University of Chile, Chile.
+      Catholic University of Chile, Chile
     es: |
-      Universidad Católica de Chile, Chile.
+      Universidad Católica de Chile, Chile
     fr: |
-      Université Catholique de Chili, Chili.
+      Université Catholique de Chili, Chili
     pt: |
-      Universidad Católica de Chile, Chile.
+      Universidad Católica de Chile, Chile
   bio:
     en: |
-      Riva Quiroga is a PhD student in Linguistics at the Catholic University of Chile.
+      Riva Quiroga is a doctoral researcher in Linguistics at the Catholic University of Chile.
     es: |
-      Riva Quiroga es estudiante de doctorado en Lingüística en la Universidad Católica de Chile.
+      Riva Quiroga es investigadora doctoral en Lingüística en la Universidad Católica de Chile.
     fr: |
-      Riva Quiroga est doctorante en linguistique à l'Université Catholique de Chili.
+      Riva Quiroga est chercheuse doctoral en linguistique à l'Université Catholique de Chili.
     pt: |
-      Riva Quiroga é doutoranda em Linguística na Universidad Católica de Chile.
+      Riva Quiroga é pesquisadora doutoral em Linguística na Universidad Católica de Chile.
   team_roles:
-    - managing
+    - editorial
     - spanish
     - proghist
   status: volunteer
@@ -1535,8 +1537,8 @@
   bio:
     en: |
       Matthew J. Lavin is an Assistant Professor of Data Analytics specializing in Humanities Analytics at Denison University. His current scholarship focuses on book history, cultural analytics, and turn-of-the-twentieth-century U.S. literature and culture.
-    fr: | 
-      Matthew J. Lavin est Assistant Professor en analyse de données en sciences humaines à Denison University (Ohio, États-Unis). Ses recherches et enseignements portent sur l'histoire du livre, les cultural analytics et la littérature et la culture états-uniennes à l'aube du vingtième siècle. 
+    fr: |
+      Matthew J. Lavin est Assistant Professor en analyse de données en sciences humaines à Denison University (Ohio, États-Unis). Ses recherches et enseignements portent sur l'histoire du livre, les cultural analytics et la littérature et la culture états-uniennes à l'aube du vingtième siècle.
     pt: |
       Matthew J. Lavin é professor assistente de análise de dados com especialização em Análise de Humanidades na Denison University. Suas pesquisas actuais têm como foco a história do livro, análise cultural e literatura e cultura dos Estados Unidos da América na virada para o século XX.
 
@@ -1651,7 +1653,7 @@
     fr: |
       Daniel Alves est professeur adjoint au Département d'Histoire et chercheur à l'Institut d'Histoire Contemporaine, tous deux à NOVA-FCSH, Universidade Nova de Lisboa. Il coordonne le Laboratoire des Humanités Numériques au NOVA-FCSH.
   team_roles:
-    - managing
+    - editorial
     - portuguese
   status: volunteer
 
@@ -1689,6 +1691,8 @@
       Anthony Picón Rodríguez es investigador del Laboratorio Digital de Arquitectura y Urbanismo de la Universidad Nacional de Colombia, bibliotecario de la Mapoteca Digital en la Biblioteca Nacional de Colombia y gestor de la red Razón Cartográfica.
     pt: |
       Anthony Picón Rodríguez é pesquisador do Laboratorio Digital de Arquitectura y Urbanismo da Universidad Nacional de Colombia, bibliotecário da Mapoteca Digital da Biblioteca Nacional da Colômbia e gestor da rede Razón Cartográfica.
+    en: |
+      Anthony Picón Rodríguez is a researcher at the Digital Laboratory of Architecture and Urbanism of the National University of Colombia, librarian of Digital Mapoteca at the National Library of Colombia and manager of the Cartographic Reason network.
 
 - name: Miguel Cuadros
   team: false
@@ -1698,6 +1702,8 @@
       Miguel Cuadros es Historiador por Universidad Industrial de de Santander y Master of Arts in History, State University of New York (Estados Unidos) y docente en la Universidad Industrial de Santander; cuenta con experiencia docente e investigativa en temas relacionados con la cartografía y el conocimiento geográfico.
     pt: |
       Miguel Cuadros é licenciado em História pela Universidad Industrial de Santander e mestre de História da Arte pela State University of New York (Estados Unidos da América). É professor na Universidad Industrial de Santander e conta com experiência de ensino e investigação sobre temas relacionados com cartografia e conhecimento geográfico.
+    en: |
+      Miguel Cuadros is a historian from the Industrial University of Santander and Master of Arts in History, State University of New York (United States) and Professor at the Industrial University of Santander. He has teaching and research experience in topics related to cartography and geographical knowledge.
 
 - name: Aracele Torres
   twitter: araceletorres
@@ -1766,8 +1772,9 @@
 - name: Alex Wermer-Colan
   github: hawc2
   twitter: alexwermercolan
-  email: alwermercolan@gmail.com
+  email: english@programminghistorian.org
   url: "http://www.alexwermercolan.com/"
+  orcid: 0000-0001-7030-6070
   team: true
   team_start: 2020
   institution: Temple University
@@ -1783,17 +1790,17 @@
         Temple University, Estados Unidos.
   bio:
     en: |
-      Alex Wermer-Colan is the Digital Scholarship Coordinator at Temple University Libraries' Loretta C. Duckworth Scholars Studio.
+      Alex Wermer-Colan is the Academic and Research Director at Temple University Libraries' Loretta C. Duckworth Scholars Studio.
     es: |
-      Alex Wermer-Colan es coordinador de estudios digitales en el Loretta C. Duckworth Scholars Studio de la Biblioteca de la Universidad de Temple.
+      Alex Wermer-Colan es director académico y de investigación en el Loretta C. Duckworth Scholars Studio de la Biblioteca de la Universidad de Temple.
     fr: |
-      Alex Wermer-Colan est coordinateur des études numériques au Loretta C. Duckworth Scholars Studio des bibliothèques de l'Université Temple.
+      Alex Wermer-Colan est directeur des études et de la recherche au Loretta C. Duckworth Scholars Studio des bibliothèques de l'Université Temple.
     pt: |
-      Alex Wermer-Colan é responsável pelos Estudos Digitais na Biblioteca Loretta C. Duckworth Scholars Studio da Temple University.
+      Alex Wermer-Colan é Diretor Académico e de Investigação na Biblioteca Loretta C. Duckworth Scholars Studio da Temple University.
   team_roles:
       - english
-      - editorial
       - technical
+      - managing
   status: volunteer
 
 - name: Danielle Sanches
@@ -2007,8 +2014,9 @@
   twitter: InsSalom5
   github: InesSalome
   orcid: 0000-0002-8520-3485
-  team: true
+  team: false
   team_start: 2021
+  team_end: 2022
   institution: MSHB (Maison des Sciences de l'Homme en Bretagne)
   sortname: Patat
   affiliation:
@@ -2040,8 +2048,9 @@
   url: "https://pro.univ-lille.fr/antoine-henry/"
   orcid: 0000-0003-4722-4610
   github: icolab
-  team: true
+  team: false
   team_start: 2021
+  team_end: 2022
   institution: Université de Lille
   sortname: Henry
   affiliation:
@@ -2071,9 +2080,10 @@
   twitter: ringwald_c
   email: celian.ringwald@hotmail.fr
   github: datalogism
-  team: true
+  team: false
   orcid: 0000-0002-7302-9037
   team_start: 2021
+  team_end: 2024
   institution: Inria Sophia-Antipolis, France
   sortname: Ringwald
   affiliation:
@@ -2166,11 +2176,11 @@
   url: "https://anisahawes.github.io/about/"
   team: true
   team_start: 2021
-  institution: Programming Historian, UK
+  institution: Programming Historian, United Kingdom
   sortname: Hawes
   affiliation:
     en: |
-      Programming Historian, UK
+      Programming Historian, United Kingdom
     es: |
       Programming Historian, Reino Unido
     fr: |
@@ -2179,15 +2189,16 @@
       Programming Historian, Reino Unido
   bio:
     en: |
-      Anisa Hawes is Programming Historian's Digital Humanities Publishing Assistant.
+      Anisa Hawes, Publishing Manager, Programming Historian.
     es: |
-      Anisa Hawes, Programming Historian.
+      Anisa Hawes, Directora de publicación, Programming Historian.
     fr: |
-      Anisa Hawes, Programming Historian.
+      Anisa Hawes, Responsable de publication, Programming Historian.
     pt: |
-      Anisa Hawes, Programming Historian.
+      Anisa Hawes, Gestão da publicação, Programming Historian.
+  orcid: 0009-0000-8269-0620
   team_roles:
-    - proghist
+    - publishing-manager
   status: institutionally-supported
 
 - name: Nicolás Vaughan
@@ -2222,8 +2233,9 @@
   status: volunteer
 
 - name: Tiago Sousa Garcia
-  team: true
+  team: false
   team_start: 2021
+  team_end: 2022
   institution: Programming Historian
   github: tiagosousagarcia
   email: tiagosousagarcia@gmail.com
@@ -2254,6 +2266,7 @@
   status: institutionally-supported
 
 - name: Isabelle Gribomont
+  orcid: 0000-0001-7443-5849
   email: isabelle.gribomont@uclouvain.be
   twitter: IsaGribomont
   github: isag91
@@ -2276,40 +2289,40 @@
       Universidade de Louvain, Bélgica
   bio:
     en: |
-       Isabelle Gribomont is a researcher in Digital Humanities at the University of Louvain and the Royal Library of Belgium (Belgium).
+       Isabelle Gribomont is a researcher in Digital Humanities at the University of Louvain and the Royal Library of Belgium.
     es: |
-       Isabelle Gribomont es investigadora en humanidades digitales en la Universidad de Louvain y la Biblioteca Real de Bélgica (Bélgica).
+       Isabelle Gribomont es investigadora en humanidades digitales en la Universidad de Louvain y la Biblioteca Real de Bélgica.
     fr: |
-       Isabelle Gribomont est chercheuse en humanités numériques à l'université catholique de Louvain et la Bibliothèque royale de Belgique (Belgique).
+       Isabelle Gribomont est chercheuse en humanités numériques à l'université catholique de Louvain et la Bibliothèque royale de Belgique.
     pt: |
-       Isabelle Gribomont é pesquisadora em Humanidades Digitais na universidade de Louvain e na Biblioteca Real da Bélgica (Bélgica).
+       Isabelle Gribomont é pesquisadora em Humanidades Digitais na universidade de Louvain e na Biblioteca Real da Bélgica.
 
-- name: Nicolás Llano
+- name: Nicolás Llano Linares
   email: llano.nicolas@gmail.com
   twitter: enetreseles
   github: nllano
   team: true
   team_start: 2021
-  institution: Instituto Brasileiro de Ensino, Desenvolvimento e Pesquisa
+  institution: Fundação Getúlio Vargas
   sortname: Llano
   affiliation:
     en: |
-      Brazilian Institute of Education, Development and Research, Brazil
+      School of Communication, Media and Information, Fundação Getúlio Vargas, Brazil
     es: |
-      Instituto Brasilero de Enseñanza, Desarrollo e Investigación, Brasil
+      Escuela de Comunicación, Medios e Información, Fundação Getúlio Vargas, Brasil
     fr: |
-      Institut Brésilien d'enseignement, de développement et de recherche, Brésil
+      École de la communication, des médias et de l’information, Fundação Getúlio Vargas, Brésil
     pt: |
-      Instituto Brasileiro de Ensino, Desenvolvimento e Pesquisa, Brasil
+      Escola de Comunicação, Mídia e Informação, Fundação Getúlio Vargas, Brasil
   bio:
     en: |
-       Nicolás Llano holds a PhD in Communication Sciences (Sao Paulo University, Brazil), and is a student of the MBA Data Journalism programm at IDP (Brasil).
+       Nicolás Llano Linares holds a PhD in Communication Sciences (Universidade de São Paulo, Brazil) and is a professor at the School for Communication, Media and Information, Fundação Getúlio Vargas, Brazil.
     es: |
-       Nicolás Llano es Doctor en Ciencias de la Comunicación (Universidad de São Paulo, Brasil), y estudiante del programa MBA Periodismo de Datos del IDP (Brasil).
+       Nicolás Llano Linares es Doctor en Ciencias de la Comunicación (Universidade de São Paulo, Brasil) y profesor en la Escuela de Comunicación, Medios e Información, Fundação Getúlio Vargas, Brasil.
     fr: |
-       Nicolás Llano est docteur en sciences de la communication (Université de São Paulo, Brésil) et est un étudiant du programme MBA Journalisme de données à l'IDP (Brésil).
+       Nicolás Llano Linares est docteur en sciences de la communication (Universidade de São Paulo, Brésil) et est professeur à l’École de la communication, des médias et de l’information, Fundação Getúlio Vargas, Brésil.
     pt: |
-       Nicolás Llano é Doutor em Ciências da Comunicação (Universidade de São Paulo, Brasil), e estudante do programa MBA Jornalismo de Datos no IDP (Brasil)
+       Nicolás Llano Linares é Doutor em Ciências da Comunicação (Universidade de São Paulo, Brasil) e professor na Escola de Comunicação, Mídia e Informação, Fundação Getúlio Vargas, Brasil.
   team_roles:
     - spanish
     - editorial
@@ -2349,7 +2362,9 @@
   team: false
   bio:
       en: |
-            Thomas Jurczyk is a German historian and religious studies' scholar based in Bochum (GER)
+            Thomas Jurczyk is a German historian and religious studies' scholar based in Bochum (GER).
+      pt: |
+            Thomas Jurczyk é um historiador alemão e especialista em estudos religiosos, residente em Bochum (ALE). 
 
 - name: Gabi Kirilloff
   team: false
@@ -2361,10 +2376,10 @@
 
 - name: Eric Brasil
   twitter: ericbrasiln
-  email: profericbrasil@unilab.edu.br
+  email: portugues@programminghistorian.org
   url: "https://ericbrasiln.github.io"
   github: ericbrasiln
-  orcid: 0000-0001-5067-847
+  orcid: 0000-0001-5067-8475
   team: true
   team_start: 2021
   institution: Universidade da Integração Internacional da Lusofonia Afro-brasileira
@@ -2389,14 +2404,14 @@
       Eric Brasil est professeur à l'Institut des sciences humaines et des lettres de l'Université d'intégration internationale de la lusophonie afro-brésilienne (IHLM/UNILAB) et membre du Laboratoire d'humanités numériques de l'Université fédérale de Bahia (LABHDUFBA).
   team_roles:
     - portuguese
-    - editorial
+    - managing
   status: volunteer
 
 - name: Gimena del Río Riande
   team: false
   bio:
       es: |
-        Gimena del Rio Riande es investigadora adjunta del Instituto de Investigaciones Bibliográficas y Crítica Textual (IIBICRIT, CONICET) y directora del laboratorio de Humanidades Digitales de CAICYT (CONICET, Argentina). Es directora de la Diplomatura en Humanidades Digitales (UCES), co-directora del master en Humanidades Digitales (UNED,), directora de la Revista de Humanidades Digitales (RHD) y presidenta de la Asociación Argentina de Humanidades Digitales (AAHD).
+        Gimena del Río Riande es investigadora adjunta del Instituto de Investigaciones Bibliográficas y Crítica Textual (IIBICRIT, CONICET) y directora del laboratorio de Humanidades Digitales de CAICYT (CONICET, Argentina). Es directora de la Diplomatura en Humanidades Digitales (UCES), co-directora del master en Humanidades Digitales (UNED,), directora de la Revista de Humanidades Digitales (RHD) y presidenta de la Asociación Argentina de Humanidades Digitales (AAHD).
 
 - name: Gabriel Calarco
   team: false
@@ -2405,8 +2420,9 @@
         Gabriel Calarco es Licenciado en Letras por la Universidad de Buenos Aires (UBA) y se encuentra cursando el doctorado en Literatura en la misma universidad como becario del Instituto de Investigaciones Bibliográficas y Crítica Textual (IIBICRIT-CONICET). También se desempeña como docente en la Diplomatura de Humanidades Digitales (UCES) y como profesor de Literatura en el Nivel Medio.
 
 - name: Liz Fischer
-  team: true
+  team: false
   team_start: 2022
+  team_end: 2023
   institution: University of Texas at Austin
   github: lizfischer
   email: lizzy.m.fischer@gmail.com
@@ -2438,8 +2454,9 @@
   status: volunteer
 
 - name: Rolando Rodriguez
-  team: true
+  team: false
   team_start: 2022
+  team_end: 2024
   institution: University of North Carolina at Chapel Hill
   github: rolrodr
   email: rolando@ad.unc.edu
@@ -2471,8 +2488,9 @@
 
 
 - name: Yann Ryan
-  team: true
+  team: false
   team_start: 2022
+  team_end: 2024
   institution: University of Helsinki
   github: yann-ryan
   email: yann.ryan@gmail.com
@@ -2604,14 +2622,6 @@
     - editorial
   status: volunteer
 
-- name: Susan Grunewald
-  team: false
-  orcid: 0000-0003-1275-4101
-  bio:
-      en: |
-          Susan Grunewald is the Digital History Postdoctoral Associate at the University of Pittsburgh World History.
-
-
 - name: Andrew Janco
   team: false
   orcid: 0000-0002-8872-9474
@@ -2638,3 +2648,690 @@
   bio:
       en: |
           Mia Partlow is a Resource Sharing Librarian at North Carolina State University.
+
+- name: Gisele Almeida
+  github: GeeAlmeida
+  email: community@programminghistorian.org
+  team: false
+  team_start: 2022
+  team_end: 2023
+  institution: Programming Historian, UK
+  sortname: Almeida
+  affiliation:
+    en: |
+      Programming Historian, UK
+    es: |
+      Programming Historian, Reino Unido
+    fr: |
+      Programming Historian, Royaume-Uni
+    pt: |
+      Programming Historian, Reino Unido
+  bio:
+    en: |
+      Gisele Almeida is the Education and Community Lead at Programming Historian.
+    es: |
+      Gisele Almeida, Programming Historian.
+    fr: |
+      Gisele Almeida, Programming Historian.
+    pt: |
+      Gisele Almeida, Programming Historian.
+  team_roles:
+    - proghist
+  status: institutionally-supported
+
+- name: Thomas Smits
+  orcid: 0000-0001-8579-824X
+  team: false
+  bio:
+    en: |
+      Thomas Smits is a postdoc in the History of Bias Project at the University of Antwerp
+    pt: |
+      Thomas Smits é pós-doutor em History of Bias Project na Universidade de Antuérpia
+    es: |
+      Thomas Smits es un postdoctorado en el Proyecto de Historia del Sesgo en la Universidad de Amberes.
+
+- name: Kaspar Beelen
+  orcid: 0000-0001-7331-1174
+  team: false
+  bio:
+    en: |
+      Kaspar Beelen is Research Associate in Digital Humanities for the Living with Machines project.
+    es: |
+      Kaspar Beelen es investigador asociado en humanidades digitales para el proyecto Living with Machines.
+    pt: |
+      Kaspar Beelen é Pesquisador Associado em Humanidades Digitais para o projeto Living with Machines.
+
+- name: Katherine McDonough
+  team: false
+  orcid: 0000-0001-7506-1025
+  bio:
+    en: |
+      Katherine McDonough is Senior Research Associate in History on Living with Machines and UK PI on Machines Reading Maps at The Alan Turing Institute.
+    es: |
+      Katherine McDonough es investigadora asociada sénior en historia para el proyecto Living with Machines e investigadora principal para el proyecto Machines Reading Maps en The Alan Turing Institute.
+    pt: |
+      Katherine McDonough é Pesquisadora Associada Sênior em História para o projeto Living with Machines e Investigadora Principal do projeto Machines Reading Maps no The Alan Turing Institute.
+    fr: |
+      Katherine McDonough est une chercheuse postdoctorale en histoire pour le project Living with Machines et la directrice du project Machines Reading Maps au Alan Turing Institute.
+
+- name: Melvin Wevers
+  orcid: 0000-0001-8177-4582
+  team: false
+  bio:
+    en: |
+      Melvin Wevers is Assistant Professor Digital Methods at the History Department of the University of Amsterdam.
+    pt: |
+      Melvin Wevers é Professor Assistente de Métodos Digitais no Departamento de História da Universidade de Amesterdão.
+    es: |
+      Melvin Wevers es Profesor Asistente de Métodos Digitales en el Departamento de Historia de la Universidad de Ámsterdam.
+
+- name: Chantal Brousseau
+  team: false
+  orcid: 0000-0002-4649-059X
+  bio:
+      en: |
+          Chantal Brousseau is an MA candidate in the History and Data Science program at Carleton University. Her research focuses on applications of machine learning and computational creativity to the study of historical data.
+
+- name: Max Odsbjerg Pedersen
+  team: false
+  orcid: 0000-0001-9215-5605
+  bio:
+    en: |
+      Max Odsbjerg Pedersen is an Information Specialist at Aarhus University Library at the Royal Danish Library.
+    es: |
+      Max Odsbjerg Pedersen es especialista en información en la Biblioteca de la Universidad de Aarhus en la Biblioteca Real Danesa.
+
+- name: Josephine Møller Jensen
+  team: false
+  bio:
+    en: |
+      Josephine Møller Jensen is an MA student in the Department of History and Classical Studies, Aarhus University.
+    es: |
+      Josephine Møller Jensen es estudiante de maestría en el Departamento de Historia y Estudios Clásicos de la Universidad de Aarhus.
+      
+- name: Victor Harbo Johnston
+  team: false
+  bio:
+    en: |
+      Victor Harbo Johnston is an MA student in the Department of History and Classical Studies, Aarhus University.
+    es: |
+      Victor Harbo Johnston es estudiante de maestría en el Departamento de Historia y Estudios Clásicos de la Universidad de Aarhus.
+    
+- name: Alexander Ulrich Thygesen
+  team: false
+  bio:
+    en: |
+      Alexander Ulrich Thygesen is a Ph.D. student in the Department of German and Romance Languages, Aarhus University.
+    es: |
+      Alexander Ulrich Thygesen es estudiante de doctorado en el Departamento de Lenguas Alemana y Románicas de la Universidad de Aarhus.
+    
+- name: Helle Strandgaard Jensen
+  team: false
+  orcid: 0000-0002-8623-9586
+  bio:
+    en: |
+      Helle Strandgaard Jensen is Associate Professor of Contemporary Cultural History in the Department of History and Classical Studies, Aarhus University.
+    es: |
+      Helle Strandgaard Jensen es profesora asociada de Historia Cultural Contemporánea en el Departamento de Historia y Estudios Clásicos de la Universidad de Aarhus.
+  
+- name: Lorena Gauthereau
+  team: false
+  orcid: 0000-0002-7185-8982
+  bio:
+      en: |
+          Lorena Gauthereau is the Digital Programs Manager for the US Latino Digital Humanities Center (USLDH)/Recovering the US Hispanic Literary Heritage Program at the University of Houston.
+      es: |
+          Lorena Gauthereau es Digital Programs Manager para el Centro de Humanidades Digitales US Latinos (USLDH) del Programa de la Recuperación del legado escrito de hispanos en los Estados Unidos, basado en la Universidad de Houston.
+
+- name: Marie Flesch
+  team: true
+  team_start: 2022
+  institution: ATILF, Université de Lorraine-CNRS
+  github: marie-flesch
+  email: francais@programminghistorian.org
+  url: "https://sites.google.com/view/marie-flesch/"
+  sortname: Flesch
+  orcid: 0000-0003-2139-1517
+  affiliation:
+    en: |
+      Université Paris Cité, France.
+    es: |
+      Université Paris Cité, Francia.
+    fr: |
+      Université Paris Cité, France.
+    pt: |
+      Université Paris Cité, França.
+  bio:
+    en: |
+      Marie Flesch is a postdoc researcher at Laboratoire de Linguistique Formelle (Université Paris Cité-CNRS), France.
+    fr: |
+      Marie Flesch est chercheuse postdoctorante au Laboratoire de Linguistique Formelle (Université Paris Cité-CNRS), France.
+  team_roles:
+    - french
+    - managing
+  status: volunteer
+
+- name: Chahan Vidal-Gorène
+  team: false
+  orcid: 0000-0003-1567-6508
+  bio: 
+    en: |
+      Chahan Vidal-Gorène is a PhD candidate, specialist in digital palaeography. He teaches in the Digital Humanities master's programme at the École nationale des Chartes-PSL, Paris, France, and is the founder and president of Calfa, a company specialising in the processing of oriental manuscripts.
+    fr: |
+      Chahan Vidal-Gorène est spécialisé en paléographie numérique (doctorat en cours). Il enseigne au sein du master Humanités Numériques de l’École nationale des Chartes-PSL, et est le président-fondateur de Calfa, entreprise spécialisée dans le traitement de documents manuscrits orientaux.
+    es: |
+      Chahan Vidal-Gorène es especialista en paleografía digital (doctorado en curso). Imparte clases en el máster de Humanidades Digitales de la École nationale des Chartes-PSL, y es fundador y presidente de Calfa, empresa especializada en el tratamiento de manuscritos orientales.
+    pt: |
+      Chahan Vidal-Gorène é um especialista em paleografia digital (doutoramento em curso). É professor no programa de mestrado de Humanidades Digitais na École nationale des Chartes-PSL, e é fundador e presidente da Calfa, uma empresa especializada no processamento de manuscritos orientais.
+
+- name: Christopher Goodwin
+  team: false
+  orcid: 0000-0003-0723-6369
+  bio:
+    en: |
+      Christopher Goodwin is a Ph.D. candidate in the History Department at the University of Illinois, Urbana-Champaign.
+
+- name: Daphné Mathelier
+  email: daphne.mathelier@gmail.com
+  mastodon: social.sciences.re/@dmathelier
+  github: DMathelier
+  orcid: 0000-0003-4837-0564
+  team: true
+  team_start: 2023
+  institution: MSH Mondes (Maison des Sciences de l'Homme Mondes)
+  sortname: Mathelier
+  affiliation:
+    en: |
+      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), France
+    es: |
+      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), Francia
+    fr: |
+      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), France
+    pt: |
+      Maison des Sciences de l'Homme Mondes (MSH Mondes, Nanterre), França
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+  bio:
+    fr: |
+      Daphné Mathelier est ingénieure d'études au Centre national de la recherche scientifique française (CNRS). Elle est responsable du service Humanités numériques de la Maison des Sciences de l'Homme Mondes à Nanterre (CNRS, Université Paris Nanterre, Université Paris 1 Panthéon Sorbonne) et l’une des correspondantes locales de l'infrastructure de recherche Huma-Num.
+      
+- name: Alexandre Wauthier
+  email: alexandre.wauthier@protonmail.com
+  url: https://alexandrewa.com
+  github: AlexandreWa
+  orcid: 0000-0001-9437-4529
+  team: true
+  team_start: 2023
+  institution: Humathèque, Campus Condorcet-CNRS
+  sortname: Wauthier
+  affiliation:
+    en: |
+      Humathèque, Campus Condorcet-CNRS, France
+    es: |
+      Humathèque, Campus Condorcet-CNRS, Francia
+    fr: |
+      Humathèque, Campus Condorcet-CNRS, France
+    pt: |
+      Humathèque, Campus Condorcet-CNRS, França
+  team_roles:
+    - french
+    - editorial
+  status: institutionally-supported  
+  bio:
+    fr: |
+      Alexandre Wauthier est ingénieur d'études au Centre national de la recherche scientifique française (CNRS). Il est chargé du traitement des donnnées scientifiques et bibliothécaire à l'Humathèque du Campus Condorcet.
+
+- name: Ricardo Campos
+  orcid: 0000-0002-8767-8126
+  team: false
+  bio:
+    pt: |
+      Ricardo Campos é professor assistente do Instituto Politécnico de Tomar, e pesquisador sênior da LIAAD-INESC TEC.
+
+- name: Daniel Gomes
+  orcid: 0000-0002-5447-4581
+  team: false
+  bio:
+    pt: |
+      Daniel Gomes é o líder do Arquivo.pt na Fundação para a Ciência e Tecnologia (FCT).
+
+- name: David Valentine
+  email: david.valentine@umontreal.ca
+  github: davvalent
+  twitter: davvalent
+  mastodon: mas.to/@davvalent
+  orcid: 0000-0003-3410-7677
+  team: true
+  team_start: 2023
+  institution: Université de Montréal
+  sortname: Valentine
+  affiliation:
+    en: |
+      Université de Montréal, Canada
+    pt: |
+      Université de Montréal, Canadá
+    es: |
+      Université de Montréal, Canadá
+    fr: |
+      Université de Montréal, Canada
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+  bio:
+    fr: |
+      
+- name: Émilien Schultz
+  email: emilien.schultz@sciencespo.fr
+  github: emilienschultz
+  twitter: emilienschultz
+  mastodon: 
+  orcid: 0000-0002-6215-3606
+  team: true
+  team_start: 2023
+  institution: Sciences Po
+  sortname: Schultz
+  affiliation:
+    en: |
+      Sciences Po, France
+    pt: |
+      Sciences Po, França
+    es: |
+      Sciences Po, Francia
+    fr: |
+      Sciences Po, France
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+  bio:
+    fr: |
+
+- name: Sergio Rodríguez Gómez
+  orcid: 0000-0002-1631-4747
+  team: false
+  bio:
+    en: |
+      Sergio Rodríguez Gómez is a PhD candidate in Communication, Languages and Information at Pontificia Universidad Javeriana, Bogotá, Colombia.
+    es: |
+      Sergio Rodríguez Gómez es un candidato a PhD en Comunicación, Lenguajes e Información en la Ponticia Universidad Javeriana, Bogotá, Colombia.
+      
+- name: Jonathan Reades
+  orcid: 0000-0002-1443-9263
+  team: false
+  bio:
+    en: |
+      Jonathan Reades is Associate Professor at the Centre for Advanced Spatial Analysis, University College London.
+
+- name: Jennie Williams
+  orcid: 0000-0002-0720-9523
+  team: false
+  bio:
+    en: |
+      Jennie Williams is a PhD Student at the Centre for Advanced Spatial Analysis, University College London.
+
+- name: Charlotte Chevrie
+  github: charlottejmc
+  email: publishing.assistant@programminghistorian.org
+  team: true
+  team_start: 2023
+  institution: Programming Historian, United Kingdom
+  sortname: Chevrie
+  affiliation:
+    en: |
+      Programming Historian, United Kingdom
+    es: |
+      Programming Historian, Reino Unido
+    fr: |
+      Programming Historian, Royaume-Uni
+    pt: |
+      Programming Historian, Reino Unido
+  bio:
+    en: |
+      Charlotte Chevrie, Publishing Assistant, Programming Historian.
+    es: |
+      Charlotte Chevrie, Asistente de publicación, Programming Historian.
+    fr: |
+      Charlotte Chevrie, Assistante de publication, Programming Historian.
+    pt: |
+      Charlotte Chevrie, Assistente de publicação, Programming Historian.
+  orcid: 0009-0001-9044-2683
+  team_roles:
+    - publishing-assistant
+  status: institutionally-supported
+
+- name: Megan S. Kane
+  orcid: 0000-0003-1817-2751
+  team: false
+  bio:
+    en: |
+      Megan Kane is a PhD candidate in the English Department at Temple University.
+
+- name: David Merino Recalde
+  orcid: 0000-0003-2740-7831
+  team: false
+  bio:
+    es: |
+      David Merino Recalde es Personal Investigador en Formación en la Universitat Autònoma de Barcelona, es máster en Investigación Literaria y Teatral y máster en Humanidades Digitales.
+
+- name: Jeff Blackadar
+  orcid: 0000-0002-8160-0942
+  team: false
+  bio:
+    en: |
+      Jeff Blackadar has a Master of Arts in History with a specialization in Data Science from Carleton University.
+    pt: |
+      Jeff Blackadar é Mestre em História, com especialização em Ciência de Dados, pela Carleton University.
+
+- name: Grace Di Méo
+  orcid: 0000-0002-3227-8053
+  team: false
+  bio:
+    en: |
+      Grace Di Méo is a Lecturer in Criminology in the Faculty of Humanities and Social Sciences at Oxford Brookes University.
+
+- name: Avery Blankenship
+  team: false
+  bio:
+    en: |
+      Avery Blankenship is a PhD candidate in the department of English at Northeastern University.
+
+- name: Sarah Connell
+  team: false
+  orcid: 0000-0001-9202-5798
+  bio:
+    en: |
+      Sarah Connell is the Associate Director of the Women Writers Project and the NULab for Texts, Maps, and Networks at Northeastern University.
+
+- name: Agustín Cosovschi
+  orcid: 0000-0002-2461-9946
+  github: digitalkosovski
+  email: acosovschi@gmail.com
+  twitter: cosovschi
+  team: true
+  team_start: 2024
+  institution: École française d’Athènes
+  sortname: Cosovschi
+  affiliation:
+    en: |
+      École française d’Athènes, Greece
+    es: |
+      École française d’Athènes, Grecia
+    fr: |
+      École française d’Athènes, Grèce
+    pt: |
+      École française d’Athènes, Grécia
+  bio:
+    fr: |
+      Agustín Cosovschi est membre scientifique de l'École française d’Athènes, et chercheur associé au CETOBaC (Centre d’Études Turques, Ottomanes, Balkaniques et Centrasiatiques) à Paris.
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+- name: Massimiliano Carloni
+  orcid: 0000-0003-2208-5108
+  github: carlonim
+  email: massimiliano.carloni@oeaw.ac.at
+  twitter: maxcarlons
+  team: true
+  team_start: 2024
+  institution: Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische Akademie der Wissenschaften
+  sortname: Carloni
+  affiliation:
+    en: |
+      ACDH-CH, Österreichische Akademie der Wissenschaften, Austria
+    es: |
+      ACDH-CH, Österreichische Akademie der Wissenschaften, Austria
+    fr: |
+      ACDH-CH, Österreichische Akademie der Wissenschaften, Autriche
+    pt: |
+      ACDH-CH, Österreichische Akademie der Wissenschaften, Áustria
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+- name: Laura Alice Chapot
+  orcid: 0000-0001-8334-4308
+  github: lachapot
+  email: lachapot@gmail.com
+  team: true
+  team_start: 2024
+  institution: Dartmouth College
+  sortname: Chapot
+  affiliation:
+    en: |
+      Dartmouth College, United States
+    es: |
+      Dartmouth College, Estados Unidos
+    fr: |
+      Dartmouth College, États-Unis
+    pt: |
+      Dartmouth College, Estados Unidos
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+- name: Caio Mello
+  orcid: 0000-0001-7492-7237
+  github: caiocmello
+  email: caiomellodh@gmail.com
+  team: true
+  team_start: 2024
+  institution: School of Advanced Study, University of London
+  sortname: Mello
+  affiliation:
+    en: |
+      School of Advanced Study, University of London, UK
+    es: |
+      School of Advanced Study, University of London, Reino Unido
+    fr: |
+      School of Advanced Study, University of London, Royaume-Uni
+    pt: |
+      School of Advanced Study, University of London, Reino Unido
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+- name: Giulia Osti
+  orcid: 0000-0003-3179-6980
+  github: semanticnoodles
+  email: giulia.osti@ucdconnect.ie
+  team: true
+  team_start: 2024
+  institution: School of Information and Communication Studies, University College Dublin
+  sortname: Osti
+  affiliation:
+    en: |
+      School of Information and Communication Studies, University College Dublin, Ireland
+    es: |
+      School of Information and Communication Studies, University College Dublin, Irlanda
+    fr: |
+      School of Information and Communication Studies, University College Dublin, Irlande
+    pt: |
+      School of Information and Communication Studies, University College Dublin, Irlanda
+  team_roles:
+    - english
+    - editorial
+  status: volunteer
+
+- name: Mita Williams
+  orcid: 0000-0001-7816-6965
+  team: false
+  bio:
+    en: |
+      Mita Williams is the Acting Law Librarian at the Don & Gail Rodzik Law Library, University of Windsor, Ontario, Canada.
+
+- name: Susan Grunewald
+  orcid: 0000-0003-1275-4101
+  team: false
+  bio:
+    en: |
+      Susan Grunewald is an Assistant Professor in the Department of History at Louisiana State University.
+
+- name: Ruth Mostern
+  orcid: 0000-0001-8219-7174
+  team: false
+  bio:
+    en: |
+      Ruth Mostern is a Professor in the Department of History at the University of Pittsburgh.
+
+- name: Charles Goldberg
+  team: false
+  bio:
+    en: |
+      Charles Goldberg is an Associate Professor of History in the Department of History, Philosophy, and Political Science at Bethel University in Saint Paul, Minnesota, United States. 
+
+- name: Zach Haala
+  team: false
+  bio:
+    en: |
+      Zach Haala graduated with a bachelor’s degree in Software Engineering and Digital Humanities from Bethel University in 2023. He is a Business Systems Analyst at Optum.
+
+- name: Nicole 'Nikki' Lemire-Garlic
+  orcid: 0000-0002-8988-5188
+  team: false
+  bio:
+    en: |
+      Nikki Lemire-Garlic is faculty in the Department of Judicial Studies at the University of Nevada, Reno.
+      
+- name: Jeff Antsen
+  orcid: 0000-0002-9787-7583
+  team: false
+  bio:
+    en: |
+      Jeff Antsen is the owner of Half-Moon Research, an independent consultancy specializing in market research and mixed-methods approaches.
+
+- name: Ian Goodale
+  orcid: 0000-0002-6685-2949
+  team: false
+  bio:
+    en: |
+      Ian Goodale is the European Studies Librarian at the University of Texas at Austin.
+
+- name: Sabrina Granger
+  orcid: 0000-0002-9081-3851
+  team: false
+  bio:
+    fr: |
+      Sabrina Granger est open science community manager au sein de Software Heritage, une infrastructure dédiée à la préservation et au partage de code source.
+
+- name: Frédéric Santos
+  orcid: 0000-0003-1445-3871
+  team: false
+  bio:
+    fr: |
+      Frédéric Santos est ingénieur d'études en statistique au laboratoire PACEA (De la Préhistoire à l'Actuel : Culture, Environnement, Anthropologie), situé à Bordeaux.
+
+- name: Baptiste Mélès
+  orcid: 0000-0002-5692-083X
+  team: false
+  bio:
+    fr: |
+      Baptiste Mélès est chercheur au CNRS (AHP-PReST, Université de Lorraine). Spécialiste de philosophie de l'informatique, il a cofondé le séminaire Codes Sources.
+
+- name: José Eduardo González
+  orcid: 0000-0002-8899-3021
+  team: false
+  bio:
+    es: |
+      José Eduardo González es profesor asociado en el Departamento de lenguas modernas en la Universidad de Nebraska.
+
+- name: Malte Vogl
+  orcid: 0000-0002-2683-6610
+  team: false
+  bio:
+    en: |
+      Malte Vogl is a Senior Research Fellow at the Department Structural Changes of the Technosphere at the Max Planck Institute of Geoanthropology, Jena, Germany.
+
+
+- name: Jascha Schmitz
+  orcid: 0000-0002-6971-6758
+  team: false
+  bio:
+    en: |
+      Jascha Schmitz is doctoral researcher at the Chair for Digital History at Humboldt-University Berlin and project member at the task area 'Data Culture' of the German National Research Data Initiative for Historical Sciences (NFDI4Memory).
+
+
+- name: Aleksandra Kaye
+  orcid: 0000-0001-9754-4191
+  team: false
+  bio:
+    en: |
+      Aleksandra Kaye is a Postdoctoral Researcher at the Department of Structural Changes of the Technosphere at the Max Planck Institute of Geoanthropology, Jena, Germany.
+
+- name: Raphael Schlattmann
+  orcid: 0000-0002-2234-3720
+  team: false
+  bio:
+    en: |
+      Raphael Schlattmann is a doctoral researcher at the Institute of History and Philosophy of Science, Technology, and Literature at Technische Universität Berlin.
+
+- name: Cláudia De Souza
+  orcid: 0000-0002-4168-9399
+  team: false
+  bio:
+    es: |
+      Cláudia De Souza es profesora catedrática auxiliar en el Programa Graduado en Ciencias de la Información, de la Facultad de Comunicación e Información (FaCI), Universidad de Puerto Rico-Recinto de Río Piedras (UPR-RP).
+
+
+- name: Dinah M. Wilson Fraites
+  orcid: 0009-0009-4762-1625
+  team: false
+  bio:
+    es: |
+      Dinah M. Wilson Fraites es bibliotecaria de catalogación en el sistema de Bibliotecas de la Universidad de Puerto Rico, Recinto de Río Piedras.
+
+- name: Melvin Hersent
+  orcid: 0009-0006-0349-5274
+  github: mhersent
+  email: melvin.hersent@gmail.com
+  team: true
+  team_start: 2025
+  institution: Centre national de la recherche scientifique
+  sortname: Hersent
+  affiliation:
+    en: |
+      MAP (UPR 2002), Marseille, France
+    es: |
+      MAP (UPR 2002), Marseille, Francia
+    fr: |
+      MAP (UPR 2002), Marseille, France
+    pt: |
+      MAP (UPR 2002), Marseille, França
+  bio:
+    fr: |
+      Hersent Melvin est doctorant en sciences du patrimoine au sein du laboratoire du MAP à Marseille.
+  team_roles:
+    - french
+    - editorial
+  status: volunteer
+
+- name: Adam Farquhar
+  orcid: 0000-0001-5331-6592
+  github: adamfarquhar
+  email: adam@digital-lifecycle-management.com
+  url: "https://www.digital-lifecycle-management.com"
+  team: true
+  team_start: 2025
+  institution: Digital Lifecycle Management Limited
+  sortname: Farquhar
+  affiliation:
+    en: |
+      Digital Lifecycle Management Limited, United Kingdom
+    es: |
+      Digital Lifecycle Management Limited, Reino Unido
+    fr: |
+      Digital Lifecycle Management Limited, Royaume-Uni
+    pt: |
+      Digital Lifecycle Management Limited, Reino Unido
+  bio:
+    en: | 
+      Adam Farquhar is CEO of Digital Lifecycle Management Limited, UK
+  team_roles:
+    - proghist

@@ -21,7 +21,7 @@ original: analisis-de-sentimientos-r
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/467
 difficulty: 2
 activity: analyzing
-topics: [distant-reading, r]
+topics: [distant-reading, r, data-visualization]
 abstract: "Esta lição ensina uma maneira de obter e analisar dados sobre emoções e sentimentos em uma narrativa."
 avatar_alt: "Gravura com três rostos que expressam emoções distintas"
 doi: 10.46430/phpt0022
@@ -31,7 +31,7 @@ doi: 10.46430/phpt0022
 
 # Objetivos
 
-Esta lição usa a metodologia de análise de sentimentos e emoções através da linguagem de programação R para investigar documentos textuais de modo individual. Embora a lição não seja destinada a usuários avançados de R, é necessário que se tenha algum conhecimento dessa linguagem; assumimos que se tenha o R instalado e saiba como importar pacotes. Também recomendamos o download do RStudio. Se não estiver familiarizado com R, é melhor trabalhar primeiro através das lições [Processamento básico de texto em R](/pt/licoes/processamento-basico-texto-r), [Noções básicas de R com dados tabulares](/pt/licoes/nocoes-basicas-R-dados-tabulares) ou [Data Wrangling and Management in R](/en/lessons/data_wrangling_and_management_in_R) (em inglês). Ao final desta lição, o(a) pesquisador(a) será capaz de:
+Esta lição usa a metodologia de análise de sentimentos e emoções através da linguagem de programação R para investigar documentos textuais de modo individual. Embora a lição não seja destinada a usuários avançados de R, é necessário que se tenha algum conhecimento dessa linguagem; assumimos que se tenha o R instalado e saiba como importar pacotes. Também recomendamos o download do RStudio. Se não estiver familiarizado com R, é melhor trabalhar primeiro através das lições [Processamento básico de texto em R](/pt/licoes/processamento-basico-texto-r), [Noções básicas de R com dados tabulares](/pt/licoes/nocoes-basicas-R-dados-tabulares) ou [Data Wrangling and Management in R](/en/lessons/data-wrangling-and-management-in-r) (em inglês). Ao final desta lição, o(a) pesquisador(a) será capaz de:
 
 - Colocar perguntas de pesquisa com base na análise quantitativa de sentimentos em textos de tipo ensaístico e/ou narrativo.
 - Usar a linguagem de programação R, o ambiente RStudio e o pacote `syuzhet` com o dicionário NRC para gerar o indicador de sentimento de um texto em diferentes linguagens. 
@@ -171,7 +171,7 @@ library(tm)
 
 ## Carregar e preparar o texto
 
-Faça o download do texto do romance [Dom Casmurro](/assets/domCasmurro.txt). Como podemos ver, o documento está em formato de texto simples, pois isto é essencial para realizar seu processamento e análise em R.
+Faça o download do texto do romance [Dom Casmurro](/assets/analise-sentimento-R-syuzhet/domCasmurro.txt). Como podemos ver, o documento está em formato de texto simples, pois isto é essencial para realizar seu processamento e análise em R.
 
 Com o texto em mãos, a primeira coisa que vamos fazer é carregá-lo como um objeto de _string_. Certifique-se de mudar o caminho para o texto para corresponder ao seu computador.  
 
@@ -180,7 +180,7 @@ Com o texto em mãos, a primeira coisa que vamos fazer é carregá-lo como um ob
 Em sistemas Mac podemos usar a função `get_text_as_string` integrada no pacote `syuzhet`:
 
 ```R
-texto <- get_text_as_string("https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/domCasmurro.txt")
+texto <- get_text_as_string("https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/analise-sentimento-R-syuzhet/domCasmurro.txt")
 ```
 
 **Em Windows**
@@ -188,7 +188,7 @@ texto <- get_text_as_string("https://raw.githubusercontent.com/programminghistor
 Os sistemas Windows não lêem diretamente caracteres com acentos ou outras marcações típicas do espanhol, português ou francês, então temos que dizer ao sistema que o nosso texto está no formato UTF-8 usando a função `scan`.
 
 ```R
-texto <- scan(file = "https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/domCasmurro.txt", fileEncoding = "UTF-8", what = character(), sep = "\n", allowEscapes = T)
+texto <- scan(file = "https://raw.githubusercontent.com/programminghistorian/jekyll/gh-pages/assets/analise-sentimento-R-syuzhet/domCasmurro.txt", fileEncoding = "UTF-8", what = character(), sep = "\n", allowEscapes = T)
 ```
 
 Como a análise que vamos realizar precisa de uma lista, seja de palavras ou de frases (aqui só prestaremos atenção a palavras individuais), precisamos de um passo intermediário entre o carregamento do texto e a extração dos valores de sentimento. Assim, vamos dividir o texto (*string*) em uma lista de palavras (*tokens*). Isto é muito comum na análise distante de textos.

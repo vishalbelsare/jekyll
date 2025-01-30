@@ -47,7 +47,7 @@ Que se passerait-il si, par exemple, votre OCR interprétait les chaînes de car
 Bien souvent, les documents que les historien(ne)s souhaitent numériser sont déjà des structures ordonnées de données&#x202F;: une collection ordonnée de documents issus d'une source primaire, un code juridique ou encore un cartulaire. Mais la structure éditoriale imposée à ces ressources est généralement conçue pour un type particulier de technologie d’extraction de données, c'est-à-dire un codex, un livre. Pour un texte numérisé, la structure utilisée sera différente. Si vous pouvez vous débarrasser de l’infrastructure liée au livre et réorganiser le texte selon les sections et les divisions qui vous intéressent, vous vous retrouverez avec des données sur lesquelles il sera beaucoup plus facile d'effectuer des recherches et des opérations de remplacement, et en bonus, votre texte deviendra immédiatement exploitable dans une multitude d’autres contextes.
 
 
-C'est là qu'un langage de script comme Python devient très utile. Pour notre projet nous avons voulu préparer certains des documents d’une collection du <span style="font-variant:small-caps;">XII</span><sup>e</sup> siècle d’*imbreviatura* du scribe italien connu sous le nom de [Giovanni Scriba](http://www.worldcat.org/oclc/17591390) afin qu’ils puissent être traités par des historien(ne)s à des fins d’analyse TAL ou autres. Les pages de l'édition de 1935 ressemblent à cela&#x202F;:
+C'est là qu'un langage de script comme Python devient très utile. Pour notre projet nous avons voulu préparer certains des documents d’une [collection du <span style="font-variant:small-caps;">XII</span><sup>e</sup> siècle d’*imbreviatura*](http://www.worldcat.org/oclc/17591390) du scribe italien connu sous le nom de Giovanni Scriba (vous pouvez [accéder au PDF ici](https://notariorumitinera.eu/Docs/Biblioteca_Digitale/SB/3a47488c28eef2aedfea52ebbde2c634/dd361cb1479ab2309f5ceef1f875c2a5.pdf)) afin qu’ils puissent être traités par des historien(ne)s à des fins d’analyse TAL ou autres. Les pages de l'édition de 1935 ressemblent à cela&#x202F;:
 
 
 {% include figure.html filename="gs_pg110.png" caption="GS page 110" %}
@@ -183,7 +183,7 @@ def lev(seq1, seq2):
     # Initialiser la matrice de zéros
     rows = len(seq1)+1
     cols = len(seq2)+1
-    distance = np.zeros((rows,cols),dtype = int)
+    distance = [[0]*cols for x in range(rows)]
 
     # Alimenter la matrice de zéros avec les indices de chaque caractère des deux chaînes de caractères
     for i in range(1, rows):
@@ -234,7 +234,7 @@ def rom2ar(rom):
 
     return result
 ```
-Exécutez ce <[petit script](/assets/chiffres_romains_arabes.txt)> pour voir en détail comment `rome2ar` fonctionne. Une programmation élégante comme celle-ci peut presque s'apparenter à de la poésie.
+Exécutez ce <[petit script](/assets/generer-jeu-donnees-texte-ocr/chiffres_romains_arabes.txt)> pour voir en détail comment `rome2ar` fonctionne. Une programmation élégante comme celle-ci peut presque s'apparenter à de la poésie.
 
 ## D'autres informations importantes
 Si vous avez besoin d'importer des modules faisant partie de la bibliothèque standard de Python, il faudra que les premières lignes de votre programme soient les imports de ces modules. Si besoin, voir le tutoriel de Fred Gibbs sur [*l'installation des bibliothèques Python avec pip*](/fr/lecons/installation-modules-python-pip).

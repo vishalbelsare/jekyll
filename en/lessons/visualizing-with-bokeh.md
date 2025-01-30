@@ -11,7 +11,7 @@ editors:
 - Ian Milligan
 difficulty: 2
 activity: analyzing
-topics: [python, data-manipulation, mapping]
+topics: [python, data-manipulation, mapping, data-visualization]
 abstract: "In this lesson you will learn how to visually explore and present data in Python by using the Bokeh and Pandas libraries."
 review-ticket: https://github.com/programminghistorian/ph-submissions/issues/152
 layout: lesson
@@ -39,13 +39,17 @@ To reach these goals, we'll work through a variety of visualization examples usi
 
 ## The WWII THOR Dataset
 
-The Theater History of Operations Reports (THOR) lists aerial bombing operations during World War I, World War II, the Korean War, and the Vietnam War undertaken by the United States and Allied Powers. The records were compiled from declassified documents by Lt. Col. Jenns Robertson. THOR is made publicly available through a partnership between the US Department of Defense and [data.world](https://data.world/datamil).
+The Theater History of Operations Reports (THOR) lists aerial bombing operations during World War I, World War II, the Korean War, and the Vietnam War undertaken by the United States and Allied Powers. The records were compiled from declassified documents by Lt. Col. Jenns Robertson. THOR is made publicly available through a partnership between the US Department of Defense and [data.world](https://data.world).
 
-Each row in the THOR dataset contains information on a single mission or bombing run. This information can include the mission date, takeoff and target locations, the target type, aircraft involved, and the types and weights of bombs dropped on the target. The [THOR data dictionary](https://data.world/datamil/thor-data-dictionary) provides detailed information on the structure of the dataset.
+Each row in the THOR dataset contains information on a single mission or bombing run. This information can include the mission date, takeoff and target locations, the target type, aircraft involved, and the types and weights of bombs dropped on the target. The [THOR data dictionary](/assets/visualizing-with-bokeh/THOR-draft-data-dictionary-dec-2016.pdf) provides detailed information on the structure of the dataset.
 
-For this tutorial, we'll use a modified version of the WWII THOR dataset. The original, full-version of the dataset consists of 62 columns of information digitized from the paper forms. To make this dataset more manageable for our purposes, this has been reduced to 19 columns that include core mission information and bombing data. These columns are discussed below when we first load the data. The unabridged dataset is available for download [here](https://data.world/datamil/world-war-ii-thor-data).
+For this tutorial, we'll use a modified version of the World War II THOR dataset. The original, full-version of the dataset consists of 62 columns of information digitized from the paper forms. To make this dataset more manageable for our purposes, this has been reduced to 19 columns that include core mission information and bombing data. These columns are discussed below when we first load the data.
 
-The dataset used in this tutorial is contained in [thor_wwii.csv](https://github.com/programminghistorian/ph-submissions/tree/gh-pages/assets/visualizing-with-bokeh/thor_wwii.csv). This file is required to complete most of the examples below.
+<div class="alert alert-info">
+If you'd like to download the unabridged 'World War II THOR Data' dataset, or any of the alternative data.world datasets mentioned below, you'll need to create a free account on the <a href="https://data.world">data.world</a> website first. Once you are logged into your personal dashboard, you can type the dataset names in the search bar, and they will be easy to find. 
+</div>
+
+The dataset used in this tutorial is contained in [thor_wwii.csv](/assets/visualizing-with-bokeh/thor_wwii.csv). This file is required to complete most of the examples below.
 
 We'll use Bokeh and Pandas to address some of the following questions:
 
@@ -57,11 +61,11 @@ We'll use Bokeh and Pandas to address some of the following questions:
 
 If this dataset doesn't fit your interests or if you'd like more practice after completing this tutorial, here are a few other interesting datasets that you might wish to use with Bokeh and Pandas:
 
-  - [Scottish Witchcraft Trials](https://data.world/history/scottish-witchcraft/): A multi-table set of data on over 4,000 people accused of witchcraft between 1536 and 1736.
+  - Scottish Witchcraft Trials (`https://data.world/history/scottish-witchcraft`): A multi-table set of data on over 4,000 people accused of witchcraft between 1536 and 1736.
 
-  - [Civil Unrest Events](https://data.world/history/civil-unrest-event-data): A single table cataloging over 60,000 events of civil unrest across the world since the end of World War II.
+  - Civil Unrest Events (`https://data.world/history/civil-unrest-event-data`): A single table cataloging over 60,000 events of civil unrest across the world since the end of World War II.
 
-  - [Trans-Atlantic Slave Trade Database](https://www.slavevoyages.org/voyage/database): Searchable and customizable tabular data on 36,000 slaving voyages that transported over 10 million slaves from the 16th to 19th centuries.
+  - [Trans-Atlantic Slave Trade Database](https://www.slavevoyages.org/voyage/database): Searchable and customizable tabular data on 36,000 slaving voyages that transported over 10 million slaves from the 16th to 19th centuries (this dataset is not a data.world dataset – you can download it directly from the slavevoyages site).
 
 All three datasets contain comparable quantitative, qualitative, and temporal data to those found in the THOR dataset. The Civil Unrest Events and Trans-Atlantic Slave Trade datasets both contain spatial data, though this is lacking from the Scottish Witchcraft Trials data.
 
@@ -79,7 +83,7 @@ If you work in Python 2, you will need to create a virtual environment for Pytho
 
 A Python virutal environment is an isolated environment in which you can install libraries and execute code. Many different virtual evironments can be created to work with different versions of Python and Python libraries. Virtual environments are useful because they ensure you have only the necessary libraries installed and that you do not encounter version conflicts. An additional benefit of virtual environments is that you can pass them to others so that you know your code will execute on another machine.
 
-[Miniconda](https://conda.io/miniconda.html) is one easy way to create virtual environments that is simple to install across operating systems. You should download Miniconda and follow the instructions for [Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html), [Mac](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html), or [Linux](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html) as appropriate for your operating system.
+[Miniconda](https://conda.io/miniconda.html) is one easy way to create virtual environments that is simple to install across operating systems. You should download Miniconda and follow the instructions for [Windows](https://conda.io/projects/conda/en/stable/user-guide/install/windows.html), [Mac](https://conda.io/projects/conda/en/stable/user-guide/install/macos.html), or [Linux](https://conda.io/projects/conda/en/stable/user-guide/install/linux.html) as appropriate for your operating system.
 
 Once you have downloaded and installed Miniconda for your operating system, you can check that it has installed correctly by opening a command line and typing:
 ```python
@@ -344,7 +348,7 @@ p.add_tools(hover)
 show(p)
 ```
 
-Bokeh supports [many plotting tools](https://bokeh.pydata.org/en/latest/docs/user_guide/tools.html), but I introduce `HoverTool` here because it's particularly useful for data exploration and interaction. `HoverTool` allows you to set a `tooltips` property which takes a list of [tuples](https://www.w3schools.com/python/python_tuples.asp). The first part of the tuple is a display name and the second is a column name from your `ColumnDataSource` prefaced with `@`. Once we've instantiated this tool, we add it to the plot using the `add_tool` method. We'll see how this looks in a moment.
+Bokeh supports [many plotting tools](https://docs.bokeh.org/en/latest/docs/reference/plotting.html), but I introduce `HoverTool` here because it's particularly useful for data exploration and interaction. `HoverTool` allows you to set a `tooltips` property which takes a list of [tuples](https://www.w3schools.com/python/python_tuples.asp). The first part of the tuple is a display name and the second is a column name from your `ColumnDataSource` prefaced with `@`. Once we've instantiated this tool, we add it to the plot using the `add_tool` method. We'll see how this looks in a moment.
 
 Finally, we make sure to add the line to show the plot. Now we can run `column_datasource.py` and interact with our data in the browser.
 
@@ -379,7 +383,7 @@ output_file('munitions_by_country.html')
 
 df = pd.read_csv('thor_wwii.csv')
 ```
-First, we import the Pandas library and the basic elements from Bokeh (i.e. `figure`, `output_file`, `show`, and `ColumnDataSource`). We also make two new imports: `Spectral5` is a pre-made five color pallette, one of Bokeh's many [pre-made color palettes](https://bokeh.pydata.org/en/latest/docs/reference/palettes.html), and `factor_cmap` is a helper method for mapping colors to bars in a bar-charts.
+First, we import the Pandas library and the basic elements from Bokeh (i.e. `figure`, `output_file`, `show`, and `ColumnDataSource`). We also make two new imports: `Spectral5` is a pre-made five color pallette, one of Bokeh's many [pre-made color palettes](https://docs.bokeh.org/en/latest/docs/reference/palettes.html#bokeh-palettes), and `factor_cmap` is a helper method for mapping colors to bars in a bar-charts.
 
 After the imports, we set our `output_file`  and load the thor_wwii.csv file into a `DataFrame`.
 
@@ -454,7 +458,7 @@ We add a hover tool again, but now we see that we can use multiple data variable
 
 {% include figure.html filename="visualizing-with-bokeh-3.png" caption="A Bar Chart with Categorical Data and Coloring" %}
 
-{% include alert.html text="If you have a chance, it's worth exploring Bokeh's [color palettes](https://bokeh.pydata.org/en/latest/docs/reference/palettes.html). In the above example, try rewriting the code to use something other than `Spectral5`, such as `Inferno5` or `RdGy5`. To take it one step further, you can try your hand at using built-in palettes in any example that uses color." %}
+{% include alert.html text="If you have a chance, it's worth exploring Bokeh's [color palettes](https://docs.bokeh.org/en/latest/docs/reference/palettes.html#bokeh-palettes). In the above example, try rewriting the code to use something other than `Spectral5`, such as `Inferno5` or `RdGy5`. To take it one step further, you can try your hand at using built-in palettes in any example that uses color." %}
 
 # Stacked Bar Charts and Sub-sampling Data: Types of Munitions Dropped by Country
 
@@ -675,7 +679,13 @@ p.add_layout(box)
 
 In this final part of the lesson we'll look at the spatial components of fragmentation bombs.
 
-Bokeh provides [built-in tile providers](https://bokeh.pydata.org/en/latest/docs/reference/tile_providers.html) that render base maps of the world. These are contained in the `bokeh.tile_providers` module. For this example, we'll use the CartoDB Tile Service (CARTODBPOSITRON).
+Bokeh provides [built-in tile providers](https://docs.bokeh.org/en/3.2.2/docs/reference/tile_providers.html#module-bokeh.tile_providers) that render base maps of the world. These are contained in the `bokeh.tile_providers` module. For this example, we'll use the CartoDB Tile Service (CARTODBPOSITRON).
+
+
+<div class="alert alert-warning">
+The function <code>get_provider</code> was deprecated as of Bokeh 3.0.0. The notes available on <a href='https://docs.bokeh.org/en/3.2.2/docs/reference/tile_providers.html#module-bokeh.tile_providers'>this reference page</a> may support readers to adjust their code using <code>add_tile</code> instead.
+</div>   
+
 
 We'll also be using functions imported from the `pyproj` library. Since our coordinates are stored as latitude/longitude, we'll define a custom function to convert them before mapping. Note that although Bokeh is coordinate-system neutral, it uses the Web Mercator projection for mapping, a standard found across web tile providers. The subject of coordinate systems and projections are outside the scope of this tutorial, but the interested reader will find many useful web resources on these topics.
 
@@ -757,12 +767,12 @@ Having plotted which targets in Europe and Asia were bombed with fragmentation b
 
 # Bokeh as a Visualization Tool
 
-Bokeh's strength as a visualization tool lies in its ability to show differing types of data in an interactive and web-friendly manner. This tutorial has only scratched the surface of Bokeh's capabilities and the reader is encourage to delve deeper into the library's workings. A great place to start is the [Bokeh gallery](https://bokeh.pydata.org/en/latest/docs/gallery.html), where you can see a variety of visualizations and decide how you might apply these techniques to your own data. If you're more inclined to dive right into further code examples, Bokeh's [online notebook](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb) is an excellent place to start!
+Bokeh's strength as a visualization tool lies in its ability to show differing types of data in an interactive and web-friendly manner. This tutorial has only scratched the surface of Bokeh's capabilities and the reader is encourage to delve deeper into the library's workings. A great place to start is the [Bokeh gallery](https://docs.bokeh.org/en/latest/docs/gallery.html), where you can see a variety of visualizations and decide how you might apply these techniques to your own data. If you're more inclined to dive right into further code examples, Bokeh's [online notebook](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb) is an excellent place to start!
 
 # Further Resources
 
-- [Bokeh User Guide](https://bokeh.pydata.org/en/latest/docs/user_guide.html)
-- [Bokeh Gallery](https://bokeh.pydata.org/en/latest/docs/gallery.html)
+- [Bokeh User Guide](https://docs.bokeh.org/en/latest/docs/user_guide.html)
+- [Bokeh Gallery](https://docs.bokeh.org/en/latest/docs/gallery.html)
 - [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/index.html)
 - [Pandas Cheat Sheet](https://www.kdnuggets.com/2017/01/pandas-cheat-sheet.html)
 - [Bokeh Cheat Sheet](https://www.kdnuggets.com/2017/03/bokeh-cheat-sheet.html)

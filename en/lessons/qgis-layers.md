@@ -75,7 +75,7 @@ Operating System. Follow the instructions below.
     Download) for your respective Mac OS (this works with versions from Lion onwards). Then go to the left "software menu" and click on    "[Download Archive][]". Under "GDAL Complete" download the file 2) GDAL complete 1.11
     framework package (under Requirements). Install the framework package like any other Mac programs.
 
-{% include figure.html filename="qgis1.png" caption="Figure 1: Click to view full-size image" %}
+{% include figure.html filename="qgis1.png" caption="Figure 1" %}
 
 -   once the frameworks are installed, download and install QGIS.
 -   as with any other Mac application you are using for the first time,
@@ -97,18 +97,16 @@ instructions on the download page.
 We will be using some government data from the Canadian province of
 Prince Edward Island. PEI is a great example because there is a lot of
 data for free online and because it is Canada's smallest province,
-making the downloads quick! Download PEI shapefiles:
+making the downloads quick!
 
--   Navigate to the links below in your web browser, read/accept the
-    license agreement, and then download the following (they will ask
-    for your name and email with each download). We created the final
-    two shapefiles, so they should download directly:
+-   Navigate to the links below in your web browser and then download
+the following PEI shapefiles. We created the final two, so they will download directly:
 
-1.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=coastline&file_format=SHP>
-2.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=lot_town&file_format=SHP>
-3.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=hydronetwork&file_format=SHP>
-4.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=forest_35&file_format=SHP>
-5.  <http://www.gov.pe.ca/gis/license_agreement.php3?name=nat_parks&file_format=SHP>
+1.  <http://www.gov.pe.ca/gis/download.php3?name=coastline&file_format=SHP>
+2.  <http://www.gov.pe.ca/gis/download.php3?name=lot_town&file_format=SHP>
+3.  <http://www.gov.pe.ca/gis/download.php3?name=hydronetwork&file_format=SHP>
+4.  <http://www.gov.pe.ca/gis/download.php3?name=forest_35&file_format=SHP>
+5.  <http://www.gov.pe.ca/gis/download.php3?name=nat_parks&file_format=SHP>
 6.  [PEI Highways][]
 7.  [PEI Places][]
 
@@ -468,13 +466,13 @@ save your work!**
   [QGIS Download page]: http://qgis.org/en/site/forusers/download.html
   [KyngChaos Qgis download page]: http://www.kyngchaos.com/software/qgis
   [Download Archive]: http://www.kyngchaos.com/software/archive
-  [PEI Highways]: /assets/PEI_highway.zip
-  [PEI Places]: /assets/PEI_placenames.zip
+  [PEI Highways]: /assets/qgis-layers/PEI_highway.zip
+  [PEI Places]: /assets/qgis-layers/PEI_placenames.zip
   [Coordinate Reference System]: http://en.wikipedia.org/wiki/Spatial_reference_system
   [NRCan's website]: http://www.nrcan.gc.ca/earth-sciences/geography-boundary/mapping/topographic-mapping/10272
   [Double Stereographic projection]: http://www.gov.pe.ca/gis/index.php3?number=77865&lang=E
   [Tutorial: Working with Projections in QGIS]: http://web.archive.org/web/20180807132308/http://qgis.spatialthoughts.com/2012/04/tutorial-working-with-projections-in.html
   [defined]: http://www.gislounge.com/geodatabases-explored-vector-and-raster-data/
   [aerial photos]: http://en.wikipedia.org/wiki/Orthophoto
-  [PEI_CumminsMap1927.tif]: /assets/PEI_CumminsMap1927_compLZW.tif
+  [PEI_CumminsMap1927.tif]: /assets/qgis-layers/PEI_CumminsMap1927_compLZW.tif
   [Geospatial Historian]: http://geospatialhistorian.wordpress.com/

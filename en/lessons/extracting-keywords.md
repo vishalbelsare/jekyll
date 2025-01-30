@@ -58,7 +58,7 @@ The lesson touches on Regular Expressions, so some readers may find it handy to 
 
 The first step of this process is to take a look at the data that we will be using in the lesson. As mentioned, the data includes biographical details of approximately 6,692 graduates who began study at the University of Oxford in the early seventeenth century.
 
-[The\_Dataset\_-\_Alumni_Oxonienses-Jas1.csv](/assets/The_Dataset_-_Alumni_Oxonienses-Jas1.csv) (1.4MB)
+[The\_Dataset\_-\_Alumni_Oxonienses-Jas1.csv](/assets/extracting-keywords/The_Dataset_-_Alumni_Oxonienses-Jas1.csv) (1.4MB)
 
 {% include figure.html filename="extracting-keywords-1.png" caption="Screenshot of the first forty entries in the dataset" %}
 
@@ -378,7 +378,7 @@ Before you re-run your Python code, you'll have to update your `texts.txt` file 
 
 I'd challenge you to make a few refinements to your gazetteer before moving ahead, just to make sure you have the hang of it.
 
-Once you are happy with that, you can snag my [completed list of English and Welsh counties, shortforms, and various other cities (London, Bristol etc) and places (Jersey, Ireland, etc)](/assets/extracting-keywords-final-gazetteer.txt). My completed list contains 157 entries, and should get you all of the entries that can be extracted from the texts in this collection.
+Once you are happy with that, you can snag my [completed list of English and Welsh counties, shortforms, and various other cities (London, Bristol etc) and places (Jersey, Ireland, etc)](/assets/extracting-keywords/extracting-keywords-final-gazetteer.txt). My completed list contains 157 entries, and should get you all of the entries that can be extracted from the texts in this collection.
 
 At this point you could stop, as you've achieved what you set out to do. This lesson taught you how to use a short Python program to search a fairly large number of texts for a set of keywords defined by you.
 
@@ -424,6 +424,10 @@ with open('The_Dataset_-_Alumni_Oxonienses-Jas1.csv') as csvfile:
         row = row['Details'].lower()
         allTexts.append(row)
 ```
+
+<div class="alert alert-warning">
+Some users may encounter a file encoding error when executing the code to read this CSV file. To resolve this, we suggest including the <code>encoding='latin1'</code> parameter, like this: <code>with open('The_Dataset_-_Alumni_Oxonienses-Jas1.csv, encoding='latin1') as csvfile:</code>
+</div>
 
 As this is an advanced option, I won't explain what every line does in detail, but you can take a look at the comments in the code to get an idea. Effectively this uses Python to read the CSV file and stores all of the information in the 'Details' column in the same 'allTexts' variable that we had it in previously, in exactly the same format as before. This code also stores each row of the CSV file into another list called 'fullRow', which will be used for writing a new CSV file containing our program's outputs.
 

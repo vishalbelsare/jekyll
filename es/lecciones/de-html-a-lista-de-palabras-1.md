@@ -31,14 +31,14 @@ abstract: "En esta lección en dos partes partiremos de lo que has aprendido sob
 avatar_alt: Grabado de una jirafa de perfil mirando a un hombre también de perfil parado sujetando muletas para simular la postura de la jirafa.
 doi: 10.46430/phes0005
 sequence: 7
-series_total: 14
+series_total: 15
 ---
 
 {% include toc.html %}
 
-
-
-
+<div class="alert alert-warning">
+El sitio web de Old Bailey Online fue actualizado recientemente. Desafortunadamente, debido a diversos <a href="https://www.oldbaileyonline.org/about/whats-new">cambios</a>, muchos (si no todos) de los elementos del ejemplo utilizado en esta lección no funcionarán como se describe. Sin embargo, las metodologías que se enseñan en la lección siguen siendo relevantes y los lectores pueden adaptarlas para otros sitios web. Aunque estamos trabajando en adaptar la lección para la nueva Old Bailey Online, no tenemos un cronograma claro sobre cuándo actualizaremos la lección. [abril de 2024]
+</div>
 
 ## Objetivos de la lección
 
@@ -47,7 +47,7 @@ En esta lección en dos partes partiremos de lo que has aprendido en [Descargar 
 
 ## El reto
 
-Para tener una idea más clara de la tarea que tenemos por delante, abre el archivo *obo-t17800628-33.html* que creaste en la lección [Descargar páginas web con Python](/es/lecciones/trabajar-con-paginas-web) (o [descarga y guarda el juicio](/assets/obo-t17800628-33.html), si aún no tienes una copia). Entonces observa el código HTML en tu navegador de Fierfox usando `Herramientas -> Desarrollador web -> Código fuente de esta página`. A medida que te desplazas a través del código fuente te darás cuenta que hay etiquetas HTML mezcladas con el texto. Si eres nuevo en HTML te recomendamos tomar el tutorial de W3Schools [HTML][1] para familiarizarte con el marcado. Si tu trabajo requiere a menudo que tengas que retirar etiquetas sin duda te va a servir para entenderlo en cuanto lo veas.
+Para tener una idea más clara de la tarea que tenemos por delante, abre el archivo *obo-t17800628-33.html* que creaste en la lección [Descargar páginas web con Python](/es/lecciones/trabajar-con-paginas-web) (o [descarga y guarda el juicio](/assets/from-html-to-list-of-words-1/obo-t17800628-33.html), si aún no tienes una copia). Entonces observa el código HTML en tu navegador de Fierfox usando `Herramientas -> Desarrollador web -> Código fuente de esta página`. A medida que te desplazas a través del código fuente te darás cuenta que hay etiquetas HTML mezcladas con el texto. Si eres nuevo en HTML te recomendamos tomar el tutorial de W3Schools [HTML][1] para familiarizarte con el marcado. Si tu trabajo requiere a menudo que tengas que retirar etiquetas sin duda te va a servir para entenderlo en cuanto lo veas.
 
 ## Archivos necesarios para esta lección
 
@@ -163,4 +163,4 @@ Para seguir a lo largo de las lecciones futuras es importante que tengas los arc
 [Manipular cadenas de caracteres en Python]: /es/lecciones/manipular-cadenas-de-caracteres-en-python
 [Reutilizacion de código y modularidad]: /es/lecciones/reutilizacion-de-codigo-y-modularidad
 [zip]: /assets/python-es-lecciones2.zip
-[obo-t17800628-33.html]: /assets/obo-t17800628-33.html
+[obo-t17800628-33.html]: /assets/from-html-to-list-of-words-1/obo-t17800628-33.html

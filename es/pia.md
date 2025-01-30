@@ -3,33 +3,37 @@ layout: blank
 title: Programa de Instituciones Asociadas
 redirect_from: 
 - /pia
-
+original: ipp
 ---
 
 
 
-## Programa de Instituciones Asociadas
+# Programa de Instituciones Asociadas
 
-<img src="{{site.baseurl}}/images/supporters-ipp.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/website/ipp/bird-with-eggs-nest.png" class="garnish rounded float-left" />
 
 Gracias por tu interés en el Programa de Instituciones Asociadas, la principal fuente de apoyo para las publicaciones galardonadas de acceso abierto de *Programming Historian*. No podemos hacer nuestro trabajo sin tu valioso apoyo.  
 
-*Programming Historian* opera sin fines de lucro, publicando lecciones en acceso abierto dorado de manera rentable.
+*Programming Historian* opera sin fines de lucro, publicando lecciones en acceso abierto diamante de manera rentable.
 
 Al unirte a nuestro Programa de Instituciones Asociadas, tu institución estará apoyando a un proyecto con un enfoque global, ya que un tercio de nuestros lectores vive en países de ingresos bajos y medios y ese número sigue creciendo. 
 
 Tasas de asociación :
 
-| Países de alto ingreso | Países de ingreso medio | [Países AOD](http://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/daclist.htm) |
+_Nivel Gold_
+
+Las tarifas para nuestros colaboradores en nivel Gold son de £3.000 GBP, $4.200 USD, €3.600 EUR, $5.100 CAD. Como parte de la membresía, se les ofrece la oportunidad de trabajar con nosotros para mejorar el uso que hacen sus comunidades de las herramientas y métodos de las humanidades digitales.
+
+_Nivel Silver_
+
+| Países de alto ingreso | Países de ingreso medio | [Países AOD](https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html) |
 | --- | --- | --- |
-| £1.000 GBP  | £400 GBP | £150 GBP     |
-| $1.400 USD  | $600 USD | $200 USD     |
-| €1.200 EUR  | €500 EUR | €175 EUR     |
-| $1.700 CAD  | $700 CAD | $275 CAD     |
+| £1.250 GBP  | £400 GBP | £150 GBP     |
+| $1.650 USD  | $600 USD | $200 USD     |
+| €1.500 EUR  | €500 EUR | €175 EUR     |
+| $2.240 CAD  | $700 CAD | $275 CAD     |
 
-Si tu institución tiene recursos para apoyarnos con una cantidad mayor, también agradecemos aportaciones de Instituciones Asociadas en nuestro nivel Gold. Las tarifas de Gold Tier Partnership son £3.000 GBP, $4.200 USD, €3.600 EUR, $5.100 CAD.
-
-Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en enero de cada año. Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a>.
+Las tasas vencen anualmente a partir de la fecha del primer pago y se establecen en octubre de cada año. Para una estimación en otra moneda, envía un correo electrónico a <a href="mailto:admin@programminghistorian.org">Anisa Hawes, Directora de publicaciones</a>.
 
 ## Beneficios de asociación
 
@@ -53,7 +57,7 @@ Al unirte al Programa de Instituciones Asociadas recibirás los siguientes benef
 </div>
 
 
-Para convertirse en una institución asociada debes enviar un correo electrónico al <a href="mailto:programminghistorian@gmail.com">Dr. James Baker</a> con el asunto “Programa de Instituciones Asociadas”. En el correo electrónico puedes incluir cualquier documento interno, tales como formularios de registro de proveedores. El correo debe incluir la siguiente información:
+Para convertirse en una institución asociada debes enviar un correo electrónico al <a href="mailto:admin@programminghistorian.org">Anisa Hawes</a> con el asunto “Programa de Instituciones Asociadas”. En el correo electrónico puedes incluir cualquier documento interno, tales como formularios de registro de proveedores. El correo debe incluir la siguiente información:
 
 <ul>
 <li>Nombre</li>
@@ -80,7 +84,7 @@ Todas las membresías están sujetas a la aprobación del equipo de *Programming
 
 ## ¿Quieres hacer una consulta?
 
-Estaremos encantados de conversar sobre lo que hacemos y cómo utilizamos tu apoyo. <a href="mailto:programminghistorian@gmail.com">Envíanos un mensaje </a> y podemos organizar una taza virtual de café o té.
+Estaremos encantados de conversar sobre lo que hacemos y cómo utilizamos tu apoyo. <a href="mailto:admin@programminghistorian.org">Envíanos un mensaje </a> y podemos organizar una taza virtual de café o té.
 
 
 ## Preguntas frecuentes
@@ -91,3 +95,6 @@ Estaremos encantados de conversar sobre lo que hacemos y cómo utilizamos tu apo
    - No, no rastreamos a los usuarios de esa manera y no tenemos un sistema de inicio de sesión para nuestros lectores.
 3. ¿Se utilizará mi contribución en una publicación de mi elección?
    - Los patrocinadores contribuyen a la infraestructura compartida utilizada en todas nuestras publicaciones. Al convertirse en patrocinador de PIA, fortalece los recursos en el idioma que eligiste, así como en el resto idiomas que ofrecemos.
+
+---
+    

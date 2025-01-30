@@ -4,12 +4,12 @@ title: Dons
 redirect_from: 
 - dons
 - /fr/nous-soutenir
-
+original: individual
 ---
 
 # Dons individuels
 
-<img src="{{site.baseurl}}/images/supporters-individual.png" class="garnish rounded float-left" />
+<img src="{{site.baseurl}}/images/website/individual/red-bird-on-branch.png" class="garnish rounded float-left" />
 
 Merci de votre intérêt à contribuer au *Programming Historian*. Les dons individuels sont essentiels à la poursuite de notre travail et nous aident à maintenir la gratuité de notre contenu pour un public international. Comme un tiers de notre lectorat vit dans des pays à faible ou moyen revenu, vous contribuez également à l'égalité des chances, en veillant à ce que tous et toutes puissent maîtriser la technologie et en faire bon usage, peu importe leur lieu de résidence.
 
@@ -27,13 +27,13 @@ Votre soutien contribue directement à l'infrastructure qui assure la cohésion 
 Pour 5 $, 10 $, ou 15 $ par mois, vous pourrez faire partie de la liste sans cesse grandissante de nos donateurs <a href="https://www.patreon.com/join/theprogramminghistorian">Patreon</a>. En vous joignant à nos donateurs Patreon, vous permettrez à notre équipe de planifier ses activités futures et de développer sa gamme de publications sur les humanités et les compétences numériques.
 
 <p>&nbsp;</p>
-<p><a href="https://www.patreon.com/theprogramminghistorian"><img src="{{site.baseurl}}/images/patreonbutton.png" alt="Nous Soutenir Patreon button" class="mx-auto d-block" /></a></p>
+<p><a href="https://www.patreon.com/theprogramminghistorian"><img src="{{site.baseurl}}/images/website/individual/patreonbutton.png" alt="Nous Soutenir Patreon button" class="mx-auto d-block" /></a></p>
 	
 </div>
 
 # Dons ponctuels
 
-Des dons ponctuels peuvent être envoyés au Programming Historian via [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), transfert bancaire (Lloyds Bank no. de compte 55263268, 'sort code' 30-96-26), ou par chèque (à l'ordre de ‘ProgHist Ltd’, envoyé par la poste à ‘The Programming Historian, c/o West & Berry, Mocatta House, Trafalgar Place, Brighton, United Kingdom, BN1 4DU’). Si vous souhaitez faire un don par virement bancaire ou par chèque, nous vous remercions de nous écrire à l'adresse suivante <a href="mailto:programminghistorian@gmail.com">programminghistorian@gmail.com</a> afin de vous présenter et de nous indiquer pourquoi vous avez choisi de soutenir notre projet.
+Des dons ponctuels peuvent être envoyés au Programming Historian via [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7BGHUZRVS4LYL&source=url), transfert bancaire (Lloyds Bank no. de compte 55263268, 'sort code' 30-96-26), ou par chèque (à l'ordre de ‘ProgHist Ltd’, envoyé par la poste à ‘The Programming Historian, c/o West & Berry, Nile House, Nile Street, Brighton BN1 1HW, Royaume-Uni’). Si vous souhaitez faire un don par virement bancaire ou par chèque, nous vous remercions de nous [envoyer un e-mail](mailto:admin@programminghistorian.org) afin de vous présenter et de nous indiquer pourquoi vous avez choisi de soutenir notre projet.
 
 # Soutien opérationnel
 

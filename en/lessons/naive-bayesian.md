@@ -21,6 +21,9 @@ doi: 10.46430/phen0038
 
 {% include toc.html %}
 
+<div class="alert alert-warning" role="alert">
+The Old Bailey Online’s website has recently been updated. Unfortunately, due to the various <a href="https://www.oldbaileyonline.org/about/whats-new">changes</a>, many (if not all) elements of the example website used in this lesson will not work as described. The methodologies taught by this lesson remain relevant, however, and may be adapted by readers to a different example site. We are working on adapting the lesson to the new Old Bailey Online website, but we have no clear timeline on when the lesson will be updated. [April 2024]
+</div>
 
 ## Introduction
 
@@ -1459,7 +1462,7 @@ Happy hunting!
 
   [A Naive Bayesian in the Old Bailey]: http://digitalhistoryhacks.blogspot.com/2008/05/naive-bayesian-in-old-bailey-part-1.html
   [Old Bailey digital archive]: http://www.oldbaileyonline.org/
-  [A zip file of the scripts]: /assets/baileycode.zip
+  [A zip file of the scripts]: /assets/naive-bayesian/baileycode.zip
   [another zip file]: https://doi.org/10.5281/zenodo.13284
   [BeautifulSoup]: http://www.crummy.com/software/BeautifulSoup/
   [search interface]: http://www.oldbaileyonline.org/forms/formMain.jsp
